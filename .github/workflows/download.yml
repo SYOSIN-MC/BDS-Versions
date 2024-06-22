@@ -1,0 +1,47 @@
+name: check-bds
+on: 
+  schedule:
+    - cron: '52 * * * *'
+  workflow_dispatch:
+
+jobs:
+  check-bds:
+    name: try GET BDS
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: get commit message
+        id: commitmsg
+        run: echo "commitmsg=$(git log --format=%B -n 1 ${{ github.sha }})" >> $GITHUB_ENV
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Download BDS
+        id: version
+        run: 'cd .github/workflows && echo "version=$(node checkBDS.js "${{ env.commitmsg }}")" >> $GITHUB_ENV'
+      - name: unzip
+        if: ${{env.version != 'skip'}}
+        run: "cd ../windows && unzip -o *.zip && cd ../linux && unzip -o *.zip"
+      - name: run BDS
+        if: ${{env.version != 'skip'}}
+        run: nowPath=$(pwd) && screen -S BDS -dm && screen -S BDS -X stuff 'bash'`echo -ne '\015'` && screen -S BDS -X stuff "cd $nowPath && cd ../linux && chmod 777 ./bedrock_server && LD_LIBRARY_PATH=. ./bedrock_server"`echo -ne '\015'` && sleep 20 && screen -S BDS -X stuff 'stop'`echo -ne '\015'`
+      - name: copy Gits
+        if: ${{env.version != 'skip'}}
+        run: "cp package.json ../linux/package.json && cp -r .git ../linux/.git && cp -r .github ../linux/.github && cp package-lock.json ../linux/package-lock.json && cp .gitignore ../linux/.gitignore"
+      - name: delete garbage
+        if: ${{env.version != 'skip'}}
+        run: "rm -rf ../linux/*.zip && rm -rf ../windows/*.zip"
+      - name: commit
+        if: ${{env.version != 'skip'}}
+        run: 'cd ../linux && git config user.name  "Github Actions" && git config user.email "action@github.com" && git add . && git commit -m "bump: ${{env.version}}" && git push'
+      - name: rename
+        if: ${{env.version != 'skip'}}
+        run: 'cd ../linux && mv bedrock_server linux && cd ../windows && mv bedrock_server.exe windows.exe'
+      - name: upload bds-binaries
+        if: ${{env.version != 'skip'}}
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ env.version }}
+          files: |
+            ../linux/linux
+            ../windows/windows.exe

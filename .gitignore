@@ -1,0 +1,8 @@
+*.exe
+bedrock_server*
+bedrock_server_symbols.debug
+*.pdb
+*.zip
+node_modules/*
+worlds/*
+Dedicated_Server.txt
