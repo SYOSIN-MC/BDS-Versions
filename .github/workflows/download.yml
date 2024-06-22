@@ -27,7 +27,7 @@ jobs:
         run: nowPath=$(pwd) && screen -S BDS -dm && screen -S BDS -X stuff 'bash'`echo -ne '\015'` && screen -S BDS -X stuff "cd $nowPath && cd ../linux && chmod 777 ./bedrock_server && LD_LIBRARY_PATH=. ./bedrock_server"`echo -ne '\015'` && sleep 20 && screen -S BDS -X stuff 'stop'`echo -ne '\015'`
       - name: copy Gits
         if: ${{env.version != 'skip'}}
-        run: "cp package.json ../linux/package.json && cp -r .git ../linux/.git && cp -r .github ../linux/.github && cp package-lock.json ../linux/package-lock.json && cp .gitignore ../linux/.gitignore"
+        run: "cp package.json ../linux/package.json && cp -r .git ../linux/.git && cp -r .github ../linux/.github && cp package-lock.json ../linux/package-lock.json && cp .gitignore ../linux/.gitignore && cp update.bat ../linux/update.bat && cp update.sh ../linux/update.sh && cp update.js ../linux/update.js"
       - name: delete garbage
         if: ${{env.version != 'skip'}}
         run: "rm -rf ../linux/*.zip && rm -rf ../windows/*.zip"
