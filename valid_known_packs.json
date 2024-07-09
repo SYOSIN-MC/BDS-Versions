@@ -126,6 +126,13 @@
 	
 	{
 		"file_system" : "RawPath",
+		"path" : "behavior_packs/vanilla_1.21.2",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.21.2"
+	},
+	
+	{
+		"file_system" : "RawPath",
 		"path" : "behavior_packs/vanilla_1.17.30",
 		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
 		"version" : "1.17.30"
@@ -175,16 +182,16 @@
 	
 	{
 		"file_system" : "RawPath",
-		"path" : "behavior_packs/vanilla_1.20.70",
+		"path" : "behavior_packs/vanilla_1.19.20",
 		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
-		"version" : "1.20.70"
+		"version" : "1.19.20"
 	},
 	
 	{
 		"file_system" : "RawPath",
-		"path" : "behavior_packs/vanilla_1.19.20",
+		"path" : "behavior_packs/vanilla_1.20.70",
 		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
-		"version" : "1.19.20"
+		"version" : "1.20.70"
 	},
 	
 	{
@@ -224,23 +231,9 @@
 	
 	{
 		"file_system" : "RawPath",
-		"path" : "behavior_packs/experimental_villager_trade",
-		"uuid" : "0127bd67-dc5b-45c2-8d5b-1d65876d5679",
-		"version" : "0.0.1"
-	},
-	
-	{
-		"file_system" : "RawPath",
-		"path" : "resource_packs/vanilla",
-		"uuid" : "0575c61f-a5da-4b7f-9961-ffda2908861e",
-		"version" : "0.0.1"
-	},
-	
-	{
-		"file_system" : "RawPath",
-		"path" : "behavior_packs/vanilla_1.19.30",
+		"path" : "behavior_packs/vanilla_1.19.80",
 		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
-		"version" : "1.19.30"
+		"version" : "1.19.80"
 	},
 	
 	{
@@ -248,6 +241,13 @@
 		"path" : "behavior_packs/vanilla_1.20.80",
 		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
 		"version" : "1.20.80"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"path" : "behavior_packs/vanilla_1.19.30",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.19.30"
 	},
 	
 	{
@@ -266,16 +266,9 @@
 	
 	{
 		"file_system" : "RawPath",
-		"path" : "behavior_packs/vanilla_1.21.1",
+		"path" : "behavior_packs/vanilla_1.20.60",
 		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
-		"version" : "1.21.1"
-	},
-	
-	{
-		"file_system" : "RawPath",
-		"path" : "behavior_packs/vanilla_1.19.80",
-		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
-		"version" : "1.19.80"
+		"version" : "1.20.60"
 	},
 	
 	{
@@ -283,13 +276,6 @@
 		"path" : "behavior_packs/vanilla_1.20.20",
 		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
 		"version" : "1.20.20"
-	},
-	
-	{
-		"file_system" : "RawPath",
-		"path" : "behavior_packs/vanilla_1.20.60",
-		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
-		"version" : "1.20.60"
 	},
 	
 	{
@@ -304,6 +290,20 @@
 		"path" : "behavior_packs/vanilla_1.19.50",
 		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
 		"version" : "1.19.50"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"path" : "behavior_packs/experimental_villager_trade",
+		"uuid" : "0127bd67-dc5b-45c2-8d5b-1d65876d5679",
+		"version" : "0.0.1"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"path" : "resource_packs/vanilla",
+		"uuid" : "0575c61f-a5da-4b7f-9961-ffda2908861e",
+		"version" : "0.0.1"
 	},
 	
 	{
