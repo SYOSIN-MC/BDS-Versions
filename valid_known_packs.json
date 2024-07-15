@@ -126,13 +126,6 @@
 	
 	{
 		"file_system" : "RawPath",
-		"path" : "behavior_packs/vanilla_1.21.2",
-		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
-		"version" : "1.21.2"
-	},
-	
-	{
-		"file_system" : "RawPath",
 		"path" : "behavior_packs/vanilla_1.17.30",
 		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
 		"version" : "1.17.30"
@@ -164,6 +157,13 @@
 		"path" : "behavior_packs/vanilla_1.19.40",
 		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
 		"version" : "1.19.40"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"path" : "behavior_packs/vanilla_1.21.3",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.21.3"
 	},
 	
 	{
