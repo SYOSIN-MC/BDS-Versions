@@ -42,7 +42,8 @@
           "jungle",
           "monster",
           "overworld",
-          "rare"
+          "rare",
+          "has_structure_trail_ruins"
         ]
       }
     }

@@ -7,7 +7,7 @@
     "count": 8,
     "replace_rules": [
       {
-        "places_block": "minecraft:monster_egg",
+        "places_block": "minecraft:infested_stone",
         "may_replace": [
           {
             "name": "minecraft:stone"

@@ -19,12 +19,7 @@
         "hard_clay_material": "minecraft:hardened_clay",
         "has_forest": true,
         "mid_material": "minecraft:hardened_clay",
-        "top_material": {
-          "name": "minecraft:sand",
-          "states": {
-            "sand_type": "red"
-          }
-        },
+        "top_material": "minecraft:red_sand",
         "sea_material": "minecraft:water"
       },
       "minecraft:overworld_height": {

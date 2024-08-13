@@ -53,7 +53,8 @@
           "monster",
           "mutated",
           "overworld",
-          "taiga"
+          "taiga",
+          "has_structure_trail_ruins"
         ]
       }
     }

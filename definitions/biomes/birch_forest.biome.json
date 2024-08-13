@@ -36,7 +36,8 @@
           "forest",
           "monster",
           "overworld",
-          "bee_habitat"
+          "bee_habitat",
+          "has_structure_trail_ruins"
         ]
       }
     }

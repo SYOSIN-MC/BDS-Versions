@@ -5,11 +5,11 @@
   "appearance": [
     {
       "arm": "wide",
-      "skcol": "#fff1936e",
+      "skcol": "#ffffd7c0",
       "skin": false
     },
     {
-      "col": [ "#ff240303", "#ff933f1e", "#ffe9ecec", "#0" ],
+      "col": [ "#ff240303", "#ff933f1e", "#ffe9ecec", "#0" ], // Eyes
       "id": "a0f263b3-e093-4c85-aadb-3759417898ff/d"
     },
     {
@@ -31,11 +31,11 @@
       "id": "29ad05be-b99b-3a20-abd9-771fdd53eb0a/d"
     },
     {
-      "col": [ "#ff933f1e", "#0", "#0", "#0" ],
+      "col": [ "#ff933f1e", "#0", "#0", "#0" ], // Hair
       "id": "16a40e66-7d58-b56d-9a4e-e5766ceff6a0/d"
     },
     {
-      "col": [ "#0", "#0", "#ffe57f61", "#0" ],
+      "col": [ "#0", "#0", "#ffee9a73", "#0" ], // Mouth
       "id": "83c940ce-d7b8-4603-8d73-c1234e322cce/d"
     },
     {

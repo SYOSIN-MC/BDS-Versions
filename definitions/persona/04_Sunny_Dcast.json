@@ -5,7 +5,7 @@
   "appearance": [
     {
       "arm": "wide",
-      "skcol": "#ffb9674a",
+      "skcol": "#fff1936e",
       "skin": false
     },
     {
@@ -15,7 +15,7 @@
       "id": "1042557f-d1f9-44e3-ba78-f404e8fb7363/d"
     },
     {
-      "col": [ "#0", "#0", "#ff774320", "#0" ],
+      "col": [ "#0", "#0", "#ff774320", "#0" ], // Mouth
       "id": "83c940ce-d7b8-4603-8d73-c1234e322cce/d"
     },
     {
@@ -32,7 +32,7 @@
       "id": "36f3af09-1871-f074-148a-9f748ba3ca42/d"
     },
     {
-      "col": [ "#ff141519", "#ff2f2f2f", "#ffe9ecec", "#0" ],
+      "col": [ "#ff141519", "#ff2f2f2f", "#ffe9ecec", "#0" ], // Eyes
       "id": "a0f263b3-e093-4c85-aadb-3759417898ff/d"
     },
     {

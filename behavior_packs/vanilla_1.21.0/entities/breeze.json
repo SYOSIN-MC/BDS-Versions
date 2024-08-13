@@ -180,7 +180,7 @@
         ],
         "must_see": true
       },
-      "minecraft:behavior.move_away_from_target": {
+      "minecraft:behavior.move_around_target": {
         "priority": 2,
         "destination_position_range": [4.0, 8.0],
         "movement_speed": 1.2,
