@@ -175,6 +175,20 @@
 	
 	{
 		"file_system" : "RawPath",
+		"path" : "behavior_packs/vanilla_1.18.20",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.18.20"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"path" : "behavior_packs/vanilla_1.18.10",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.18.10"
+	},
+	
+	{
+		"file_system" : "RawPath",
 		"path" : "behavior_packs/vanilla_1.19.40",
 		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
 		"version" : "1.19.40"
@@ -196,6 +210,13 @@
 	
 	{
 		"file_system" : "RawPath",
+		"path" : "behavior_packs/vanilla_1.21.0",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.21.0"
+	},
+	
+	{
+		"file_system" : "RawPath",
 		"path" : "behavior_packs/vanilla_1.20.70",
 		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
 		"version" : "1.20.70"
@@ -203,9 +224,30 @@
 	
 	{
 		"file_system" : "RawPath",
-		"path" : "behavior_packs/vanilla_1.21.0",
+		"path" : "resource_packs/chemistry",
+		"uuid" : "0fba4063-dba1-4281-9b89-ff9390653530",
+		"version" : "1.0.0"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"path" : "behavior_packs/vanilla_1.20.0",
 		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
-		"version" : "1.21.0"
+		"version" : "1.20.0"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"path" : "behavior_packs/chemistry_1.20.50",
+		"uuid" : "91b9e624-dda6-43f3-a567-8025c53860b5",
+		"version" : "1.20.50"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"path" : "behavior_packs/vanilla_1.19.30",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.19.30"
 	},
 	
 	{
@@ -238,16 +280,9 @@
 	
 	{
 		"file_system" : "RawPath",
-		"path" : "behavior_packs/chemistry_1.20.50",
-		"uuid" : "91b9e624-dda6-43f3-a567-8025c53860b5",
-		"version" : "1.20.50"
-	},
-	
-	{
-		"file_system" : "RawPath",
-		"path" : "behavior_packs/chemistry_1.21.20",
-		"uuid" : "34a4d6dd-3b78-48c8-88cd-ff6dfe36458c",
-		"version" : "1.21.20"
+		"path" : "behavior_packs/vanilla_1.20.30",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.20.30"
 	},
 	
 	{
@@ -266,16 +301,16 @@
 	
 	{
 		"file_system" : "RawPath",
-		"path" : "behavior_packs/vanilla_1.21.10",
-		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
-		"version" : "1.21.10"
+		"path" : "behavior_packs/chemistry_1.21.20",
+		"uuid" : "34a4d6dd-3b78-48c8-88cd-ff6dfe36458c",
+		"version" : "1.21.20"
 	},
 	
 	{
 		"file_system" : "RawPath",
-		"path" : "behavior_packs/vanilla_1.19.30",
+		"path" : "behavior_packs/vanilla_1.21.22",
 		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
-		"version" : "1.19.30"
+		"version" : "1.21.22"
 	},
 	
 	{
@@ -308,36 +343,8 @@
 	
 	{
 		"file_system" : "RawPath",
-		"path" : "behavior_packs/vanilla_1.18.10",
+		"path" : "behavior_packs/vanilla_1.21.10",
 		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
-		"version" : "1.18.10"
-	},
-	
-	{
-		"file_system" : "RawPath",
-		"path" : "behavior_packs/vanilla_1.18.20",
-		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
-		"version" : "1.18.20"
-	},
-	
-	{
-		"file_system" : "RawPath",
-		"path" : "resource_packs/chemistry",
-		"uuid" : "0fba4063-dba1-4281-9b89-ff9390653530",
-		"version" : "1.0.0"
-	},
-	
-	{
-		"file_system" : "RawPath",
-		"path" : "behavior_packs/vanilla_1.20.0",
-		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
-		"version" : "1.20.0"
-	},
-	
-	{
-		"file_system" : "RawPath",
-		"path" : "behavior_packs/vanilla_1.20.30",
-		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
-		"version" : "1.20.30"
+		"version" : "1.21.10"
 	}
 ]
