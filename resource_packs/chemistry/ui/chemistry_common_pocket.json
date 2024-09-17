@@ -423,7 +423,9 @@
           "layer": -1
         }
       },
-      { "flying_item_renderer@common.flying_item_renderer": {} }
+      { "flying_item_renderer@common.flying_item_renderer": {} },
+      { "bundle_touch_tooltip@gameplay.bundle_touch_tooltip": {} },
+      { "bundle_cursor_tooltip@gameplay.bundle_cursor_tooltip": {} }
     ]
   }
 }
