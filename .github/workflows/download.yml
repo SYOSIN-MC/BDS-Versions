@@ -1,5 +1,9 @@
 name: check-bds
 on: 
+  push:
+    branches:
+      - fix/**
+      - feat/**
   schedule:
     - cron: '52 * * * *'
   workflow_dispatch:
@@ -18,7 +22,7 @@ jobs:
           node-version: 20
       - name: Download BDS
         id: version
-        run: 'cd .github/workflows && echo "version=$(node checkBDS.js "${{ env.commitmsg }}")" >> $GITHUB_ENV'
+        run: 'cd .github/workflows && echo "version=$(node checkBDS.js "$(git ls-remote --tags")" >> $GITHUB_ENV'
       - name: unzip
         if: ${{env.version != 'skip'}}
         run: "cd ../windows && unzip -o *.zip && cd ../linux && unzip -o *.zip"
