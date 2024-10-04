@@ -10,7 +10,6 @@ const lastVersions = lastCommitMessage.matchAll(/refs\/tags\/([0-9.]+)/g);
  */
 const knownVersions = [];
 for (const v of lastVersions) knownVersions.push(v[1]);
-console.log(knownVersions);
 
 (async () => {
     const data = await (await fetch("https://www.minecraft.net/en-us/download/server/bedrock")).text()
