@@ -53,11 +53,11 @@
         "tags": [
           "nether",
           "nether_wastes",
-          "spawn_magma_cubes",
-          "spawn_zombified_piglin",
+          "spawn_endermen",
           "spawn_few_piglins",
           "spawn_ghast",
-          "spawn_endermen"
+          "spawn_magma_cubes",
+          "spawn_zombified_piglin"
         ]
       }
     }

@@ -24,8 +24,8 @@
 
       "minecraft:tags": {
         "tags": [
-          "overworld",
-          "mangrove_swamp"
+          "mangrove_swamp",
+          "overworld"
         ]
       }
     }

@@ -48,11 +48,11 @@
       },
       "minecraft:tags": {
         "tags": [
+          "frozen",
           "mountains",
           "monster",
           "overworld",
-          "snowy_slopes",
-          "frozen"
+          "snowy_slopes"
         ]
       }
     }

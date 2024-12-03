@@ -39,11 +39,11 @@
       "minecraft:tags": {
         "tags": [
           "animal",
+          "has_structure_trail_ruins",
           "jungle",
           "monster",
           "overworld",
-          "rare",
-          "has_structure_trail_ruins"
+          "rare"
         ]
       }
     }
