@@ -6,8 +6,8 @@
     },
     "places_feature": "minecraft:creaking_heart_feature",
     "search_volume": {
-      "min": [ 0, 0, 0 ],
-      "max": [ 0, 6, 0 ]
+      "min": [ 0, 4, 0 ],
+      "max": [ 2, 9, 2 ]
     },
     "search_axis": "+y",
     "required_successes": 1
