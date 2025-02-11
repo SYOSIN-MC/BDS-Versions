@@ -125,9 +125,9 @@ resourcePack.editor.ClipboardPreviewControl.origin.title=Начална точк
 resourcePack.editor.ClipboardPreviewControl.origin.tooltip=Началната точка в елемента от клипборда. Тя се използва като котва за поставяне и като точка, около която клипбордът се завърта и отразява.	#
 resourcePack.editor.ClipboardPreviewControl.placement.title=Опции	#
 resourcePack.editor.ClipboardPreviewControl.rootPane.title=Информация за клипборда	#
-resourcePack.editor.ClipboardPreviewControl.rotation.180=180°	#
-resourcePack.editor.ClipboardPreviewControl.rotation.270=270°	#
-resourcePack.editor.ClipboardPreviewControl.rotation.90=90°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.180=180Â°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.270=270Â°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.90=90Â°	#
 resourcePack.editor.ClipboardPreviewControl.rotation.none=Няма	#
 resourcePack.editor.ClipboardPreviewControl.rotation.title=Завъртане	#
 resourcePack.editor.ClipboardPreviewControl.rotation.tooltip=Степента на завъртане около оста Y в началната точка	#
@@ -184,6 +184,7 @@ resourcePack.editor.datatransferaccessors.lighting_group=Глобално осв
 resourcePack.editor.datatransferaccessors.pbr_fallbacks=PBR резерви	#
 resourcePack.editor.datatransferaccessors.point_lights=Точкови светлини	#
 resourcePack.editor.datatransferaccessors.water=Вода	#
+resourcePack.editor.datatransferaccessors.shadows=Сенки	#
 
 
 resourcePack.editor.deferredLightingSettings.menu.title=Настройки за отложено осветление	#
@@ -217,7 +218,8 @@ resourcePack.editor.exportProject.advancedSettings.immediateRespawn=Незаба
 resourcePack.editor.exportProject.advancedSettings.respawnRadius=Радиус на повторно появяване	#
 resourcePack.editor.exportProject.advancedSettings.simulationDistance=Разстояние за симулация	#
 resourcePack.editor.exportProject.advancedSettings.bedsWork=Леглата работят	#
-resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers=Необходими спящи играчи (%1%)	#
+resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers=Необходими спящи играчи (%1$s)	#
+resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers.onePlayerMessage=Само един играч	#
 resourcePack.editor.exportProject.multiplayerSettings=Настройки за групова игра	#
 resourcePack.editor.exportProject.multiplayerSettings.multiplayerGame=Групова игра	#
 resourcePack.editor.exportProject.multiplayerSettings.playerAccess=Достъп на играчи	#
@@ -398,10 +400,10 @@ resourcePack.editor.paste.pane.title=Поставяне	#
 resourcePack.editor.paste.pane.transform.mirrorX=Огледално X	#
 resourcePack.editor.paste.pane.transform.mirrorZ=Огледално Z	#
 resourcePack.editor.paste.pane.transform.origin.title=Отклонение	#
-resourcePack.editor.paste.pane.transform.rotation.180=180°	#
-resourcePack.editor.paste.pane.transform.rotation.270=270°	#
-resourcePack.editor.paste.pane.transform.rotation.90=90°	#
-resourcePack.editor.paste.pane.transform.rotation.none=0°	#
+resourcePack.editor.paste.pane.transform.rotation.180=180Â°	#
+resourcePack.editor.paste.pane.transform.rotation.270=270Â°	#
+resourcePack.editor.paste.pane.transform.rotation.90=90Â°	#
+resourcePack.editor.paste.pane.transform.rotation.none=0Â°	#
 resourcePack.editor.paste.pane.transform.rotation.title=Завъртане	#
 resourcePack.editor.paste.pane.transform.title=Преобразяване	#
 resourcePack.editor.paste.toolRail.description=Кликнете с левия бутон на мишката, за да изберете блок, след което прецизно поставете предмет от клипборда	#
@@ -580,10 +582,15 @@ resourcePack.editor.server.name=Ресурси на редактора	#
 
 
 resourcePack.editor.toolRail.Terrain.title=Терен	#
+resourcePack.editor.toolRail.Terrain.keybinding.toggleTool=Превключване на инструмента за терен	#
+resourcePack.editor.toolRail.Terrain.keyBinding.switch=Превключване на режим на терена	#
 resourcePack.editor.toolRail.Terrain.Mode.title=Режим на терена	#
 resourcePack.editor.toolRail.Terrain.Smooth.mode.title=Гладък режим	#
 resourcePack.editor.toolRail.Terrain.Smooth.tooltip=Изглажане на терена според силата на изглаждането	#
 resourcePack.editor.toolRail.Terrain.SmoothStrength=Сила на изглаждане	#
+resourcePack.editor.toolRail.Terrain.Roughen.mode.title=Режим на насичане	#
+resourcePack.editor.toolRail.Terrain.Roughen.tooltip=Насичане на терена според силата на насичането	#
+resourcePack.editor.toolRail.Terrain.RoughenStrength=Сила на насичане	#
 resourcePack.editor.toolRail.Terrain.description=Инструментът за терен изглажда или загрубява терена	#
 
 
@@ -692,6 +699,40 @@ resourcePack.editor.toolRail.summonTool.tool.summonSubPane=Извикване н
 resourcePack.editor.toolRail.summonTool.tool.tip=Кликнете за извикване на обекти	#
 resourcePack.editor.toolRail.summonTool.tool.title=Инструмент за извикване	#
 
+resourcePack.editor.toolRail.workbenchSettings.title=Работна станция	#
+resourcePack.editor.toolRail.workbenchTool.title=Работна станция	#
+resourcePack.editor.toolRail.workbenchTool.description=Бързо променяйте състоянията на блоковете	#
+resourcePack.editor.toolRail.workbenchTool.howToUse=Щракнете с левия бутон на мишката върху отбелязаните блокове, за да промените състоянието им (отваряне/затваряне, завъртане, обръщане и т.н.). Опитайте се да използвате и комбинации с клавишите Shift и Control! Моля, имайте предвид, че тази функция работи само за блокове с променяеми свойства (например врати, огради и др.).	#
+resourcePack.editor.toolRail.workbenchTool.tooltip=Променяйте състоянията на блоковете	#
+resourcePack.editor.toolRail.workbenchTool.block=Блокиране	#
+resourcePack.editor.toolRail.workbenchTool.leftClick=Ляв бутон	#
+resourcePack.editor.toolRail.workbenchTool.shiftLeftClick=Shift + Ляв бутон	#
+resourcePack.editor.toolRail.workbenchTool.controlLeftClick=CTRL + Ляв бутон	#
+resourcePack.editor.toolRail.workbenchTool.shiftControlLeftClick=Shift + CTRL + Ляв бутон	#
+resourcePack.editor.toolRail.workbenchTool.stripWood=Оголване/възстановяване на дърво	#
+resourcePack.editor.toolRail.workbenchTool.ladderLocation=Местоположение на стълбата	#
+resourcePack.editor.toolRail.workbenchTool.autoAlign=Автоматично подравняване	#
+
+resourcePack.editor.toolRail.workbenchTool.topSlotBitProp=Отгоре/Отдолу	#
+resourcePack.editor.toolRail.workbenchTool.pillarAxisProp=Завъртане	#
+resourcePack.editor.toolRail.workbenchTool.heightProp=Слоеве	#
+resourcePack.editor.toolRail.workbenchTool.candlesProp=Брой свещи	#
+
+resourcePack.editor.toolRail.workbenchTool.turtleEggCountProp=Брой яйца на костенурка	#
+resourcePack.editor.toolRail.workbenchTool.clusterCountProp=Брой морски краставици	#
+resourcePack.editor.toolRail.workbenchTool.hangingProp=Превключване на висене от друг блок	#
+resourcePack.editor.toolRail.workbenchTool.wallPostBitProp=Превключване на пост	#
+
+resourcePack.editor.toolRail.workbenchTool.upsideDownBitProp=Отгоре/Отдолу	#
+resourcePack.editor.toolRail.workbenchTool.openBitProp=Отваряне/Затваряне	#
+resourcePack.editor.toolRail.workbenchTool.litProp=Осветено/Неосветено	#
+resourcePack.editor.toolRail.workbenchTool.dripstoneThicknessProp=Дебелина на порест камък	#
+
+resourcePack.editor.toolRail.workbenchTool.directionProp=Посока на гледане	#
+resourcePack.editor.toolRail.workbenchTool.weirdoDirectionProp=Завъртане	#
+resourcePack.editor.toolRail.workbenchTool.facingDirectionProp=Посока на гледане	#
+resourcePack.editor.toolRail.workbenchTool.cardinalDirectionProp=Посока на гледане	#
+
 
 resourcePack.editor.transaction.keyBinding.redo=Повтаряне	#
 resourcePack.editor.transaction.keyBinding.undo=Връщане	#
@@ -704,11 +745,15 @@ resourcePack.editor.viewport.keyBinding.moveLeft=Движение наляво	#
 resourcePack.editor.viewport.keyBinding.moveRight=Движение надясно	#
 resourcePack.editor.viewport.keyBinding.moveUp=Преместване нагоре	#
 
+resourcePack.editor.viewport.keyBinding.incrementFlySpeed=Увеличаване на скоростта на летене	#
+resourcePack.editor.viewport.keyBinding.decrementFlySpeed=Намаляване на скоростта на летене	#
 
 resourcePack.editor.viewSettings.compass.tip=Показване на компаса за посока	#
 resourcePack.editor.viewSettings.compass.title=Показване на компаса	#
 resourcePack.editor.viewSettings.chunk.tip=Показване на очертанията на границите на отрязъците на картата	#
 resourcePack.editor.viewSettings.chunk.title=Показване на границите на отрязъците	#
+resourcePack.editor.viewSettings.nightVision.tip=Показване на света все едно имате нощно виждане	#
+resourcePack.editor.viewSettings.nightVision.title=Нощно зрение	#
 resourcePack.editor.viewSettings.invisible.tip=Показване на невидими блокове (напр. празнината, бариерите и т.н.)	#
 resourcePack.editor.viewSettings.invisible.title=Показване на невидими блокове	#
 resourcePack.editor.viewSettings.flySpeed.tip=Увеличете скоростта на летене, за да преминавате през картата по-бързо	#
@@ -717,3 +762,7 @@ resourcePack.editor.viewSettings.menu=Преглед на настройките
 resourcePack.editor.viewSettings.title=Преглед на настройките	#
 
 resourcePack.editor.hotbar.defaultDisplayName=По подразбиране	#
+
+resourcePack.editor.reloadScripts.response.tooMany=Твърде много играчи са свързани към сървъра. Презареждането на скриптове се поддържа само при хостове с един свързан играч.	#
+resourcePack.editor.reloadScripts.response.genericError=Възникна грешка при опитa за презареждане на скриптове.	#
+resourcePack.editor.reloadScripts.response.noAdminRights=Нямате разрешение да презареждате скриптове.	#

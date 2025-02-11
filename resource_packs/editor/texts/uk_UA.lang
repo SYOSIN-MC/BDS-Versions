@@ -31,10 +31,10 @@ resourcePack.editor.blockPalette.paletteDropdown.title=Палітра	#
 resourcePack.editor.blockPalette.title=Палітра блоків	#
 
 
-resourcePack.editor.brushPaint.inputContext.activateBrushPaint=Активація розфарбовування пензлем	#
+resourcePack.editor.brushPaint.inputContext.activateBrushPaint=Активація пензля	#
 resourcePack.editor.brushPaint.inputContext.oneshot=Одноразове фарбування	#
-resourcePack.editor.brushPaint.inputContext.title=Розфарбовування пензлем	#
-resourcePack.editor.brushPaint.title=Розфарбовування пензлем	#
+resourcePack.editor.brushPaint.inputContext.title=Пензель	#
+resourcePack.editor.brushPaint.title=Пензель	#
 resourcePack.editor.brushPaint.tooltip=Використовуйте пензлі для розфарбовування блоків у світі	#
 
 
@@ -184,6 +184,7 @@ resourcePack.editor.datatransferaccessors.lighting_group=Глобальне ос
 resourcePack.editor.datatransferaccessors.pbr_fallbacks=Резервні копії PBR	#
 resourcePack.editor.datatransferaccessors.point_lights=Точкові джерела світла	#
 resourcePack.editor.datatransferaccessors.water=Вода	#
+resourcePack.editor.datatransferaccessors.shadows=Тіні	#
 
 
 resourcePack.editor.deferredLightingSettings.menu.title=Параметри відкладеного освітлення	#
@@ -217,7 +218,8 @@ resourcePack.editor.exportProject.advancedSettings.immediateRespawn=Миттєв
 resourcePack.editor.exportProject.advancedSettings.respawnRadius=Радіус відродження	#
 resourcePack.editor.exportProject.advancedSettings.simulationDistance=Відстань симуляції	#
 resourcePack.editor.exportProject.advancedSettings.bedsWork=Сон у ліжку	#
-resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers=Скільки гравців мають спати (%1%)	#
+resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers=Кількість гравців, які повинні обов’язково лягти спати (%1$s)	#
+resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers.onePlayerMessage=Лише 1 гравець	#
 resourcePack.editor.exportProject.multiplayerSettings=Параметри мультиплеєра	#
 resourcePack.editor.exportProject.multiplayerSettings.multiplayerGame=Мультиплеєрна гра	#
 resourcePack.editor.exportProject.multiplayerSettings.playerAccess=Доступ гравців	#
@@ -580,10 +582,15 @@ resourcePack.editor.server.name=Ресурси редактора	#
 
 
 resourcePack.editor.toolRail.Terrain.title=Рельєф	#
+resourcePack.editor.toolRail.Terrain.keybinding.toggleTool=Перемкнути інструмент «Рельєф»	#
+resourcePack.editor.toolRail.Terrain.keyBinding.switch=Перемкнути режим «Рельєф»	#
 resourcePack.editor.toolRail.Terrain.Mode.title=Режим «Рельєф»	#
 resourcePack.editor.toolRail.Terrain.Smooth.mode.title=Режим «Згладжування»	#
 resourcePack.editor.toolRail.Terrain.Smooth.tooltip=Згладжування рельєфу з урахуванням сили згладжування	#
 resourcePack.editor.toolRail.Terrain.SmoothStrength=Сила згладжування	#
+resourcePack.editor.toolRail.Terrain.Roughen.mode.title=Режим «Створення нерівностей»	#
+resourcePack.editor.toolRail.Terrain.Roughen.tooltip=Створює нерівності рельєфу відповідно до ступеню нерівності	#
+resourcePack.editor.toolRail.Terrain.RoughenStrength=Ступінь нерівності	#
 resourcePack.editor.toolRail.Terrain.description=Інструмент для рельєфу згладжує рельєф або надає йому нерівності	#
 
 
@@ -692,6 +699,40 @@ resourcePack.editor.toolRail.summonTool.tool.summonSubPane=Генеруванн�
 resourcePack.editor.toolRail.summonTool.tool.tip=Натисніть, щоб призвати сутності	#
 resourcePack.editor.toolRail.summonTool.tool.title=Інструмент «Виклик»	#
 
+resourcePack.editor.toolRail.workbenchSettings.title=Майстерня	#
+resourcePack.editor.toolRail.workbenchTool.title=Майстерня	#
+resourcePack.editor.toolRail.workbenchTool.description=Швидка зміна станів блока	#
+resourcePack.editor.toolRail.workbenchTool.howToUse=Клацніть лівою кнопкою миші на виділені блоки, щоб змінити їх стан (відкрити / закрити, обернути, інвертувати тощо). Спробуйте також використати модифікатори клавіш Shift та Control! Зверніть увагу, що ця функція працює лише на блоках зі змінними властивостями (наприклад, двері, паркани тощо).	#
+resourcePack.editor.toolRail.workbenchTool.tooltip=Змінює стан блока	#
+resourcePack.editor.toolRail.workbenchTool.block=Блок	#
+resourcePack.editor.toolRail.workbenchTool.leftClick=Клацніть лівою кнопкою миші	#
+resourcePack.editor.toolRail.workbenchTool.shiftLeftClick=Shift + Ліва кнопка миші	#
+resourcePack.editor.toolRail.workbenchTool.controlLeftClick=CTRL + Ліва кнопка миші	#
+resourcePack.editor.toolRail.workbenchTool.shiftControlLeftClick=Shift + CTRL + Ліва кнопка миші	#
+resourcePack.editor.toolRail.workbenchTool.stripWood=Обтесати / не обтесувати деревину	#
+resourcePack.editor.toolRail.workbenchTool.ladderLocation=Розташування драбини	#
+resourcePack.editor.toolRail.workbenchTool.autoAlign=Автоматичне вирівнювання	#
+
+resourcePack.editor.toolRail.workbenchTool.topSlotBitProp=Верх / низ	#
+resourcePack.editor.toolRail.workbenchTool.pillarAxisProp=Повернути	#
+resourcePack.editor.toolRail.workbenchTool.heightProp=Шари	#
+resourcePack.editor.toolRail.workbenchTool.candlesProp=Кількість свічок	#
+
+resourcePack.editor.toolRail.workbenchTool.turtleEggCountProp=Кількість яєць черепахи	#
+resourcePack.editor.toolRail.workbenchTool.clusterCountProp=Кількість морських огірків	#
+resourcePack.editor.toolRail.workbenchTool.hangingProp=Перемкніть звисання з іншого блоку	#
+resourcePack.editor.toolRail.workbenchTool.wallPostBitProp=Перемкнути опору	#
+
+resourcePack.editor.toolRail.workbenchTool.upsideDownBitProp=Верх / низ	#
+resourcePack.editor.toolRail.workbenchTool.openBitProp=Відкрити / закрити	#
+resourcePack.editor.toolRail.workbenchTool.litProp=Запалити / загасити	#
+resourcePack.editor.toolRail.workbenchTool.dripstoneThicknessProp=Товщина печерного наросту	#
+
+resourcePack.editor.toolRail.workbenchTool.directionProp=Напрямок обернення	#
+resourcePack.editor.toolRail.workbenchTool.weirdoDirectionProp=Повернути	#
+resourcePack.editor.toolRail.workbenchTool.facingDirectionProp=Напрямок обернення	#
+resourcePack.editor.toolRail.workbenchTool.cardinalDirectionProp=Напрямок обернення	#
+
 
 resourcePack.editor.transaction.keyBinding.redo=Повторити	#
 resourcePack.editor.transaction.keyBinding.undo=Скасувати	#
@@ -704,11 +745,15 @@ resourcePack.editor.viewport.keyBinding.moveLeft=Вліво	#
 resourcePack.editor.viewport.keyBinding.moveRight=Вправо	#
 resourcePack.editor.viewport.keyBinding.moveUp=Перемістити вгору	#
 
+resourcePack.editor.viewport.keyBinding.incrementFlySpeed=Збільшити швидкість польоту	#
+resourcePack.editor.viewport.keyBinding.decrementFlySpeed=Зменшити швидкість польоту	#
 
 resourcePack.editor.viewSettings.compass.tip=Показати компас із напрямком	#
 resourcePack.editor.viewSettings.compass.title=Показати компас	#
 resourcePack.editor.viewSettings.chunk.tip=Відобразити контур кордонів чанків на карті	#
 resourcePack.editor.viewSettings.chunk.title=Відобразити межі чанків	#
+resourcePack.editor.viewSettings.nightVision.tip=Показати світ так, ніби ви бачите в темряві	#
+resourcePack.editor.viewSettings.nightVision.title=Нічне бачення	#
 resourcePack.editor.viewSettings.invisible.tip=Показувати невидимі блоки (наприклад, порожнечу, бар’єри тощо)	#
 resourcePack.editor.viewSettings.invisible.title=Показувати невидимі блоки	#
 resourcePack.editor.viewSettings.flySpeed.tip=Збільшує швидкість польоту для швидшого маневрування на карті	#
@@ -717,3 +762,7 @@ resourcePack.editor.viewSettings.menu=Налаштування перегляд�
 resourcePack.editor.viewSettings.title=Налаштування перегляду	#
 
 resourcePack.editor.hotbar.defaultDisplayName=Стандартний	#
+
+resourcePack.editor.reloadScripts.response.tooMany=До сервера підключено забагато гравців. Перезавантаження скрипту підтримується лише на хостах з одним підключеним гравцем.	#
+resourcePack.editor.reloadScripts.response.genericError=Під час спроби перезавантажити скрипти виникла помилка.	#
+resourcePack.editor.reloadScripts.response.noAdminRights=Ви не маєте дозволу на перезавантаження скриптів.	#

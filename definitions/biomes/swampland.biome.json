@@ -6,7 +6,7 @@
     },
     "components": {
       "minecraft:climate": {
-        "downfall": 0.5,
+        "downfall": 0.9,
         "snow_accumulation": [ 0.0, 0.125 ],
         "temperature": 0.8
       },

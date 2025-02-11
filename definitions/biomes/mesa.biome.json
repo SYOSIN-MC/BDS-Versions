@@ -5,6 +5,7 @@
       "identifier": "mesa"
     },
     "components": {
+      "minecraft:creature_spawn_probability": { "probability": 0.03 },
       "minecraft:climate": {
         "downfall": 0.0,
         "snow_accumulation": [ 0.0, 0.125 ],
@@ -33,7 +34,9 @@
         "tags": [
           "mesa",
           "monster",
-          "overworld"
+          "overworld",
+          "animal",
+          "spawns_warm_variant_farm_animals"
         ]
       }
     }

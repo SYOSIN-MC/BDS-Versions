@@ -49,7 +49,8 @@
           "forest",
           "monster",
           "mutated",
-          "overworld"
+          "overworld",
+          "spawns_cold_variant_farm_animals"
         ]
       }
     }

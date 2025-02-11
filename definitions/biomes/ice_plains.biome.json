@@ -5,6 +5,7 @@
       "identifier": "ice_plains"
     },
     "components": {
+      "minecraft:creature_spawn_probability": { "probability": 0.07 },
       "minecraft:climate": {
         "downfall": 0.5,
         "snow_accumulation": [ 0.25, 1.0 ],

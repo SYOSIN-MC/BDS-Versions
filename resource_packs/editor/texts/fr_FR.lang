@@ -125,9 +125,9 @@ resourcePack.editor.ClipboardPreviewControl.origin.title=Origine	#
 resourcePack.editor.ClipboardPreviewControl.origin.tooltip=Le point d'origine au sein de l'élément du presse-papiers. Sert d'ancre de placement ainsi que de point par rapport auquel le presse-papiers pivote et se reflète	#
 resourcePack.editor.ClipboardPreviewControl.placement.title=Options	#
 resourcePack.editor.ClipboardPreviewControl.rootPane.title=Informations sur le presse-papiers	#
-resourcePack.editor.ClipboardPreviewControl.rotation.180=180°	#
-resourcePack.editor.ClipboardPreviewControl.rotation.270=270°	#
-resourcePack.editor.ClipboardPreviewControl.rotation.90=90°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.180=180 °	#
+resourcePack.editor.ClipboardPreviewControl.rotation.270=270 °	#
+resourcePack.editor.ClipboardPreviewControl.rotation.90=90 °	#
 resourcePack.editor.ClipboardPreviewControl.rotation.none=Aucune	#
 resourcePack.editor.ClipboardPreviewControl.rotation.title=Rotation	#
 resourcePack.editor.ClipboardPreviewControl.rotation.tooltip=La quantité de rotation autour de l'axe Y au point d'origine	#
@@ -184,6 +184,7 @@ resourcePack.editor.datatransferaccessors.lighting_group=Éclairage général	#
 resourcePack.editor.datatransferaccessors.pbr_fallbacks=Récupération PBR	#
 resourcePack.editor.datatransferaccessors.point_lights=Lumière des points	#
 resourcePack.editor.datatransferaccessors.water=Eau	#
+resourcePack.editor.datatransferaccessors.shadows=Ombres	#
 
 
 resourcePack.editor.deferredLightingSettings.menu.title=Paramètres d'éclairage différé	#
@@ -217,7 +218,8 @@ resourcePack.editor.exportProject.advancedSettings.immediateRespawn=Réapparitio
 resourcePack.editor.exportProject.advancedSettings.respawnRadius=Rayon de réapparition	#
 resourcePack.editor.exportProject.advancedSettings.simulationDistance=Distance de simulation	#
 resourcePack.editor.exportProject.advancedSettings.bedsWork=Les lits fonctionnent	#
-resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers=Joueurs endormis requis (%1%)	#
+resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers=Joueurs endormis requis (%1$s)	#
+resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers.onePlayerMessage=Un seul joueur	#
 resourcePack.editor.exportProject.multiplayerSettings=Paramètres multijoueur	#
 resourcePack.editor.exportProject.multiplayerSettings.multiplayerGame=Partie multijoueur	#
 resourcePack.editor.exportProject.multiplayerSettings.playerAccess=Accès des joueurs	#
@@ -580,10 +582,15 @@ resourcePack.editor.server.name=Ressources de l’éditeur	#
 
 
 resourcePack.editor.toolRail.Terrain.title=Terrain	#
+resourcePack.editor.toolRail.Terrain.keybinding.toggleTool=Activer/désactiver l'outil de terrain	#
+resourcePack.editor.toolRail.Terrain.keyBinding.switch=Changer de mode Terrain	#
 resourcePack.editor.toolRail.Terrain.Mode.title=Mode Terrain	#
 resourcePack.editor.toolRail.Terrain.Smooth.mode.title=Mode Lissage	#
 resourcePack.editor.toolRail.Terrain.Smooth.tooltip=Lissez le terrain en fonction de la puissance de lissage	#
 resourcePack.editor.toolRail.Terrain.SmoothStrength=Puissance de lissage	#
+resourcePack.editor.toolRail.Terrain.Roughen.mode.title=Mode Dépolissage	#
+resourcePack.editor.toolRail.Terrain.Roughen.tooltip=Dépolissez le terrain en fonction de l'intensité du dépolissage	#
+resourcePack.editor.toolRail.Terrain.RoughenStrength=Intensité du dépolissage	#
 resourcePack.editor.toolRail.Terrain.description=Outil de terrain permettant de lisser ou d'augmenter la rugosité du terrain	#
 
 
@@ -692,6 +699,40 @@ resourcePack.editor.toolRail.summonTool.tool.summonSubPane=Génération d'entit�
 resourcePack.editor.toolRail.summonTool.tool.tip=Cliquez pour invoquer des entités	#
 resourcePack.editor.toolRail.summonTool.tool.title=Outil d'invocation	#
 
+resourcePack.editor.toolRail.workbenchSettings.title=Établi	#
+resourcePack.editor.toolRail.workbenchTool.title=Établi	#
+resourcePack.editor.toolRail.workbenchTool.description=Modifier rapidement l'état des blocs	#
+resourcePack.editor.toolRail.workbenchTool.howToUse=Faites un clic gauche sur les blocs en surbrillance pour changer leur état (ouvrir/fermer, pivoter, inverser, etc.). Essayez aussi d'utiliser Maj et CTRL ! À noter que cette fonctionnalité ne fonctionne que sur les blocs avec des propriétés modifiables (par exemple, les portes, les clôtures, etc.).	#
+resourcePack.editor.toolRail.workbenchTool.tooltip=Modifier l'état des blocs	#
+resourcePack.editor.toolRail.workbenchTool.block=Bloc	#
+resourcePack.editor.toolRail.workbenchTool.leftClick=Clic gauche	#
+resourcePack.editor.toolRail.workbenchTool.shiftLeftClick=Maj + clic gauche	#
+resourcePack.editor.toolRail.workbenchTool.controlLeftClick=CTRL + clic gauche	#
+resourcePack.editor.toolRail.workbenchTool.shiftControlLeftClick=Maj + CTRL + clic gauche	#
+resourcePack.editor.toolRail.workbenchTool.stripWood=Écorcer/rétablir le bois	#
+resourcePack.editor.toolRail.workbenchTool.ladderLocation=Emplacement de l'échelle	#
+resourcePack.editor.toolRail.workbenchTool.autoAlign=Aligner automatiquement	#
+
+resourcePack.editor.toolRail.workbenchTool.topSlotBitProp=Haut/bas	#
+resourcePack.editor.toolRail.workbenchTool.pillarAxisProp=Faire pivoter	#
+resourcePack.editor.toolRail.workbenchTool.heightProp=Calques	#
+resourcePack.editor.toolRail.workbenchTool.candlesProp=Nombre de bougies	#
+
+resourcePack.editor.toolRail.workbenchTool.turtleEggCountProp=Nombre d'œufs de tortue	#
+resourcePack.editor.toolRail.workbenchTool.clusterCountProp=Nombre de cornichons de mer	#
+resourcePack.editor.toolRail.workbenchTool.hangingProp=Activer suspendre d'un autre bloc	#
+resourcePack.editor.toolRail.workbenchTool.wallPostBitProp=Basculer le tenon	#
+
+resourcePack.editor.toolRail.workbenchTool.upsideDownBitProp=Haut/bas	#
+resourcePack.editor.toolRail.workbenchTool.openBitProp=Ouvrir/Fermer	#
+resourcePack.editor.toolRail.workbenchTool.litProp=Allumé/éteint	#
+resourcePack.editor.toolRail.workbenchTool.dripstoneThicknessProp=Épaisseur de spéléothème	#
+
+resourcePack.editor.toolRail.workbenchTool.directionProp=Orientation	#
+resourcePack.editor.toolRail.workbenchTool.weirdoDirectionProp=Faire pivoter	#
+resourcePack.editor.toolRail.workbenchTool.facingDirectionProp=Orientation	#
+resourcePack.editor.toolRail.workbenchTool.cardinalDirectionProp=Orientation	#
+
 
 resourcePack.editor.transaction.keyBinding.redo=Refaire	#
 resourcePack.editor.transaction.keyBinding.undo=Annuler	#
@@ -704,11 +745,15 @@ resourcePack.editor.viewport.keyBinding.moveLeft=Aller à gauche	#
 resourcePack.editor.viewport.keyBinding.moveRight=Aller à droite	#
 resourcePack.editor.viewport.keyBinding.moveUp=Monter	#
 
+resourcePack.editor.viewport.keyBinding.incrementFlySpeed=Augmenter la vitesse de vol	#
+resourcePack.editor.viewport.keyBinding.decrementFlySpeed=Réduire la vitesse de vol	#
 
 resourcePack.editor.viewSettings.compass.tip=Afficher la boussole directionnelle	#
 resourcePack.editor.viewSettings.compass.title=Afficher la boussole	#
 resourcePack.editor.viewSettings.chunk.tip=Affichez le contour des limites des tronçons sur la carte	#
 resourcePack.editor.viewSettings.chunk.title=Afficher les limites des tronçons	#
+resourcePack.editor.viewSettings.nightVision.tip=Afficher le monde comme-sous vision nocturne	#
+resourcePack.editor.viewSettings.nightVision.title=Vision nocturne	#
 resourcePack.editor.viewSettings.invisible.tip=Affichez les blocs invisibles (exemple : vide, barrières, etc.)	#
 resourcePack.editor.viewSettings.invisible.title=Afficher les blocs invisibles	#
 resourcePack.editor.viewSettings.flySpeed.tip=Augmentez la vitesse de vol pour vous déplacer plus rapidement sur la carte	#
@@ -717,3 +762,7 @@ resourcePack.editor.viewSettings.menu=Paramètres d’affichage	#
 resourcePack.editor.viewSettings.title=Paramètres d’affichage	#
 
 resourcePack.editor.hotbar.defaultDisplayName=Par défaut	#
+
+resourcePack.editor.reloadScripts.response.tooMany=Trop de joueurs sont connectés au serveur. Le chargement du script n'est pris en charge que sur les hôtes avec un seul joueur connecté.	#
+resourcePack.editor.reloadScripts.response.genericError=Une erreur est survenue lors de la nouvelle tentative de chargement des scripts.	#
+resourcePack.editor.reloadScripts.response.noAdminRights=Vous n'avez pas les autorisations pour recharger les scripts.	#

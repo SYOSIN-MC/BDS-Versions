@@ -125,9 +125,9 @@ resourcePack.editor.ClipboardPreviewControl.origin.title=Oorsprong	#
 resourcePack.editor.ClipboardPreviewControl.origin.tooltip=Het beginpunt binnen het klemborditem.  Dit wordt gebruikt als zowel een plaatsingsanker als het punt waaromheen het klembord wordt gedraaid en gespiegeld	#
 resourcePack.editor.ClipboardPreviewControl.placement.title=Opties	#
 resourcePack.editor.ClipboardPreviewControl.rootPane.title=Klembordinfo	#
-resourcePack.editor.ClipboardPreviewControl.rotation.180=180°	#
-resourcePack.editor.ClipboardPreviewControl.rotation.270=270°	#
-resourcePack.editor.ClipboardPreviewControl.rotation.90=90°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.180=180Â°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.270=270Â°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.90=90Â°	#
 resourcePack.editor.ClipboardPreviewControl.rotation.none=Geen	#
 resourcePack.editor.ClipboardPreviewControl.rotation.title=Draai	#
 resourcePack.editor.ClipboardPreviewControl.rotation.tooltip=De hoeveelheid rotatie rond de Y-as op het beginpunt	#
@@ -184,6 +184,7 @@ resourcePack.editor.datatransferaccessors.lighting_group=Algemene belichting	#
 resourcePack.editor.datatransferaccessors.pbr_fallbacks=PBR-terugval	#
 resourcePack.editor.datatransferaccessors.point_lights=Puntlichten	#
 resourcePack.editor.datatransferaccessors.water=Water	#
+resourcePack.editor.datatransferaccessors.shadows=Schaduwen	#
 
 
 resourcePack.editor.deferredLightingSettings.menu.title=Instellingen uitgestelde belichting	#
@@ -217,7 +218,8 @@ resourcePack.editor.exportProject.advancedSettings.immediateRespawn=Directe resp
 resourcePack.editor.exportProject.advancedSettings.respawnRadius=Respawnstraal	#
 resourcePack.editor.exportProject.advancedSettings.simulationDistance=Simulatieafstand	#
 resourcePack.editor.exportProject.advancedSettings.bedsWork=Bedden werken echt	#
-resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers=Vereiste slapende spelers (%1%)	#
+resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers=Vereiste slapende spelers (%1$s)	#
+resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers.onePlayerMessage=Slechts 1 speler	#
 resourcePack.editor.exportProject.multiplayerSettings=Multiplayer-instellingen	#
 resourcePack.editor.exportProject.multiplayerSettings.multiplayerGame=Multiplayerspel	#
 resourcePack.editor.exportProject.multiplayerSettings.playerAccess=Spelerstoegang	#
@@ -398,10 +400,10 @@ resourcePack.editor.paste.pane.title=Plakken	#
 resourcePack.editor.paste.pane.transform.mirrorX=Spiegel X	#
 resourcePack.editor.paste.pane.transform.mirrorZ=Spiegel Z	#
 resourcePack.editor.paste.pane.transform.origin.title=Van het midden af	#
-resourcePack.editor.paste.pane.transform.rotation.180=180°	#
-resourcePack.editor.paste.pane.transform.rotation.270=270°	#
-resourcePack.editor.paste.pane.transform.rotation.90=90°	#
-resourcePack.editor.paste.pane.transform.rotation.none=0°	#
+resourcePack.editor.paste.pane.transform.rotation.180=180Â°	#
+resourcePack.editor.paste.pane.transform.rotation.270=270Â°	#
+resourcePack.editor.paste.pane.transform.rotation.90=90Â°	#
+resourcePack.editor.paste.pane.transform.rotation.none=0Â°	#
 resourcePack.editor.paste.pane.transform.rotation.title=Draaien	#
 resourcePack.editor.paste.pane.transform.title=Transformeren	#
 resourcePack.editor.paste.toolRail.description=Klik met de linkermuisknop om een blok te selecteren en vervolgens een klemborditem nauwkeurig te plakken	#
@@ -580,10 +582,15 @@ resourcePack.editor.server.name=Editorresources	#
 
 
 resourcePack.editor.toolRail.Terrain.title=Terrein	#
+resourcePack.editor.toolRail.Terrain.keybinding.toggleTool=Terreinhulpmiddel in-/uitschakelen	#
+resourcePack.editor.toolRail.Terrain.keyBinding.switch=Wissel van terreinmodus	#
 resourcePack.editor.toolRail.Terrain.Mode.title=Terreinmodus	#
 resourcePack.editor.toolRail.Terrain.Smooth.mode.title=Gladstrijkmodus	#
 resourcePack.editor.toolRail.Terrain.Smooth.tooltip=Strijk terrein glad op basis van de gladmakende sterkte	#
 resourcePack.editor.toolRail.Terrain.SmoothStrength=Gladmakende sterkte	#
+resourcePack.editor.toolRail.Terrain.Roughen.mode.title=Opruwenmodus	#
+resourcePack.editor.toolRail.Terrain.Roughen.tooltip=Ruw het terrein op, op basis van opruwsterkte	#
+resourcePack.editor.toolRail.Terrain.RoughenStrength=Opruwsterkte	#
 resourcePack.editor.toolRail.Terrain.description=Terreingereedschap maakt terrein gladder of ruwer	#
 
 
@@ -692,6 +699,40 @@ resourcePack.editor.toolRail.summonTool.tool.summonSubPane=Entiteitsspawn	#
 resourcePack.editor.toolRail.summonTool.tool.tip=Klik om entiteiten op te roepen	#
 resourcePack.editor.toolRail.summonTool.tool.title=Oproepgereedschap	#
 
+resourcePack.editor.toolRail.workbenchSettings.title=Werkbank	#
+resourcePack.editor.toolRail.workbenchTool.title=Werkbank	#
+resourcePack.editor.toolRail.workbenchTool.description=Blokkeerstatussen snel wijzigen	#
+resourcePack.editor.toolRail.workbenchTool.howToUse=Klik met de linkermuisknop op gemarkeerde blokken om hun status te wijzigen (openen/sluiten, draaien, omkeren enz.). Probeer ook de Shift- en Control-toetsaanwijzers te gebruiken! Houd er rekening mee dat deze functie alleen werkt op blokken met aanpasbare eigenschappen (bijv. deuren, hekken enz.).	#
+resourcePack.editor.toolRail.workbenchTool.tooltip=Blokstatussen wijzigen	#
+resourcePack.editor.toolRail.workbenchTool.block=Blokkeren	#
+resourcePack.editor.toolRail.workbenchTool.leftClick=Klik links	#
+resourcePack.editor.toolRail.workbenchTool.shiftLeftClick=Shift + linkermuisknop	#
+resourcePack.editor.toolRail.workbenchTool.controlLeftClick=CTRL + linkermuisknop	#
+resourcePack.editor.toolRail.workbenchTool.shiftControlLeftClick=Shift + CTRL + linkermuisknop	#
+resourcePack.editor.toolRail.workbenchTool.stripWood=Hout schaven/niet schaven	#
+resourcePack.editor.toolRail.workbenchTool.ladderLocation=Ladderlocatie	#
+resourcePack.editor.toolRail.workbenchTool.autoAlign=Automatisch uitlijnen	#
+
+resourcePack.editor.toolRail.workbenchTool.topSlotBitProp=Bovenkant/onderkant	#
+resourcePack.editor.toolRail.workbenchTool.pillarAxisProp=Draaien	#
+resourcePack.editor.toolRail.workbenchTool.heightProp=Lagen	#
+resourcePack.editor.toolRail.workbenchTool.candlesProp=Aantal kaarsen	#
+
+resourcePack.editor.toolRail.workbenchTool.turtleEggCountProp=Aantal schildpadeieren	#
+resourcePack.editor.toolRail.workbenchTool.clusterCountProp=Aantal zeekomkommers	#
+resourcePack.editor.toolRail.workbenchTool.hangingProp=Schakel tussen hangen aan een ander blok	#
+resourcePack.editor.toolRail.workbenchTool.wallPostBitProp=Bericht in-/uitschakelen	#
+
+resourcePack.editor.toolRail.workbenchTool.upsideDownBitProp=Bovenkant/onderkant	#
+resourcePack.editor.toolRail.workbenchTool.openBitProp=Openen/sluiten	#
+resourcePack.editor.toolRail.workbenchTool.litProp=Verlicht/onverlicht	#
+resourcePack.editor.toolRail.workbenchTool.dripstoneThicknessProp=Druipsteendikte	#
+
+resourcePack.editor.toolRail.workbenchTool.directionProp=Kijkrichting	#
+resourcePack.editor.toolRail.workbenchTool.weirdoDirectionProp=Draaien	#
+resourcePack.editor.toolRail.workbenchTool.facingDirectionProp=Kijkrichting	#
+resourcePack.editor.toolRail.workbenchTool.cardinalDirectionProp=Kijkrichting	#
+
 
 resourcePack.editor.transaction.keyBinding.redo=Opnieuw	#
 resourcePack.editor.transaction.keyBinding.undo=Annuleren	#
@@ -704,11 +745,15 @@ resourcePack.editor.viewport.keyBinding.moveLeft=Naar links verplaatsen	#
 resourcePack.editor.viewport.keyBinding.moveRight=Naar rechts verplaatsen	#
 resourcePack.editor.viewport.keyBinding.moveUp=Ga omhoog	#
 
+resourcePack.editor.viewport.keyBinding.incrementFlySpeed=Verhoogt de vliegsnelheid	#
+resourcePack.editor.viewport.keyBinding.decrementFlySpeed=Verlaagt de vliegsnelheid	#
 
 resourcePack.editor.viewSettings.compass.tip=Geef het richtingskompas weer	#
 resourcePack.editor.viewSettings.compass.title=Kompas weergeven	#
 resourcePack.editor.viewSettings.chunk.tip=De omtrek van de segmentgrenzen op de kaart weergeven	#
 resourcePack.editor.viewSettings.chunk.title=Segmentgrenzen weergeven	#
+resourcePack.editor.viewSettings.nightVision.tip=Toon de wereld alsof je nachtzicht hebt	#
+resourcePack.editor.viewSettings.nightVision.title=Nachtzicht	#
 resourcePack.editor.viewSettings.invisible.tip=Onzichtbare blokken weergeven (leegte, barrières enz.)	#
 resourcePack.editor.viewSettings.invisible.title=Onzichtbare blokken weergeven	#
 resourcePack.editor.viewSettings.flySpeed.tip=Verhoog de vliegsnelheid om sneller door de kaart te manoeuvreren	#
@@ -717,3 +762,7 @@ resourcePack.editor.viewSettings.menu=Instellingen bekijken	#
 resourcePack.editor.viewSettings.title=Instellingen bekijken	#
 
 resourcePack.editor.hotbar.defaultDisplayName=Standaard	#
+
+resourcePack.editor.reloadScripts.response.tooMany=Er zijn te veel spelers verbonden met de server. Het opnieuw laden van scripts wordt alleen ondersteund op hosts met een verbinding met één speler.	#
+resourcePack.editor.reloadScripts.response.genericError=Er is een fout opgetreden bij het opnieuw laden van scripts.	#
+resourcePack.editor.reloadScripts.response.noAdminRights=Je hebt geen toestemming om screenshots te uploaden.	#

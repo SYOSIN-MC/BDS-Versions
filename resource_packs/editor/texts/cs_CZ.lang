@@ -125,9 +125,9 @@ resourcePack.editor.ClipboardPreviewControl.origin.title=Počátek	#
 resourcePack.editor.ClipboardPreviewControl.origin.tooltip=Počáteční bod položky ve schránce. Používá se jako kotva při umístění, ale také jako bod, kolem kterého se schránka otáčí a kolem kterého se zrcadlí	#
 resourcePack.editor.ClipboardPreviewControl.placement.title=Možnosti	#
 resourcePack.editor.ClipboardPreviewControl.rootPane.title=Informace o schránce	#
-resourcePack.editor.ClipboardPreviewControl.rotation.180=180°	#
-resourcePack.editor.ClipboardPreviewControl.rotation.270=270°	#
-resourcePack.editor.ClipboardPreviewControl.rotation.90=90°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.180=180Â°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.270=270Â°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.90=90Â°	#
 resourcePack.editor.ClipboardPreviewControl.rotation.none=Žádný	#
 resourcePack.editor.ClipboardPreviewControl.rotation.title=Otočení	#
 resourcePack.editor.ClipboardPreviewControl.rotation.tooltip=Počet otočení okolo osy Y v počáteční bodu	#
@@ -184,6 +184,7 @@ resourcePack.editor.datatransferaccessors.lighting_group=Globální osvětlení	
 resourcePack.editor.datatransferaccessors.pbr_fallbacks=PBR Fallbacks	#
 resourcePack.editor.datatransferaccessors.point_lights=Bodová světla	#
 resourcePack.editor.datatransferaccessors.water=Voda	#
+resourcePack.editor.datatransferaccessors.shadows=Stíny	#
 
 
 resourcePack.editor.deferredLightingSettings.menu.title=Nastavení pozdrženého osvětlení	#
@@ -194,7 +195,7 @@ resourcePack.editor.delete.keyBinding=Odstranit vybraný obsah	#
 
 resourcePack.editor.exportProject.exportType=Typ exportu	#
 resourcePack.editor.exportProject.exportType.playableWorld=Hratelný svět	#
-resourcePack.editor.exportProject.exportNotes=Exportovat poznámky	#
+resourcePack.editor.exportProject.exportNotes=Poznámky k exportu	#
 resourcePack.editor.exportProject.exportNotes.warning=Exportujete svět v%1. Exportované hratelné světy nelze spustit na verzích Minecraftu starších, než v%1. Chcete-li převést světy na předchozí verze, použijte https://chunker.app/ (některé funkce nemusí být dostupné, pokud nebyly podporovány v dřívějších verzích)	#
 resourcePack.editor.exportProject.generalSettings=Obecná nastavení	#
 resourcePack.editor.exportProject.generalSettings.worldName=Název světa	#
@@ -217,7 +218,8 @@ resourcePack.editor.exportProject.advancedSettings.immediateRespawn=Okamžité z
 resourcePack.editor.exportProject.advancedSettings.respawnRadius=Rozsah znovuzrození	#
 resourcePack.editor.exportProject.advancedSettings.simulationDistance=Vzdálenost simulace	#
 resourcePack.editor.exportProject.advancedSettings.bedsWork=Postele fungují	#
-resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers=Požadovaní spící hráči (%1%)	#
+resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers=Požadováno spících hráčů (%1$s)	#
+resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers.onePlayerMessage=Pouze 1 hráč	#
 resourcePack.editor.exportProject.multiplayerSettings=Nastavení hry pro více hráčů	#
 resourcePack.editor.exportProject.multiplayerSettings.multiplayerGame=Hra pro více hráčů	#
 resourcePack.editor.exportProject.multiplayerSettings.playerAccess=Přístup hráčů	#
@@ -398,10 +400,10 @@ resourcePack.editor.paste.pane.title=Vložit	#
 resourcePack.editor.paste.pane.transform.mirrorX=Zrcadlit X	#
 resourcePack.editor.paste.pane.transform.mirrorZ=Zrcadlit Z	#
 resourcePack.editor.paste.pane.transform.origin.title=Posun	#
-resourcePack.editor.paste.pane.transform.rotation.180=180°	#
-resourcePack.editor.paste.pane.transform.rotation.270=270°	#
-resourcePack.editor.paste.pane.transform.rotation.90=90°	#
-resourcePack.editor.paste.pane.transform.rotation.none=0°	#
+resourcePack.editor.paste.pane.transform.rotation.180=180Â°	#
+resourcePack.editor.paste.pane.transform.rotation.270=270Â°	#
+resourcePack.editor.paste.pane.transform.rotation.90=90Â°	#
+resourcePack.editor.paste.pane.transform.rotation.none=0Â°	#
 resourcePack.editor.paste.pane.transform.rotation.title=Otočit	#
 resourcePack.editor.paste.pane.transform.title=Transformovat	#
 resourcePack.editor.paste.toolRail.description=Kliknutím levým tlačítkem myši vyberte blok a poté přesně vložte položku schránky	#
@@ -580,10 +582,15 @@ resourcePack.editor.server.name=Zdroje pro editory	#
 
 
 resourcePack.editor.toolRail.Terrain.title=Terén	#
+resourcePack.editor.toolRail.Terrain.keybinding.toggleTool=Zapnout nástroj Terén	#
+resourcePack.editor.toolRail.Terrain.keyBinding.switch=Přepnout režim terénu	#
 resourcePack.editor.toolRail.Terrain.Mode.title=Režim terénu	#
 resourcePack.editor.toolRail.Terrain.Smooth.mode.title=Režim vyhlazení	#
 resourcePack.editor.toolRail.Terrain.Smooth.tooltip=Vyhladí terén podle síly vyhlazování	#
 resourcePack.editor.toolRail.Terrain.SmoothStrength=Síla vyhlazování	#
+resourcePack.editor.toolRail.Terrain.Roughen.mode.title=Režim zdrsnění	#
+resourcePack.editor.toolRail.Terrain.Roughen.tooltip=Zdrsněte terén na základě síly zdrsnění	#
+resourcePack.editor.toolRail.Terrain.RoughenStrength=Síla zdrsnění	#
 resourcePack.editor.toolRail.Terrain.description=Nástroj terén slouží k vyhlazení nebo zdrsnění terénu	#
 
 
@@ -692,6 +699,40 @@ resourcePack.editor.toolRail.summonTool.tool.summonSubPane=Líheň entit	#
 resourcePack.editor.toolRail.summonTool.tool.tip=Kliknutím vyvoláte entity	#
 resourcePack.editor.toolRail.summonTool.tool.title=Nástroj Vyvolávání	#
 
+resourcePack.editor.toolRail.workbenchSettings.title=Pracovní stůl	#
+resourcePack.editor.toolRail.workbenchTool.title=Pracovní stůl	#
+resourcePack.editor.toolRail.workbenchTool.description=Rychle změní stavu bloků	#
+resourcePack.editor.toolRail.workbenchTool.howToUse=Kliknutím levým tlačítkem myši na zvýrazněné bloky změníte jejich stav (otevřít/zavřít, rotace, převracení atd.). Zkuste také použít modifikační klávesy Shift a Control! Pozor, tato funkce funguje pouze na bloky s možností upravovat vlastnosti (např. dveře, ploty atd.).	#
+resourcePack.editor.toolRail.workbenchTool.tooltip=Změnit stav bloků.	#
+resourcePack.editor.toolRail.workbenchTool.block=Blok	#
+resourcePack.editor.toolRail.workbenchTool.leftClick=Klikněte levým tlačítkem.	#
+resourcePack.editor.toolRail.workbenchTool.shiftLeftClick=Shift + Levé tlačítko myši	#
+resourcePack.editor.toolRail.workbenchTool.controlLeftClick=CTRL + Levé tlačítko myši	#
+resourcePack.editor.toolRail.workbenchTool.shiftControlLeftClick=Shift + CTRL + Levé tlačítko myši	#
+resourcePack.editor.toolRail.workbenchTool.stripWood=Odstranit kůru ze dřeva/vrátit kůru ze dřeva	#
+resourcePack.editor.toolRail.workbenchTool.ladderLocation=Umístění žebříku	#
+resourcePack.editor.toolRail.workbenchTool.autoAlign=Rovnat automaticky	#
+
+resourcePack.editor.toolRail.workbenchTool.topSlotBitProp=Horní/Dolní	#
+resourcePack.editor.toolRail.workbenchTool.pillarAxisProp=Otočit	#
+resourcePack.editor.toolRail.workbenchTool.heightProp=Vrstvy	#
+resourcePack.editor.toolRail.workbenchTool.candlesProp=Počet svíček	#
+
+resourcePack.editor.toolRail.workbenchTool.turtleEggCountProp=Počet želvích vajíček	#
+resourcePack.editor.toolRail.workbenchTool.clusterCountProp=Počet mořských okurek	#
+resourcePack.editor.toolRail.workbenchTool.hangingProp=Zapnout zavěšení z jiného bloku	#
+resourcePack.editor.toolRail.workbenchTool.wallPostBitProp=Zapnout sloupek	#
+
+resourcePack.editor.toolRail.workbenchTool.upsideDownBitProp=Horní/Dolní	#
+resourcePack.editor.toolRail.workbenchTool.openBitProp=Otevřít/Zavřít	#
+resourcePack.editor.toolRail.workbenchTool.litProp=Rozsvíceno/Zhasnuto	#
+resourcePack.editor.toolRail.workbenchTool.dripstoneThicknessProp=Tloušťka krápníku	#
+
+resourcePack.editor.toolRail.workbenchTool.directionProp=Směr orientace	#
+resourcePack.editor.toolRail.workbenchTool.weirdoDirectionProp=Otočit	#
+resourcePack.editor.toolRail.workbenchTool.facingDirectionProp=Směr orientace	#
+resourcePack.editor.toolRail.workbenchTool.cardinalDirectionProp=Směr orientace	#
+
 
 resourcePack.editor.transaction.keyBinding.redo=Znovu	#
 resourcePack.editor.transaction.keyBinding.undo=Zpět	#
@@ -704,11 +745,15 @@ resourcePack.editor.viewport.keyBinding.moveLeft=Pohyb vlevo	#
 resourcePack.editor.viewport.keyBinding.moveRight=Pohyb vpravo	#
 resourcePack.editor.viewport.keyBinding.moveUp=Pohyb nahoru	#
 
+resourcePack.editor.viewport.keyBinding.incrementFlySpeed=Zvýšit rychlost letu	#
+resourcePack.editor.viewport.keyBinding.decrementFlySpeed=Snížit rychlost letu	#
 
 resourcePack.editor.viewSettings.compass.tip=Zobrazit směrový kompas	#
 resourcePack.editor.viewSettings.compass.title=Zobrazit kompas	#
 resourcePack.editor.viewSettings.chunk.tip=Zobrazit obrys hranic zákoutí na mapě	#
 resourcePack.editor.viewSettings.chunk.title=Zobrazit hranice Zákoutí	#
+resourcePack.editor.viewSettings.nightVision.tip=Zobrazte si svět, jako kdybyste měli noční vidění	#
+resourcePack.editor.viewSettings.nightVision.title=Noční vidění	#
 resourcePack.editor.viewSettings.invisible.tip=Zobrazit neviditelné bloky (např. prázdnotu, bariéry, atd.)	#
 resourcePack.editor.viewSettings.invisible.title=Zobrazit neviditelné bloky	#
 resourcePack.editor.viewSettings.flySpeed.tip=Zvyšte rychlost letu k rychlejšímu pohybu po mapě	#
@@ -717,3 +762,7 @@ resourcePack.editor.viewSettings.menu=Nastavení zobrazení	#
 resourcePack.editor.viewSettings.title=Nastavení zobrazení	#
 
 resourcePack.editor.hotbar.defaultDisplayName=Výchozí	#
+
+resourcePack.editor.reloadScripts.response.tooMany=K serveru je připojeno příliš mnoho hráčů. Opětovné načtení skriptů je podporováno pouze u hostitelů s jedním připojeným hráčem.	#
+resourcePack.editor.reloadScripts.response.genericError=Při pokusu o opětovné načtení skriptů došlo k chybě.	#
+resourcePack.editor.reloadScripts.response.noAdminRights=Nemáte oprávnění k opětovnému načtení skriptů.	#

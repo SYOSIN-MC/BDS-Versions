@@ -36,7 +36,8 @@
           "hills",
           "monster",
           "overworld",
-          "taiga"
+          "taiga",
+          "spawns_cold_variant_farm_animals"
         ]
       }
     }

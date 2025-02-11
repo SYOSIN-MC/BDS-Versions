@@ -125,9 +125,9 @@ resourcePack.editor.ClipboardPreviewControl.origin.title=原點	#
 resourcePack.editor.ClipboardPreviewControl.origin.tooltip=剪貼簿項目中的原點。這用作放置錨點以及剪貼簿圍繞其旋轉和鏡像的點	#
 resourcePack.editor.ClipboardPreviewControl.placement.title=選項	#
 resourcePack.editor.ClipboardPreviewControl.rootPane.title=剪貼簿資訊	#
-resourcePack.editor.ClipboardPreviewControl.rotation.180=180°	#
-resourcePack.editor.ClipboardPreviewControl.rotation.270=270°	#
-resourcePack.editor.ClipboardPreviewControl.rotation.90=90°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.180=180Â°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.270=270Â°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.90=90Â°	#
 resourcePack.editor.ClipboardPreviewControl.rotation.none=無	#
 resourcePack.editor.ClipboardPreviewControl.rotation.title=旋轉	#
 resourcePack.editor.ClipboardPreviewControl.rotation.tooltip=原點圍繞 Y 軸的旋轉量	#
@@ -184,6 +184,7 @@ resourcePack.editor.datatransferaccessors.lighting_group=全域光照	#
 resourcePack.editor.datatransferaccessors.pbr_fallbacks=PBR 備援	#
 resourcePack.editor.datatransferaccessors.point_lights=點光源	#
 resourcePack.editor.datatransferaccessors.water=水	#
+resourcePack.editor.datatransferaccessors.shadows=黑影	#
 
 
 resourcePack.editor.deferredLightingSettings.menu.title=延遲光照設定	#
@@ -217,7 +218,8 @@ resourcePack.editor.exportProject.advancedSettings.immediateRespawn=立即生成
 resourcePack.editor.exportProject.advancedSettings.respawnRadius=重生半徑	#
 resourcePack.editor.exportProject.advancedSettings.simulationDistance=模擬距離	#
 resourcePack.editor.exportProject.advancedSettings.bedsWork=床舖有效	#
-resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers=所需睡眠玩家數 (%1%)	#
+resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers=所需睡眠玩家數  (%1$s)	#
+resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers.onePlayerMessage=僅限 1 名玩家	#
 resourcePack.editor.exportProject.multiplayerSettings=多人遊戲設定	#
 resourcePack.editor.exportProject.multiplayerSettings.multiplayerGame=多人遊戲	#
 resourcePack.editor.exportProject.multiplayerSettings.playerAccess=玩家存取	#
@@ -398,10 +400,10 @@ resourcePack.editor.paste.pane.title=貼上	#
 resourcePack.editor.paste.pane.transform.mirrorX=鏡射 X 軸	#
 resourcePack.editor.paste.pane.transform.mirrorZ=鏡射 Z 軸	#
 resourcePack.editor.paste.pane.transform.origin.title=位移	#
-resourcePack.editor.paste.pane.transform.rotation.180=180°	#
-resourcePack.editor.paste.pane.transform.rotation.270=270°	#
-resourcePack.editor.paste.pane.transform.rotation.90=90°	#
-resourcePack.editor.paste.pane.transform.rotation.none=0°	#
+resourcePack.editor.paste.pane.transform.rotation.180=180Â°	#
+resourcePack.editor.paste.pane.transform.rotation.270=270Â°	#
+resourcePack.editor.paste.pane.transform.rotation.90=90Â°	#
+resourcePack.editor.paste.pane.transform.rotation.none=0Â°	#
 resourcePack.editor.paste.pane.transform.rotation.title=旋轉	#
 resourcePack.editor.paste.pane.transform.title=變換	#
 resourcePack.editor.paste.toolRail.description=按下滑鼠左鍵選取方塊，接著精準貼上剪貼簿中物品	#
@@ -580,10 +582,15 @@ resourcePack.editor.server.name=編輯器資源	#
 
 
 resourcePack.editor.toolRail.Terrain.title=地形	#
+resourcePack.editor.toolRail.Terrain.keybinding.toggleTool=切換地形工具	#
+resourcePack.editor.toolRail.Terrain.keyBinding.switch=切換地形模式	#
 resourcePack.editor.toolRail.Terrain.Mode.title=地形模式	#
 resourcePack.editor.toolRail.Terrain.Smooth.mode.title=平滑視角模式	#
 resourcePack.editor.toolRail.Terrain.Smooth.tooltip=根據平滑強度對地形進行平滑處理	#
 resourcePack.editor.toolRail.Terrain.SmoothStrength=平滑強度	#
+resourcePack.editor.toolRail.Terrain.Roughen.mode.title=粗糙模式	#
+resourcePack.editor.toolRail.Terrain.Roughen.tooltip=根據粗糙強度對地形進行粗糙化	#
+resourcePack.editor.toolRail.Terrain.RoughenStrength=粗糙強度	#
 resourcePack.editor.toolRail.Terrain.description=地形工具可平滑或粗化地形	#
 
 
@@ -692,6 +699,40 @@ resourcePack.editor.toolRail.summonTool.tool.summonSubPane=實體生成	#
 resourcePack.editor.toolRail.summonTool.tool.tip=按一下以召喚實體	#
 resourcePack.editor.toolRail.summonTool.tool.title=召喚工具	#
 
+resourcePack.editor.toolRail.workbenchSettings.title=工作台	#
+resourcePack.editor.toolRail.workbenchTool.title=工作台	#
+resourcePack.editor.toolRail.workbenchTool.description=快速變更方塊狀態	#
+resourcePack.editor.toolRail.workbenchTool.howToUse=在醒目提示的方塊上按一下滑鼠左鍵，即可變更其狀態 (開啟 / 關閉、旋轉、反轉等)。另外試著用用看 Shift 和 Ctrl 修飾鍵！請注意，此功能僅適用於具有可修改屬性的方塊 (例如門、柵欄等)。	#
+resourcePack.editor.toolRail.workbenchTool.tooltip=變更方塊狀態	#
+resourcePack.editor.toolRail.workbenchTool.block=方塊	#
+resourcePack.editor.toolRail.workbenchTool.leftClick=按一下左鍵	#
+resourcePack.editor.toolRail.workbenchTool.shiftLeftClick=Shift + 滑鼠左鍵按一下	#
+resourcePack.editor.toolRail.workbenchTool.controlLeftClick=CTRL + 滑鼠左鍵按一下	#
+resourcePack.editor.toolRail.workbenchTool.shiftControlLeftClick=Shift + CTRL + 滑鼠左鍵按一下	#
+resourcePack.editor.toolRail.workbenchTool.stripWood=剝皮 / 未剝皮木頭	#
+resourcePack.editor.toolRail.workbenchTool.ladderLocation=階梯位置	#
+resourcePack.editor.toolRail.workbenchTool.autoAlign=自動對齊	#
+
+resourcePack.editor.toolRail.workbenchTool.topSlotBitProp=頂部 / 底部	#
+resourcePack.editor.toolRail.workbenchTool.pillarAxisProp=旋轉	#
+resourcePack.editor.toolRail.workbenchTool.heightProp=圖層	#
+resourcePack.editor.toolRail.workbenchTool.candlesProp=蠟燭數量	#
+
+resourcePack.editor.toolRail.workbenchTool.turtleEggCountProp=海龜蛋數量	#
+resourcePack.editor.toolRail.workbenchTool.clusterCountProp=火體蟲數量	#
+resourcePack.editor.toolRail.workbenchTool.hangingProp=切換從另一個方塊懸掛	#
+resourcePack.editor.toolRail.workbenchTool.wallPostBitProp=切換貼文	#
+
+resourcePack.editor.toolRail.workbenchTool.upsideDownBitProp=頂部 / 底部	#
+resourcePack.editor.toolRail.workbenchTool.openBitProp=開啟 / 關閉	#
+resourcePack.editor.toolRail.workbenchTool.litProp=點亮 / 未點亮	#
+resourcePack.editor.toolRail.workbenchTool.dripstoneThicknessProp=滴水石厚度	#
+
+resourcePack.editor.toolRail.workbenchTool.directionProp=面對方向	#
+resourcePack.editor.toolRail.workbenchTool.weirdoDirectionProp=旋轉	#
+resourcePack.editor.toolRail.workbenchTool.facingDirectionProp=面對方向	#
+resourcePack.editor.toolRail.workbenchTool.cardinalDirectionProp=面對方向	#
+
 
 resourcePack.editor.transaction.keyBinding.redo=取消復原	#
 resourcePack.editor.transaction.keyBinding.undo=復原	#
@@ -704,11 +745,15 @@ resourcePack.editor.viewport.keyBinding.moveLeft=往左	#
 resourcePack.editor.viewport.keyBinding.moveRight=往右	#
 resourcePack.editor.viewport.keyBinding.moveUp=向上移動	#
 
+resourcePack.editor.viewport.keyBinding.incrementFlySpeed=提升飛行速度	#
+resourcePack.editor.viewport.keyBinding.decrementFlySpeed=減少飛行速度	#
 
 resourcePack.editor.viewSettings.compass.tip=顯示方向羅盤	#
 resourcePack.editor.viewSettings.compass.title=顯示羅盤	#
 resourcePack.editor.viewSettings.chunk.tip=在地圖上顯示區塊邊界的輪廓	#
 resourcePack.editor.viewSettings.chunk.title=顯示區塊邊界	#
+resourcePack.editor.viewSettings.nightVision.tip=向世界展現你擁有夜視能力	#
+resourcePack.editor.viewSettings.nightVision.title=夜視	#
 resourcePack.editor.viewSettings.invisible.tip=顯示隱形方塊 (例如虛空、屏障等)	#
 resourcePack.editor.viewSettings.invisible.title=顯示隱形方塊	#
 resourcePack.editor.viewSettings.flySpeed.tip=提升飛行速度以更快地操控地圖	#
@@ -717,3 +762,7 @@ resourcePack.editor.viewSettings.menu=檢視設定	#
 resourcePack.editor.viewSettings.title=視角設定	#
 
 resourcePack.editor.hotbar.defaultDisplayName=預設	#
+
+resourcePack.editor.reloadScripts.response.tooMany=連線到伺服器的玩家人數過多。只有單一玩家連線的主機才支援指令碼重新載入。	#
+resourcePack.editor.reloadScripts.response.genericError=嘗試重新載入指令碼時發生錯誤。	#
+resourcePack.editor.reloadScripts.response.noAdminRights=你沒有重新載入指令碼的權限。	#

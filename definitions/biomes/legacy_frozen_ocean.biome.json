@@ -13,9 +13,9 @@
       "minecraft:overworld_height": {
         "noise_type": "ocean"
       },
-
       "minecraft:tags": {
         "tags": [
+          "legacy",
           "frozen",
           "ocean",
           "overworld"

@@ -125,9 +125,9 @@ resourcePack.editor.ClipboardPreviewControl.origin.title=원점	#
 resourcePack.editor.ClipboardPreviewControl.origin.tooltip=클립보드 항목 내의 원점입니다.  이것은 배치 앵커로 사용되며 클립보드가 회전하고 미러링되는 지점으로 사용됩니다	#
 resourcePack.editor.ClipboardPreviewControl.placement.title=옵션	#
 resourcePack.editor.ClipboardPreviewControl.rootPane.title=클립보드 정보	#
-resourcePack.editor.ClipboardPreviewControl.rotation.180=180°	#
-resourcePack.editor.ClipboardPreviewControl.rotation.270=270°	#
-resourcePack.editor.ClipboardPreviewControl.rotation.90=90°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.180=180Â°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.270=270Â°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.90=90Â°	#
 resourcePack.editor.ClipboardPreviewControl.rotation.none=없음	#
 resourcePack.editor.ClipboardPreviewControl.rotation.title=회전	#
 resourcePack.editor.ClipboardPreviewControl.rotation.tooltip=원점에서 Y축을 중심으로 한 회전량입니다	#
@@ -184,6 +184,7 @@ resourcePack.editor.datatransferaccessors.lighting_group=글로벌 조명	#
 resourcePack.editor.datatransferaccessors.pbr_fallbacks=PBR 대비책	#
 resourcePack.editor.datatransferaccessors.point_lights=포인트 조명	#
 resourcePack.editor.datatransferaccessors.water=물	#
+resourcePack.editor.datatransferaccessors.shadows=그림자	#
 
 
 resourcePack.editor.deferredLightingSettings.menu.title=디퍼드 라이팅 설정	#
@@ -217,7 +218,8 @@ resourcePack.editor.exportProject.advancedSettings.immediateRespawn=즉시 리�
 resourcePack.editor.exportProject.advancedSettings.respawnRadius=리스폰 반경	#
 resourcePack.editor.exportProject.advancedSettings.simulationDistance=시뮬레이션 거리	#
 resourcePack.editor.exportProject.advancedSettings.bedsWork=침대 작동	#
-resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers=잠자는 플레이어 필요(%1%)	#
+resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers=잠자는 플레이어 필요(%1$s)	#
+resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers.onePlayerMessage=플레이어 1명만	#
 resourcePack.editor.exportProject.multiplayerSettings=멀티 플레이 설정	#
 resourcePack.editor.exportProject.multiplayerSettings.multiplayerGame=멀티 플레이 게임	#
 resourcePack.editor.exportProject.multiplayerSettings.playerAccess=플레이어 액세스	#
@@ -398,10 +400,10 @@ resourcePack.editor.paste.pane.title=붙여넣기	#
 resourcePack.editor.paste.pane.transform.mirrorX=X 반전	#
 resourcePack.editor.paste.pane.transform.mirrorZ=Z 반전	#
 resourcePack.editor.paste.pane.transform.origin.title=오프셋	#
-resourcePack.editor.paste.pane.transform.rotation.180=180°	#
-resourcePack.editor.paste.pane.transform.rotation.270=270°	#
-resourcePack.editor.paste.pane.transform.rotation.90=90°	#
-resourcePack.editor.paste.pane.transform.rotation.none=0°	#
+resourcePack.editor.paste.pane.transform.rotation.180=180Â°	#
+resourcePack.editor.paste.pane.transform.rotation.270=270Â°	#
+resourcePack.editor.paste.pane.transform.rotation.90=90Â°	#
+resourcePack.editor.paste.pane.transform.rotation.none=0Â°	#
 resourcePack.editor.paste.pane.transform.rotation.title=회전	#
 resourcePack.editor.paste.pane.transform.title=변신	#
 resourcePack.editor.paste.toolRail.description=마우스 왼쪽 버튼을 클릭하여 블록을 선택한 다음 클립 보드 항목을 정확하게 붙여 넣습니다	#
@@ -580,10 +582,15 @@ resourcePack.editor.server.name=편집기 리소스	#
 
 
 resourcePack.editor.toolRail.Terrain.title=지형	#
+resourcePack.editor.toolRail.Terrain.keybinding.toggleTool=지형 도구 토글	#
+resourcePack.editor.toolRail.Terrain.keyBinding.switch=지형 모드 전환	#
 resourcePack.editor.toolRail.Terrain.Mode.title=지형 모드	#
 resourcePack.editor.toolRail.Terrain.Smooth.mode.title=부드러움 모드	#
 resourcePack.editor.toolRail.Terrain.Smooth.tooltip=부드러움 강도에 따라 지형을 부드럽게 표시합니다.	#
 resourcePack.editor.toolRail.Terrain.SmoothStrength=부드러움 강도	#
+resourcePack.editor.toolRail.Terrain.Roughen.mode.title=거침 모드	#
+resourcePack.editor.toolRail.Terrain.Roughen.tooltip=거침 강도에 따라 지형을 거칠게 표시합니다.	#
+resourcePack.editor.toolRail.Terrain.RoughenStrength=거침 강도	#
 resourcePack.editor.toolRail.Terrain.description=지형 도구가 지형을 부드럽거나 거칠게 합니다.	#
 
 
@@ -692,6 +699,40 @@ resourcePack.editor.toolRail.summonTool.tool.summonSubPane=엔티티 생성	#
 resourcePack.editor.toolRail.summonTool.tool.tip=클릭하여 엔티티들을 소환하세요	#
 resourcePack.editor.toolRail.summonTool.tool.title=소환 도구	#
 
+resourcePack.editor.toolRail.workbenchSettings.title=작업대	#
+resourcePack.editor.toolRail.workbenchTool.title=작업대	#
+resourcePack.editor.toolRail.workbenchTool.description=블록 상태를 빠르게 변경합니다.	#
+resourcePack.editor.toolRail.workbenchTool.howToUse=강조 표시된 블록을 마우스 왼쪽 버튼으로 클릭하여 상태를 변경합니다(열기/닫기, 회전, 반전 등). 시프트 및 컨트롤 키 변경 특성도 사용해 보세요! 이 기능은 수정 가능한 속성(예: 문, 울타리 등)이 있는 블록에서만 작동합니다.	#
+resourcePack.editor.toolRail.workbenchTool.tooltip=블록 상태 변경	#
+resourcePack.editor.toolRail.workbenchTool.block=블록	#
+resourcePack.editor.toolRail.workbenchTool.leftClick=왼쪽 클릭	#
+resourcePack.editor.toolRail.workbenchTool.shiftLeftClick=시프트 + 왼쪽 클릭	#
+resourcePack.editor.toolRail.workbenchTool.controlLeftClick=컨트롤 + 왼쪽 클릭	#
+resourcePack.editor.toolRail.workbenchTool.shiftControlLeftClick=시프트+ 컨트롤 + 왼쪽 클릭	#
+resourcePack.editor.toolRail.workbenchTool.stripWood=나무 벗기기/벗기기 해제	#
+resourcePack.editor.toolRail.workbenchTool.ladderLocation=사다리 위치	#
+resourcePack.editor.toolRail.workbenchTool.autoAlign=자동 정렬	#
+
+resourcePack.editor.toolRail.workbenchTool.topSlotBitProp=상단/하단	#
+resourcePack.editor.toolRail.workbenchTool.pillarAxisProp=회전	#
+resourcePack.editor.toolRail.workbenchTool.heightProp=레이어	#
+resourcePack.editor.toolRail.workbenchTool.candlesProp=촛불 개수	#
+
+resourcePack.editor.toolRail.workbenchTool.turtleEggCountProp=거북 알 개수	#
+resourcePack.editor.toolRail.workbenchTool.clusterCountProp=해삼 개수	#
+resourcePack.editor.toolRail.workbenchTool.hangingProp=다른 블록에서 매달리기 토글	#
+resourcePack.editor.toolRail.workbenchTool.wallPostBitProp=게시글 토글	#
+
+resourcePack.editor.toolRail.workbenchTool.upsideDownBitProp=상단/하단	#
+resourcePack.editor.toolRail.workbenchTool.openBitProp=열기/닫기	#
+resourcePack.editor.toolRail.workbenchTool.litProp=점등/소등	#
+resourcePack.editor.toolRail.workbenchTool.dripstoneThicknessProp=드립스톤 두께	#
+
+resourcePack.editor.toolRail.workbenchTool.directionProp=바라보는 방향	#
+resourcePack.editor.toolRail.workbenchTool.weirdoDirectionProp=회전	#
+resourcePack.editor.toolRail.workbenchTool.facingDirectionProp=바라보는 방향	#
+resourcePack.editor.toolRail.workbenchTool.cardinalDirectionProp=바라보는 방향	#
+
 
 resourcePack.editor.transaction.keyBinding.redo=다시 실행	#
 resourcePack.editor.transaction.keyBinding.undo=실행 취소	#
@@ -704,11 +745,15 @@ resourcePack.editor.viewport.keyBinding.moveLeft=왼쪽으로 이동	#
 resourcePack.editor.viewport.keyBinding.moveRight=오른쪽으로 이동	#
 resourcePack.editor.viewport.keyBinding.moveUp=위로 이동	#
 
+resourcePack.editor.viewport.keyBinding.incrementFlySpeed=비행 속도 증가	#
+resourcePack.editor.viewport.keyBinding.decrementFlySpeed=비행 속도 감소	#
 
 resourcePack.editor.viewSettings.compass.tip=방향 나침반 표시	#
 resourcePack.editor.viewSettings.compass.title=나침반 표시	#
 resourcePack.editor.viewSettings.chunk.tip=지도에서 청크 경계의 윤곽을 표시합니다.	#
 resourcePack.editor.viewSettings.chunk.title=청크 경계 표시	#
+resourcePack.editor.viewSettings.nightVision.tip=야간 시야가 있는 것처럼 세상을 보여주세요.	#
+resourcePack.editor.viewSettings.nightVision.title=야간 시야	#
 resourcePack.editor.viewSettings.invisible.tip=투명 블록(예: 공허, 방벽 등)을 표시합니다.	#
 resourcePack.editor.viewSettings.invisible.title=투명 블록 표시	#
 resourcePack.editor.viewSettings.flySpeed.tip=지도를 더 빠르게 움직이려면 비행 속도를 높이세요.	#
@@ -717,3 +762,7 @@ resourcePack.editor.viewSettings.menu=설정 보기	#
 resourcePack.editor.viewSettings.title=설정 보기	#
 
 resourcePack.editor.hotbar.defaultDisplayName=기본	#
+
+resourcePack.editor.reloadScripts.response.tooMany=서버에 연결된 플레이어가 너무 많습니다. 스크립트 재로딩은 싱글 플레이어가 연결된 호스트에서만 지원됩니다.	#
+resourcePack.editor.reloadScripts.response.genericError=스크립트를 다시 로딩하는 동안 오류가 발생했습니다.	#
+resourcePack.editor.reloadScripts.response.noAdminRights=스크립트를 다시 로딩할 권한이 없습니다.	#

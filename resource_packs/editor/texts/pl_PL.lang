@@ -125,9 +125,9 @@ resourcePack.editor.ClipboardPreviewControl.origin.title=Źródło	#
 resourcePack.editor.ClipboardPreviewControl.origin.tooltip=Punkt początkowy w elemencie schowka. Jest on używany zarówno jako kotwica umieszczenia, jak i punkt, wokół którego schowek jest obracany i odbijany lustrzanie	#
 resourcePack.editor.ClipboardPreviewControl.placement.title=Opcje	#
 resourcePack.editor.ClipboardPreviewControl.rootPane.title=Informacje ze schowka	#
-resourcePack.editor.ClipboardPreviewControl.rotation.180=180°	#
-resourcePack.editor.ClipboardPreviewControl.rotation.270=270°	#
-resourcePack.editor.ClipboardPreviewControl.rotation.90=90°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.180=180Â°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.270=270Â°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.90=90Â°	#
 resourcePack.editor.ClipboardPreviewControl.rotation.none=Brak	#
 resourcePack.editor.ClipboardPreviewControl.rotation.title=Obrót	#
 resourcePack.editor.ClipboardPreviewControl.rotation.tooltip=Stopień obrotu wokół osi Y w punkcie początkowym	#
@@ -184,6 +184,7 @@ resourcePack.editor.datatransferaccessors.lighting_group=Globalne oświetlenie	#
 resourcePack.editor.datatransferaccessors.pbr_fallbacks=Awaryjne PBR	#
 resourcePack.editor.datatransferaccessors.point_lights=Oświetlenie punktowe	#
 resourcePack.editor.datatransferaccessors.water=Woda	#
+resourcePack.editor.datatransferaccessors.shadows=Plamy	#
 
 
 resourcePack.editor.deferredLightingSettings.menu.title=Ustawienia odroczonego oświetlenia	#
@@ -217,7 +218,8 @@ resourcePack.editor.exportProject.advancedSettings.immediateRespawn=Natychmiasto
 resourcePack.editor.exportProject.advancedSettings.respawnRadius=Promień odrodzenia	#
 resourcePack.editor.exportProject.advancedSettings.simulationDistance=Zasięg symulacji	#
 resourcePack.editor.exportProject.advancedSettings.bedsWork=Łóżka działają	#
-resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers=Wymagani śpiący gracze (%1%)	#
+resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers=Wymagani śpiący gracze (%1$s)	#
+resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers.onePlayerMessage=Tylko 1 gracz	#
 resourcePack.editor.exportProject.multiplayerSettings=Ustawienia dla wielu graczy	#
 resourcePack.editor.exportProject.multiplayerSettings.multiplayerGame=Gra wieloosobowa	#
 resourcePack.editor.exportProject.multiplayerSettings.playerAccess=Dostęp gracza	#
@@ -398,10 +400,10 @@ resourcePack.editor.paste.pane.title=Wklej	#
 resourcePack.editor.paste.pane.transform.mirrorX=Lustro X	#
 resourcePack.editor.paste.pane.transform.mirrorZ=Lustro Z	#
 resourcePack.editor.paste.pane.transform.origin.title=Przesunięcie	#
-resourcePack.editor.paste.pane.transform.rotation.180=180°	#
-resourcePack.editor.paste.pane.transform.rotation.270=270°	#
-resourcePack.editor.paste.pane.transform.rotation.90=90°	#
-resourcePack.editor.paste.pane.transform.rotation.none=0°	#
+resourcePack.editor.paste.pane.transform.rotation.180=180Â°	#
+resourcePack.editor.paste.pane.transform.rotation.270=270Â°	#
+resourcePack.editor.paste.pane.transform.rotation.90=90Â°	#
+resourcePack.editor.paste.pane.transform.rotation.none=0Â°	#
 resourcePack.editor.paste.pane.transform.rotation.title=Obróć	#
 resourcePack.editor.paste.pane.transform.title=Przekształć	#
 resourcePack.editor.paste.toolRail.description=Kliknij lewym przyciskiem myszy, aby zaznaczyć blok, a następnie precyzyjnie wklej element ze schowka	#
@@ -580,10 +582,15 @@ resourcePack.editor.server.name=Zasoby edytora	#
 
 
 resourcePack.editor.toolRail.Terrain.title=Teren	#
+resourcePack.editor.toolRail.Terrain.keybinding.toggleTool=Przełącz narzędzie terenu	#
+resourcePack.editor.toolRail.Terrain.keyBinding.switch=Zmień tryb terenu	#
 resourcePack.editor.toolRail.Terrain.Mode.title=Tryb terenu	#
 resourcePack.editor.toolRail.Terrain.Smooth.mode.title=Tryb gładki	#
 resourcePack.editor.toolRail.Terrain.Smooth.tooltip=Wygładza teren zgodnie z siłą wygładzania	#
 resourcePack.editor.toolRail.Terrain.SmoothStrength=Siła wygładzania	#
+resourcePack.editor.toolRail.Terrain.Roughen.mode.title=Tryb tworzenia nierówności	#
+resourcePack.editor.toolRail.Terrain.Roughen.tooltip=Tworzy nierówności terenu zgodnie z natężeniem nierówności	#
+resourcePack.editor.toolRail.Terrain.RoughenStrength=Natężenie nierówności	#
 resourcePack.editor.toolRail.Terrain.description=Narzędzie terenu wygładza go lub tworzy nierówności	#
 
 
@@ -692,6 +699,40 @@ resourcePack.editor.toolRail.summonTool.tool.summonSubPane=Zespawnuj jednostkę	
 resourcePack.editor.toolRail.summonTool.tool.tip=Kliknij, aby przywołać jednostki	#
 resourcePack.editor.toolRail.summonTool.tool.title=Narzędzie przywoływania	#
 
+resourcePack.editor.toolRail.workbenchSettings.title=Stół warsztatowy	#
+resourcePack.editor.toolRail.workbenchTool.title=Stół warsztatowy	#
+resourcePack.editor.toolRail.workbenchTool.description=Szybka zmiana stanu bloku	#
+resourcePack.editor.toolRail.workbenchTool.howToUse=Kliknij lewym przyciskiem myszy podświetlone bloki, aby zmienić ich stan (np. otwórz/zamknij, obróć, odwróć). Spróbuj też użyć klawiszy modyfikujących Shift i Ctrl! Ta funkcja działa tylko w przypadku bloków, które mają zmienne właściwości (np. drzwi, ogrodzenia).	#
+resourcePack.editor.toolRail.workbenchTool.tooltip=Zmień stan bloku	#
+resourcePack.editor.toolRail.workbenchTool.block=Blok	#
+resourcePack.editor.toolRail.workbenchTool.leftClick=Kliknij lewym przyciskiem	#
+resourcePack.editor.toolRail.workbenchTool.shiftLeftClick=Shift + Lewy przycisk myszy	#
+resourcePack.editor.toolRail.workbenchTool.controlLeftClick=CTRL + Lewy przycisk myszy	#
+resourcePack.editor.toolRail.workbenchTool.shiftControlLeftClick=Shift + CTRL + Lewy przycisk myszy	#
+resourcePack.editor.toolRail.workbenchTool.stripWood=Okoruj drewno/Cofnij okorowanie	#
+resourcePack.editor.toolRail.workbenchTool.ladderLocation=Lokalizacja drabiny	#
+resourcePack.editor.toolRail.workbenchTool.autoAlign=Automatyczne wyrównywanie	#
+
+resourcePack.editor.toolRail.workbenchTool.topSlotBitProp=Góra/dół	#
+resourcePack.editor.toolRail.workbenchTool.pillarAxisProp=Obróć	#
+resourcePack.editor.toolRail.workbenchTool.heightProp=Warstwy	#
+resourcePack.editor.toolRail.workbenchTool.candlesProp=Liczba świec	#
+
+resourcePack.editor.toolRail.workbenchTool.turtleEggCountProp=Liczba jajek żółwia	#
+resourcePack.editor.toolRail.workbenchTool.clusterCountProp=Liczba iskrzyłud	#
+resourcePack.editor.toolRail.workbenchTool.hangingProp=Przełącz zwisanie z innego bloku	#
+resourcePack.editor.toolRail.workbenchTool.wallPostBitProp=Przełącz słupek	#
+
+resourcePack.editor.toolRail.workbenchTool.upsideDownBitProp=Góra/dół	#
+resourcePack.editor.toolRail.workbenchTool.openBitProp=Otwórz/zamknij	#
+resourcePack.editor.toolRail.workbenchTool.litProp=Zapal/zgaś	#
+resourcePack.editor.toolRail.workbenchTool.dripstoneThicknessProp=Grubość nacieku	#
+
+resourcePack.editor.toolRail.workbenchTool.directionProp=Kierunek patrzenia	#
+resourcePack.editor.toolRail.workbenchTool.weirdoDirectionProp=Obróć	#
+resourcePack.editor.toolRail.workbenchTool.facingDirectionProp=Kierunek patrzenia	#
+resourcePack.editor.toolRail.workbenchTool.cardinalDirectionProp=Kierunek patrzenia	#
+
 
 resourcePack.editor.transaction.keyBinding.redo=Ponów	#
 resourcePack.editor.transaction.keyBinding.undo=Cofnij	#
@@ -704,11 +745,15 @@ resourcePack.editor.viewport.keyBinding.moveLeft=W lewo	#
 resourcePack.editor.viewport.keyBinding.moveRight=W prawo	#
 resourcePack.editor.viewport.keyBinding.moveUp=Przesuń w górę	#
 
+resourcePack.editor.viewport.keyBinding.incrementFlySpeed=Zwiększ szybkość lotu	#
+resourcePack.editor.viewport.keyBinding.decrementFlySpeed=Zmniejsz szybkość lotu	#
 
 resourcePack.editor.viewSettings.compass.tip=Pokazuj kompas kierunkowy	#
 resourcePack.editor.viewSettings.compass.title=Pokazuj kompas	#
 resourcePack.editor.viewSettings.chunk.tip=Pokazuje zarys granic chunków na mapie	#
 resourcePack.editor.viewSettings.chunk.title=Pokaż granice chunków	#
+resourcePack.editor.viewSettings.nightVision.tip=Pokaż świat jak z efektem „Widzenie w ciemności”	#
+resourcePack.editor.viewSettings.nightVision.title=Widzenie w ciemności	#
 resourcePack.editor.viewSettings.invisible.tip=Pokazuje niewidzialne bloki (np. pustkę, bariery itp.)	#
 resourcePack.editor.viewSettings.invisible.title=Pokaż niewidzialne bloki	#
 resourcePack.editor.viewSettings.flySpeed.tip=Zwiększ szybkość lotu, aby szybciej manewrować po mapie	#
@@ -717,3 +762,7 @@ resourcePack.editor.viewSettings.menu=Ustawienia widoku	#
 resourcePack.editor.viewSettings.title=Ustawienia widoku	#
 
 resourcePack.editor.hotbar.defaultDisplayName=Domyślny	#
+
+resourcePack.editor.reloadScripts.response.tooMany=Zbyt wielu graczy jest połączonych z serwerem.  Przeładowanie skryptów jest obsługiwane tylko na hostach z połączonym jednym graczem.	#
+resourcePack.editor.reloadScripts.response.genericError=Wystąpił błąd podczas próby przeładowania skryptów.	#
+resourcePack.editor.reloadScripts.response.noAdminRights=Nie masz uprawnień do przeładowania skryptów.	#

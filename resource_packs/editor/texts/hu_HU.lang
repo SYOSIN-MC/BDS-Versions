@@ -125,9 +125,9 @@ resourcePack.editor.ClipboardPreviewControl.origin.title=Kezdőpont	#
 resourcePack.editor.ClipboardPreviewControl.origin.tooltip=A vágólaptárgyon belül található kezdőpont. Ez szolgál elhelyezési horgonyként, illetve ezen pont körül forgathatod és tükrözheted a vágólapot.	#
 resourcePack.editor.ClipboardPreviewControl.placement.title=Beállítások	#
 resourcePack.editor.ClipboardPreviewControl.rootPane.title=Vágólap adatai	#
-resourcePack.editor.ClipboardPreviewControl.rotation.180=180°	#
-resourcePack.editor.ClipboardPreviewControl.rotation.270=270°	#
-resourcePack.editor.ClipboardPreviewControl.rotation.90=90°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.180=180Â°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.270=270Â°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.90=90Â°	#
 resourcePack.editor.ClipboardPreviewControl.rotation.none=Nincs	#
 resourcePack.editor.ClipboardPreviewControl.rotation.title=Elforgatás	#
 resourcePack.editor.ClipboardPreviewControl.rotation.tooltip=Az Y tengely körüli elforgatás mértéke a kezdőpontnál	#
@@ -184,6 +184,7 @@ resourcePack.editor.datatransferaccessors.lighting_group=Globális világítás	
 resourcePack.editor.datatransferaccessors.pbr_fallbacks=PBR tartalék-erőforrások	#
 resourcePack.editor.datatransferaccessors.point_lights=Pontfények	#
 resourcePack.editor.datatransferaccessors.water=Víz	#
+resourcePack.editor.datatransferaccessors.shadows=Árnyékok	#
 
 
 resourcePack.editor.deferredLightingSettings.menu.title=Késleltetett világítás beállításai	#
@@ -217,7 +218,8 @@ resourcePack.editor.exportProject.advancedSettings.immediateRespawn=Azonnali új
 resourcePack.editor.exportProject.advancedSettings.respawnRadius=Újraszületési hatósugár	#
 resourcePack.editor.exportProject.advancedSettings.simulationDistance=Szimulációs távolság	#
 resourcePack.editor.exportProject.advancedSettings.bedsWork=Működő ágyak	#
-resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers=Alvó játékosok szükséges száma (%1%)	#
+resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers=Alvó játékosok szükséges száma (%1$s)	#
+resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers.onePlayerMessage=Csak 1 játékos	#
 resourcePack.editor.exportProject.multiplayerSettings=Többjátékos beállítások	#
 resourcePack.editor.exportProject.multiplayerSettings.multiplayerGame=Többjátékos mód	#
 resourcePack.editor.exportProject.multiplayerSettings.playerAccess=Játékos-hozzáférés	#
@@ -398,10 +400,10 @@ resourcePack.editor.paste.pane.title=Beillesztés	#
 resourcePack.editor.paste.pane.transform.mirrorX=X tükrözése	#
 resourcePack.editor.paste.pane.transform.mirrorZ=Z tükrözése	#
 resourcePack.editor.paste.pane.transform.origin.title=Eltolás	#
-resourcePack.editor.paste.pane.transform.rotation.180=180°	#
-resourcePack.editor.paste.pane.transform.rotation.270=270°	#
-resourcePack.editor.paste.pane.transform.rotation.90=90°	#
-resourcePack.editor.paste.pane.transform.rotation.none=0°	#
+resourcePack.editor.paste.pane.transform.rotation.180=180Â°	#
+resourcePack.editor.paste.pane.transform.rotation.270=270Â°	#
+resourcePack.editor.paste.pane.transform.rotation.90=90Â°	#
+resourcePack.editor.paste.pane.transform.rotation.none=0Â°	#
 resourcePack.editor.paste.pane.transform.rotation.title=Forgatás	#
 resourcePack.editor.paste.pane.transform.title=Átalakítás	#
 resourcePack.editor.paste.toolRail.description=Kattints a bal egérgombbal egy blokk kijelöléséhez, majd illessz be pontosan egy vágólapon lévő elemet	#
@@ -580,10 +582,15 @@ resourcePack.editor.server.name=Szerkesztői erőforrások	#
 
 
 resourcePack.editor.toolRail.Terrain.title=Terep	#
+resourcePack.editor.toolRail.Terrain.keybinding.toggleTool=Terep eszköz ki-/bekapcsolása	#
+resourcePack.editor.toolRail.Terrain.keyBinding.switch=Terep mód váltása	#
 resourcePack.editor.toolRail.Terrain.Mode.title=Terep mód	#
 resourcePack.editor.toolRail.Terrain.Smooth.mode.title=Simítás mód	#
 resourcePack.editor.toolRail.Terrain.Smooth.tooltip=Terep simítása a simítási erősség alapján	#
 resourcePack.editor.toolRail.Terrain.SmoothStrength=Simítási erősség	#
+resourcePack.editor.toolRail.Terrain.Roughen.mode.title=Nagyoló mód	#
+resourcePack.editor.toolRail.Terrain.Roughen.tooltip=Terep nagyolása a nagyolási erősség alapján	#
+resourcePack.editor.toolRail.Terrain.RoughenStrength=Nagyolási erősség	#
 resourcePack.editor.toolRail.Terrain.description=A terep eszköz elsimítja vagy durvává teszi a terepet	#
 
 
@@ -692,6 +699,40 @@ resourcePack.editor.toolRail.summonTool.tool.summonSubPane=Entitás idézése	#
 resourcePack.editor.toolRail.summonTool.tool.tip=Kattints entitások idézéséhez	#
 resourcePack.editor.toolRail.summonTool.tool.title=Idéző eszköz	#
 
+resourcePack.editor.toolRail.workbenchSettings.title=Munkapad	#
+resourcePack.editor.toolRail.workbenchTool.title=Munkapad	#
+resourcePack.editor.toolRail.workbenchTool.description=Blokkállapotok gyors módosítása	#
+resourcePack.editor.toolRail.workbenchTool.howToUse=Kattints a bal egérgombbal a kiemelt blokkokra az állapotuk megváltoztatásához (megnyitás/bezárás, forgatás, megfordítás stb.). Próbáld ki a Shift és Control billentyűmódosítókat is! Ne feledd, hogy ez a funkció csak azokon a blokkokon működik, amelyek módosítható tulajdonságokkal rendelkeznek (pl. ajtók, kerítések stb.).	#
+resourcePack.editor.toolRail.workbenchTool.tooltip=Blokkállapotok módosítása	#
+resourcePack.editor.toolRail.workbenchTool.block=Letiltás	#
+resourcePack.editor.toolRail.workbenchTool.leftClick=Bal kattintás	#
+resourcePack.editor.toolRail.workbenchTool.shiftLeftClick=Shift + bal egérgomb	#
+resourcePack.editor.toolRail.workbenchTool.controlLeftClick=CTRL + bal egérgomb	#
+resourcePack.editor.toolRail.workbenchTool.shiftControlLeftClick=Shift + CTRL + bal egérgomb	#
+resourcePack.editor.toolRail.workbenchTool.stripWood=Fa gyalulása/kérgesítése	#
+resourcePack.editor.toolRail.workbenchTool.ladderLocation=Létra pozíciója	#
+resourcePack.editor.toolRail.workbenchTool.autoAlign=Automatikus igazítás	#
+
+resourcePack.editor.toolRail.workbenchTool.topSlotBitProp=Felső/alsó	#
+resourcePack.editor.toolRail.workbenchTool.pillarAxisProp=Forgatás	#
+resourcePack.editor.toolRail.workbenchTool.heightProp=Rétegek	#
+resourcePack.editor.toolRail.workbenchTool.candlesProp=Gyertyák száma	#
+
+resourcePack.editor.toolRail.workbenchTool.turtleEggCountProp=Teknőstojások száma	#
+resourcePack.editor.toolRail.workbenchTool.clusterCountProp=Tengeri uborkák száma	#
+resourcePack.editor.toolRail.workbenchTool.hangingProp=Másik blokkról való lógás be- és kikapcsolása	#
+resourcePack.editor.toolRail.workbenchTool.wallPostBitProp=Posztolás be- és kikapcsolása	#
+
+resourcePack.editor.toolRail.workbenchTool.upsideDownBitProp=Felső/alsó	#
+resourcePack.editor.toolRail.workbenchTool.openBitProp=Megnyitás/bezárás	#
+resourcePack.editor.toolRail.workbenchTool.litProp=Megvilágított/nem megvilágított	#
+resourcePack.editor.toolRail.workbenchTool.dripstoneThicknessProp=Cseppkő vastagsága	#
+
+resourcePack.editor.toolRail.workbenchTool.directionProp=Szembenézés iránya	#
+resourcePack.editor.toolRail.workbenchTool.weirdoDirectionProp=Forgatás	#
+resourcePack.editor.toolRail.workbenchTool.facingDirectionProp=Szembenézés iránya	#
+resourcePack.editor.toolRail.workbenchTool.cardinalDirectionProp=Szembenézés iránya	#
+
 
 resourcePack.editor.transaction.keyBinding.redo=Újra	#
 resourcePack.editor.transaction.keyBinding.undo=Visszavonás	#
@@ -704,11 +745,15 @@ resourcePack.editor.viewport.keyBinding.moveLeft=Mozgás balra	#
 resourcePack.editor.viewport.keyBinding.moveRight=Mozgás jobbra	#
 resourcePack.editor.viewport.keyBinding.moveUp=Feljebb	#
 
+resourcePack.editor.viewport.keyBinding.incrementFlySpeed=Megnöveli a repülés sebességét	#
+resourcePack.editor.viewport.keyBinding.decrementFlySpeed=Csökkenti a repülés sebességét	#
 
 resourcePack.editor.viewSettings.compass.tip=Megjeleníti az iránytűt	#
 resourcePack.editor.viewSettings.compass.title=Iránytű megjelenítése	#
 resourcePack.editor.viewSettings.chunk.tip=Térképdarabhatárok körvonalának megjelenítése a térképen	#
 resourcePack.editor.viewSettings.chunk.title=Térképdarabhatárok megjelenítése	#
+resourcePack.editor.viewSettings.nightVision.tip=Mutasd meg a világot úgy, mintha éjjellátásod lenne	#
+resourcePack.editor.viewSettings.nightVision.title=Éjjellátás	#
 resourcePack.editor.viewSettings.invisible.tip=Láthatatlan blokkok megjelenítése (pl. üresség, akadályok stb.)	#
 resourcePack.editor.viewSettings.invisible.title=Láthatatlan blokkok megjelenítése	#
 resourcePack.editor.viewSettings.flySpeed.tip=A repülési sebesség növelésével gyorsabban átszelheted a térképet	#
@@ -717,3 +762,7 @@ resourcePack.editor.viewSettings.menu=Beállítások megtekintése	#
 resourcePack.editor.viewSettings.title=Beállítások megtekintése	#
 
 resourcePack.editor.hotbar.defaultDisplayName=Alapértelmezett	#
+
+resourcePack.editor.reloadScripts.response.tooMany=Túl sok játékos csatlakozott a kiszolgálóhoz. A szkriptújratöltés csak olyan hosztokon támogatott, amelyekhez egy játékos csatlakozik.	#
+resourcePack.editor.reloadScripts.response.genericError=Hiba történt a szkriptek újratöltése során.	#
+resourcePack.editor.reloadScripts.response.noAdminRights=Nem rendelkezel engedéllyel a szkriptek újratöltéséhez.	#

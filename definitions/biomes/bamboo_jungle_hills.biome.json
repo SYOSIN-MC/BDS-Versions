@@ -29,7 +29,8 @@
           "hills",
           "jungle",
           "monster",
-          "overworld"
+          "overworld",
+          "spawns_warm_variant_farm_animals"
         ]
       }
     }

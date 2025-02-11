@@ -125,9 +125,9 @@ resourcePack.editor.ClipboardPreviewControl.origin.title=Origen	#
 resourcePack.editor.ClipboardPreviewControl.origin.tooltip=El punto de origen del elemento del portapapeles. Esto se utiliza como anclaje de colocación y como el punto alrededor del cual se rota y refleja el portapapeles	#
 resourcePack.editor.ClipboardPreviewControl.placement.title=Opciones	#
 resourcePack.editor.ClipboardPreviewControl.rootPane.title=Información del portapapeles	#
-resourcePack.editor.ClipboardPreviewControl.rotation.180=180º	#
-resourcePack.editor.ClipboardPreviewControl.rotation.270=270º	#
-resourcePack.editor.ClipboardPreviewControl.rotation.90=90°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.180=180Â°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.270=270Â°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.90=90Â°	#
 resourcePack.editor.ClipboardPreviewControl.rotation.none=Ninguno	#
 resourcePack.editor.ClipboardPreviewControl.rotation.title=Rotación	#
 resourcePack.editor.ClipboardPreviewControl.rotation.tooltip=La cantidad de rotación en el eje Y en el punto de origen	#
@@ -184,6 +184,7 @@ resourcePack.editor.datatransferaccessors.lighting_group=Iluminación global	#
 resourcePack.editor.datatransferaccessors.pbr_fallbacks=Reserva PBR	#
 resourcePack.editor.datatransferaccessors.point_lights=Luces de puntos	#
 resourcePack.editor.datatransferaccessors.water=Agua	#
+resourcePack.editor.datatransferaccessors.shadows=Sombras	#
 
 
 resourcePack.editor.deferredLightingSettings.menu.title=Ajustes de iluminación diferida	#
@@ -217,7 +218,8 @@ resourcePack.editor.exportProject.advancedSettings.immediateRespawn=Regeneració
 resourcePack.editor.exportProject.advancedSettings.respawnRadius=Radio de regeneración	#
 resourcePack.editor.exportProject.advancedSettings.simulationDistance=Distancia de simulación	#
 resourcePack.editor.exportProject.advancedSettings.bedsWork=Las camas funcionan	#
-resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers=Jugadores necesarios durmiendo (%1 %)	#
+resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers=Jugadores necesarios durmiendo (%1$s)	#
+resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers.onePlayerMessage=Solo 1 jugador	#
 resourcePack.editor.exportProject.multiplayerSettings=Configuración de multijugador	#
 resourcePack.editor.exportProject.multiplayerSettings.multiplayerGame=Partida multijugador	#
 resourcePack.editor.exportProject.multiplayerSettings.playerAccess=Acceso de jugador	#
@@ -398,10 +400,10 @@ resourcePack.editor.paste.pane.title=Pegar	#
 resourcePack.editor.paste.pane.transform.mirrorX=Invertir X	#
 resourcePack.editor.paste.pane.transform.mirrorZ=Invertir Z	#
 resourcePack.editor.paste.pane.transform.origin.title=Desplazamiento	#
-resourcePack.editor.paste.pane.transform.rotation.180=180°	#
-resourcePack.editor.paste.pane.transform.rotation.270=270°	#
-resourcePack.editor.paste.pane.transform.rotation.90=90°	#
-resourcePack.editor.paste.pane.transform.rotation.none=0°	#
+resourcePack.editor.paste.pane.transform.rotation.180=180Â°	#
+resourcePack.editor.paste.pane.transform.rotation.270=270Â°	#
+resourcePack.editor.paste.pane.transform.rotation.90=90Â°	#
+resourcePack.editor.paste.pane.transform.rotation.none=0Â°	#
 resourcePack.editor.paste.pane.transform.rotation.title=Girar	#
 resourcePack.editor.paste.pane.transform.title=Transformar	#
 resourcePack.editor.paste.toolRail.description=Haz clic para seleccionar un bloque y pegar un elemento del portapapeles con precisión	#
@@ -580,10 +582,15 @@ resourcePack.editor.server.name=Recursos del editor	#
 
 
 resourcePack.editor.toolRail.Terrain.title=Terreno	#
+resourcePack.editor.toolRail.Terrain.keybinding.toggleTool=Activar o desactivar herramienta de terreno	#
+resourcePack.editor.toolRail.Terrain.keyBinding.switch=Cambiar modo de terreno	#
 resourcePack.editor.toolRail.Terrain.Mode.title=Modo de terreno	#
 resourcePack.editor.toolRail.Terrain.Smooth.mode.title=Modo suave	#
 resourcePack.editor.toolRail.Terrain.Smooth.tooltip=Suaviza el terreno basado en la fuerza de suavizado	#
 resourcePack.editor.toolRail.Terrain.SmoothStrength=Fuerza suave	#
+resourcePack.editor.toolRail.Terrain.Roughen.mode.title=Modo de relieve	#
+resourcePack.editor.toolRail.Terrain.Roughen.tooltip=Da relieve el terreno en función de la fuerza de relieve	#
+resourcePack.editor.toolRail.Terrain.RoughenStrength=Fuerza de relieve	#
 resourcePack.editor.toolRail.Terrain.description=La herramienta de terreno suaviza o desnivela el terreno	#
 
 
@@ -692,6 +699,40 @@ resourcePack.editor.toolRail.summonTool.tool.summonSubPane=Generar entidad	#
 resourcePack.editor.toolRail.summonTool.tool.tip=Haz clic para invocar entidades	#
 resourcePack.editor.toolRail.summonTool.tool.title=Herramienta de invocación	#
 
+resourcePack.editor.toolRail.workbenchSettings.title=Mesa de trabajo	#
+resourcePack.editor.toolRail.workbenchTool.title=Mesa de trabajo	#
+resourcePack.editor.toolRail.workbenchTool.description=Cambiar rápidamente los estados de los bloques	#
+resourcePack.editor.toolRail.workbenchTool.howToUse=Haz clic con el botón izquierdo en los bloques resaltados para cambiar su estado (abrir/cerrar, rotar, invertir, etc.). ¡También puedes usar los modificadores de teclas Mayús y Control! Ten en cuenta que esto solo funciona en bloques con propiedades modificables (puertas, vallas, etc.).	#
+resourcePack.editor.toolRail.workbenchTool.tooltip=Cambiar los estados de los bloques	#
+resourcePack.editor.toolRail.workbenchTool.block=Bloque	#
+resourcePack.editor.toolRail.workbenchTool.leftClick=Clic izquierdo	#
+resourcePack.editor.toolRail.workbenchTool.shiftLeftClick=Mayús + Clic izquierdo	#
+resourcePack.editor.toolRail.workbenchTool.controlLeftClick=CTRL + Clic izquierdo	#
+resourcePack.editor.toolRail.workbenchTool.shiftControlLeftClick=Mayús + CTRL + Clic izquierdo	#
+resourcePack.editor.toolRail.workbenchTool.stripWood=Descortezar/recubrir madera	#
+resourcePack.editor.toolRail.workbenchTool.ladderLocation=Ubicación de la escalera	#
+resourcePack.editor.toolRail.workbenchTool.autoAlign=Alineación automática	#
+
+resourcePack.editor.toolRail.workbenchTool.topSlotBitProp=Arriba/Abajo	#
+resourcePack.editor.toolRail.workbenchTool.pillarAxisProp=Girar	#
+resourcePack.editor.toolRail.workbenchTool.heightProp=Capas	#
+resourcePack.editor.toolRail.workbenchTool.candlesProp=Número de velas	#
+
+resourcePack.editor.toolRail.workbenchTool.turtleEggCountProp=Número de huevos de tortuga	#
+resourcePack.editor.toolRail.workbenchTool.clusterCountProp=Número de pepinos de mar	#
+resourcePack.editor.toolRail.workbenchTool.hangingProp=Alternar colgando de otro bloque	#
+resourcePack.editor.toolRail.workbenchTool.wallPostBitProp=Alternar poste	#
+
+resourcePack.editor.toolRail.workbenchTool.upsideDownBitProp=Arriba/Abajo	#
+resourcePack.editor.toolRail.workbenchTool.openBitProp=Abrir/Cerrar	#
+resourcePack.editor.toolRail.workbenchTool.litProp=Encendido/Apagado	#
+resourcePack.editor.toolRail.workbenchTool.dripstoneThicknessProp=Espesor del espeleotema	#
+
+resourcePack.editor.toolRail.workbenchTool.directionProp=Dirección	#
+resourcePack.editor.toolRail.workbenchTool.weirdoDirectionProp=Girar	#
+resourcePack.editor.toolRail.workbenchTool.facingDirectionProp=Dirección	#
+resourcePack.editor.toolRail.workbenchTool.cardinalDirectionProp=Dirección	#
+
 
 resourcePack.editor.transaction.keyBinding.redo=Rehacer	#
 resourcePack.editor.transaction.keyBinding.undo=Deshacer	#
@@ -704,11 +745,15 @@ resourcePack.editor.viewport.keyBinding.moveLeft=Mover a la izquierda	#
 resourcePack.editor.viewport.keyBinding.moveRight=Mover a la derecha	#
 resourcePack.editor.viewport.keyBinding.moveUp=Mover hacia arriba	#
 
+resourcePack.editor.viewport.keyBinding.incrementFlySpeed=Aumentar la velocidad de vuelo	#
+resourcePack.editor.viewport.keyBinding.decrementFlySpeed=Reducir la velocidad de vuelo	#
 
 resourcePack.editor.viewSettings.compass.tip=Muestra la brújula direccional	#
 resourcePack.editor.viewSettings.compass.title=Mostrar brújula	#
 resourcePack.editor.viewSettings.chunk.tip=Muestra el contorno de los límites de las piezas en el mapa.	#
 resourcePack.editor.viewSettings.chunk.title=Mostrar límites de piezas	#
+resourcePack.editor.viewSettings.nightVision.tip=Mostrar el mundo como si tuvieras visión nocturna	#
+resourcePack.editor.viewSettings.nightVision.title=Visión nocturna	#
 resourcePack.editor.viewSettings.invisible.tip=Muestra los bloques invisibles (vacío, barreras, etc.).	#
 resourcePack.editor.viewSettings.invisible.title=Mostrar bloques invisibles	#
 resourcePack.editor.viewSettings.flySpeed.tip=Aumenta la velocidad de vuelo para desplazarse por el mapa más rápido	#
@@ -717,3 +762,7 @@ resourcePack.editor.viewSettings.menu=Ajustes de vista	#
 resourcePack.editor.viewSettings.title=Ajustes de vista	#
 
 resourcePack.editor.hotbar.defaultDisplayName=Por defecto	#
+
+resourcePack.editor.reloadScripts.response.tooMany=Hay demasiados jugadores conectados al servidor. La recarga de scripts solo se puede realizar con anfitriones que tengan un solo jugador conectado.	#
+resourcePack.editor.reloadScripts.response.genericError=Se ha producido un error al tratar de recargar los scripts.	#
+resourcePack.editor.reloadScripts.response.noAdminRights=No tienes permiso para recargar scripts.	#

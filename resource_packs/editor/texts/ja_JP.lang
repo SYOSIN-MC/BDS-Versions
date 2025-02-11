@@ -44,7 +44,7 @@ resourcePack.editor.BrushPaintControl.fillConstraints.mask.title=マスク リ�
 resourcePack.editor.BrushPaintControl.fillConstraints.maskMode.disabled.tooltip=ブロック フィルターを無効にする	#
 resourcePack.editor.BrushPaintControl.fillConstraints.maskMode.disabled=無効	#
 resourcePack.editor.BrushPaintControl.fillConstraints.maskMode.mask.tooltip=リストに一致するブロックは無視され、影響を受けません	#
-resourcePack.editor.BrushPaintControl.fillConstraints.maskMode.mask=仮面	#
+resourcePack.editor.BrushPaintControl.fillConstraints.maskMode.mask=マスク	#
 resourcePack.editor.BrushPaintControl.fillConstraints.maskMode.replace=置き換える	#
 resourcePack.editor.BrushPaintControl.fillConstraints.maskMode.title=ブラシ ブロック フィルター	#
 resourcePack.editor.BrushPaintControl.fillConstraints.replace.title=リストを置き換える	#
@@ -120,14 +120,14 @@ resourcePack.editor.ClipboardPreviewControl.mirror.axis.x=ミラー (X 軸)	#
 resourcePack.editor.ClipboardPreviewControl.mirror.axis.z.tooltip=原点の Z 軸の辺りを中心にクリップボードのアイテムを対照に映し出す	#
 resourcePack.editor.ClipboardPreviewControl.mirror.axis.z=ミラー (Z 軸)	#
 resourcePack.editor.ClipboardPreviewControl.offset.title=オフセット	#
-resourcePack.editor.ClipboardPreviewControl.offset.tooltip=配置ポイントからクリップボード アイテムのオリジンまでの追加のオフセット	#
-resourcePack.editor.ClipboardPreviewControl.origin.title=オリジン	#
+resourcePack.editor.ClipboardPreviewControl.offset.tooltip=配置ポイントからクリップボード アイテムの原点までの追加のオフセット	#
+resourcePack.editor.ClipboardPreviewControl.origin.title=原点	#
 resourcePack.editor.ClipboardPreviewControl.origin.tooltip=クリップボードアイテム内の原点。配置する際の中心、またはクリップボードを回転およびミラーするポイントとして用いられる	#
 resourcePack.editor.ClipboardPreviewControl.placement.title=オプション	#
 resourcePack.editor.ClipboardPreviewControl.rootPane.title=クリップボード情報	#
-resourcePack.editor.ClipboardPreviewControl.rotation.180=180°	#
-resourcePack.editor.ClipboardPreviewControl.rotation.270=270°	#
-resourcePack.editor.ClipboardPreviewControl.rotation.90=90°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.180=180Â°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.270=270Â°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.90=90Â°	#
 resourcePack.editor.ClipboardPreviewControl.rotation.none=なし	#
 resourcePack.editor.ClipboardPreviewControl.rotation.title=回転	#
 resourcePack.editor.ClipboardPreviewControl.rotation.tooltip=原点で Y 軸を中心として回転する量	#
@@ -144,7 +144,7 @@ resourcePack.editor.copypaste.keyBinding.copy=選択範囲をクリップボー�
 resourcePack.editor.copypaste.keyBinding.cut=選択範囲をクリップボードに切り取る/移動する	#
 resourcePack.editor.copypaste.keyBinding.paste=クリップボードをワールドに貼り付ける	#
 resourcePack.editor.copypaste.menu.copy.title=選択領域をコピー	#
-resourcePack.editor.copypaste.menu.cut.title=選択領域をカット	#
+resourcePack.editor.copypaste.menu.cut.title=選択領域を切り取る	#
 
 
 resourcePack.editor.core.keyBinding.showGameMenu=ゲーム メニューを表示	#
@@ -174,7 +174,7 @@ resourcePack.editor.CursorModeControl.mouseControlMode.keyboardAndMouse=マウ�
 resourcePack.editor.CursorModeControl.mouseControlMode.title=入力方法	#
 resourcePack.editor.CursorModeControl.mouseControlMode.tooltip=ワールド ブロック カーソルの入力方法を選択します	#
 resourcePack.editor.CursorModeControl.projectThroughWater.title=水を通して投影	#
-resourcePack.editor.CursorModeControl.projectThroughWater.tooltip=マウスのレイキャストは水中を通過して投影され、水中の要素を選択できるようになります。	#
+resourcePack.editor.CursorModeControl.projectThroughWater.tooltip=マウスのレイキャストは水中を通過して投影され、水中の要素を選択できるようになる	#
 resourcePack.editor.CursorModeControl.rootPane.title=カーソル設定	#
 
 
@@ -184,6 +184,7 @@ resourcePack.editor.datatransferaccessors.lighting_group=グローバル ライ�
 resourcePack.editor.datatransferaccessors.pbr_fallbacks=PBR フォールバック	#
 resourcePack.editor.datatransferaccessors.point_lights=ポイント ライト	#
 resourcePack.editor.datatransferaccessors.water=水	#
+resourcePack.editor.datatransferaccessors.shadows=シャドウ	#
 
 
 resourcePack.editor.deferredLightingSettings.menu.title=遅延シェーディングの設定	#
@@ -217,7 +218,8 @@ resourcePack.editor.exportProject.advancedSettings.immediateRespawn=即時リス
 resourcePack.editor.exportProject.advancedSettings.respawnRadius=リスポーン範囲	#
 resourcePack.editor.exportProject.advancedSettings.simulationDistance=演算距離	#
 resourcePack.editor.exportProject.advancedSettings.bedsWork=ベッド ワーク	#
-resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers=必要な睡眠中のプレイヤー (%1%)	#
+resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers=必要なスリープ状態のプレイヤー (%1$s)	#
+resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers.onePlayerMessage=プレイヤー1人のみ	#
 resourcePack.editor.exportProject.multiplayerSettings=マルチプレイ設定	#
 resourcePack.editor.exportProject.multiplayerSettings.multiplayerGame=マルチプレイ ゲーム	#
 resourcePack.editor.exportProject.multiplayerSettings.playerAccess=プレイヤー アクセス	#
@@ -398,10 +400,10 @@ resourcePack.editor.paste.pane.title=貼り付け	#
 resourcePack.editor.paste.pane.transform.mirrorX=ミラー X	#
 resourcePack.editor.paste.pane.transform.mirrorZ=ミラー Z	#
 resourcePack.editor.paste.pane.transform.origin.title=オフセット	#
-resourcePack.editor.paste.pane.transform.rotation.180=180°	#
-resourcePack.editor.paste.pane.transform.rotation.270=270°	#
-resourcePack.editor.paste.pane.transform.rotation.90=90°	#
-resourcePack.editor.paste.pane.transform.rotation.none=0°	#
+resourcePack.editor.paste.pane.transform.rotation.180=180Â°	#
+resourcePack.editor.paste.pane.transform.rotation.270=270Â°	#
+resourcePack.editor.paste.pane.transform.rotation.90=90Â°	#
+resourcePack.editor.paste.pane.transform.rotation.none=0Â°	#
 resourcePack.editor.paste.pane.transform.rotation.title=向きを変える	#
 resourcePack.editor.paste.pane.transform.title=変形	#
 resourcePack.editor.paste.toolRail.description=マウスの左クリックでブロックを選択してから、クリップボード アイテムを正確に貼り付けます	#
@@ -411,7 +413,7 @@ resourcePack.editor.paste.toolRail.title=プレビューを貼り付け	#
 resourcePack.editor.pastepreview.inputContext.title=プレビューを貼り付け	#
 resourcePack.editor.pastepreview.keyBinding.clearPreview=プレビューをクリア	#
 resourcePack.editor.pastepreview.keyBinding.copy=選択領域をコピー	#
-resourcePack.editor.pastepreview.keyBinding.cut=選択領域をカット	#
+resourcePack.editor.pastepreview.keyBinding.cut=選択領域を切り取る	#
 resourcePack.editor.pastepreview.keyBinding.moveBack=プレビューを後方に移動	#
 resourcePack.editor.pastepreview.keyBinding.moveDown=プレビューを下に移動	#
 resourcePack.editor.pastepreview.keyBinding.moveForward=プレビューを前方に移動	#
@@ -570,7 +572,7 @@ resourcePack.editor.selectionTool.settingsPane.title=選択	#
 resourcePack.editor.selectionTool.toolRail.description=マウスの左クリックで選択を作成。CTRL+D で選択を解除	#
 resourcePack.editor.selectionTool.toolRail.title=選択	#
 resourcePack.editor.selectionTool.transformPane.origin.tooltip=選択の起点をワールド座標系で表示する	#
-resourcePack.editor.selectionTool.transformPane.origin=起点	#
+resourcePack.editor.selectionTool.transformPane.origin=原点	#
 resourcePack.editor.selectionTool.transformPane.size=サイズ	#
 resourcePack.editor.selectionTool.transformPane.title=変形	#
 
@@ -580,10 +582,15 @@ resourcePack.editor.server.name=エディタ リソース	#
 
 
 resourcePack.editor.toolRail.Terrain.title=地形	#
+resourcePack.editor.toolRail.Terrain.keybinding.toggleTool=地形ツールの切り替え	#
+resourcePack.editor.toolRail.Terrain.keyBinding.switch=地形モードの切り替え	#
 resourcePack.editor.toolRail.Terrain.Mode.title=地形モード	#
 resourcePack.editor.toolRail.Terrain.Smooth.mode.title=スムーズ モード	#
 resourcePack.editor.toolRail.Terrain.Smooth.tooltip=スムージング強度に基づいて地形をスムーズにする	#
 resourcePack.editor.toolRail.Terrain.SmoothStrength=スムーズ強度	#
+resourcePack.editor.toolRail.Terrain.Roughen.mode.title=凸凹モード	#
+resourcePack.editor.toolRail.Terrain.Roughen.tooltip=粗面化強度に基づいて地形を粗くします	#
+resourcePack.editor.toolRail.Terrain.RoughenStrength=粗面化強度	#
 resourcePack.editor.toolRail.Terrain.description=地形を滑らかにしたり粗くしたりする地形ツール	#
 
 
@@ -657,7 +664,7 @@ resourcePack.editor.toolRail.line.pane.selectionMode.adjacent=隣接面	#
 resourcePack.editor.toolRail.line.pane.selectionMode.fixedDistance=固定距離	#
 resourcePack.editor.toolRail.line.pane.selectionMode.freeForm=フリー	#
 resourcePack.editor.toolRail.line.pane.selectionMode=選択	#
-resourcePack.editor.toolRail.line.pane.surfaceContour=サーフェスの等高線	#
+resourcePack.editor.toolRail.line.pane.surfaceContour=地表の等高線	#
 resourcePack.editor.toolRail.line.pane.width.title=幅	#
 resourcePack.editor.toolRail.line.title=線	#
 resourcePack.editor.toolRail.line.tooltip=線ツールによるブロック行の作成	#
@@ -692,6 +699,40 @@ resourcePack.editor.toolRail.summonTool.tool.summonSubPane=エンティティの
 resourcePack.editor.toolRail.summonTool.tool.tip=クリックしてエンティティを召喚する	#
 resourcePack.editor.toolRail.summonTool.tool.title=召喚ツール	#
 
+resourcePack.editor.toolRail.workbenchSettings.title=作業台	#
+resourcePack.editor.toolRail.workbenchTool.title=作業台	#
+resourcePack.editor.toolRail.workbenchTool.description=ブロックの状態をすばやく変更	#
+resourcePack.editor.toolRail.workbenchTool.howToUse=強調表示されたブロックを左クリックすると、状態 (開く/閉じる、回転、反転など) を変更できます。Shift キーや Control キーなどの修飾キーも使ってみてください。この機能は、変更可能なプロパティを持つブロック (ドア、フェンスなど) でのみ機能します。	#
+resourcePack.editor.toolRail.workbenchTool.tooltip=ブロックの状態を変更	#
+resourcePack.editor.toolRail.workbenchTool.block=ブロック	#
+resourcePack.editor.toolRail.workbenchTool.leftClick=左クリック	#
+resourcePack.editor.toolRail.workbenchTool.shiftLeftClick=Shift + 左クリック	#
+resourcePack.editor.toolRail.workbenchTool.controlLeftClick=CTRL + 左クリック	#
+resourcePack.editor.toolRail.workbenchTool.shiftControlLeftClick=Shift + CTRL + 左クリック	#
+resourcePack.editor.toolRail.workbenchTool.stripWood=木材のストリップ/元に戻す	#
+resourcePack.editor.toolRail.workbenchTool.ladderLocation=はしごの位置	#
+resourcePack.editor.toolRail.workbenchTool.autoAlign=自動整列	#
+
+resourcePack.editor.toolRail.workbenchTool.topSlotBitProp=トップ/ボトム	#
+resourcePack.editor.toolRail.workbenchTool.pillarAxisProp=向きを変える	#
+resourcePack.editor.toolRail.workbenchTool.heightProp=レイヤー	#
+resourcePack.editor.toolRail.workbenchTool.candlesProp=ろうそくの数	#
+
+resourcePack.editor.toolRail.workbenchTool.turtleEggCountProp=カメの卵の数	#
+resourcePack.editor.toolRail.workbenchTool.clusterCountProp=シーピクルスの数	#
+resourcePack.editor.toolRail.workbenchTool.hangingProp=別のブロックからの吊り下げの切り替え	#
+resourcePack.editor.toolRail.workbenchTool.wallPostBitProp=ポストの切り替え	#
+
+resourcePack.editor.toolRail.workbenchTool.upsideDownBitProp=トップ/ボトム	#
+resourcePack.editor.toolRail.workbenchTool.openBitProp=開く/閉じる	#
+resourcePack.editor.toolRail.workbenchTool.litProp=点灯/消灯	#
+resourcePack.editor.toolRail.workbenchTool.dripstoneThicknessProp=鍾乳石の厚さ	#
+
+resourcePack.editor.toolRail.workbenchTool.directionProp=向いている方向	#
+resourcePack.editor.toolRail.workbenchTool.weirdoDirectionProp=向きを変える	#
+resourcePack.editor.toolRail.workbenchTool.facingDirectionProp=向いている方向	#
+resourcePack.editor.toolRail.workbenchTool.cardinalDirectionProp=向いている方向	#
+
 
 resourcePack.editor.transaction.keyBinding.redo=やり直す	#
 resourcePack.editor.transaction.keyBinding.undo=取り消す	#
@@ -704,11 +745,15 @@ resourcePack.editor.viewport.keyBinding.moveLeft=左に移動	#
 resourcePack.editor.viewport.keyBinding.moveRight=右に移動	#
 resourcePack.editor.viewport.keyBinding.moveUp=上に移動	#
 
+resourcePack.editor.viewport.keyBinding.incrementFlySpeed=飛行速度を増加	#
+resourcePack.editor.viewport.keyBinding.decrementFlySpeed=飛行速度を減少	#
 
 resourcePack.editor.viewSettings.compass.tip=方向コンパスを表示する	#
 resourcePack.editor.viewSettings.compass.title=コンパスを表示	#
 resourcePack.editor.viewSettings.chunk.tip=マップ内のチャンク境界のアウトラインを表示する	#
 resourcePack.editor.viewSettings.chunk.title=チャンク境界の表示	#
+resourcePack.editor.viewSettings.nightVision.tip=暗視があるかのようにワールドを見せる	#
+resourcePack.editor.viewSettings.nightVision.title=暗視	#
 resourcePack.editor.viewSettings.invisible.tip=非表示のブロックを表示する (例: 虚無、バリアなど)	#
 resourcePack.editor.viewSettings.invisible.title=非表示のブロックを表示	#
 resourcePack.editor.viewSettings.flySpeed.tip=マップを素早く操作するため飛行速度を上げる	#
@@ -717,3 +762,7 @@ resourcePack.editor.viewSettings.menu=ビュー設定	#
 resourcePack.editor.viewSettings.title=ビュー設定	#
 
 resourcePack.editor.hotbar.defaultDisplayName=デフォルト	#
+
+resourcePack.editor.reloadScripts.response.tooMany=サーバーに接続しているプレイヤーが多すぎます。スクリプトの再読み込みは、 1 人のプレイヤーが接続されているホストでのみサポートされます。	#
+resourcePack.editor.reloadScripts.response.genericError=スクリプトの再読み込み中にエラーが発生しました。	#
+resourcePack.editor.reloadScripts.response.noAdminRights=スクリプトを再読み込みする権限がありません。	#

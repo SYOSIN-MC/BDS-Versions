@@ -125,9 +125,9 @@ resourcePack.editor.ClipboardPreviewControl.origin.title=Oprindelse	#
 resourcePack.editor.ClipboardPreviewControl.origin.tooltip=Startpunktet i udklipsholderelementet. Dette bruges både som placeringsanker og det punkt, som udklipsholderen roteres og spejles omkring	#
 resourcePack.editor.ClipboardPreviewControl.placement.title=Indstillinger	#
 resourcePack.editor.ClipboardPreviewControl.rootPane.title=Information om udklipsholder	#
-resourcePack.editor.ClipboardPreviewControl.rotation.180=180°	#
-resourcePack.editor.ClipboardPreviewControl.rotation.270=270°	#
-resourcePack.editor.ClipboardPreviewControl.rotation.90=90°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.180=180Â°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.270=270Â°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.90=90Â°	#
 resourcePack.editor.ClipboardPreviewControl.rotation.none=Ingen	#
 resourcePack.editor.ClipboardPreviewControl.rotation.title=Rotation	#
 resourcePack.editor.ClipboardPreviewControl.rotation.tooltip=Mængden af rotation omkring Y-aksen ved startpunktet	#
@@ -184,6 +184,7 @@ resourcePack.editor.datatransferaccessors.lighting_group=Global belysning	#
 resourcePack.editor.datatransferaccessors.pbr_fallbacks=PBR-tilbagefald	#
 resourcePack.editor.datatransferaccessors.point_lights=Punktlys	#
 resourcePack.editor.datatransferaccessors.water=Vand	#
+resourcePack.editor.datatransferaccessors.shadows=Skygger	#
 
 
 resourcePack.editor.deferredLightingSettings.menu.title=Udskudte belysningsindstillinger	#
@@ -217,7 +218,8 @@ resourcePack.editor.exportProject.advancedSettings.immediateRespawn=Øjeblikkeli
 resourcePack.editor.exportProject.advancedSettings.respawnRadius=Respawn radius	#
 resourcePack.editor.exportProject.advancedSettings.simulationDistance=Simuleringsafstand	#
 resourcePack.editor.exportProject.advancedSettings.bedsWork=Sengearbejde	#
-resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers=Påkrævede sovende spillere (%1%)	#
+resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers=Påkrævede sovende spillere (%1$s)	#
+resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers.onePlayerMessage=Kun 1 spiller	#
 resourcePack.editor.exportProject.multiplayerSettings=Multiplayerindstillinger	#
 resourcePack.editor.exportProject.multiplayerSettings.multiplayerGame=Multiplayerspil	#
 resourcePack.editor.exportProject.multiplayerSettings.playerAccess=Spilleradgang	#
@@ -398,10 +400,10 @@ resourcePack.editor.paste.pane.title=Indsæt	#
 resourcePack.editor.paste.pane.transform.mirrorX=Spejl X	#
 resourcePack.editor.paste.pane.transform.mirrorZ=Spejl Z	#
 resourcePack.editor.paste.pane.transform.origin.title=Offset	#
-resourcePack.editor.paste.pane.transform.rotation.180=180°	#
-resourcePack.editor.paste.pane.transform.rotation.270=270°	#
-resourcePack.editor.paste.pane.transform.rotation.90=90°	#
-resourcePack.editor.paste.pane.transform.rotation.none=0°	#
+resourcePack.editor.paste.pane.transform.rotation.180=180Â°	#
+resourcePack.editor.paste.pane.transform.rotation.270=270Â°	#
+resourcePack.editor.paste.pane.transform.rotation.90=90Â°	#
+resourcePack.editor.paste.pane.transform.rotation.none=0Â°	#
 resourcePack.editor.paste.pane.transform.rotation.title=Rotér	#
 resourcePack.editor.paste.pane.transform.title=Transformér	#
 resourcePack.editor.paste.toolRail.description=Venstre museklik for at vælge en blok og derefter præcist indsætte et udklipsholderelement	#
@@ -580,10 +582,15 @@ resourcePack.editor.server.name=Ressourcer til redigering	#
 
 
 resourcePack.editor.toolRail.Terrain.title=Terræn	#
+resourcePack.editor.toolRail.Terrain.keybinding.toggleTool=Aktivér/deaktivér terrænværktøj	#
+resourcePack.editor.toolRail.Terrain.keyBinding.switch=Skift terræntilstand	#
 resourcePack.editor.toolRail.Terrain.Mode.title=Terræntilstand	#
 resourcePack.editor.toolRail.Terrain.Smooth.mode.title=Glat tilstand	#
 resourcePack.editor.toolRail.Terrain.Smooth.tooltip=Udglat terræn baseret på glathedsstyrke	#
 resourcePack.editor.toolRail.Terrain.SmoothStrength=Glathedsstyrke	#
+resourcePack.editor.toolRail.Terrain.Roughen.mode.title=Ujævn tilstand	#
+resourcePack.editor.toolRail.Terrain.Roughen.tooltip=Ujævnt terræn baseret på ujævningsstyrke	#
+resourcePack.editor.toolRail.Terrain.RoughenStrength=Ujævningsstyrke	#
 resourcePack.editor.toolRail.Terrain.description=Terrænværktøj udglatter terræn eller gør det ujævnt	#
 
 
@@ -692,6 +699,40 @@ resourcePack.editor.toolRail.summonTool.tool.summonSubPane=Entitetsspawn	#
 resourcePack.editor.toolRail.summonTool.tool.tip=Klik for at påkalde entiteter	#
 resourcePack.editor.toolRail.summonTool.tool.title=Påkaldelsesværktøj	#
 
+resourcePack.editor.toolRail.workbenchSettings.title=Arbejdsbord	#
+resourcePack.editor.toolRail.workbenchTool.title=Arbejdsbord	#
+resourcePack.editor.toolRail.workbenchTool.description=Skift hurtigt bloktilstande	#
+resourcePack.editor.toolRail.workbenchTool.howToUse=Venstreklik på fremhævede blokke for at ændre deres tilstand (åbn/luk, rotér, invertér osv.). Prøv også at bruge shift- og control-tastmodifikatorer! Bemærk, at denne funktion kun virker på blokke med modificerbare egenskaber (f.eks. døre, hegn osv.).	#
+resourcePack.editor.toolRail.workbenchTool.tooltip=Skift bloktilstande	#
+resourcePack.editor.toolRail.workbenchTool.block=Blok	#
+resourcePack.editor.toolRail.workbenchTool.leftClick=Venstreklik	#
+resourcePack.editor.toolRail.workbenchTool.shiftLeftClick=Shift + venstreklik	#
+resourcePack.editor.toolRail.workbenchTool.controlLeftClick=CTRL + venstreklik	#
+resourcePack.editor.toolRail.workbenchTool.shiftControlLeftClick=Shift + CTRL + venstreklik	#
+resourcePack.editor.toolRail.workbenchTool.stripWood=Afbark/ikke-afbark træ	#
+resourcePack.editor.toolRail.workbenchTool.ladderLocation=Placering af stige	#
+resourcePack.editor.toolRail.workbenchTool.autoAlign=Justér automatisk	#
+
+resourcePack.editor.toolRail.workbenchTool.topSlotBitProp=Top/bund	#
+resourcePack.editor.toolRail.workbenchTool.pillarAxisProp=Rotér	#
+resourcePack.editor.toolRail.workbenchTool.heightProp=Lag	#
+resourcePack.editor.toolRail.workbenchTool.candlesProp=Antal stearinlys	#
+
+resourcePack.editor.toolRail.workbenchTool.turtleEggCountProp=Antal skildpaddeæg	#
+resourcePack.editor.toolRail.workbenchTool.clusterCountProp=Antal søpølser	#
+resourcePack.editor.toolRail.workbenchTool.hangingProp=Slå hængning fra en anden blok til/fra	#
+resourcePack.editor.toolRail.workbenchTool.wallPostBitProp=Slå sokkel til og fra	#
+
+resourcePack.editor.toolRail.workbenchTool.upsideDownBitProp=Top/bund	#
+resourcePack.editor.toolRail.workbenchTool.openBitProp=Åbn/luk	#
+resourcePack.editor.toolRail.workbenchTool.litProp=Tændt/slukket	#
+resourcePack.editor.toolRail.workbenchTool.dripstoneThicknessProp=Tykkelse på drypsten	#
+
+resourcePack.editor.toolRail.workbenchTool.directionProp=Vender i retning	#
+resourcePack.editor.toolRail.workbenchTool.weirdoDirectionProp=Rotér	#
+resourcePack.editor.toolRail.workbenchTool.facingDirectionProp=Vender i retning	#
+resourcePack.editor.toolRail.workbenchTool.cardinalDirectionProp=Vender i retning	#
+
 
 resourcePack.editor.transaction.keyBinding.redo=Gentag	#
 resourcePack.editor.transaction.keyBinding.undo=Fortryd	#
@@ -704,11 +745,15 @@ resourcePack.editor.viewport.keyBinding.moveLeft=Gå til venstre	#
 resourcePack.editor.viewport.keyBinding.moveRight=Gå til højre	#
 resourcePack.editor.viewport.keyBinding.moveUp=Flyt op	#
 
+resourcePack.editor.viewport.keyBinding.incrementFlySpeed=Forøg flyvehastighed	#
+resourcePack.editor.viewport.keyBinding.decrementFlySpeed=Reducér flyvehastighed	#
 
 resourcePack.editor.viewSettings.compass.tip=Vis retningskompasset	#
 resourcePack.editor.viewSettings.compass.title=Vis kompas	#
 resourcePack.editor.viewSettings.chunk.tip=Vis konturen af segmentgrænser på kortet	#
 resourcePack.editor.viewSettings.chunk.title=Vis segmentgrænser	#
+resourcePack.editor.viewSettings.nightVision.tip=Vis verden, som om du har nattesyn	#
+resourcePack.editor.viewSettings.nightVision.title=Nattesyn	#
 resourcePack.editor.viewSettings.invisible.tip=Vis usynlige blokke (f.eks. tomrum, barrierer etc.)	#
 resourcePack.editor.viewSettings.invisible.title=Vis usynlige blokke	#
 resourcePack.editor.viewSettings.flySpeed.tip=Forøg flyvehastigheden for at manøvrere kortet hurtigere	#
@@ -717,3 +762,7 @@ resourcePack.editor.viewSettings.menu=Se indstillinger	#
 resourcePack.editor.viewSettings.title=Se indstillinger	#
 
 resourcePack.editor.hotbar.defaultDisplayName=Standard	#
+
+resourcePack.editor.reloadScripts.response.tooMany=Der er for mange spillere forbundet til serveren. Genindlæsning af script understøttes kun på værter med en enkelt spiller tilsluttet.	#
+resourcePack.editor.reloadScripts.response.genericError=Der opstod en fejl under forsøg på at genindlæse scripts.	#
+resourcePack.editor.reloadScripts.response.noAdminRights=Du har ikke tilladelse til at genindlæse scripts.	#

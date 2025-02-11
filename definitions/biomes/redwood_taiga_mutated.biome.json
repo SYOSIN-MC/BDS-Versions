@@ -54,7 +54,8 @@
           "mutated",
           "overworld",
           "taiga",
-          "has_structure_trail_ruins"
+          "has_structure_trail_ruins",
+          "spawns_cold_variant_farm_animals"
         ]
       }
     }

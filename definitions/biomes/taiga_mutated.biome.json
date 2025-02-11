@@ -31,7 +31,8 @@
           "taiga",
           // "overworld" tag cannot be present in order to match legacy behavior, but is
           // required for correct world generation -- hence: overworld_generation
-          "overworld_generation"
+          "overworld_generation",
+          "spawns_cold_variant_farm_animals"
         ]
       }
     }

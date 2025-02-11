@@ -29,7 +29,8 @@
           "extreme_hills",
           "monster",
           "mountain",
-          "overworld"
+          "overworld",
+          "spawns_cold_variant_farm_animals"
         ]
       }
     }

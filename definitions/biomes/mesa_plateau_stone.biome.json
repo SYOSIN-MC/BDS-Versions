@@ -5,6 +5,7 @@
       "identifier": "mesa_plateau_stone"
     },
     "components": {
+      "minecraft:creature_spawn_probability": { "probability": 0.04 },
       "minecraft:climate": {
         "downfall": 0.0,
         "snow_accumulation": [ 0.0, 0.125 ],
@@ -40,7 +41,9 @@
           "overworld",
           "plateau",
           "rare",
-          "stone"
+          "stone",
+          "animal",
+          "spawns_warm_variant_farm_animals"
         ]
       }
     }
