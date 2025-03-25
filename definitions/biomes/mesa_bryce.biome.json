@@ -34,6 +34,7 @@
           "monster",
           "mutated",
           "overworld",
+          "spawns_mesa_mobs",
           "spawns_warm_variant_farm_animals"
         ]
       }

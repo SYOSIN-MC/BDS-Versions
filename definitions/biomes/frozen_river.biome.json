@@ -26,7 +26,12 @@
         "tags": [
           "frozen",
           "overworld",
-          "river"
+          "river",
+	        "spawns_cold_variant_farm_animals",
+          "spawns_cold_variant_frogs",
+          "spawns_river_mobs",
+          "spawns_snow_foxes",
+          "spawns_white_rabbits"
         ]
       }
     }

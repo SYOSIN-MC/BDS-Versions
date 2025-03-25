@@ -25,6 +25,20 @@ resourcePack.editor.agfx.pane.settings.revert_changes=Wijzigingen ongedaan maken
 resourcePack.editor.agfx.pane.settings.export_to_clipboard=Exporteren naar klembord	#
 
 
+resourcePack.editor.toolRail.blockInspectorSettings.title=Blokcontrole   	####This string is what is shown in the title bar of the Editor pane for inspecting blocks.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.specifics=Blokdetails   	####This string is the heading that contains the block tags and block properties subpane.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.actions.refresh=Blokgegevens vernieuwen   	####This string shown on a button for forcing an update to the block data state.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.actions.clear=Selectie wissen   	####This string shown on a button for clearing what block is currently selected.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.blockTags=Bloktags   	####This string is a header for a panel that shows the block tags on the currently selected block.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.blockProperties=Blokeigenschappen   	####This string is a header for a panel that shows the block properties on the currently selected block.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.blockProperties.name=Naam eigenschap   	####Within the block properties pane, this string goes before the property name.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.blockProperties.value=Waarde eigenschap   	####Within the block properties pane, this string goes before the property value.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorTool.title=Blokcontrole   	####This string is what is shown as the name of the block inspector tool.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorTool.tooltip=Blokgegevens inspecteren   	####This string is what is shown when hovering over the block inspector icon.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorTool.pane.helpText=Klik met de linkermuisknop op een blok om de eigenschappen ervan te bekijken en te bewerken   	####This string is shown in the block inspector tool pane before the user clicks to describe how to use it.{MaxLength=100}
+resourcePack.editor.blockInspector.toolRail.description=Klik met de linkermuisknop op een blok om de eigenschappen ervan te bekijken en te bewerken   	####This string is shown in the tool tip to explain the function of the Block Inspector tool.{MaxLength=100}
+
+
 resourcePack.editor.blockPalette.addSearchItem=Gevonden blok gebruiken	#
 resourcePack.editor.blockPalette.blockPicker=Zoeken	#
 resourcePack.editor.blockPalette.paletteDropdown.title=Palet	#
@@ -125,9 +139,9 @@ resourcePack.editor.ClipboardPreviewControl.origin.title=Oorsprong	#
 resourcePack.editor.ClipboardPreviewControl.origin.tooltip=Het beginpunt binnen het klemborditem.  Dit wordt gebruikt als zowel een plaatsingsanker als het punt waaromheen het klembord wordt gedraaid en gespiegeld	#
 resourcePack.editor.ClipboardPreviewControl.placement.title=Opties	#
 resourcePack.editor.ClipboardPreviewControl.rootPane.title=Klembordinfo	#
-resourcePack.editor.ClipboardPreviewControl.rotation.180=180Â°	#
-resourcePack.editor.ClipboardPreviewControl.rotation.270=270Â°	#
-resourcePack.editor.ClipboardPreviewControl.rotation.90=90Â°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.180=180°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.270=270	#
+resourcePack.editor.ClipboardPreviewControl.rotation.90=90°	#
 resourcePack.editor.ClipboardPreviewControl.rotation.none=Geen	#
 resourcePack.editor.ClipboardPreviewControl.rotation.title=Draai	#
 resourcePack.editor.ClipboardPreviewControl.rotation.tooltip=De hoeveelheid rotatie rond de Y-as op het beginpunt	#
@@ -192,6 +206,12 @@ resourcePack.editor.deferredLightingSettings.menu.title=Instellingen uitgestelde
 
 resourcePack.editor.delete.keyBinding=Inhoud selectie verwijderen	#
 
+
+resourcePack.editor.toolRail.entityInspector.pane.title=Entiteitscontrole   	####This string is what is shown in the title bar of the Editor pane for modifying entities.{MaxLength=30}
+resourcePack.editor.toolRail.entityInspector.tool.title=Entiteitscontrole   	####This string is what is shown at the top of the Editor pane for modifying entities.{MaxLength=30}
+resourcePack.editor.toolRail.entityInspector.tool.tip=Entiteitsgegevens inspecteren   	####This string is what is shown on the tool tip of Editor pane for modifying entities (gives context on what the tool does).{MaxLength=100}
+resourcePack.editor.toolRail.entityInspector.pane.helpText=Klik met de linkermuisknop op een entiteit om de eigenschappen ervan te bekijken en te bewerken   	####This string is shown in the block inspector tool pane before the user clicks to describe how to use it.{MaxLength=100}
+resourcePack.editor.entityInspector.toolRail.description=Klik met de linkermuisknop op een entiteit om de eigenschappen ervan te bekijken en te bewerken   	####This string is shown in the tool tip to explain the function of the Entity Inspector tool.{MaxLength=100}
 
 resourcePack.editor.exportProject.exportType=Type exporteren	#
 resourcePack.editor.exportProject.exportType.playableWorld=Speelbare wereld	#
@@ -277,6 +297,7 @@ resourcePack.editor.toolRail.ExtrudeTool.pane.SelectionMode.QuickExtrudeMode.dec
 resourcePack.editor.toolRail.ExtrudeTool.pane.SelectionMode.QuickExtrudeMode.expand.title=Uitvouwen	#
 resourcePack.editor.toolRail.ExtrudeTool.pane.SelectionMode.QuickExtrudeMode.expand.tooltip=Extrusie uitbreiden	#
 resourcePack.editor.toolRail.ExtrudeTool.pane.SelectionMode.LayerCount.title=Aantal lagen	#
+resourcePack.editor.toolRail.ExtrudeTool.pane.preview_warning=Opmerking: in de previewweergave wordt alleen de eerste laag weergegeven. 	#### {MaxLength="500"}, used to inform the user that the preview visualization for this tool is limited to a single layer.  This string is on screen whenever this tool is active
 resourcePack.editor.toolRail.ExtrudeTool.pane.ExtrusionType.title=Type extrusie	#
 resourcePack.editor.toolRail.ExtrudeTool.pane.ExtrusionType.Extrude=Extruderen	#
 resourcePack.editor.toolRail.ExtrudeTool.pane.ExtrusionType.QuickExtrude=Snel extruderen	#
@@ -400,10 +421,10 @@ resourcePack.editor.paste.pane.title=Plakken	#
 resourcePack.editor.paste.pane.transform.mirrorX=Spiegel X	#
 resourcePack.editor.paste.pane.transform.mirrorZ=Spiegel Z	#
 resourcePack.editor.paste.pane.transform.origin.title=Van het midden af	#
-resourcePack.editor.paste.pane.transform.rotation.180=180Â°	#
-resourcePack.editor.paste.pane.transform.rotation.270=270Â°	#
-resourcePack.editor.paste.pane.transform.rotation.90=90Â°	#
-resourcePack.editor.paste.pane.transform.rotation.none=0Â°	#
+resourcePack.editor.paste.pane.transform.rotation.180=180°	#
+resourcePack.editor.paste.pane.transform.rotation.270=270	#
+resourcePack.editor.paste.pane.transform.rotation.90=90°	#
+resourcePack.editor.paste.pane.transform.rotation.none=0°	#
 resourcePack.editor.paste.pane.transform.rotation.title=Draaien	#
 resourcePack.editor.paste.pane.transform.title=Transformeren	#
 resourcePack.editor.paste.toolRail.description=Klik met de linkermuisknop om een blok te selecteren en vervolgens een klemborditem nauwkeurig te plakken	#
@@ -504,6 +525,30 @@ resourcePack.editor.playtestResult.WorldExportBusy=Wereld exporteren bezet	#
 resourcePack.editor.playtestResult.WorldExportFailed=Wereld exporteren mislukt	#
 
 
+resourcePack.editor.menuBar.file.realmsPublish=Publiceren op Realms   	####This string is intended to express that the option is for opening the pane to publish your editor world to Realms.{MaxLength=100}
+resourcePack.editor.realmsPublish.userNotLoggedIn=Een actief Realms-abonnement is vereist om te publiceren op Realms. Je kunt je abonneren op Realms of verlopen abonnementen verlengen via de standaard Minecraft-client of op de website minecraft.net (nadat je bent ingelogd op je account).    	####This string is intended to express that the user is not logged in currently and the process they need to follow in order to be able to upload their editor world to their Realms subscription.{MaxLength=350}
+resourcePack.editor.realmsPublish.goToMinecraftWebsite=Goto Minecraft.net  	####This string is intended to express that the link will take the user to Minecraft.net.{MaxLength=100}
+resourcePack.editor.realmsPublish.Refresh=Vernieuwen  	####This string is intended to express that the button will refresh the pane to see if the user in now logged in.{MaxLength=100}
+resourcePack.editor.realmsPublish.Realm=Realm  	####This string is intended to express that the below dropdown contains all of the users Realms subscriptions.{MaxLength=100}
+resourcePack.editor.realmsPublish.RealmSlot=Realm-sleuf 	####This string is intended to express that the dropdown contains all of the world slots in for the users selected realms subscription.{MaxLength=100}
+resourcePack.editor.realmsPublish.PublishNotesTitle=Bericht publiceren op Realms   	####This string is intended to express that the below field will contain additional information for the user about the publish to realms feature, including any warnings or issues.{MaxLength=150}
+resourcePack.editor.realmsPublish.DownloadRealm=Downloaden    	####This string is intended to express that the button will download the currently selected World from the realm slot.{MaxLength=100}
+resourcePack.editor.realmsPublish.PublishRealm=Publiceren  	####This string is intended to express that the button will publish the current world to the currently selected realm slot.{MaxLength=100}
+resourcePack.editor.realmsPublish.Confirm=Bevestigen   	####This string is intended to express that the button will confirm  the request to publish the world to realms.{MaxLength=100}
+resourcePack.editor.realmsPublish.Cancel=Annuleren 	####This string is intended to express that the button will cancel the request to publish the world to realms.{MaxLength=100}
+resourcePack.editor.realmsPublish.Back=Terug 	####This string is intended to express that the button will take the user back to the previous pane.{MaxLength=100}
+resourcePack.editor.realmsPublish.PublishFailed=Publiceren op Realms is mislukt. Probeer het later opnieuw.   	####This string is intended to express that publishing the world to Realms failed and to please try again later.{MaxLength=200}
+resourcePack.editor.realmsPublish.PublishSuccess=Publiceren op Realms is gelukt    	####This string is intended to express that publishing the world to Realms succeeded.{MaxLength=200}
+resourcePack.editor.realmsPublish.PublishConfirmationOptOut=Vraag niet opnieuw om deze Realm en sessie  	####This string is intended to express that the checkbox will opt the user out of confirming their publish to realms decisions.{MaxLength=100}
+resourcePack.editor.realmsPublish.PublishingToRealms=Wereld publiceren op Realms...  	####This string is intended to express that the world is currently in the process of being published to Realms.{MaxLength=100}
+resourcePack.editor.realmsPublish.UnableToPublishMissingRealm=Kan niet publiceren op Realms. Geen Realm geselecteerd    	####This string is intended to express that the user is unable to publish their world because a realm to upload to has not been selected.{MaxLength=250}
+resourcePack.editor.realmsPublish.UnableToPublishMissingRealmSlot=Kan niet publiceren op Realms. Geen Realm-vak geselecteerd   	####This string is intended to express that the user is unable to publish their world because a realm slot to upload to has not been selected.{MaxLength=250}
+resourcePack.editor.realmsPublish.PublishConfirmationWarning=Hiermee wordt de huidige wereld uit het geselecteerde vak verwijderd en vervangen door je huidige Editor-wereld (het geselecteerde vak wordt ook het actieve vak voor je Realm). Leden van je Realm hebben toegang tot je nieuw vervangen wereld. Als je je huidige wereld wilt opslaan voordat je deze publiceert, annuleer je dit dialoogvenster om gegevensverlies te voorkomen en selecteer je 'Downloaden' alvorens te 'Publiceren'. Selecteer 'Bevestigen' om door te gaan en je huidige wereld te vervangen.    	####This string is intended to warn the user that if they publish their world to Realms, the world currently in that Realms slot will be deleted and unrecoverable. It also informs the user that members of the Realm will be able to access this world.{MaxLength=1000}
+resourcePack.editor.realmsPublish.DownloadSuccess=Wereld downloaden van Realms is gelukt    	####This string is intended to express that downloading a world from Realms succeeded.{MaxLength=200}
+resourcePack.editor.realmsPublish.DownloadFailed=Wereld downloaden van Realms is mislukt 	####This string is intended to express that downloading a world from Realms failed.{MaxLength=200}
+resourcePack.editor.realmsPublish.DownloadingFromRealms=Wereld downloaden van Realms...    	####This string is intended to express that we're in the middle of downloading a world from Realms and waiting for that operation to complete.{MaxLength=200}
+
+
 resourcePack.editor.toolRail.RepeaterTool.title=Herhalergereedschap	#
 resourcePack.editor.toolRail.RepeaterTool.tooltip=Gereedschap voor het herhalen van een selectievolume	#
 resourcePack.editor.toolRail.RepeaterTool.pane.Spacing=Tussenruimte	#
@@ -512,6 +557,18 @@ resourcePack.editor.toolRail.RepeaterTool.pane.Preview=Voorbeeld	#
 resourcePack.editor.toolRail.RepeaterTool.pane.Clear=Helder	#
 resourcePack.editor.toolRail.RepeaterTool.pane.Apply=Toepassen	#
 resourcePack.editor.toolRail.RepeaterTool.statusMessage.noSelection=Gebruik het selectiegereedschap om een volume te selecteren dat je wilt herhalen	#
+resourcePack.editor.toolRail.RepeaterTool.pane.Mode=Modus		####"Mode" describes a dropdown that contains the two different states the tool can be in. These are "Line" and "Grid" {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.mode.Line=Lijn		####"Line" describes a straight, unbroken visual between two points {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.mode.Grid=Raster		####"Grid" describes a visual consisting of parallel lines at regular intervals, broken up by perpendicular lines at regular intervals, like grid paper. {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.pane.RepeatType=Type herhalen		####"Repeat Type" describes a dropdown that contains the two types "Uniform" and "Separate" and represents how the repetitions along the three axes (plural of "axis") will be determined {MaxLength=40}
+resourcePack.editor.toolRail.RepeaterTool.repeat.Uniform=Gelijkmatig		####"Uniform" describes the repeat state of the Repeater Tool where it applies the same number of repetitions across all three axes (X, Y, and Z). "Uniform" was chosen as a short word that also means "consistent across multiple instances" {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.pane.RepeatAlongX=Herhaal langs X		####"Repeat Along" describes a checkbox and means to apply the number of Uniform Repetitions across a given axis. This one is the X axis. "X", "Y", and "Z" have a mathematical meaning and it may not be appropriate to translate unless the mathematical meaning is also translated. More info can be found at https://en.wikipedia.org/wiki/Coordinate_system {MaxLength=40}
+resourcePack.editor.toolRail.RepeaterTool.pane.RepeatAlongY=Herhaal langs Y		####See "Repeat Along X" but this is for the Y axis. {MaxLength=40}
+resourcePack.editor.toolRail.RepeaterTool.pane.RepeatAlongZ=Herhaal langs Z		####See "Repeat Along X" but this is for the Z axis. {MaxLength=40}
+resourcePack.editor.toolRail.RepeaterTool.repeat.Separate=Apart		####"Separate" describes the repeat state of the Repeater Tool where the number of repetitions along each axis is set using separate number input elements, rather than one single number input {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.pane.XCount=X aantal		####"X Count" describes a number input field and represents the number of repetitions along the X axis. "X", "Y", and "Z" have a mathematical meaning and it may not be appropriate to translate unless the mathematical meaning is also translated. More info can be found at https://en.wikipedia.org/wiki/Coordinate_system {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.pane.YCount=Y aantal		####See "X Count" but this is for the Y axis. {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.pane.ZCount=Z aantal		####See "X Count" but this is for the Z axis. {MaxLength=20}
 
 
 resourcePack.editor.selectionTool.deselect=Deselecteren	#
@@ -709,9 +766,11 @@ resourcePack.editor.toolRail.workbenchTool.leftClick=Klik links	#
 resourcePack.editor.toolRail.workbenchTool.shiftLeftClick=Shift + linkermuisknop	#
 resourcePack.editor.toolRail.workbenchTool.controlLeftClick=CTRL + linkermuisknop	#
 resourcePack.editor.toolRail.workbenchTool.shiftControlLeftClick=Shift + CTRL + linkermuisknop	#
-resourcePack.editor.toolRail.workbenchTool.stripWood=Hout schaven/niet schaven	#
+resourcePack.editor.toolRail.workbenchTool.stripWood=Hout schaven/niet schaven		####This string is intended to express whether the wood block has bark (unstripped) or doesn't have bark (stripped).{MaxLength=100}
 resourcePack.editor.toolRail.workbenchTool.ladderLocation=Ladderlocatie	#
 resourcePack.editor.toolRail.workbenchTool.autoAlign=Automatisch uitlijnen	#
+resourcePack.editor.toolRail.workbenchTool.autoAlignFacingDirection=Automatische uitlijning kijkrichting		####This string is intended to express that the action will align the facing direction of the block with the player camera.{MaxLength=100}
+resourcePack.editor.toolRail.workbenchTool.autoAlignRotation=Automatische uitlijning rotatie		####This string is intended to express that the action will align the roatation of the block with the player camera.{MaxLength=100}
 
 resourcePack.editor.toolRail.workbenchTool.topSlotBitProp=Bovenkant/onderkant	#
 resourcePack.editor.toolRail.workbenchTool.pillarAxisProp=Draaien	#
@@ -758,8 +817,8 @@ resourcePack.editor.viewSettings.invisible.tip=Onzichtbare blokken weergeven (le
 resourcePack.editor.viewSettings.invisible.title=Onzichtbare blokken weergeven	#
 resourcePack.editor.viewSettings.flySpeed.tip=Verhoog de vliegsnelheid om sneller door de kaart te manoeuvreren	#
 resourcePack.editor.viewSettings.flySpeed.title=Vliegsnelheidvermenigvuldiger	#
-resourcePack.editor.viewSettings.menu=Instellingen bekijken	#
-resourcePack.editor.viewSettings.title=Instellingen bekijken	#
+resourcePack.editor.viewSettings.menu=Instellingen	#
+resourcePack.editor.viewSettings.title=Instellingen	#
 
 resourcePack.editor.hotbar.defaultDisplayName=Standaard	#
 

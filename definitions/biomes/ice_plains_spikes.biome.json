@@ -29,7 +29,10 @@
           "ice_plains",
           "monster",
           "mutated",
-          "overworld"
+          "overworld",
+	        "spawns_cold_variant_farm_animals",
+          "spawns_cold_variant_frogs",
+          "spawns_white_rabbits"
         ]
       }
     }

@@ -25,7 +25,8 @@
       "minecraft:tags": {
         "tags": [
           "mooshroom_island",
-          "overworld"
+          "overworld",
+          "spawns_without_patrols"
         ]
       }
     }

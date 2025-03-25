@@ -25,6 +25,20 @@ resourcePack.editor.agfx.pane.settings.revert_changes=Tilbakestill endringer	#
 resourcePack.editor.agfx.pane.settings.export_to_clipboard=Eksporter til utklippstavlen	#
 
 
+resourcePack.editor.toolRail.blockInspectorSettings.title=Blokkinspektør   	####This string is what is shown in the title bar of the Editor pane for inspecting blocks.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.specifics=Blokkspesifikasjoner   	####This string is the heading that contains the block tags and block properties subpane.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.actions.refresh=Oppdater blokkdata   	####This string shown on a button for forcing an update to the block data state.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.actions.clear=Opphev valg   	####This string shown on a button for clearing what block is currently selected.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.blockTags=Blokktagger   	####This string is a header for a panel that shows the block tags on the currently selected block.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.blockProperties=Blokkegenskaper   	####This string is a header for a panel that shows the block properties on the currently selected block.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.blockProperties.name=Navn på egenskap   	####Within the block properties pane, this string goes before the property name.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.blockProperties.value=Verdi for egenskap   	####Within the block properties pane, this string goes before the property value.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorTool.title=Blokkinspektør   	####This string is what is shown as the name of the block inspector tool.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorTool.tooltip=Undersøk blokkdata   	####This string is what is shown when hovering over the block inspector icon.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorTool.pane.helpText=Venstreklikk på en blokk for å se og redigere egenskapene dens   	####This string is shown in the block inspector tool pane before the user clicks to describe how to use it.{MaxLength=100}
+resourcePack.editor.blockInspector.toolRail.description=Venstreklikk på en blokk for å se og redigere egenskapene dens   	####This string is shown in the tool tip to explain the function of the Block Inspector tool.{MaxLength=100}
+
+
 resourcePack.editor.blockPalette.addSearchItem=Bruk funnet blokk	#
 resourcePack.editor.blockPalette.blockPicker=Søk	#
 resourcePack.editor.blockPalette.paletteDropdown.title=Palett	#
@@ -125,9 +139,9 @@ resourcePack.editor.ClipboardPreviewControl.origin.title=Opprinnelse	#
 resourcePack.editor.ClipboardPreviewControl.origin.tooltip=Opprinnelsespunktet inne i utklippstavle-elementet. Dette brukes som et antrekkplasseringsanker samt punktet utklippstavlen roteres og speiles rundt.	#
 resourcePack.editor.ClipboardPreviewControl.placement.title=Alternativer	#
 resourcePack.editor.ClipboardPreviewControl.rootPane.title=Informasjon om utklippstavlen	#
-resourcePack.editor.ClipboardPreviewControl.rotation.180=180Â°	#
-resourcePack.editor.ClipboardPreviewControl.rotation.270=270Â°	#
-resourcePack.editor.ClipboardPreviewControl.rotation.90=90Â°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.180=180°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.270=270°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.90=90°	#
 resourcePack.editor.ClipboardPreviewControl.rotation.none=Ingen	#
 resourcePack.editor.ClipboardPreviewControl.rotation.title=Rotasjon	#
 resourcePack.editor.ClipboardPreviewControl.rotation.tooltip=Mengden rotasjon rundt Y-aksen ved opprinnelsespunktet	#
@@ -193,6 +207,12 @@ resourcePack.editor.deferredLightingSettings.menu.title=Utsatte lysinnstillinger
 resourcePack.editor.delete.keyBinding=Slett innhold i utvalg	#
 
 
+resourcePack.editor.toolRail.entityInspector.pane.title=Enhetsundersøker   	####This string is what is shown in the title bar of the Editor pane for modifying entities.{MaxLength=30}
+resourcePack.editor.toolRail.entityInspector.tool.title=Enhetsundersøker   	####This string is what is shown at the top of the Editor pane for modifying entities.{MaxLength=30}
+resourcePack.editor.toolRail.entityInspector.tool.tip=Undersøk enhetsdata   	####This string is what is shown on the tool tip of Editor pane for modifying entities (gives context on what the tool does).{MaxLength=100}
+resourcePack.editor.toolRail.entityInspector.pane.helpText=Venstreklikk på en enhet for å se og redigere egenskapene dens   	####This string is shown in the block inspector tool pane before the user clicks to describe how to use it.{MaxLength=100}
+resourcePack.editor.entityInspector.toolRail.description=Venstreklikk på en enhet for å se og redigere egenskapene dens   	####This string is shown in the tool tip to explain the function of the Entity Inspector tool.{MaxLength=100}
+
 resourcePack.editor.exportProject.exportType=Eksporter type	#
 resourcePack.editor.exportProject.exportType.playableWorld=Verden som kan spilles	#
 resourcePack.editor.exportProject.exportNotes=Eksporter notater	#
@@ -213,7 +233,7 @@ resourcePack.editor.exportProject.advancedSettings.tntExplodes=TNT eksploderer	#
 resourcePack.editor.exportProject.advancedSettings.resawnBlocksExplode=Genererte blokker eksploderer	#
 resourcePack.editor.exportProject.advancedSettings.mobLoot=Vesenbytte	#
 resourcePack.editor.exportProject.advancedSettings.naturalRegeneration=Naturlig regenerasjon	#
-resourcePack.editor.exportProject.advancedSettings.tileDrops=Blokker slipper	#
+resourcePack.editor.exportProject.advancedSettings.tileDrops=Flis slipper	#
 resourcePack.editor.exportProject.advancedSettings.immediateRespawn=Øyeblikkelig gjenoppstandelse	#
 resourcePack.editor.exportProject.advancedSettings.respawnRadius=Gjenoppståelsesradius	#
 resourcePack.editor.exportProject.advancedSettings.simulationDistance=Simuleringsavstand	#
@@ -225,7 +245,7 @@ resourcePack.editor.exportProject.multiplayerSettings.multiplayerGame=Flerspille
 resourcePack.editor.exportProject.multiplayerSettings.playerAccess=Spillertilgang	#
 resourcePack.editor.exportProject.multiplayerSettings.playerPermissions=Spillertillatelser	#
 resourcePack.editor.exportProject.multiplayerSettings.visibleToLAN=Synlig for LAN-spillere	#
-resourcePack.editor.exportProject.multiplayerSettings.friendlyFire=Vådeskudd	#
+resourcePack.editor.exportProject.multiplayerSettings.friendlyFire=Egenbeskytning	#
 resourcePack.editor.exportProject.cheatsSettings=Jukseinnstillinger	#
 resourcePack.editor.exportProject.cheatsSettings.cheats=Juksing	#
 resourcePack.editor.exportProject.cheatsSettings.daylightCycle=Dagslyssyklus	#
@@ -277,6 +297,7 @@ resourcePack.editor.toolRail.ExtrudeTool.pane.SelectionMode.QuickExtrudeMode.dec
 resourcePack.editor.toolRail.ExtrudeTool.pane.SelectionMode.QuickExtrudeMode.expand.title=Utvid	#
 resourcePack.editor.toolRail.ExtrudeTool.pane.SelectionMode.QuickExtrudeMode.expand.tooltip=Ekspander ekstrudering	#
 resourcePack.editor.toolRail.ExtrudeTool.pane.SelectionMode.LayerCount.title=Antall lag	#
+resourcePack.editor.toolRail.ExtrudeTool.pane.preview_warning=Merk: Grafikken i forhåndsversjonen viser bare det første laget 	#### {MaxLength="500"}, used to inform the user that the preview visualization for this tool is limited to a single layer.  This string is on screen whenever this tool is active
 resourcePack.editor.toolRail.ExtrudeTool.pane.ExtrusionType.title=Ekstruderingstype	#
 resourcePack.editor.toolRail.ExtrudeTool.pane.ExtrusionType.Extrude=Ekstruder	#
 resourcePack.editor.toolRail.ExtrudeTool.pane.ExtrusionType.QuickExtrude=Hurtigekstruder	#
@@ -400,10 +421,10 @@ resourcePack.editor.paste.pane.title=Lim inn	#
 resourcePack.editor.paste.pane.transform.mirrorX=Speil X	#
 resourcePack.editor.paste.pane.transform.mirrorZ=Speil Z	#
 resourcePack.editor.paste.pane.transform.origin.title=Forskyvning	#
-resourcePack.editor.paste.pane.transform.rotation.180=180Â°	#
-resourcePack.editor.paste.pane.transform.rotation.270=270Â°	#
-resourcePack.editor.paste.pane.transform.rotation.90=90Â°	#
-resourcePack.editor.paste.pane.transform.rotation.none=0Â°	#
+resourcePack.editor.paste.pane.transform.rotation.180=180°	#
+resourcePack.editor.paste.pane.transform.rotation.270=270	#
+resourcePack.editor.paste.pane.transform.rotation.90=90°	#
+resourcePack.editor.paste.pane.transform.rotation.none=0°	#
 resourcePack.editor.paste.pane.transform.rotation.title=Roter	#
 resourcePack.editor.paste.pane.transform.title=Forvandle	#
 resourcePack.editor.paste.toolRail.description=Bruk venstre museknapp for å velge en blokk og deretter lime inn et utklippselement nøyaktig	#
@@ -504,6 +525,30 @@ resourcePack.editor.playtestResult.WorldExportBusy=Eksport av verden er opptatt	
 resourcePack.editor.playtestResult.WorldExportFailed=Eksport av verden mislyktes	#
 
 
+resourcePack.editor.menuBar.file.realmsPublish=Publiser på Realms   	####This string is intended to express that the option is for opening the pane to publish your editor world to Realms.{MaxLength=100}
+resourcePack.editor.realmsPublish.userNotLoggedIn=Et aktivt Realms-abonnement kreves for å publisere på Realms. Du kan abonnere på Realms eller fornye abonnementer i den vanlige Minecraft-klienten eller på nettsiden minecraft.net (etter å ha logget på kontoen din).    	####This string is intended to express that the user is not logged in currently and the process they need to follow in order to be able to upload their editor world to their Realms subscription.{MaxLength=350}
+resourcePack.editor.realmsPublish.goToMinecraftWebsite=Gå til minecraft.net  	####This string is intended to express that the link will take the user to Minecraft.net.{MaxLength=100}
+resourcePack.editor.realmsPublish.Refresh=Oppdater  	####This string is intended to express that the button will refresh the pane to see if the user in now logged in.{MaxLength=100}
+resourcePack.editor.realmsPublish.Realm=Realm  	####This string is intended to express that the below dropdown contains all of the users Realms subscriptions.{MaxLength=100}
+resourcePack.editor.realmsPublish.RealmSlot=Realmplass 	####This string is intended to express that the dropdown contains all of the world slots in for the users selected realms subscription.{MaxLength=100}
+resourcePack.editor.realmsPublish.PublishNotesTitle=Publiser på Realms-merknad   	####This string is intended to express that the below field will contain additional information for the user about the publish to realms feature, including any warnings or issues.{MaxLength=150}
+resourcePack.editor.realmsPublish.DownloadRealm=Last ned    	####This string is intended to express that the button will download the currently selected World from the realm slot.{MaxLength=100}
+resourcePack.editor.realmsPublish.PublishRealm=Publiser  	####This string is intended to express that the button will publish the current world to the currently selected realm slot.{MaxLength=100}
+resourcePack.editor.realmsPublish.Confirm=Bekreft   	####This string is intended to express that the button will confirm  the request to publish the world to realms.{MaxLength=100}
+resourcePack.editor.realmsPublish.Cancel=Avbryt 	####This string is intended to express that the button will cancel the request to publish the world to realms.{MaxLength=100}
+resourcePack.editor.realmsPublish.Back=Tilbake 	####This string is intended to express that the button will take the user back to the previous pane.{MaxLength=100}
+resourcePack.editor.realmsPublish.PublishFailed=Publiseringen i Realms mislyktes. Prøv på nytt senere.   	####This string is intended to express that publishing the world to Realms failed and to please try again later.{MaxLength=200}
+resourcePack.editor.realmsPublish.PublishSuccess=Publiseringen i Realms var vellykket    	####This string is intended to express that publishing the world to Realms succeeded.{MaxLength=200}
+resourcePack.editor.realmsPublish.PublishConfirmationOptOut=Ikke spør på nytt for denne realmen og økten  	####This string is intended to express that the checkbox will opt the user out of confirming their publish to realms decisions.{MaxLength=100}
+resourcePack.editor.realmsPublish.PublishingToRealms=Publiserer verden i Realms …  	####This string is intended to express that the world is currently in the process of being published to Realms.{MaxLength=100}
+resourcePack.editor.realmsPublish.UnableToPublishMissingRealm=Kunne ikke publisere i Realms. Ingen realm er valgt    	####This string is intended to express that the user is unable to publish their world because a realm to upload to has not been selected.{MaxLength=250}
+resourcePack.editor.realmsPublish.UnableToPublishMissingRealmSlot=Kunne ikke publisere i Realms. Ingen realmplass er valgt   	####This string is intended to express that the user is unable to publish their world because a realm slot to upload to has not been selected.{MaxLength=250}
+resourcePack.editor.realmsPublish.PublishConfirmationWarning=Dette fjerner den nåværende verdenen fra den valgte plassen og erstatter den med den nåværende redigeringsverdenen din (den valgte plassen blir også den aktive plassen for realmen din). Medlemmene i realmen din kommer til å få tilgang til den nylig erstattede verdenen din. Hvis du vil lagre den nåværende verdenen din før du publiserer, for å forhindre tap av data, avbryter du denne dialogboksen og velger «Last ned» før du velger «Publiser». Velg «Bekreft» for å fortsette og erstatte den nåværende verdenen din.    	####This string is intended to warn the user that if they publish their world to Realms, the world currently in that Realms slot will be deleted and unrecoverable. It also informs the user that members of the Realm will be able to access this world.{MaxLength=1000}
+resourcePack.editor.realmsPublish.DownloadSuccess=Verdenen ble lastet ned fra Realms    	####This string is intended to express that downloading a world from Realms succeeded.{MaxLength=200}
+resourcePack.editor.realmsPublish.DownloadFailed=Verdenen ble ikke lastet ned fra Realms. Det skjedde en feil. 	####This string is intended to express that downloading a world from Realms failed.{MaxLength=200}
+resourcePack.editor.realmsPublish.DownloadingFromRealms=Laster ned verdenen fra Realms …    	####This string is intended to express that we're in the middle of downloading a world from Realms and waiting for that operation to complete.{MaxLength=200}
+
+
 resourcePack.editor.toolRail.RepeaterTool.title=Gjentagelsesverktøy	#
 resourcePack.editor.toolRail.RepeaterTool.tooltip=Verktøy for å gjenta et utvalgt volum	#
 resourcePack.editor.toolRail.RepeaterTool.pane.Spacing=Mellomrom	#
@@ -512,6 +557,18 @@ resourcePack.editor.toolRail.RepeaterTool.pane.Preview=Forhåndsvisning	#
 resourcePack.editor.toolRail.RepeaterTool.pane.Clear=Tøm	#
 resourcePack.editor.toolRail.RepeaterTool.pane.Apply=Bruk	#
 resourcePack.editor.toolRail.RepeaterTool.statusMessage.noSelection=Bruk valgverktøyet for å velge et volum som skal gjentas	#
+resourcePack.editor.toolRail.RepeaterTool.pane.Mode=Modus		####"Mode" describes a dropdown that contains the two different states the tool can be in. These are "Line" and "Grid" {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.mode.Line=Linje		####"Line" describes a straight, unbroken visual between two points {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.mode.Grid=Rutenett		####"Grid" describes a visual consisting of parallel lines at regular intervals, broken up by perpendicular lines at regular intervals, like grid paper. {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.pane.RepeatType=Gjenta type		####"Repeat Type" describes a dropdown that contains the two types "Uniform" and "Separate" and represents how the repetitions along the three axes (plural of "axis") will be determined {MaxLength=40}
+resourcePack.editor.toolRail.RepeaterTool.repeat.Uniform=Ensartet		####"Uniform" describes the repeat state of the Repeater Tool where it applies the same number of repetitions across all three axes (X, Y, and Z). "Uniform" was chosen as a short word that also means "consistent across multiple instances" {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.pane.RepeatAlongX=Gjenta langs X		####"Repeat Along" describes a checkbox and means to apply the number of Uniform Repetitions across a given axis. This one is the X axis. "X", "Y", and "Z" have a mathematical meaning and it may not be appropriate to translate unless the mathematical meaning is also translated. More info can be found at https://en.wikipedia.org/wiki/Coordinate_system {MaxLength=40}
+resourcePack.editor.toolRail.RepeaterTool.pane.RepeatAlongY=Gjenta langs Y		####See "Repeat Along X" but this is for the Y axis. {MaxLength=40}
+resourcePack.editor.toolRail.RepeaterTool.pane.RepeatAlongZ=Gjenta langs Z		####See "Repeat Along X" but this is for the Z axis. {MaxLength=40}
+resourcePack.editor.toolRail.RepeaterTool.repeat.Separate=Separer		####"Separate" describes the repeat state of the Repeater Tool where the number of repetitions along each axis is set using separate number input elements, rather than one single number input {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.pane.XCount=X-antall		####"X Count" describes a number input field and represents the number of repetitions along the X axis. "X", "Y", and "Z" have a mathematical meaning and it may not be appropriate to translate unless the mathematical meaning is also translated. More info can be found at https://en.wikipedia.org/wiki/Coordinate_system {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.pane.YCount=Y-antall		####See "X Count" but this is for the Y axis. {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.pane.ZCount=Z-antall		####See "X Count" but this is for the Z axis. {MaxLength=20}
 
 
 resourcePack.editor.selectionTool.deselect=Opphev merking	#
@@ -571,7 +628,7 @@ resourcePack.editor.selectionTool.selectionMode=Modus	#
 resourcePack.editor.selectionTool.settingsPane.title=Utvalg	#
 resourcePack.editor.selectionTool.toolRail.description=Klikk med venstre museknapp for å opprette et utvalg. Bruk CTRL+D å fjerne merkingen	#
 resourcePack.editor.selectionTool.toolRail.title=Utvalg	#
-resourcePack.editor.selectionTool.transformPane.origin.tooltip=Plasseringen til utgangspunktet av utvalgets i verdenskoordinater	#
+resourcePack.editor.selectionTool.transformPane.origin.tooltip=Opprinnelsesplasseringen av utvalget i verdenskoordinater	#
 resourcePack.editor.selectionTool.transformPane.origin=Opprinnelse	#
 resourcePack.editor.selectionTool.transformPane.size=Størrelse	#
 resourcePack.editor.selectionTool.transformPane.title=Forvandle	#
@@ -709,9 +766,11 @@ resourcePack.editor.toolRail.workbenchTool.leftClick=Venstreklikk	#
 resourcePack.editor.toolRail.workbenchTool.shiftLeftClick=Skift + venstreklikk	#
 resourcePack.editor.toolRail.workbenchTool.controlLeftClick=CTRL + venstreklikk	#
 resourcePack.editor.toolRail.workbenchTool.shiftControlLeftClick=Skift + CTRL + venstreklikk	#
-resourcePack.editor.toolRail.workbenchTool.stripWood=Høvle / fjern høvling på tre	#
+resourcePack.editor.toolRail.workbenchTool.stripWood=Høvle / fjern høvling på tre		####This string is intended to express whether the wood block has bark (unstripped) or doesn't have bark (stripped).{MaxLength=100}
 resourcePack.editor.toolRail.workbenchTool.ladderLocation=Stigeposisjon	#
 resourcePack.editor.toolRail.workbenchTool.autoAlign=Automatisk tilpassing	#
+resourcePack.editor.toolRail.workbenchTool.autoAlignFacingDirection=Tilpass vendt retning automatisk		####This string is intended to express that the action will align the facing direction of the block with the player camera.{MaxLength=100}
+resourcePack.editor.toolRail.workbenchTool.autoAlignRotation=Tilpass rotasjon automatisk		####This string is intended to express that the action will align the roatation of the block with the player camera.{MaxLength=100}
 
 resourcePack.editor.toolRail.workbenchTool.topSlotBitProp=Overdel/underdel	#
 resourcePack.editor.toolRail.workbenchTool.pillarAxisProp=Roter	#
@@ -758,8 +817,8 @@ resourcePack.editor.viewSettings.invisible.tip=Vis usynlige blokker (f.eks. tomr
 resourcePack.editor.viewSettings.invisible.title=Vis usynlige blokker	#
 resourcePack.editor.viewSettings.flySpeed.tip=Øk flyhastigheten for å manøvrere raskere omkring på kartet	#
 resourcePack.editor.viewSettings.flySpeed.title=Multiplikator for flyhastighet	#
-resourcePack.editor.viewSettings.menu=Visningsinnstillinger	#
-resourcePack.editor.viewSettings.title=Visningsinnstillinger	#
+resourcePack.editor.viewSettings.menu=Innstillinger	#
+resourcePack.editor.viewSettings.title=Innstillinger	#
 
 resourcePack.editor.hotbar.defaultDisplayName=Standard	#
 

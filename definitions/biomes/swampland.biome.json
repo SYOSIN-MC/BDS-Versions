@@ -33,7 +33,8 @@
           "animal",
           "monster",
           "overworld",
-          "swamp"
+          "swamp",
+          "spawns_slimes_on_surface"
         ]
       }
     }

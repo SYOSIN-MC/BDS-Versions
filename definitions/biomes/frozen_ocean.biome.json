@@ -39,7 +39,12 @@
           "frozen",
           "monster",
           "ocean",
-          "overworld"
+          "overworld",
+          "spawns_polar_bears_on_alternate_blocks",
+	        "spawns_cold_variant_farm_animals",
+          "spawns_cold_variant_frogs",
+          "spawns_snow_foxes",
+          "spawns_white_rabbits"
         ]
       }
     }

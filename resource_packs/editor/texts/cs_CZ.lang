@@ -25,6 +25,20 @@ resourcePack.editor.agfx.pane.settings.revert_changes=Vrátit změny	#
 resourcePack.editor.agfx.pane.settings.export_to_clipboard=Exportovat do schránky	#
 
 
+resourcePack.editor.toolRail.blockInspectorSettings.title=Inspektor bloků   	####This string is what is shown in the title bar of the Editor pane for inspecting blocks.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.specifics=Specifika bloku   	####This string is the heading that contains the block tags and block properties subpane.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.actions.refresh=Obnovit data bloku   	####This string shown on a button for forcing an update to the block data state.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.actions.clear=Vymazat výběr   	####This string shown on a button for clearing what block is currently selected.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.blockTags=Štítky bloku   	####This string is a header for a panel that shows the block tags on the currently selected block.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.blockProperties=Vlastnosti bloku   	####This string is a header for a panel that shows the block properties on the currently selected block.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.blockProperties.name=Název vlastnosti   	####Within the block properties pane, this string goes before the property name.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.blockProperties.value=Hodnota vlastnosti   	####Within the block properties pane, this string goes before the property value.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorTool.title=Inspektor bloků   	####This string is what is shown as the name of the block inspector tool.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorTool.tooltip=Inspekce dat bloku   	####This string is what is shown when hovering over the block inspector icon.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorTool.pane.helpText=Kliknutím levým tlačítkem na blok zobrazíte a upravíte jeho vlastnosti   	####This string is shown in the block inspector tool pane before the user clicks to describe how to use it.{MaxLength=100}
+resourcePack.editor.blockInspector.toolRail.description=Kliknutím levým tlačítkem na blok zobrazíte a upravíte jeho vlastnosti   	####This string is shown in the tool tip to explain the function of the Block Inspector tool.{MaxLength=100}
+
+
 resourcePack.editor.blockPalette.addSearchItem=Použijte nalezený blok	#
 resourcePack.editor.blockPalette.blockPicker=Hledat	#
 resourcePack.editor.blockPalette.paletteDropdown.title=Paleta	#
@@ -125,9 +139,9 @@ resourcePack.editor.ClipboardPreviewControl.origin.title=Počátek	#
 resourcePack.editor.ClipboardPreviewControl.origin.tooltip=Počáteční bod položky ve schránce. Používá se jako kotva při umístění, ale také jako bod, kolem kterého se schránka otáčí a kolem kterého se zrcadlí	#
 resourcePack.editor.ClipboardPreviewControl.placement.title=Možnosti	#
 resourcePack.editor.ClipboardPreviewControl.rootPane.title=Informace o schránce	#
-resourcePack.editor.ClipboardPreviewControl.rotation.180=180Â°	#
-resourcePack.editor.ClipboardPreviewControl.rotation.270=270Â°	#
-resourcePack.editor.ClipboardPreviewControl.rotation.90=90Â°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.180=180°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.270=270°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.90=90°	#
 resourcePack.editor.ClipboardPreviewControl.rotation.none=Žádný	#
 resourcePack.editor.ClipboardPreviewControl.rotation.title=Otočení	#
 resourcePack.editor.ClipboardPreviewControl.rotation.tooltip=Počet otočení okolo osy Y v počáteční bodu	#
@@ -193,10 +207,16 @@ resourcePack.editor.deferredLightingSettings.menu.title=Nastavení pozdrženého
 resourcePack.editor.delete.keyBinding=Odstranit vybraný obsah	#
 
 
+resourcePack.editor.toolRail.entityInspector.pane.title=Inspektor entit   	####This string is what is shown in the title bar of the Editor pane for modifying entities.{MaxLength=30}
+resourcePack.editor.toolRail.entityInspector.tool.title=Inspektor entit   	####This string is what is shown at the top of the Editor pane for modifying entities.{MaxLength=30}
+resourcePack.editor.toolRail.entityInspector.tool.tip=Inspekce dat entity   	####This string is what is shown on the tool tip of Editor pane for modifying entities (gives context on what the tool does).{MaxLength=100}
+resourcePack.editor.toolRail.entityInspector.pane.helpText=Kliknutím levým tlačítkem na entitu zobrazíte a upravíte její vlastnosti   	####This string is shown in the block inspector tool pane before the user clicks to describe how to use it.{MaxLength=100}
+resourcePack.editor.entityInspector.toolRail.description=Kliknutím levým tlačítkem na entitu zobrazíte a upravíte její vlastnosti   	####This string is shown in the tool tip to explain the function of the Entity Inspector tool.{MaxLength=100}
+
 resourcePack.editor.exportProject.exportType=Typ exportu	#
 resourcePack.editor.exportProject.exportType.playableWorld=Hratelný svět	#
 resourcePack.editor.exportProject.exportNotes=Poznámky k exportu	#
-resourcePack.editor.exportProject.exportNotes.warning=Exportujete svět v%1. Exportované hratelné světy nelze spustit na verzích Minecraftu starších, než v%1. Chcete-li převést světy na předchozí verze, použijte https://chunker.app/ (některé funkce nemusí být dostupné, pokud nebyly podporovány v dřívějších verzích)	#
+resourcePack.editor.exportProject.exportNotes.warning=Exportujete svět v%1. Exportované hratelné světy nelze spustit na verzích Minecraftu starších než v%1. Chcete-li převést světy na předchozí verze, použijte https://chunker.app/ (některé funkce nemusí být dostupné, pokud nebyly podporovány v dřívějších verzích)	#
 resourcePack.editor.exportProject.generalSettings=Obecná nastavení	#
 resourcePack.editor.exportProject.generalSettings.worldName=Název světa	#
 resourcePack.editor.exportProject.generalSettings.gameMode=Herní režim	#
@@ -277,6 +297,7 @@ resourcePack.editor.toolRail.ExtrudeTool.pane.SelectionMode.QuickExtrudeMode.dec
 resourcePack.editor.toolRail.ExtrudeTool.pane.SelectionMode.QuickExtrudeMode.expand.title=Rozšířit	#
 resourcePack.editor.toolRail.ExtrudeTool.pane.SelectionMode.QuickExtrudeMode.expand.tooltip=Rozšířit tvarování	#
 resourcePack.editor.toolRail.ExtrudeTool.pane.SelectionMode.LayerCount.title=Počet vrstev	#
+resourcePack.editor.toolRail.ExtrudeTool.pane.preview_warning=Poznámka: Předběžná vizualizace zobrazuje pouze první vrstvu 	#### {MaxLength="500"}, used to inform the user that the preview visualization for this tool is limited to a single layer.  This string is on screen whenever this tool is active
 resourcePack.editor.toolRail.ExtrudeTool.pane.ExtrusionType.title=Typ tvarování	#
 resourcePack.editor.toolRail.ExtrudeTool.pane.ExtrusionType.Extrude=Tvarovat	#
 resourcePack.editor.toolRail.ExtrudeTool.pane.ExtrusionType.QuickExtrude=Rychlé tvarování	#
@@ -400,10 +421,10 @@ resourcePack.editor.paste.pane.title=Vložit	#
 resourcePack.editor.paste.pane.transform.mirrorX=Zrcadlit X	#
 resourcePack.editor.paste.pane.transform.mirrorZ=Zrcadlit Z	#
 resourcePack.editor.paste.pane.transform.origin.title=Posun	#
-resourcePack.editor.paste.pane.transform.rotation.180=180Â°	#
-resourcePack.editor.paste.pane.transform.rotation.270=270Â°	#
-resourcePack.editor.paste.pane.transform.rotation.90=90Â°	#
-resourcePack.editor.paste.pane.transform.rotation.none=0Â°	#
+resourcePack.editor.paste.pane.transform.rotation.180=180 °	#
+resourcePack.editor.paste.pane.transform.rotation.270=270	#
+resourcePack.editor.paste.pane.transform.rotation.90=90 °	#
+resourcePack.editor.paste.pane.transform.rotation.none=0°	#
 resourcePack.editor.paste.pane.transform.rotation.title=Otočit	#
 resourcePack.editor.paste.pane.transform.title=Transformovat	#
 resourcePack.editor.paste.toolRail.description=Kliknutím levým tlačítkem myši vyberte blok a poté přesně vložte položku schránky	#
@@ -504,6 +525,30 @@ resourcePack.editor.playtestResult.WorldExportBusy=Export světa je zaneprázdn�
 resourcePack.editor.playtestResult.WorldExportFailed=Export světa se nezdařil	#
 
 
+resourcePack.editor.menuBar.file.realmsPublish=Zveřejnit ve službě Realms   	####This string is intended to express that the option is for opening the pane to publish your editor world to Realms.{MaxLength=100}
+resourcePack.editor.realmsPublish.userNotLoggedIn=Zveřejňování ve službě Realms vyžaduje aktivní předplatné služby Realms. Zahájit předplatné, nebo ho obnovit, pokud jeho platnost vypršela, můžete pomocí standardního klienta Minecraftu nebo na webu minecraft.net (po přihlášení ke svému účtu).    	####This string is intended to express that the user is not logged in currently and the process they need to follow in order to be able to upload their editor world to their Realms subscription.{MaxLength=350}
+resourcePack.editor.realmsPublish.goToMinecraftWebsite=Jít na Minecraft.net  	####This string is intended to express that the link will take the user to Minecraft.net.{MaxLength=100}
+resourcePack.editor.realmsPublish.Refresh=Aktualizovat  	####This string is intended to express that the button will refresh the pane to see if the user in now logged in.{MaxLength=100}
+resourcePack.editor.realmsPublish.Realm=Říše  	####This string is intended to express that the below dropdown contains all of the users Realms subscriptions.{MaxLength=100}
+resourcePack.editor.realmsPublish.RealmSlot=Slot pro Říši 	####This string is intended to express that the dropdown contains all of the world slots in for the users selected realms subscription.{MaxLength=100}
+resourcePack.editor.realmsPublish.PublishNotesTitle=Poznámka ke zveřejnění ve službě Realms   	####This string is intended to express that the below field will contain additional information for the user about the publish to realms feature, including any warnings or issues.{MaxLength=150}
+resourcePack.editor.realmsPublish.DownloadRealm=Stáhnout    	####This string is intended to express that the button will download the currently selected World from the realm slot.{MaxLength=100}
+resourcePack.editor.realmsPublish.PublishRealm=Publikovat  	####This string is intended to express that the button will publish the current world to the currently selected realm slot.{MaxLength=100}
+resourcePack.editor.realmsPublish.Confirm=Potvrdit   	####This string is intended to express that the button will confirm  the request to publish the world to realms.{MaxLength=100}
+resourcePack.editor.realmsPublish.Cancel=Zrušit 	####This string is intended to express that the button will cancel the request to publish the world to realms.{MaxLength=100}
+resourcePack.editor.realmsPublish.Back=Zpět 	####This string is intended to express that the button will take the user back to the previous pane.{MaxLength=100}
+resourcePack.editor.realmsPublish.PublishFailed=Publikování ve službě Realms se nezdařilo. Zkuste to prosím později.   	####This string is intended to express that publishing the world to Realms failed and to please try again later.{MaxLength=200}
+resourcePack.editor.realmsPublish.PublishSuccess=Publikování ve službě Realms bylo úspěšné    	####This string is intended to express that publishing the world to Realms succeeded.{MaxLength=200}
+resourcePack.editor.realmsPublish.PublishConfirmationOptOut=Znovu se nedotazovat pro tuto Říši a relaci  	####This string is intended to express that the checkbox will opt the user out of confirming their publish to realms decisions.{MaxLength=100}
+resourcePack.editor.realmsPublish.PublishingToRealms=Publikuji svět do služby Realms…  	####This string is intended to express that the world is currently in the process of being published to Realms.{MaxLength=100}
+resourcePack.editor.realmsPublish.UnableToPublishMissingRealm=Nelze publikovat do služby Realms. Nebyla zvolena žádná říše.    	####This string is intended to express that the user is unable to publish their world because a realm to upload to has not been selected.{MaxLength=250}
+resourcePack.editor.realmsPublish.UnableToPublishMissingRealmSlot=Nelze publikovat do služby Realms. Nebyl zvolen žádný slot říše.   	####This string is intended to express that the user is unable to publish their world because a realm slot to upload to has not been selected.{MaxLength=250}
+resourcePack.editor.realmsPublish.PublishConfirmationWarning=Tímto odstraníte aktuální svět z vybraného slotu a nahradíte jej aktuálním světem z Editoru (vybraný slot se zároveň stane aktivním slotem pro vaši říši). Členové vaší říše budou mít přístup k nově nahrazenému světu. Pokud chcete před zveřejněním svůj aktuální svět uložit, abyste zabránili ztrátě dat, zrušte tento dialog a ještě před volbou „Publikovat“ vyberte možnost „Stáhnout“. Výběrem možnosti „Potvrdit“ pokračujte a nahraďte svůj aktuální svět.    	####This string is intended to warn the user that if they publish their world to Realms, the world currently in that Realms slot will be deleted and unrecoverable. It also informs the user that members of the Realm will be able to access this world.{MaxLength=1000}
+resourcePack.editor.realmsPublish.DownloadSuccess=Stahování světa z Realms proběhlo úspěšně    	####This string is intended to express that downloading a world from Realms succeeded.{MaxLength=200}
+resourcePack.editor.realmsPublish.DownloadFailed=Stahování světa z Realms se nezdařilo 	####This string is intended to express that downloading a world from Realms failed.{MaxLength=200}
+resourcePack.editor.realmsPublish.DownloadingFromRealms=Stahování světa z Realms…    	####This string is intended to express that we're in the middle of downloading a world from Realms and waiting for that operation to complete.{MaxLength=200}
+
+
 resourcePack.editor.toolRail.RepeaterTool.title=Opakovací nástroj	#
 resourcePack.editor.toolRail.RepeaterTool.tooltip=Nástroj pro opakování oblasti výběru	#
 resourcePack.editor.toolRail.RepeaterTool.pane.Spacing=Rozestupy	#
@@ -512,6 +557,18 @@ resourcePack.editor.toolRail.RepeaterTool.pane.Preview=Náhled	#
 resourcePack.editor.toolRail.RepeaterTool.pane.Clear=Vymazat	#
 resourcePack.editor.toolRail.RepeaterTool.pane.Apply=Použít	#
 resourcePack.editor.toolRail.RepeaterTool.statusMessage.noSelection=Pro výběr obsahu, který chcete zopakovat, použijte Nástroj pro výběr	#
+resourcePack.editor.toolRail.RepeaterTool.pane.Mode=Režim		####"Mode" describes a dropdown that contains the two different states the tool can be in. These are "Line" and "Grid" {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.mode.Line=Řádek		####"Line" describes a straight, unbroken visual between two points {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.mode.Grid=Mřížka		####"Grid" describes a visual consisting of parallel lines at regular intervals, broken up by perpendicular lines at regular intervals, like grid paper. {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.pane.RepeatType=Typ opakování		####"Repeat Type" describes a dropdown that contains the two types "Uniform" and "Separate" and represents how the repetitions along the three axes (plural of "axis") will be determined {MaxLength=40}
+resourcePack.editor.toolRail.RepeaterTool.repeat.Uniform=Standardní		####"Uniform" describes the repeat state of the Repeater Tool where it applies the same number of repetitions across all three axes (X, Y, and Z). "Uniform" was chosen as a short word that also means "consistent across multiple instances" {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.pane.RepeatAlongX=Opakovat po X		####"Repeat Along" describes a checkbox and means to apply the number of Uniform Repetitions across a given axis. This one is the X axis. "X", "Y", and "Z" have a mathematical meaning and it may not be appropriate to translate unless the mathematical meaning is also translated. More info can be found at https://en.wikipedia.org/wiki/Coordinate_system {MaxLength=40}
+resourcePack.editor.toolRail.RepeaterTool.pane.RepeatAlongY=Opakovat po Y		####See "Repeat Along X" but this is for the Y axis. {MaxLength=40}
+resourcePack.editor.toolRail.RepeaterTool.pane.RepeatAlongZ=Opakovat po Z		####See "Repeat Along X" but this is for the Z axis. {MaxLength=40}
+resourcePack.editor.toolRail.RepeaterTool.repeat.Separate=Rozdělit		####"Separate" describes the repeat state of the Repeater Tool where the number of repetitions along each axis is set using separate number input elements, rather than one single number input {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.pane.XCount=Počet X		####"X Count" describes a number input field and represents the number of repetitions along the X axis. "X", "Y", and "Z" have a mathematical meaning and it may not be appropriate to translate unless the mathematical meaning is also translated. More info can be found at https://en.wikipedia.org/wiki/Coordinate_system {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.pane.YCount=Počet Y		####See "X Count" but this is for the Y axis. {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.pane.ZCount=Počet Z		####See "X Count" but this is for the Z axis. {MaxLength=20}
 
 
 resourcePack.editor.selectionTool.deselect=Zrušit výběr	#
@@ -709,9 +766,11 @@ resourcePack.editor.toolRail.workbenchTool.leftClick=Klikněte levým tlačítke
 resourcePack.editor.toolRail.workbenchTool.shiftLeftClick=Shift + Levé tlačítko myši	#
 resourcePack.editor.toolRail.workbenchTool.controlLeftClick=CTRL + Levé tlačítko myši	#
 resourcePack.editor.toolRail.workbenchTool.shiftControlLeftClick=Shift + CTRL + Levé tlačítko myši	#
-resourcePack.editor.toolRail.workbenchTool.stripWood=Odstranit kůru ze dřeva/vrátit kůru ze dřeva	#
+resourcePack.editor.toolRail.workbenchTool.stripWood=Odstranit kůru ze dřeva/vrátit kůru ze dřeva		####This string is intended to express whether the wood block has bark (unstripped) or doesn't have bark (stripped).{MaxLength=100}
 resourcePack.editor.toolRail.workbenchTool.ladderLocation=Umístění žebříku	#
 resourcePack.editor.toolRail.workbenchTool.autoAlign=Rovnat automaticky	#
+resourcePack.editor.toolRail.workbenchTool.autoAlignFacingDirection=Automatické nastavení směru pohledu		####This string is intended to express that the action will align the facing direction of the block with the player camera.{MaxLength=100}
+resourcePack.editor.toolRail.workbenchTool.autoAlignRotation=Automatické nastavení rotace		####This string is intended to express that the action will align the roatation of the block with the player camera.{MaxLength=100}
 
 resourcePack.editor.toolRail.workbenchTool.topSlotBitProp=Horní/Dolní	#
 resourcePack.editor.toolRail.workbenchTool.pillarAxisProp=Otočit	#
@@ -758,8 +817,8 @@ resourcePack.editor.viewSettings.invisible.tip=Zobrazit neviditelné bloky (nap�
 resourcePack.editor.viewSettings.invisible.title=Zobrazit neviditelné bloky	#
 resourcePack.editor.viewSettings.flySpeed.tip=Zvyšte rychlost letu k rychlejšímu pohybu po mapě	#
 resourcePack.editor.viewSettings.flySpeed.title=Násobič rychlosti letu	#
-resourcePack.editor.viewSettings.menu=Nastavení zobrazení	#
-resourcePack.editor.viewSettings.title=Nastavení zobrazení	#
+resourcePack.editor.viewSettings.menu=Nastavení	#
+resourcePack.editor.viewSettings.title=Nastavení	#
 
 resourcePack.editor.hotbar.defaultDisplayName=Výchozí	#
 

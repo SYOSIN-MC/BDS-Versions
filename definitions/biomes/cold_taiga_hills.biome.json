@@ -31,7 +31,9 @@
           "monster",
           "overworld",
           "taiga",
-          "spawns_cold_variant_farm_animals"
+          "spawns_cold_variant_farm_animals",
+          "spawns_cold_variant_frogs",
+          "spawns_white_rabbits"
         ]
       }
     }

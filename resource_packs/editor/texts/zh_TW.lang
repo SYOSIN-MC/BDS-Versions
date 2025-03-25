@@ -25,6 +25,20 @@ resourcePack.editor.agfx.pane.settings.revert_changes=還原變更	#
 resourcePack.editor.agfx.pane.settings.export_to_clipboard=匯出到剪貼簿	#
 
 
+resourcePack.editor.toolRail.blockInspectorSettings.title=方塊檢查器   	####This string is what is shown in the title bar of the Editor pane for inspecting blocks.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.specifics=方塊詳情   	####This string is the heading that contains the block tags and block properties subpane.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.actions.refresh=重新整理方塊資料   	####This string shown on a button for forcing an update to the block data state.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.actions.clear=清除選擇   	####This string shown on a button for clearing what block is currently selected.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.blockTags=方塊標籤   	####This string is a header for a panel that shows the block tags on the currently selected block.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.blockProperties=方塊屬性   	####This string is a header for a panel that shows the block properties on the currently selected block.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.blockProperties.name=屬性名稱   	####Within the block properties pane, this string goes before the property name.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.blockProperties.value=屬性值   	####Within the block properties pane, this string goes before the property value.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorTool.title=方塊檢查器   	####This string is what is shown as the name of the block inspector tool.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorTool.tooltip=檢查方塊資料   	####This string is what is shown when hovering over the block inspector icon.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorTool.pane.helpText=左鍵按一下方塊以檢視並編輯其屬性   	####This string is shown in the block inspector tool pane before the user clicks to describe how to use it.{MaxLength=100}
+resourcePack.editor.blockInspector.toolRail.description=左鍵按一下方塊以檢視並編輯其屬性   	####This string is shown in the tool tip to explain the function of the Block Inspector tool.{MaxLength=100}
+
+
 resourcePack.editor.blockPalette.addSearchItem=使用找到方塊	#
 resourcePack.editor.blockPalette.blockPicker=搜尋	#
 resourcePack.editor.blockPalette.paletteDropdown.title=顏色	#
@@ -125,9 +139,9 @@ resourcePack.editor.ClipboardPreviewControl.origin.title=原點	#
 resourcePack.editor.ClipboardPreviewControl.origin.tooltip=剪貼簿項目中的原點。這用作放置錨點以及剪貼簿圍繞其旋轉和鏡像的點	#
 resourcePack.editor.ClipboardPreviewControl.placement.title=選項	#
 resourcePack.editor.ClipboardPreviewControl.rootPane.title=剪貼簿資訊	#
-resourcePack.editor.ClipboardPreviewControl.rotation.180=180Â°	#
-resourcePack.editor.ClipboardPreviewControl.rotation.270=270Â°	#
-resourcePack.editor.ClipboardPreviewControl.rotation.90=90Â°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.180=180°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.270=270°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.90=90°	#
 resourcePack.editor.ClipboardPreviewControl.rotation.none=無	#
 resourcePack.editor.ClipboardPreviewControl.rotation.title=旋轉	#
 resourcePack.editor.ClipboardPreviewControl.rotation.tooltip=原點圍繞 Y 軸的旋轉量	#
@@ -193,6 +207,12 @@ resourcePack.editor.deferredLightingSettings.menu.title=延遲光照設定	#
 resourcePack.editor.delete.keyBinding=刪除選取範圍內容	#
 
 
+resourcePack.editor.toolRail.entityInspector.pane.title=實體檢查器   	####This string is what is shown in the title bar of the Editor pane for modifying entities.{MaxLength=30}
+resourcePack.editor.toolRail.entityInspector.tool.title=實體檢查器   	####This string is what is shown at the top of the Editor pane for modifying entities.{MaxLength=30}
+resourcePack.editor.toolRail.entityInspector.tool.tip=檢查實體資料   	####This string is what is shown on the tool tip of Editor pane for modifying entities (gives context on what the tool does).{MaxLength=100}
+resourcePack.editor.toolRail.entityInspector.pane.helpText=左鍵按一下實體以檢視並編輯其屬性   	####This string is shown in the block inspector tool pane before the user clicks to describe how to use it.{MaxLength=100}
+resourcePack.editor.entityInspector.toolRail.description=左鍵按一下實體以檢視並編輯其屬性   	####This string is shown in the tool tip to explain the function of the Entity Inspector tool.{MaxLength=100}
+
 resourcePack.editor.exportProject.exportType=匯出類型	#
 resourcePack.editor.exportProject.exportType.playableWorld=可遊玩的世界	#
 resourcePack.editor.exportProject.exportNotes=匯出備註	#
@@ -210,7 +230,7 @@ resourcePack.editor.exportProject.advancedSettings.showDaysPlayed=顯示遊玩�
 resourcePack.editor.exportProject.advancedSettings.recipeUnlocking=配方解鎖	#
 resourcePack.editor.exportProject.advancedSettings.fireSpreads=火會蔓延	#
 resourcePack.editor.exportProject.advancedSettings.tntExplodes=炸藥會爆炸	#
-resourcePack.editor.exportProject.advancedSettings.resawnBlocksExplode=起始方塊爆炸	#
+resourcePack.editor.exportProject.advancedSettings.resawnBlocksExplode=重生方塊爆炸	#
 resourcePack.editor.exportProject.advancedSettings.mobLoot=生物戰利品	#
 resourcePack.editor.exportProject.advancedSettings.naturalRegeneration=自然再生	#
 resourcePack.editor.exportProject.advancedSettings.tileDrops=磚塊掉落	#
@@ -277,6 +297,7 @@ resourcePack.editor.toolRail.ExtrudeTool.pane.SelectionMode.QuickExtrudeMode.dec
 resourcePack.editor.toolRail.ExtrudeTool.pane.SelectionMode.QuickExtrudeMode.expand.title=展開	#
 resourcePack.editor.toolRail.ExtrudeTool.pane.SelectionMode.QuickExtrudeMode.expand.tooltip=擴展擠壓	#
 resourcePack.editor.toolRail.ExtrudeTool.pane.SelectionMode.LayerCount.title=層數	#
+resourcePack.editor.toolRail.ExtrudeTool.pane.preview_warning=注意：預覽版視覺將只顯示第一層圖層 	#### {MaxLength="500"}, used to inform the user that the preview visualization for this tool is limited to a single layer.  This string is on screen whenever this tool is active
 resourcePack.editor.toolRail.ExtrudeTool.pane.ExtrusionType.title=擠壓類型	#
 resourcePack.editor.toolRail.ExtrudeTool.pane.ExtrusionType.Extrude=擠壓	#
 resourcePack.editor.toolRail.ExtrudeTool.pane.ExtrusionType.QuickExtrude=快速擠壓	#
@@ -400,10 +421,10 @@ resourcePack.editor.paste.pane.title=貼上	#
 resourcePack.editor.paste.pane.transform.mirrorX=鏡射 X 軸	#
 resourcePack.editor.paste.pane.transform.mirrorZ=鏡射 Z 軸	#
 resourcePack.editor.paste.pane.transform.origin.title=位移	#
-resourcePack.editor.paste.pane.transform.rotation.180=180Â°	#
-resourcePack.editor.paste.pane.transform.rotation.270=270Â°	#
-resourcePack.editor.paste.pane.transform.rotation.90=90Â°	#
-resourcePack.editor.paste.pane.transform.rotation.none=0Â°	#
+resourcePack.editor.paste.pane.transform.rotation.180=180°	#
+resourcePack.editor.paste.pane.transform.rotation.270=270	#
+resourcePack.editor.paste.pane.transform.rotation.90=90°	#
+resourcePack.editor.paste.pane.transform.rotation.none=0°	#
 resourcePack.editor.paste.pane.transform.rotation.title=旋轉	#
 resourcePack.editor.paste.pane.transform.title=變換	#
 resourcePack.editor.paste.toolRail.description=按下滑鼠左鍵選取方塊，接著精準貼上剪貼簿中物品	#
@@ -504,6 +525,30 @@ resourcePack.editor.playtestResult.WorldExportBusy=世界匯出忙碌	#
 resourcePack.editor.playtestResult.WorldExportFailed=世界匯出失敗	#
 
 
+resourcePack.editor.menuBar.file.realmsPublish=發布至 Realms   	####This string is intended to express that the option is for opening the pane to publish your editor world to Realms.{MaxLength=100}
+resourcePack.editor.realmsPublish.userNotLoggedIn=需要啟用中的 Realms 定期服務才能發布至 Realms。你可以從經授權的 Minecraft 代理商或在 minecraft.net 網站上 (登入至帳戶後) 訂閱 Realms 或續訂已過期的定期服務。    	####This string is intended to express that the user is not logged in currently and the process they need to follow in order to be able to upload their editor world to their Realms subscription.{MaxLength=350}
+resourcePack.editor.realmsPublish.goToMinecraftWebsite=前往 Minecraft.net  	####This string is intended to express that the link will take the user to Minecraft.net.{MaxLength=100}
+resourcePack.editor.realmsPublish.Refresh=重新整理  	####This string is intended to express that the button will refresh the pane to see if the user in now logged in.{MaxLength=100}
+resourcePack.editor.realmsPublish.Realm=Realm  	####This string is intended to express that the below dropdown contains all of the users Realms subscriptions.{MaxLength=100}
+resourcePack.editor.realmsPublish.RealmSlot=Realm 插槽 	####This string is intended to express that the dropdown contains all of the world slots in for the users selected realms subscription.{MaxLength=100}
+resourcePack.editor.realmsPublish.PublishNotesTitle=發布至 Realms Note   	####This string is intended to express that the below field will contain additional information for the user about the publish to realms feature, including any warnings or issues.{MaxLength=150}
+resourcePack.editor.realmsPublish.DownloadRealm=下載    	####This string is intended to express that the button will download the currently selected World from the realm slot.{MaxLength=100}
+resourcePack.editor.realmsPublish.PublishRealm=發布  	####This string is intended to express that the button will publish the current world to the currently selected realm slot.{MaxLength=100}
+resourcePack.editor.realmsPublish.Confirm=確認   	####This string is intended to express that the button will confirm  the request to publish the world to realms.{MaxLength=100}
+resourcePack.editor.realmsPublish.Cancel=取消 	####This string is intended to express that the button will cancel the request to publish the world to realms.{MaxLength=100}
+resourcePack.editor.realmsPublish.Back=返回 	####This string is intended to express that the button will take the user back to the previous pane.{MaxLength=100}
+resourcePack.editor.realmsPublish.PublishFailed=發布到 Realms 失敗。請稍後再試。   	####This string is intended to express that publishing the world to Realms failed and to please try again later.{MaxLength=200}
+resourcePack.editor.realmsPublish.PublishSuccess=已成功發布到 Realms    	####This string is intended to express that publishing the world to Realms succeeded.{MaxLength=200}
+resourcePack.editor.realmsPublish.PublishConfirmationOptOut=不要再詢問這個 Realm 和工作階段  	####This string is intended to express that the checkbox will opt the user out of confirming their publish to realms decisions.{MaxLength=100}
+resourcePack.editor.realmsPublish.PublishingToRealms=正在將世界發布到 Realms...  	####This string is intended to express that the world is currently in the process of being published to Realms.{MaxLength=100}
+resourcePack.editor.realmsPublish.UnableToPublishMissingRealm=無法發布到 Realms。未選擇 Realm    	####This string is intended to express that the user is unable to publish their world because a realm to upload to has not been selected.{MaxLength=250}
+resourcePack.editor.realmsPublish.UnableToPublishMissingRealmSlot=無法發布到 Realms。未選擇 Realm 欄位   	####This string is intended to express that the user is unable to publish their world because a realm slot to upload to has not been selected.{MaxLength=250}
+resourcePack.editor.realmsPublish.PublishConfirmationWarning=這會將目前世界從所選欄位移除，並以您目前的編輯器世界取代 (所選欄位也會成為您 Realm 的已啟用欄位)。您 Realm 的成員將可以存取您剛取代的世界。如果您想在發布前儲存目前的世界，以防止資料遺失，請取消此對話方塊，並在「發布」前選取「下載」。選取「確認」以繼續並取代您目前的世界。    	####This string is intended to warn the user that if they publish their world to Realms, the world currently in that Realms slot will be deleted and unrecoverable. It also informs the user that members of the Realm will be able to access this world.{MaxLength=1000}
+resourcePack.editor.realmsPublish.DownloadSuccess=在 Realms 中下載世界成功    	####This string is intended to express that downloading a world from Realms succeeded.{MaxLength=200}
+resourcePack.editor.realmsPublish.DownloadFailed=從 Realms 下載世界失敗 	####This string is intended to express that downloading a world from Realms failed.{MaxLength=200}
+resourcePack.editor.realmsPublish.DownloadingFromRealms=正從 Realms 下載世界…    	####This string is intended to express that we're in the middle of downloading a world from Realms and waiting for that operation to complete.{MaxLength=200}
+
+
 resourcePack.editor.toolRail.RepeaterTool.title=中繼器工具	#
 resourcePack.editor.toolRail.RepeaterTool.tooltip=用於重複選取區域的工具	#
 resourcePack.editor.toolRail.RepeaterTool.pane.Spacing=間距	#
@@ -512,6 +557,18 @@ resourcePack.editor.toolRail.RepeaterTool.pane.Preview=預覽	#
 resourcePack.editor.toolRail.RepeaterTool.pane.Clear=晴朗	#
 resourcePack.editor.toolRail.RepeaterTool.pane.Apply=套用	#
 resourcePack.editor.toolRail.RepeaterTool.statusMessage.noSelection=使用選取工具選取要重複的區域	#
+resourcePack.editor.toolRail.RepeaterTool.pane.Mode=模式		####"Mode" describes a dropdown that contains the two different states the tool can be in. These are "Line" and "Grid" {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.mode.Line=直線		####"Line" describes a straight, unbroken visual between two points {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.mode.Grid=網格		####"Grid" describes a visual consisting of parallel lines at regular intervals, broken up by perpendicular lines at regular intervals, like grid paper. {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.pane.RepeatType=重複類型		####"Repeat Type" describes a dropdown that contains the two types "Uniform" and "Separate" and represents how the repetitions along the three axes (plural of "axis") will be determined {MaxLength=40}
+resourcePack.editor.toolRail.RepeaterTool.repeat.Uniform=一致化		####"Uniform" describes the repeat state of the Repeater Tool where it applies the same number of repetitions across all three axes (X, Y, and Z). "Uniform" was chosen as a short word that also means "consistent across multiple instances" {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.pane.RepeatAlongX=沿 X 重複		####"Repeat Along" describes a checkbox and means to apply the number of Uniform Repetitions across a given axis. This one is the X axis. "X", "Y", and "Z" have a mathematical meaning and it may not be appropriate to translate unless the mathematical meaning is also translated. More info can be found at https://en.wikipedia.org/wiki/Coordinate_system {MaxLength=40}
+resourcePack.editor.toolRail.RepeaterTool.pane.RepeatAlongY=沿 Y 重複		####See "Repeat Along X" but this is for the Y axis. {MaxLength=40}
+resourcePack.editor.toolRail.RepeaterTool.pane.RepeatAlongZ=沿 Z 重複		####See "Repeat Along X" but this is for the Z axis. {MaxLength=40}
+resourcePack.editor.toolRail.RepeaterTool.repeat.Separate=分離		####"Separate" describes the repeat state of the Repeater Tool where the number of repetitions along each axis is set using separate number input elements, rather than one single number input {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.pane.XCount=X 計數		####"X Count" describes a number input field and represents the number of repetitions along the X axis. "X", "Y", and "Z" have a mathematical meaning and it may not be appropriate to translate unless the mathematical meaning is also translated. More info can be found at https://en.wikipedia.org/wiki/Coordinate_system {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.pane.YCount=Y 計數		####See "X Count" but this is for the Y axis. {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.pane.ZCount=Z 計數		####See "X Count" but this is for the Z axis. {MaxLength=20}
 
 
 resourcePack.editor.selectionTool.deselect=取消選取	#
@@ -709,9 +766,11 @@ resourcePack.editor.toolRail.workbenchTool.leftClick=按一下左鍵	#
 resourcePack.editor.toolRail.workbenchTool.shiftLeftClick=Shift + 滑鼠左鍵按一下	#
 resourcePack.editor.toolRail.workbenchTool.controlLeftClick=CTRL + 滑鼠左鍵按一下	#
 resourcePack.editor.toolRail.workbenchTool.shiftControlLeftClick=Shift + CTRL + 滑鼠左鍵按一下	#
-resourcePack.editor.toolRail.workbenchTool.stripWood=剝皮 / 未剝皮木頭	#
+resourcePack.editor.toolRail.workbenchTool.stripWood=剝皮 / 未剝皮木頭		####This string is intended to express whether the wood block has bark (unstripped) or doesn't have bark (stripped).{MaxLength=100}
 resourcePack.editor.toolRail.workbenchTool.ladderLocation=階梯位置	#
 resourcePack.editor.toolRail.workbenchTool.autoAlign=自動對齊	#
+resourcePack.editor.toolRail.workbenchTool.autoAlignFacingDirection=自動對齊面對方向		####This string is intended to express that the action will align the facing direction of the block with the player camera.{MaxLength=100}
+resourcePack.editor.toolRail.workbenchTool.autoAlignRotation=自動對齊旋轉		####This string is intended to express that the action will align the roatation of the block with the player camera.{MaxLength=100}
 
 resourcePack.editor.toolRail.workbenchTool.topSlotBitProp=頂部 / 底部	#
 resourcePack.editor.toolRail.workbenchTool.pillarAxisProp=旋轉	#
@@ -758,8 +817,8 @@ resourcePack.editor.viewSettings.invisible.tip=顯示隱形方塊 (例如虛空�
 resourcePack.editor.viewSettings.invisible.title=顯示隱形方塊	#
 resourcePack.editor.viewSettings.flySpeed.tip=提升飛行速度以更快地操控地圖	#
 resourcePack.editor.viewSettings.flySpeed.title=飛行速度加倍	#
-resourcePack.editor.viewSettings.menu=檢視設定	#
-resourcePack.editor.viewSettings.title=視角設定	#
+resourcePack.editor.viewSettings.menu=設定	#
+resourcePack.editor.viewSettings.title=設定	#
 
 resourcePack.editor.hotbar.defaultDisplayName=預設	#
 

@@ -25,6 +25,20 @@ resourcePack.editor.agfx.pane.settings.revert_changes=Változtatások visszaáll
 resourcePack.editor.agfx.pane.settings.export_to_clipboard=Exportálás a vágólapra	#
 
 
+resourcePack.editor.toolRail.blockInspectorSettings.title=Blokkellenőrző   	####This string is what is shown in the title bar of the Editor pane for inspecting blocks.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.specifics=Blokk specifikácói   	####This string is the heading that contains the block tags and block properties subpane.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.actions.refresh=Blokkadatok frissítése   	####This string shown on a button for forcing an update to the block data state.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.actions.clear=Kijelölés törlése   	####This string shown on a button for clearing what block is currently selected.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.blockTags=Blokkcímkék   	####This string is a header for a panel that shows the block tags on the currently selected block.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.blockProperties=Blokk tulajdonságai   	####This string is a header for a panel that shows the block properties on the currently selected block.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.blockProperties.name=Tulajdonság neve   	####Within the block properties pane, this string goes before the property name.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.blockProperties.value=Tulajdonság értéke   	####Within the block properties pane, this string goes before the property value.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorTool.title=Blokkellenőrző   	####This string is what is shown as the name of the block inspector tool.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorTool.tooltip=Blokkadatok ellenőrzése   	####This string is what is shown when hovering over the block inspector icon.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorTool.pane.helpText=Kattints a bal gombbal egy blokkra a tulajdonságainak megtekintéséhez és szerkesztéséhez   	####This string is shown in the block inspector tool pane before the user clicks to describe how to use it.{MaxLength=100}
+resourcePack.editor.blockInspector.toolRail.description=Kattints a bal gombbal egy blokkra a tulajdonságainak megtekintéséhez és szerkesztéséhez   	####This string is shown in the tool tip to explain the function of the Block Inspector tool.{MaxLength=100}
+
+
 resourcePack.editor.blockPalette.addSearchItem=Talált blokk használata	#
 resourcePack.editor.blockPalette.blockPicker=Keresés	#
 resourcePack.editor.blockPalette.paletteDropdown.title=Paletta	#
@@ -125,9 +139,9 @@ resourcePack.editor.ClipboardPreviewControl.origin.title=Kezdőpont	#
 resourcePack.editor.ClipboardPreviewControl.origin.tooltip=A vágólaptárgyon belül található kezdőpont. Ez szolgál elhelyezési horgonyként, illetve ezen pont körül forgathatod és tükrözheted a vágólapot.	#
 resourcePack.editor.ClipboardPreviewControl.placement.title=Beállítások	#
 resourcePack.editor.ClipboardPreviewControl.rootPane.title=Vágólap adatai	#
-resourcePack.editor.ClipboardPreviewControl.rotation.180=180Â°	#
-resourcePack.editor.ClipboardPreviewControl.rotation.270=270Â°	#
-resourcePack.editor.ClipboardPreviewControl.rotation.90=90Â°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.180=180°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.270=270°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.90=90°	#
 resourcePack.editor.ClipboardPreviewControl.rotation.none=Nincs	#
 resourcePack.editor.ClipboardPreviewControl.rotation.title=Elforgatás	#
 resourcePack.editor.ClipboardPreviewControl.rotation.tooltip=Az Y tengely körüli elforgatás mértéke a kezdőpontnál	#
@@ -193,6 +207,12 @@ resourcePack.editor.deferredLightingSettings.menu.title=Késleltetett világít�
 resourcePack.editor.delete.keyBinding=Kijelölés tartalmának törlése	#
 
 
+resourcePack.editor.toolRail.entityInspector.pane.title=Entitás-ellenőrző   	####This string is what is shown in the title bar of the Editor pane for modifying entities.{MaxLength=30}
+resourcePack.editor.toolRail.entityInspector.tool.title=Entitás-ellenőrző   	####This string is what is shown at the top of the Editor pane for modifying entities.{MaxLength=30}
+resourcePack.editor.toolRail.entityInspector.tool.tip=Entitás adatainak ellenőrzése   	####This string is what is shown on the tool tip of Editor pane for modifying entities (gives context on what the tool does).{MaxLength=100}
+resourcePack.editor.toolRail.entityInspector.pane.helpText=Kattints a bal gombbal egy entitásra a tulajdonságainak megtekintéséhez és szerkesztéséhez   	####This string is shown in the block inspector tool pane before the user clicks to describe how to use it.{MaxLength=100}
+resourcePack.editor.entityInspector.toolRail.description=Kattints a bal gombbal egy entitásra a tulajdonságainak megtekintéséhez és szerkesztéséhez   	####This string is shown in the tool tip to explain the function of the Entity Inspector tool.{MaxLength=100}
+
 resourcePack.editor.exportProject.exportType=Exportálás típusa	#
 resourcePack.editor.exportProject.exportType.playableWorld=Játszható világ	#
 resourcePack.editor.exportProject.exportNotes=Exportálási megjegyzések	#
@@ -231,7 +251,7 @@ resourcePack.editor.exportProject.cheatsSettings.cheats=Csalások	#
 resourcePack.editor.exportProject.cheatsSettings.daylightCycle=Nappalok/éjszakák váltakozása	#
 resourcePack.editor.exportProject.cheatsSettings.keepInventory=Leltár megtartása	#
 resourcePack.editor.exportProject.cheatsSettings.mobSpawning=Mobok teremtése	#
-resourcePack.editor.exportProject.cheatsSettings.mobGriefing=Keserítő mobok	#
+resourcePack.editor.exportProject.cheatsSettings.mobGriefing=Szabotáló mobok	#
 resourcePack.editor.exportProject.cheatsSettings.entitiesDropLoot=Az entitások zsákmányt dobnak ki	#
 resourcePack.editor.exportProject.cheatsSettings.weatherCycle=Időjárásciklus	#
 resourcePack.editor.exportProject.cheatsSettings.commandBlocks=Parancsblokkok	#
@@ -277,6 +297,7 @@ resourcePack.editor.toolRail.ExtrudeTool.pane.SelectionMode.QuickExtrudeMode.dec
 resourcePack.editor.toolRail.ExtrudeTool.pane.SelectionMode.QuickExtrudeMode.expand.title=Növelés	#
 resourcePack.editor.toolRail.ExtrudeTool.pane.SelectionMode.QuickExtrudeMode.expand.tooltip=Kihúzás növelése	#
 resourcePack.editor.toolRail.ExtrudeTool.pane.SelectionMode.LayerCount.title=Rétegek száma	#
+resourcePack.editor.toolRail.ExtrudeTool.pane.preview_warning=Megjegyzés: az előzetes vizualizáció csak az első réteget jeleníti meg. 	#### {MaxLength="500"}, used to inform the user that the preview visualization for this tool is limited to a single layer.  This string is on screen whenever this tool is active
 resourcePack.editor.toolRail.ExtrudeTool.pane.ExtrusionType.title=Kihúzás típusa	#
 resourcePack.editor.toolRail.ExtrudeTool.pane.ExtrusionType.Extrude=Kihúzás	#
 resourcePack.editor.toolRail.ExtrudeTool.pane.ExtrusionType.QuickExtrude=Gyors kihúzás	#
@@ -400,10 +421,10 @@ resourcePack.editor.paste.pane.title=Beillesztés	#
 resourcePack.editor.paste.pane.transform.mirrorX=X tükrözése	#
 resourcePack.editor.paste.pane.transform.mirrorZ=Z tükrözése	#
 resourcePack.editor.paste.pane.transform.origin.title=Eltolás	#
-resourcePack.editor.paste.pane.transform.rotation.180=180Â°	#
-resourcePack.editor.paste.pane.transform.rotation.270=270Â°	#
-resourcePack.editor.paste.pane.transform.rotation.90=90Â°	#
-resourcePack.editor.paste.pane.transform.rotation.none=0Â°	#
+resourcePack.editor.paste.pane.transform.rotation.180=180°	#
+resourcePack.editor.paste.pane.transform.rotation.270=270	#
+resourcePack.editor.paste.pane.transform.rotation.90=90°	#
+resourcePack.editor.paste.pane.transform.rotation.none=0°	#
 resourcePack.editor.paste.pane.transform.rotation.title=Forgatás	#
 resourcePack.editor.paste.pane.transform.title=Átalakítás	#
 resourcePack.editor.paste.toolRail.description=Kattints a bal egérgombbal egy blokk kijelöléséhez, majd illessz be pontosan egy vágólapon lévő elemet	#
@@ -504,6 +525,30 @@ resourcePack.editor.playtestResult.WorldExportBusy=A világ exportálása folyam
 resourcePack.editor.playtestResult.WorldExportFailed=A világ exportálása sikertelen	#
 
 
+resourcePack.editor.menuBar.file.realmsPublish=Közzététel a Realmsben   	####This string is intended to express that the option is for opening the pane to publish your editor world to Realms.{MaxLength=100}
+resourcePack.editor.realmsPublish.userNotLoggedIn=A Realmsben való közzétételhez aktív Realms-előfizetésre van szükség. Előfizethetsz a Realmsre, vagy megújíthatod a lejárt előfizetéseidet a hagyományos módon a Minecraft-kliensben vagy a minecraft.net webhelyen (miután bejelentkeztél a fiókodba).    	####This string is intended to express that the user is not logged in currently and the process they need to follow in order to be able to upload their editor world to their Realms subscription.{MaxLength=350}
+resourcePack.editor.realmsPublish.goToMinecraftWebsite=Tovább a Minecraft.net webhelyre  	####This string is intended to express that the link will take the user to Minecraft.net.{MaxLength=100}
+resourcePack.editor.realmsPublish.Refresh=Frissítés  	####This string is intended to express that the button will refresh the pane to see if the user in now logged in.{MaxLength=100}
+resourcePack.editor.realmsPublish.Realm=Realm  	####This string is intended to express that the below dropdown contains all of the users Realms subscriptions.{MaxLength=100}
+resourcePack.editor.realmsPublish.RealmSlot=Realm-hely 	####This string is intended to express that the dropdown contains all of the world slots in for the users selected realms subscription.{MaxLength=100}
+resourcePack.editor.realmsPublish.PublishNotesTitle=Megjegyzés a Realmsben való közzétételhez   	####This string is intended to express that the below field will contain additional information for the user about the publish to realms feature, including any warnings or issues.{MaxLength=150}
+resourcePack.editor.realmsPublish.DownloadRealm=Letöltés    	####This string is intended to express that the button will download the currently selected World from the realm slot.{MaxLength=100}
+resourcePack.editor.realmsPublish.PublishRealm=Közzététel  	####This string is intended to express that the button will publish the current world to the currently selected realm slot.{MaxLength=100}
+resourcePack.editor.realmsPublish.Confirm=Megerősítés   	####This string is intended to express that the button will confirm  the request to publish the world to realms.{MaxLength=100}
+resourcePack.editor.realmsPublish.Cancel=Mégse 	####This string is intended to express that the button will cancel the request to publish the world to realms.{MaxLength=100}
+resourcePack.editor.realmsPublish.Back=Vissza 	####This string is intended to express that the button will take the user back to the previous pane.{MaxLength=100}
+resourcePack.editor.realmsPublish.PublishFailed=A Realmsben való közzététel meghiúsult. Kérjük, próbálkozz újra később.   	####This string is intended to express that publishing the world to Realms failed and to please try again later.{MaxLength=200}
+resourcePack.editor.realmsPublish.PublishSuccess=A Realmsben való közzététel sikerült    	####This string is intended to express that publishing the world to Realms succeeded.{MaxLength=200}
+resourcePack.editor.realmsPublish.PublishConfirmationOptOut=Ne kérdezd újra ebben a Realmben és munkamenetben  	####This string is intended to express that the checkbox will opt the user out of confirming their publish to realms decisions.{MaxLength=100}
+resourcePack.editor.realmsPublish.PublishingToRealms=Világ közzététele a Realmsben…  	####This string is intended to express that the world is currently in the process of being published to Realms.{MaxLength=100}
+resourcePack.editor.realmsPublish.UnableToPublishMissingRealm=A Realmsben való közzététel sikertelen. Nincs Realm kiválasztva    	####This string is intended to express that the user is unable to publish their world because a realm to upload to has not been selected.{MaxLength=250}
+resourcePack.editor.realmsPublish.UnableToPublishMissingRealmSlot=A Realmsben való közzététel sikertelen. Nincs hely kiválasztva a Realmhez   	####This string is intended to express that the user is unable to publish their world because a realm slot to upload to has not been selected.{MaxLength=250}
+resourcePack.editor.realmsPublish.PublishConfirmationWarning=Ez a művelet eltávolítja az aktuális világot a kiválasztott helyről, és kicseréli a Szerkesztőben lévő világra (illetve a kiválasztott helyet teszi aktívvá a Realmedben). A Realm-tagjaid az újonnan kicserélt világhoz is hozzáférést kapnak. Ha az adatvesztés megakadályozása érdekében a közzététel előtt szeretnéd menteni az aktuális világod, zárd be ezt a párbeszédablakot, és a „Közzététel” előtt válaszd a „Letöltés” lehetőséget. Ha az aktuális világ cseréjével szeretnéd folytatni, kattints a „Megerősítés” gombra.    	####This string is intended to warn the user that if they publish their world to Realms, the world currently in that Realms slot will be deleted and unrecoverable. It also informs the user that members of the Realm will be able to access this world.{MaxLength=1000}
+resourcePack.editor.realmsPublish.DownloadSuccess=A világ Realmsből való letöltése sikeres volt    	####This string is intended to express that downloading a world from Realms succeeded.{MaxLength=200}
+resourcePack.editor.realmsPublish.DownloadFailed=A világ Realmsből való letöltése meghiúsult 	####This string is intended to express that downloading a world from Realms failed.{MaxLength=200}
+resourcePack.editor.realmsPublish.DownloadingFromRealms=Világ letöltése a Realmsből…    	####This string is intended to express that we're in the middle of downloading a world from Realms and waiting for that operation to complete.{MaxLength=200}
+
+
 resourcePack.editor.toolRail.RepeaterTool.title=Ismétlő eszköz	#
 resourcePack.editor.toolRail.RepeaterTool.tooltip=Egy kiválasztási kötet megismétlésére szolgáló eszköz	#
 resourcePack.editor.toolRail.RepeaterTool.pane.Spacing=Szünetek	#
@@ -512,6 +557,18 @@ resourcePack.editor.toolRail.RepeaterTool.pane.Preview=Előnézet	#
 resourcePack.editor.toolRail.RepeaterTool.pane.Clear=Törlés	#
 resourcePack.editor.toolRail.RepeaterTool.pane.Apply=Alkalmaz	#
 resourcePack.editor.toolRail.RepeaterTool.statusMessage.noSelection=A kijelölő eszközzel válaszd ki a megismételni kívánt kötetet	#
+resourcePack.editor.toolRail.RepeaterTool.pane.Mode=Mód:		####"Mode" describes a dropdown that contains the two different states the tool can be in. These are "Line" and "Grid" {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.mode.Line=Vonal		####"Line" describes a straight, unbroken visual between two points {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.mode.Grid=Rács		####"Grid" describes a visual consisting of parallel lines at regular intervals, broken up by perpendicular lines at regular intervals, like grid paper. {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.pane.RepeatType=Ismétlés típusa		####"Repeat Type" describes a dropdown that contains the two types "Uniform" and "Separate" and represents how the repetitions along the three axes (plural of "axis") will be determined {MaxLength=40}
+resourcePack.editor.toolRail.RepeaterTool.repeat.Uniform=Egységes		####"Uniform" describes the repeat state of the Repeater Tool where it applies the same number of repetitions across all three axes (X, Y, and Z). "Uniform" was chosen as a short word that also means "consistent across multiple instances" {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.pane.RepeatAlongX=Ismétlés az X tengely mentén		####"Repeat Along" describes a checkbox and means to apply the number of Uniform Repetitions across a given axis. This one is the X axis. "X", "Y", and "Z" have a mathematical meaning and it may not be appropriate to translate unless the mathematical meaning is also translated. More info can be found at https://en.wikipedia.org/wiki/Coordinate_system {MaxLength=40}
+resourcePack.editor.toolRail.RepeaterTool.pane.RepeatAlongY=Ismétlés az Y tengely mentén		####See "Repeat Along X" but this is for the Y axis. {MaxLength=40}
+resourcePack.editor.toolRail.RepeaterTool.pane.RepeatAlongZ=Ismétlés a Z tengely mentén		####See "Repeat Along X" but this is for the Z axis. {MaxLength=40}
+resourcePack.editor.toolRail.RepeaterTool.repeat.Separate=Különválasztás		####"Separate" describes the repeat state of the Repeater Tool where the number of repetitions along each axis is set using separate number input elements, rather than one single number input {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.pane.XCount=X ismétlések száma		####"X Count" describes a number input field and represents the number of repetitions along the X axis. "X", "Y", and "Z" have a mathematical meaning and it may not be appropriate to translate unless the mathematical meaning is also translated. More info can be found at https://en.wikipedia.org/wiki/Coordinate_system {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.pane.YCount=Y ismétlések száma		####See "X Count" but this is for the Y axis. {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.pane.ZCount=Z ismétlések száma		####See "X Count" but this is for the Z axis. {MaxLength=20}
 
 
 resourcePack.editor.selectionTool.deselect=Kijelölés törlése	#
@@ -709,9 +766,11 @@ resourcePack.editor.toolRail.workbenchTool.leftClick=Bal kattintás	#
 resourcePack.editor.toolRail.workbenchTool.shiftLeftClick=Shift + bal egérgomb	#
 resourcePack.editor.toolRail.workbenchTool.controlLeftClick=CTRL + bal egérgomb	#
 resourcePack.editor.toolRail.workbenchTool.shiftControlLeftClick=Shift + CTRL + bal egérgomb	#
-resourcePack.editor.toolRail.workbenchTool.stripWood=Fa gyalulása/kérgesítése	#
+resourcePack.editor.toolRail.workbenchTool.stripWood=Fa gyalulása/kérgesítése		####This string is intended to express whether the wood block has bark (unstripped) or doesn't have bark (stripped).{MaxLength=100}
 resourcePack.editor.toolRail.workbenchTool.ladderLocation=Létra pozíciója	#
 resourcePack.editor.toolRail.workbenchTool.autoAlign=Automatikus igazítás	#
+resourcePack.editor.toolRail.workbenchTool.autoAlignFacingDirection=Automatikus igazítás iránya		####This string is intended to express that the action will align the facing direction of the block with the player camera.{MaxLength=100}
+resourcePack.editor.toolRail.workbenchTool.autoAlignRotation=Automatikus igazítás forgatása		####This string is intended to express that the action will align the roatation of the block with the player camera.{MaxLength=100}
 
 resourcePack.editor.toolRail.workbenchTool.topSlotBitProp=Felső/alsó	#
 resourcePack.editor.toolRail.workbenchTool.pillarAxisProp=Forgatás	#
@@ -758,8 +817,8 @@ resourcePack.editor.viewSettings.invisible.tip=Láthatatlan blokkok megjelenít�
 resourcePack.editor.viewSettings.invisible.title=Láthatatlan blokkok megjelenítése	#
 resourcePack.editor.viewSettings.flySpeed.tip=A repülési sebesség növelésével gyorsabban átszelheted a térképet	#
 resourcePack.editor.viewSettings.flySpeed.title=Repülési sebesség szorzója	#
-resourcePack.editor.viewSettings.menu=Beállítások megtekintése	#
-resourcePack.editor.viewSettings.title=Beállítások megtekintése	#
+resourcePack.editor.viewSettings.menu=Beállítások	#
+resourcePack.editor.viewSettings.title=Beállítások	#
 
 resourcePack.editor.hotbar.defaultDisplayName=Alapértelmezett	#
 

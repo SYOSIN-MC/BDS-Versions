@@ -32,7 +32,8 @@
           "cold",
           "monster",
           "ocean",
-          "overworld"
+          "overworld",
+          "spawns_cold_variant_farm_animals"
         ]
       }
     }

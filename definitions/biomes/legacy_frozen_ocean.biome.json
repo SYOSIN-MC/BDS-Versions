@@ -18,7 +18,9 @@
           "legacy",
           "frozen",
           "ocean",
-          "overworld"
+          "overworld",
+	        "spawns_cold_variant_farm_animals",
+          "spawns_polar_bears_on_alternate_blocks"
         ]
       }
     }

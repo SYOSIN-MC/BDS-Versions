@@ -25,6 +25,20 @@ resourcePack.editor.agfx.pane.settings.revert_changes=Скасувати змі�
 resourcePack.editor.agfx.pane.settings.export_to_clipboard=Експорт у буфер обміну	#
 
 
+resourcePack.editor.toolRail.blockInspectorSettings.title=Інспектор блока   	####This string is what is shown in the title bar of the Editor pane for inspecting blocks.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.specifics=Специфічні параметри блока   	####This string is the heading that contains the block tags and block properties subpane.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.actions.refresh=Оновити дані блока   	####This string shown on a button for forcing an update to the block data state.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.actions.clear=Скасувати вибір   	####This string shown on a button for clearing what block is currently selected.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.blockTags=Теги блока   	####This string is a header for a panel that shows the block tags on the currently selected block.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.blockProperties=Властивості блока   	####This string is a header for a panel that shows the block properties on the currently selected block.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.blockProperties.name=Назва властивості   	####Within the block properties pane, this string goes before the property name.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.blockProperties.value=Значення властивості   	####Within the block properties pane, this string goes before the property value.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorTool.title=Інспектор блока   	####This string is what is shown as the name of the block inspector tool.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorTool.tooltip=Переглянути дані блока   	####This string is what is shown when hovering over the block inspector icon.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorTool.pane.helpText=Клацніть лівою кнопкою миші на блок, щоб переглянути та відредагувати його властивості   	####This string is shown in the block inspector tool pane before the user clicks to describe how to use it.{MaxLength=100}
+resourcePack.editor.blockInspector.toolRail.description=Клацніть лівою кнопкою миші на блок, щоб переглянути та відредагувати його властивості   	####This string is shown in the tool tip to explain the function of the Block Inspector tool.{MaxLength=100}
+
+
 resourcePack.editor.blockPalette.addSearchItem=Використати знайдений блок	#
 resourcePack.editor.blockPalette.blockPicker=Пошук	#
 resourcePack.editor.blockPalette.paletteDropdown.title=Палітра	#
@@ -193,6 +207,12 @@ resourcePack.editor.deferredLightingSettings.menu.title=Параметри ві�
 resourcePack.editor.delete.keyBinding=Видалити вміст виділення	#
 
 
+resourcePack.editor.toolRail.entityInspector.pane.title=Інспектор сутностей   	####This string is what is shown in the title bar of the Editor pane for modifying entities.{MaxLength=30}
+resourcePack.editor.toolRail.entityInspector.tool.title=Інспектор сутностей   	####This string is what is shown at the top of the Editor pane for modifying entities.{MaxLength=30}
+resourcePack.editor.toolRail.entityInspector.tool.tip=Переглянути дані сутності   	####This string is what is shown on the tool tip of Editor pane for modifying entities (gives context on what the tool does).{MaxLength=100}
+resourcePack.editor.toolRail.entityInspector.pane.helpText=Клацніть лівою кнопкою миші на сутності, щоб переглянути та відредагувати її властивості   	####This string is shown in the block inspector tool pane before the user clicks to describe how to use it.{MaxLength=100}
+resourcePack.editor.entityInspector.toolRail.description=Клацніть лівою кнопкою миші на сутності, щоб переглянути та відредагувати її властивості   	####This string is shown in the tool tip to explain the function of the Entity Inspector tool.{MaxLength=100}
+
 resourcePack.editor.exportProject.exportType=Тип експорту	#
 resourcePack.editor.exportProject.exportType.playableWorld=Ігровий світ	#
 resourcePack.editor.exportProject.exportNotes=Експорт нотаток	#
@@ -277,6 +297,7 @@ resourcePack.editor.toolRail.ExtrudeTool.pane.SelectionMode.QuickExtrudeMode.dec
 resourcePack.editor.toolRail.ExtrudeTool.pane.SelectionMode.QuickExtrudeMode.expand.title=Розгорнути	#
 resourcePack.editor.toolRail.ExtrudeTool.pane.SelectionMode.QuickExtrudeMode.expand.tooltip=Розгорнути екструзію	#
 resourcePack.editor.toolRail.ExtrudeTool.pane.SelectionMode.LayerCount.title=Кількість шарів	#
+resourcePack.editor.toolRail.ExtrudeTool.pane.preview_warning=Важливо: Візуалізація попереднього перегляду показує лише перший шар 	#### {MaxLength="500"}, used to inform the user that the preview visualization for this tool is limited to a single layer.  This string is on screen whenever this tool is active
 resourcePack.editor.toolRail.ExtrudeTool.pane.ExtrusionType.title=Тип екструзії	#
 resourcePack.editor.toolRail.ExtrudeTool.pane.ExtrusionType.Extrude=Екструзія	#
 resourcePack.editor.toolRail.ExtrudeTool.pane.ExtrusionType.QuickExtrude=Швидка екструзія	#
@@ -400,9 +421,9 @@ resourcePack.editor.paste.pane.title=Вставити	#
 resourcePack.editor.paste.pane.transform.mirrorX=Дзеркало Х	#
 resourcePack.editor.paste.pane.transform.mirrorZ=Дзеркало Z	#
 resourcePack.editor.paste.pane.transform.origin.title=Зсув	#
-resourcePack.editor.paste.pane.transform.rotation.180=180°	#
-resourcePack.editor.paste.pane.transform.rotation.270=270°	#
-resourcePack.editor.paste.pane.transform.rotation.90=90°	#
+resourcePack.editor.paste.pane.transform.rotation.180=180	#
+resourcePack.editor.paste.pane.transform.rotation.270=270	#
+resourcePack.editor.paste.pane.transform.rotation.90=90	#
 resourcePack.editor.paste.pane.transform.rotation.none=0°	#
 resourcePack.editor.paste.pane.transform.rotation.title=Повернути	#
 resourcePack.editor.paste.pane.transform.title=Перетворити	#
@@ -504,6 +525,30 @@ resourcePack.editor.playtestResult.WorldExportBusy=Функція експорт
 resourcePack.editor.playtestResult.WorldExportFailed=Помилка експорту світу	#
 
 
+resourcePack.editor.menuBar.file.realmsPublish=Опублікувати в Realms   	####This string is intended to express that the option is for opening the pane to publish your editor world to Realms.{MaxLength=100}
+resourcePack.editor.realmsPublish.userNotLoggedIn=Для публікації в Realms потрібна активна підписка на Realms. Підписатися на Realms або поновити старі підписки можна в стандартному клієнті Minecraft або на сайті minecraft.net (після входу в обліковий запис).    	####This string is intended to express that the user is not logged in currently and the process they need to follow in order to be able to upload their editor world to their Realms subscription.{MaxLength=350}
+resourcePack.editor.realmsPublish.goToMinecraftWebsite=Перейти до Minecraft.net  	####This string is intended to express that the link will take the user to Minecraft.net.{MaxLength=100}
+resourcePack.editor.realmsPublish.Refresh=Оновити  	####This string is intended to express that the button will refresh the pane to see if the user in now logged in.{MaxLength=100}
+resourcePack.editor.realmsPublish.Realm=Realm  	####This string is intended to express that the below dropdown contains all of the users Realms subscriptions.{MaxLength=100}
+resourcePack.editor.realmsPublish.RealmSlot=Слот Realm 	####This string is intended to express that the dropdown contains all of the world slots in for the users selected realms subscription.{MaxLength=100}
+resourcePack.editor.realmsPublish.PublishNotesTitle=Опублікувати в Realms із приміткою   	####This string is intended to express that the below field will contain additional information for the user about the publish to realms feature, including any warnings or issues.{MaxLength=150}
+resourcePack.editor.realmsPublish.DownloadRealm=Завантажити    	####This string is intended to express that the button will download the currently selected World from the realm slot.{MaxLength=100}
+resourcePack.editor.realmsPublish.PublishRealm=Опублікувати  	####This string is intended to express that the button will publish the current world to the currently selected realm slot.{MaxLength=100}
+resourcePack.editor.realmsPublish.Confirm=Підтвердити   	####This string is intended to express that the button will confirm  the request to publish the world to realms.{MaxLength=100}
+resourcePack.editor.realmsPublish.Cancel=Скасувати 	####This string is intended to express that the button will cancel the request to publish the world to realms.{MaxLength=100}
+resourcePack.editor.realmsPublish.Back=Назад 	####This string is intended to express that the button will take the user back to the previous pane.{MaxLength=100}
+resourcePack.editor.realmsPublish.PublishFailed=Не вдалося опублікувати у Realms. Спробуйте ще раз згодом.   	####This string is intended to express that publishing the world to Realms failed and to please try again later.{MaxLength=200}
+resourcePack.editor.realmsPublish.PublishSuccess=Успішно опубліковано у Realms    	####This string is intended to express that publishing the world to Realms succeeded.{MaxLength=200}
+resourcePack.editor.realmsPublish.PublishConfirmationOptOut=Більше не запитувати для цього Realm упродовж цієї сесії  	####This string is intended to express that the checkbox will opt the user out of confirming their publish to realms decisions.{MaxLength=100}
+resourcePack.editor.realmsPublish.PublishingToRealms=Публікування світу у Realms…  	####This string is intended to express that the world is currently in the process of being published to Realms.{MaxLength=100}
+resourcePack.editor.realmsPublish.UnableToPublishMissingRealm=Не вдається опублікувати у Realms. Не вибрано жодного Realm    	####This string is intended to express that the user is unable to publish their world because a realm to upload to has not been selected.{MaxLength=250}
+resourcePack.editor.realmsPublish.UnableToPublishMissingRealmSlot=Не вдається опублікувати у Realms. Не вибрано жодного слота Realm   	####This string is intended to express that the user is unable to publish their world because a realm slot to upload to has not been selected.{MaxLength=250}
+resourcePack.editor.realmsPublish.PublishConfirmationWarning=Це видалить поточний світ з обраного слота та замінить його вашим поточним світом у редакторі (вибраний слот також стане активним слотом для вашого Realm). Учасники вашого Realm матимуть доступ до вашого щойно заміненого світу. Якщо ви хочете зберегти свій поточний світ перед публікацією, щоб запобігти втраті даних, закрийте це діалоговий вікно та виберіть «Завантажити» перед тим, як натиснути «Опублікувати». Виберіть «Підтвердити», щоб продовжити та замінити свій поточний світ.    	####This string is intended to warn the user that if they publish their world to Realms, the world currently in that Realms slot will be deleted and unrecoverable. It also informs the user that members of the Realm will be able to access this world.{MaxLength=1000}
+resourcePack.editor.realmsPublish.DownloadSuccess=Світ успішно завантажено з Realms    	####This string is intended to express that downloading a world from Realms succeeded.{MaxLength=200}
+resourcePack.editor.realmsPublish.DownloadFailed=Не вдалося завантажити світ з Realms 	####This string is intended to express that downloading a world from Realms failed.{MaxLength=200}
+resourcePack.editor.realmsPublish.DownloadingFromRealms=Завантаження світу з Realms…    	####This string is intended to express that we're in the middle of downloading a world from Realms and waiting for that operation to complete.{MaxLength=200}
+
+
 resourcePack.editor.toolRail.RepeaterTool.title=Інструмент «Повторювач»	#
 resourcePack.editor.toolRail.RepeaterTool.tooltip=Інструмент для повторення виділеного тривимірного вмісту	#
 resourcePack.editor.toolRail.RepeaterTool.pane.Spacing=Інтервал	#
@@ -512,6 +557,18 @@ resourcePack.editor.toolRail.RepeaterTool.pane.Preview=Попередній пе
 resourcePack.editor.toolRail.RepeaterTool.pane.Clear=Очистити	#
 resourcePack.editor.toolRail.RepeaterTool.pane.Apply=Застосовувати	#
 resourcePack.editor.toolRail.RepeaterTool.statusMessage.noSelection=За допомогою інструмента «Виділення» виберіть тривимірний вміст для повторення	#
+resourcePack.editor.toolRail.RepeaterTool.pane.Mode=Режим		####"Mode" describes a dropdown that contains the two different states the tool can be in. These are "Line" and "Grid" {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.mode.Line=Лінія		####"Line" describes a straight, unbroken visual between two points {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.mode.Grid=Сітка		####"Grid" describes a visual consisting of parallel lines at regular intervals, broken up by perpendicular lines at regular intervals, like grid paper. {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.pane.RepeatType=Повторити тип		####"Repeat Type" describes a dropdown that contains the two types "Uniform" and "Separate" and represents how the repetitions along the three axes (plural of "axis") will be determined {MaxLength=40}
+resourcePack.editor.toolRail.RepeaterTool.repeat.Uniform=Рівномірний		####"Uniform" describes the repeat state of the Repeater Tool where it applies the same number of repetitions across all three axes (X, Y, and Z). "Uniform" was chosen as a short word that also means "consistent across multiple instances" {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.pane.RepeatAlongX=Повторити за віссю Х		####"Repeat Along" describes a checkbox and means to apply the number of Uniform Repetitions across a given axis. This one is the X axis. "X", "Y", and "Z" have a mathematical meaning and it may not be appropriate to translate unless the mathematical meaning is also translated. More info can be found at https://en.wikipedia.org/wiki/Coordinate_system {MaxLength=40}
+resourcePack.editor.toolRail.RepeaterTool.pane.RepeatAlongY=Повторити за віссю Y		####See "Repeat Along X" but this is for the Y axis. {MaxLength=40}
+resourcePack.editor.toolRail.RepeaterTool.pane.RepeatAlongZ=Повторити за віссю Z		####See "Repeat Along X" but this is for the Z axis. {MaxLength=40}
+resourcePack.editor.toolRail.RepeaterTool.repeat.Separate=Окремо		####"Separate" describes the repeat state of the Repeater Tool where the number of repetitions along each axis is set using separate number input elements, rather than one single number input {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.pane.XCount=Координата X		####"X Count" describes a number input field and represents the number of repetitions along the X axis. "X", "Y", and "Z" have a mathematical meaning and it may not be appropriate to translate unless the mathematical meaning is also translated. More info can be found at https://en.wikipedia.org/wiki/Coordinate_system {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.pane.YCount=Координата Y		####See "X Count" but this is for the Y axis. {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.pane.ZCount=Координата Z		####See "X Count" but this is for the Z axis. {MaxLength=20}
 
 
 resourcePack.editor.selectionTool.deselect=Скасувати вибір	#
@@ -709,9 +766,11 @@ resourcePack.editor.toolRail.workbenchTool.leftClick=Клацніть лівою
 resourcePack.editor.toolRail.workbenchTool.shiftLeftClick=Shift + Ліва кнопка миші	#
 resourcePack.editor.toolRail.workbenchTool.controlLeftClick=CTRL + Ліва кнопка миші	#
 resourcePack.editor.toolRail.workbenchTool.shiftControlLeftClick=Shift + CTRL + Ліва кнопка миші	#
-resourcePack.editor.toolRail.workbenchTool.stripWood=Обтесати / не обтесувати деревину	#
+resourcePack.editor.toolRail.workbenchTool.stripWood=Обтесана / не обтесана деревина		####This string is intended to express whether the wood block has bark (unstripped) or doesn't have bark (stripped).{MaxLength=100}
 resourcePack.editor.toolRail.workbenchTool.ladderLocation=Розташування драбини	#
 resourcePack.editor.toolRail.workbenchTool.autoAlign=Автоматичне вирівнювання	#
+resourcePack.editor.toolRail.workbenchTool.autoAlignFacingDirection=Автоматичне вирівнювання напрямку обернення		####This string is intended to express that the action will align the facing direction of the block with the player camera.{MaxLength=100}
+resourcePack.editor.toolRail.workbenchTool.autoAlignRotation=Автоматичне вирівнювання обертання		####This string is intended to express that the action will align the roatation of the block with the player camera.{MaxLength=100}
 
 resourcePack.editor.toolRail.workbenchTool.topSlotBitProp=Верх / низ	#
 resourcePack.editor.toolRail.workbenchTool.pillarAxisProp=Повернути	#
@@ -758,8 +817,8 @@ resourcePack.editor.viewSettings.invisible.tip=Показувати невиди
 resourcePack.editor.viewSettings.invisible.title=Показувати невидимі блоки	#
 resourcePack.editor.viewSettings.flySpeed.tip=Збільшує швидкість польоту для швидшого маневрування на карті	#
 resourcePack.editor.viewSettings.flySpeed.title=Коефіцієнт збільшення швидкості польоту	#
-resourcePack.editor.viewSettings.menu=Налаштування перегляду	#
-resourcePack.editor.viewSettings.title=Налаштування перегляду	#
+resourcePack.editor.viewSettings.menu=Налаштування	#
+resourcePack.editor.viewSettings.title=Налаштування	#
 
 resourcePack.editor.hotbar.defaultDisplayName=Стандартний	#
 

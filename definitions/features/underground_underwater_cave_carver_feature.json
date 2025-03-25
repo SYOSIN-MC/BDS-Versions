@@ -6,7 +6,7 @@
     },
     "fill_with": "minecraft:water",
     "width_modifier": 0.0,
-    "replace_air_with": "minecraft:flowing_water",
+    "replace_air_with": "minecraft:water",
     "skip_carve_chance": 15,
     "y_scale": [ 0.5, 0.5 ],
     "height_limit": 120,

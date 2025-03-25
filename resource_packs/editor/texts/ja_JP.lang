@@ -25,6 +25,20 @@ resourcePack.editor.agfx.pane.settings.revert_changes=変更を元に戻す	#
 resourcePack.editor.agfx.pane.settings.export_to_clipboard=クリップボードにエクスポートする	#
 
 
+resourcePack.editor.toolRail.blockInspectorSettings.title=ブロック インスペクター   	####This string is what is shown in the title bar of the Editor pane for inspecting blocks.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.specifics=ブロックの詳細   	####This string is the heading that contains the block tags and block properties subpane.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.actions.refresh=ブロック データを更新   	####This string shown on a button for forcing an update to the block data state.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.actions.clear=選択解除   	####This string shown on a button for clearing what block is currently selected.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.blockTags=ブロック タグ   	####This string is a header for a panel that shows the block tags on the currently selected block.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.blockProperties=ブロック プロパティ   	####This string is a header for a panel that shows the block properties on the currently selected block.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.blockProperties.name=プロパティ名   	####Within the block properties pane, this string goes before the property name.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.blockProperties.value=プロパティ値   	####Within the block properties pane, this string goes before the property value.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorTool.title=ブロック インスペクター   	####This string is what is shown as the name of the block inspector tool.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorTool.tooltip=ブロック データを検査   	####This string is what is shown when hovering over the block inspector icon.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorTool.pane.helpText=ブロックを左クリックして、プロパティの表示と編集をします   	####This string is shown in the block inspector tool pane before the user clicks to describe how to use it.{MaxLength=100}
+resourcePack.editor.blockInspector.toolRail.description=ブロックを左クリックして、プロパティの表示と編集をします   	####This string is shown in the tool tip to explain the function of the Block Inspector tool.{MaxLength=100}
+
+
 resourcePack.editor.blockPalette.addSearchItem=見つけたブロックを使用	#
 resourcePack.editor.blockPalette.blockPicker=検索	#
 resourcePack.editor.blockPalette.paletteDropdown.title=パレット	#
@@ -125,9 +139,9 @@ resourcePack.editor.ClipboardPreviewControl.origin.title=原点	#
 resourcePack.editor.ClipboardPreviewControl.origin.tooltip=クリップボードアイテム内の原点。配置する際の中心、またはクリップボードを回転およびミラーするポイントとして用いられる	#
 resourcePack.editor.ClipboardPreviewControl.placement.title=オプション	#
 resourcePack.editor.ClipboardPreviewControl.rootPane.title=クリップボード情報	#
-resourcePack.editor.ClipboardPreviewControl.rotation.180=180Â°	#
-resourcePack.editor.ClipboardPreviewControl.rotation.270=270Â°	#
-resourcePack.editor.ClipboardPreviewControl.rotation.90=90Â°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.180=180°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.270=270°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.90=90°	#
 resourcePack.editor.ClipboardPreviewControl.rotation.none=なし	#
 resourcePack.editor.ClipboardPreviewControl.rotation.title=回転	#
 resourcePack.editor.ClipboardPreviewControl.rotation.tooltip=原点で Y 軸を中心として回転する量	#
@@ -193,6 +207,12 @@ resourcePack.editor.deferredLightingSettings.menu.title=遅延シェーディン
 resourcePack.editor.delete.keyBinding=選択内容の削除	#
 
 
+resourcePack.editor.toolRail.entityInspector.pane.title=エンティティ インスペクター   	####This string is what is shown in the title bar of the Editor pane for modifying entities.{MaxLength=30}
+resourcePack.editor.toolRail.entityInspector.tool.title=エンティティ インスペクター   	####This string is what is shown at the top of the Editor pane for modifying entities.{MaxLength=30}
+resourcePack.editor.toolRail.entityInspector.tool.tip=エンティティ データの検査   	####This string is what is shown on the tool tip of Editor pane for modifying entities (gives context on what the tool does).{MaxLength=100}
+resourcePack.editor.toolRail.entityInspector.pane.helpText=エンティティを左クリックして、プロパティの表示と編集をします   	####This string is shown in the block inspector tool pane before the user clicks to describe how to use it.{MaxLength=100}
+resourcePack.editor.entityInspector.toolRail.description=エンティティを左クリックして、プロパティの表示と編集をします   	####This string is shown in the tool tip to explain the function of the Entity Inspector tool.{MaxLength=100}
+
 resourcePack.editor.exportProject.exportType=エクスポートの種類	#
 resourcePack.editor.exportProject.exportType.playableWorld=プレイ可能な世界	#
 resourcePack.editor.exportProject.exportNotes=ノートをエクスポート	#
@@ -209,7 +229,7 @@ resourcePack.editor.exportProject.advancedSettings.showCoordinates=座標を表�
 resourcePack.editor.exportProject.advancedSettings.showDaysPlayed=プレイ日を表示する	#
 resourcePack.editor.exportProject.advancedSettings.recipeUnlocking=レシピのアンロック	#
 resourcePack.editor.exportProject.advancedSettings.fireSpreads=火の延焼	#
-resourcePack.editor.exportProject.advancedSettings.tntExplodes=TNT 火薬の爆発	#
+resourcePack.editor.exportProject.advancedSettings.tntExplodes=TNT の爆発	#
 resourcePack.editor.exportProject.advancedSettings.resawnBlocksExplode=リスポーン ブロックが爆発する	#
 resourcePack.editor.exportProject.advancedSettings.mobLoot=モブのアイテム ドロップ	#
 resourcePack.editor.exportProject.advancedSettings.naturalRegeneration=自然再生	#
@@ -219,7 +239,7 @@ resourcePack.editor.exportProject.advancedSettings.respawnRadius=リスポーン
 resourcePack.editor.exportProject.advancedSettings.simulationDistance=演算距離	#
 resourcePack.editor.exportProject.advancedSettings.bedsWork=ベッド ワーク	#
 resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers=必要なスリープ状態のプレイヤー (%1$s)	#
-resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers.onePlayerMessage=プレイヤー1人のみ	#
+resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers.onePlayerMessage=プレイヤー 1 人のみ	#
 resourcePack.editor.exportProject.multiplayerSettings=マルチプレイ設定	#
 resourcePack.editor.exportProject.multiplayerSettings.multiplayerGame=マルチプレイ ゲーム	#
 resourcePack.editor.exportProject.multiplayerSettings.playerAccess=プレイヤー アクセス	#
@@ -256,7 +276,7 @@ resourcePack.editor.toolRail.ExtrudeTool.pane.SampleLayerCount.title=サンプ�
 resourcePack.editor.toolRail.ExtrudeTool.pane.ContiguousSelectionSettings.title=連続選択の設定	#
 resourcePack.editor.toolRail.ExtrudeTool.pane.ContiguousSelectionType.title=連続選択のタイプ	#
 resourcePack.editor.toolRail.ExtrudeTool.pane.ContiguousSelectionType.SameBlocks=同一ブロック	#
-resourcePack.editor.toolRail.ExtrudeTool.pane.ContiguousSelectionType.SameBlocksAndStates=同一ブロックおよびステート	#
+resourcePack.editor.toolRail.ExtrudeTool.pane.ContiguousSelectionType.SameBlocksAndStates=同一ブロックおよび状態	#
 resourcePack.editor.toolRail.ExtrudeTool.pane.ContiguousSelectionType.SolidBlocks=固体ブロック	#
 resourcePack.editor.toolRail.ExtrudeTool.pane.ContiguousSelectionType.AllBlocks=すべてのブロック	#
 resourcePack.editor.toolRail.ExtrudeTool.pane.ContiguousSelectionType.CustomBlockList=カスタム ブロック リスト	#
@@ -273,10 +293,11 @@ resourcePack.editor.toolRail.ExtrudeTool.pane.SelectionMode.TrailingBlocksSettin
 resourcePack.editor.toolRail.ExtrudeTool.pane.SelectionMode.QuickExtrudeSettings.title=クイック押し出し設定	#
 resourcePack.editor.toolRail.ExtrudeTool.pane.SelectionMode.QuickExtrudeMode.title=クイック押し出しモード	#
 resourcePack.editor.toolRail.ExtrudeTool.pane.SelectionMode.QuickExtrudeMode.decrease.title=減少	#
-resourcePack.editor.toolRail.ExtrudeTool.pane.SelectionMode.QuickExtrudeMode.decrease.tooltip=押し出しを小さくする	#
+resourcePack.editor.toolRail.ExtrudeTool.pane.SelectionMode.QuickExtrudeMode.decrease.tooltip=押し出しの減少	#
 resourcePack.editor.toolRail.ExtrudeTool.pane.SelectionMode.QuickExtrudeMode.expand.title=拡大	#
 resourcePack.editor.toolRail.ExtrudeTool.pane.SelectionMode.QuickExtrudeMode.expand.tooltip=押し出しの拡張	#
 resourcePack.editor.toolRail.ExtrudeTool.pane.SelectionMode.LayerCount.title=レイヤー数	#
+resourcePack.editor.toolRail.ExtrudeTool.pane.preview_warning=注: プレビューのビジュアルには、最初のレイヤーのみが表示されます 	#### {MaxLength="500"}, used to inform the user that the preview visualization for this tool is limited to a single layer.  This string is on screen whenever this tool is active
 resourcePack.editor.toolRail.ExtrudeTool.pane.ExtrusionType.title=押し出しタイプ	#
 resourcePack.editor.toolRail.ExtrudeTool.pane.ExtrusionType.Extrude=押し出し	#
 resourcePack.editor.toolRail.ExtrudeTool.pane.ExtrusionType.QuickExtrude=クイック押し出し	#
@@ -400,10 +421,10 @@ resourcePack.editor.paste.pane.title=貼り付け	#
 resourcePack.editor.paste.pane.transform.mirrorX=ミラー X	#
 resourcePack.editor.paste.pane.transform.mirrorZ=ミラー Z	#
 resourcePack.editor.paste.pane.transform.origin.title=オフセット	#
-resourcePack.editor.paste.pane.transform.rotation.180=180Â°	#
-resourcePack.editor.paste.pane.transform.rotation.270=270Â°	#
-resourcePack.editor.paste.pane.transform.rotation.90=90Â°	#
-resourcePack.editor.paste.pane.transform.rotation.none=0Â°	#
+resourcePack.editor.paste.pane.transform.rotation.180=180°	#
+resourcePack.editor.paste.pane.transform.rotation.270=270	#
+resourcePack.editor.paste.pane.transform.rotation.90=90°	#
+resourcePack.editor.paste.pane.transform.rotation.none=0 キー	#
 resourcePack.editor.paste.pane.transform.rotation.title=向きを変える	#
 resourcePack.editor.paste.pane.transform.title=変形	#
 resourcePack.editor.paste.toolRail.description=マウスの左クリックでブロックを選択してから、クリップボード アイテムを正確に貼り付けます	#
@@ -504,6 +525,30 @@ resourcePack.editor.playtestResult.WorldExportBusy=世界のエクスポート (
 resourcePack.editor.playtestResult.WorldExportFailed=世界のエクスポート (失敗)	#
 
 
+resourcePack.editor.menuBar.file.realmsPublish=Realms に公開する   	####This string is intended to express that the option is for opening the pane to publish your editor world to Realms.{MaxLength=100}
+resourcePack.editor.realmsPublish.userNotLoggedIn=Realms に公開するには、有効な Realms サブスクリプションが必要です。Realms の登録や、期限切れのサブスクリプションの更新は、標準の Minecraft クライアントまたは minecraft.net ウェブサイト (アカウントにサインインした後) から行うことができます。    	####This string is intended to express that the user is not logged in currently and the process they need to follow in order to be able to upload their editor world to their Realms subscription.{MaxLength=350}
+resourcePack.editor.realmsPublish.goToMinecraftWebsite=Minecraft.net に移動する  	####This string is intended to express that the link will take the user to Minecraft.net.{MaxLength=100}
+resourcePack.editor.realmsPublish.Refresh=更新  	####This string is intended to express that the button will refresh the pane to see if the user in now logged in.{MaxLength=100}
+resourcePack.editor.realmsPublish.Realm=Realm  	####This string is intended to express that the below dropdown contains all of the users Realms subscriptions.{MaxLength=100}
+resourcePack.editor.realmsPublish.RealmSlot=Realm スロット 	####This string is intended to express that the dropdown contains all of the world slots in for the users selected realms subscription.{MaxLength=100}
+resourcePack.editor.realmsPublish.PublishNotesTitle=Realms ノートに公開する   	####This string is intended to express that the below field will contain additional information for the user about the publish to realms feature, including any warnings or issues.{MaxLength=150}
+resourcePack.editor.realmsPublish.DownloadRealm=ダウンロード    	####This string is intended to express that the button will download the currently selected World from the realm slot.{MaxLength=100}
+resourcePack.editor.realmsPublish.PublishRealm=公開  	####This string is intended to express that the button will publish the current world to the currently selected realm slot.{MaxLength=100}
+resourcePack.editor.realmsPublish.Confirm=確認   	####This string is intended to express that the button will confirm  the request to publish the world to realms.{MaxLength=100}
+resourcePack.editor.realmsPublish.Cancel=キャンセル 	####This string is intended to express that the button will cancel the request to publish the world to realms.{MaxLength=100}
+resourcePack.editor.realmsPublish.Back=戻る 	####This string is intended to express that the button will take the user back to the previous pane.{MaxLength=100}
+resourcePack.editor.realmsPublish.PublishFailed=Realms への公開に失敗しました。しばらくしてからもう一度お試しください。   	####This string is intended to express that publishing the world to Realms failed and to please try again later.{MaxLength=200}
+resourcePack.editor.realmsPublish.PublishSuccess=Realms への公開が成功しました    	####This string is intended to express that publishing the world to Realms succeeded.{MaxLength=200}
+resourcePack.editor.realmsPublish.PublishConfirmationOptOut=この Realm とセッションには再確認をしないでください  	####This string is intended to express that the checkbox will opt the user out of confirming their publish to realms decisions.{MaxLength=100}
+resourcePack.editor.realmsPublish.PublishingToRealms=ワールドを Realms に公開中...  	####This string is intended to express that the world is currently in the process of being published to Realms.{MaxLength=100}
+resourcePack.editor.realmsPublish.UnableToPublishMissingRealm=Realms に公開できません。Realm が選択されていません    	####This string is intended to express that the user is unable to publish their world because a realm to upload to has not been selected.{MaxLength=250}
+resourcePack.editor.realmsPublish.UnableToPublishMissingRealmSlot=Realms に公開できません。Realm スロットが選択されていません   	####This string is intended to express that the user is unable to publish their world because a realm slot to upload to has not been selected.{MaxLength=250}
+resourcePack.editor.realmsPublish.PublishConfirmationWarning=この操作を行うと、選択したスロットから現在のワールドが削除され、現在のエディター ワールドに置き換わります (選択したスロットは、お客様の Realm のアクティブ スロットにもなります)。Realm のメンバーは、新たに置き換えられたワールドにアクセスできるようになります。公開前に現在のワールドを保存したい場合は、データを損失しないように、このダイアログをキャンセルし、「ダウンロード」を選択してから「公開」を行ってください。「確認」を選択して、現在のワールドを置き換えてください。    	####This string is intended to warn the user that if they publish their world to Realms, the world currently in that Realms slot will be deleted and unrecoverable. It also informs the user that members of the Realm will be able to access this world.{MaxLength=1000}
+resourcePack.editor.realmsPublish.DownloadSuccess=Realms からのワールドのダウンロードに成功しました    	####This string is intended to express that downloading a world from Realms succeeded.{MaxLength=200}
+resourcePack.editor.realmsPublish.DownloadFailed=Realms からのワールドのダウンロードに失敗しました 	####This string is intended to express that downloading a world from Realms failed.{MaxLength=200}
+resourcePack.editor.realmsPublish.DownloadingFromRealms=Realms からワールドをダウンロード中...    	####This string is intended to express that we're in the middle of downloading a world from Realms and waiting for that operation to complete.{MaxLength=200}
+
+
 resourcePack.editor.toolRail.RepeaterTool.title=繰り返しツール	#
 resourcePack.editor.toolRail.RepeaterTool.tooltip=選択したボリュームを繰り返すためのツール	#
 resourcePack.editor.toolRail.RepeaterTool.pane.Spacing=スペーシング	#
@@ -512,6 +557,18 @@ resourcePack.editor.toolRail.RepeaterTool.pane.Preview=プレビュー	#
 resourcePack.editor.toolRail.RepeaterTool.pane.Clear=クリア	#
 resourcePack.editor.toolRail.RepeaterTool.pane.Apply=適用	#
 resourcePack.editor.toolRail.RepeaterTool.statusMessage.noSelection=選択ツールを使用して、繰り返すボリュームを選択する	#
+resourcePack.editor.toolRail.RepeaterTool.pane.Mode=モード		####"Mode" describes a dropdown that contains the two different states the tool can be in. These are "Line" and "Grid" {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.mode.Line=ライン		####"Line" describes a straight, unbroken visual between two points {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.mode.Grid=グリッド		####"Grid" describes a visual consisting of parallel lines at regular intervals, broken up by perpendicular lines at regular intervals, like grid paper. {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.pane.RepeatType=リピート タイプ		####"Repeat Type" describes a dropdown that contains the two types "Uniform" and "Separate" and represents how the repetitions along the three axes (plural of "axis") will be determined {MaxLength=40}
+resourcePack.editor.toolRail.RepeaterTool.repeat.Uniform=一様		####"Uniform" describes the repeat state of the Repeater Tool where it applies the same number of repetitions across all three axes (X, Y, and Z). "Uniform" was chosen as a short word that also means "consistent across multiple instances" {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.pane.RepeatAlongX=X 軸に沿って繰り返す		####"Repeat Along" describes a checkbox and means to apply the number of Uniform Repetitions across a given axis. This one is the X axis. "X", "Y", and "Z" have a mathematical meaning and it may not be appropriate to translate unless the mathematical meaning is also translated. More info can be found at https://en.wikipedia.org/wiki/Coordinate_system {MaxLength=40}
+resourcePack.editor.toolRail.RepeaterTool.pane.RepeatAlongY=Y 軸に沿って繰り返す		####See "Repeat Along X" but this is for the Y axis. {MaxLength=40}
+resourcePack.editor.toolRail.RepeaterTool.pane.RepeatAlongZ=Z 軸に沿って繰り返す		####See "Repeat Along X" but this is for the Z axis. {MaxLength=40}
+resourcePack.editor.toolRail.RepeaterTool.repeat.Separate=個別		####"Separate" describes the repeat state of the Repeater Tool where the number of repetitions along each axis is set using separate number input elements, rather than one single number input {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.pane.XCount=X 軸の数		####"X Count" describes a number input field and represents the number of repetitions along the X axis. "X", "Y", and "Z" have a mathematical meaning and it may not be appropriate to translate unless the mathematical meaning is also translated. More info can be found at https://en.wikipedia.org/wiki/Coordinate_system {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.pane.YCount=Y 軸の数		####See "X Count" but this is for the Y axis. {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.pane.ZCount=Z 軸の数		####See "X Count" but this is for the Z axis. {MaxLength=20}
 
 
 resourcePack.editor.selectionTool.deselect=選択解除	#
@@ -588,7 +645,7 @@ resourcePack.editor.toolRail.Terrain.Mode.title=地形モード	#
 resourcePack.editor.toolRail.Terrain.Smooth.mode.title=スムーズ モード	#
 resourcePack.editor.toolRail.Terrain.Smooth.tooltip=スムージング強度に基づいて地形をスムーズにする	#
 resourcePack.editor.toolRail.Terrain.SmoothStrength=スムーズ強度	#
-resourcePack.editor.toolRail.Terrain.Roughen.mode.title=凸凹モード	#
+resourcePack.editor.toolRail.Terrain.Roughen.mode.title=粗面化モード	#
 resourcePack.editor.toolRail.Terrain.Roughen.tooltip=粗面化強度に基づいて地形を粗くします	#
 resourcePack.editor.toolRail.Terrain.RoughenStrength=粗面化強度	#
 resourcePack.editor.toolRail.Terrain.description=地形を滑らかにしたり粗くしたりする地形ツール	#
@@ -709,9 +766,11 @@ resourcePack.editor.toolRail.workbenchTool.leftClick=左クリック	#
 resourcePack.editor.toolRail.workbenchTool.shiftLeftClick=Shift + 左クリック	#
 resourcePack.editor.toolRail.workbenchTool.controlLeftClick=CTRL + 左クリック	#
 resourcePack.editor.toolRail.workbenchTool.shiftControlLeftClick=Shift + CTRL + 左クリック	#
-resourcePack.editor.toolRail.workbenchTool.stripWood=木材のストリップ/元に戻す	#
+resourcePack.editor.toolRail.workbenchTool.stripWood=木材の皮はぎ/皮付け		####This string is intended to express whether the wood block has bark (unstripped) or doesn't have bark (stripped).{MaxLength=100}
 resourcePack.editor.toolRail.workbenchTool.ladderLocation=はしごの位置	#
 resourcePack.editor.toolRail.workbenchTool.autoAlign=自動整列	#
+resourcePack.editor.toolRail.workbenchTool.autoAlignFacingDirection=向きを自動整列		####This string is intended to express that the action will align the facing direction of the block with the player camera.{MaxLength=100}
+resourcePack.editor.toolRail.workbenchTool.autoAlignRotation=回転を自動整列		####This string is intended to express that the action will align the roatation of the block with the player camera.{MaxLength=100}
 
 resourcePack.editor.toolRail.workbenchTool.topSlotBitProp=トップ/ボトム	#
 resourcePack.editor.toolRail.workbenchTool.pillarAxisProp=向きを変える	#
@@ -756,10 +815,10 @@ resourcePack.editor.viewSettings.nightVision.tip=暗視があるかのように�
 resourcePack.editor.viewSettings.nightVision.title=暗視	#
 resourcePack.editor.viewSettings.invisible.tip=非表示のブロックを表示する (例: 虚無、バリアなど)	#
 resourcePack.editor.viewSettings.invisible.title=非表示のブロックを表示	#
-resourcePack.editor.viewSettings.flySpeed.tip=マップを素早く操作するため飛行速度を上げる	#
+resourcePack.editor.viewSettings.flySpeed.tip=マップを素早く移動するため飛行速度を上げる	#
 resourcePack.editor.viewSettings.flySpeed.title=飛行速度の倍率	#
-resourcePack.editor.viewSettings.menu=ビュー設定	#
-resourcePack.editor.viewSettings.title=ビュー設定	#
+resourcePack.editor.viewSettings.menu=設定	#
+resourcePack.editor.viewSettings.title=設定	#
 
 resourcePack.editor.hotbar.defaultDisplayName=デフォルト	#
 

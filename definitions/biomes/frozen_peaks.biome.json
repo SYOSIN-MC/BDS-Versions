@@ -63,7 +63,11 @@
           "monster",
           "overworld",
           "frozen",
-          "frozen_peaks"
+          "frozen_peaks",
+	        "spawns_cold_variant_farm_animals",
+          "spawns_cold_variant_frogs",
+          "spawns_snow_foxes",
+          "spawns_white_rabbits"
         ]
       }
     }

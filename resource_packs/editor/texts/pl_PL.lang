@@ -25,6 +25,20 @@ resourcePack.editor.agfx.pane.settings.revert_changes=Cofnij zmiany	#
 resourcePack.editor.agfx.pane.settings.export_to_clipboard=Eksportuj do schowka	#
 
 
+resourcePack.editor.toolRail.blockInspectorSettings.title=Inspektor bloków   	####This string is what is shown in the title bar of the Editor pane for inspecting blocks.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.specifics=Charakterystyka bloku   	####This string is the heading that contains the block tags and block properties subpane.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.actions.refresh=Odśwież dane bloku   	####This string shown on a button for forcing an update to the block data state.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.actions.clear=Wyczyść zaznaczenie   	####This string shown on a button for clearing what block is currently selected.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.blockTags=Tagi bloku   	####This string is a header for a panel that shows the block tags on the currently selected block.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.blockProperties=Właściwości bloku   	####This string is a header for a panel that shows the block properties on the currently selected block.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.blockProperties.name=Nazwa właściwości   	####Within the block properties pane, this string goes before the property name.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.blockProperties.value=Wartość właściwości   	####Within the block properties pane, this string goes before the property value.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorTool.title=Inspektor bloków   	####This string is what is shown as the name of the block inspector tool.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorTool.tooltip=Zbadaj dane bloku   	####This string is what is shown when hovering over the block inspector icon.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorTool.pane.helpText=Kliknij blok lewym przyciskiem myszy, aby wyświetlić i edytować jego właściwości   	####This string is shown in the block inspector tool pane before the user clicks to describe how to use it.{MaxLength=100}
+resourcePack.editor.blockInspector.toolRail.description=Kliknij blok lewym przyciskiem myszy, aby wyświetlić i edytować jego właściwości   	####This string is shown in the tool tip to explain the function of the Block Inspector tool.{MaxLength=100}
+
+
 resourcePack.editor.blockPalette.addSearchItem=Użyj znalezionego bloku	#
 resourcePack.editor.blockPalette.blockPicker=Szukaj	#
 resourcePack.editor.blockPalette.paletteDropdown.title=Paleta	#
@@ -82,10 +96,10 @@ resourcePack.editor.brushShape.cuboid.settings.depth=Głębia	#
 resourcePack.editor.brushShape.cuboid.settings.height=Wysokość	#
 resourcePack.editor.brushShape.cuboid.settings.width=Szerokość	#
 resourcePack.editor.brushShape.cylinder.name=Walec	#
-resourcePack.editor.brushShape.cylinder.settings.depth_radius=Promień głębokości	#
+resourcePack.editor.brushShape.cylinder.settings.depth_radius=Promień głębi	#
 resourcePack.editor.brushShape.cylinder.settings.width_radius=Promień szerokości	#
 resourcePack.editor.brushShape.ellipsoid.name=Elipsoida	#
-resourcePack.editor.brushShape.ellipsoid.settings.depth_radius=Promień głębokości	#
+resourcePack.editor.brushShape.ellipsoid.settings.depth_radius=Promień głębi	#
 resourcePack.editor.brushShape.ellipsoid.settings.height_radius=Promień wysokości	#
 resourcePack.editor.brushShape.ellipsoid.settings.width_radius=Promień szerokości	#
 resourcePack.editor.brushShape.pyramid.name=Ostrosłup	#
@@ -125,9 +139,9 @@ resourcePack.editor.ClipboardPreviewControl.origin.title=Źródło	#
 resourcePack.editor.ClipboardPreviewControl.origin.tooltip=Punkt początkowy w elemencie schowka. Jest on używany zarówno jako kotwica umieszczenia, jak i punkt, wokół którego schowek jest obracany i odbijany lustrzanie	#
 resourcePack.editor.ClipboardPreviewControl.placement.title=Opcje	#
 resourcePack.editor.ClipboardPreviewControl.rootPane.title=Informacje ze schowka	#
-resourcePack.editor.ClipboardPreviewControl.rotation.180=180Â°	#
-resourcePack.editor.ClipboardPreviewControl.rotation.270=270Â°	#
-resourcePack.editor.ClipboardPreviewControl.rotation.90=90Â°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.180=180°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.270=270°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.90=90°	#
 resourcePack.editor.ClipboardPreviewControl.rotation.none=Brak	#
 resourcePack.editor.ClipboardPreviewControl.rotation.title=Obrót	#
 resourcePack.editor.ClipboardPreviewControl.rotation.tooltip=Stopień obrotu wokół osi Y w punkcie początkowym	#
@@ -184,7 +198,7 @@ resourcePack.editor.datatransferaccessors.lighting_group=Globalne oświetlenie	#
 resourcePack.editor.datatransferaccessors.pbr_fallbacks=Awaryjne PBR	#
 resourcePack.editor.datatransferaccessors.point_lights=Oświetlenie punktowe	#
 resourcePack.editor.datatransferaccessors.water=Woda	#
-resourcePack.editor.datatransferaccessors.shadows=Plamy	#
+resourcePack.editor.datatransferaccessors.shadows=Cienie	#
 
 
 resourcePack.editor.deferredLightingSettings.menu.title=Ustawienia odroczonego oświetlenia	#
@@ -192,6 +206,12 @@ resourcePack.editor.deferredLightingSettings.menu.title=Ustawienia odroczonego o
 
 resourcePack.editor.delete.keyBinding=Usuń zawartość zaznaczenia	#
 
+
+resourcePack.editor.toolRail.entityInspector.pane.title=Inspektor bytów   	####This string is what is shown in the title bar of the Editor pane for modifying entities.{MaxLength=30}
+resourcePack.editor.toolRail.entityInspector.tool.title=Inspektor bytów   	####This string is what is shown at the top of the Editor pane for modifying entities.{MaxLength=30}
+resourcePack.editor.toolRail.entityInspector.tool.tip=Zbadaj dane bytu   	####This string is what is shown on the tool tip of Editor pane for modifying entities (gives context on what the tool does).{MaxLength=100}
+resourcePack.editor.toolRail.entityInspector.pane.helpText=Kliknij byt lewym przyciskiem myszy, aby wyświetlić i edytować jego właściwości   	####This string is shown in the block inspector tool pane before the user clicks to describe how to use it.{MaxLength=100}
+resourcePack.editor.entityInspector.toolRail.description=Kliknij byt lewym przyciskiem myszy, aby wyświetlić i edytować jego właściwości   	####This string is shown in the tool tip to explain the function of the Entity Inspector tool.{MaxLength=100}
 
 resourcePack.editor.exportProject.exportType=Typ eksportu	#
 resourcePack.editor.exportProject.exportType.playableWorld=Grywalny świat	#
@@ -277,6 +297,7 @@ resourcePack.editor.toolRail.ExtrudeTool.pane.SelectionMode.QuickExtrudeMode.dec
 resourcePack.editor.toolRail.ExtrudeTool.pane.SelectionMode.QuickExtrudeMode.expand.title=Rozwiń	#
 resourcePack.editor.toolRail.ExtrudeTool.pane.SelectionMode.QuickExtrudeMode.expand.tooltip=Zwiększ wyciągnięcie	#
 resourcePack.editor.toolRail.ExtrudeTool.pane.SelectionMode.LayerCount.title=Liczba warstw	#
+resourcePack.editor.toolRail.ExtrudeTool.pane.preview_warning=Uwaga: Wizualizacja poglądowa pokazuje tylko pierwszą warstwę 	#### {MaxLength="500"}, used to inform the user that the preview visualization for this tool is limited to a single layer.  This string is on screen whenever this tool is active
 resourcePack.editor.toolRail.ExtrudeTool.pane.ExtrusionType.title=Typ wyciągnięcia	#
 resourcePack.editor.toolRail.ExtrudeTool.pane.ExtrusionType.Extrude=Wyciągnij	#
 resourcePack.editor.toolRail.ExtrudeTool.pane.ExtrusionType.QuickExtrude=Szybkie wyciąganie	#
@@ -400,10 +421,10 @@ resourcePack.editor.paste.pane.title=Wklej	#
 resourcePack.editor.paste.pane.transform.mirrorX=Lustro X	#
 resourcePack.editor.paste.pane.transform.mirrorZ=Lustro Z	#
 resourcePack.editor.paste.pane.transform.origin.title=Przesunięcie	#
-resourcePack.editor.paste.pane.transform.rotation.180=180Â°	#
-resourcePack.editor.paste.pane.transform.rotation.270=270Â°	#
-resourcePack.editor.paste.pane.transform.rotation.90=90Â°	#
-resourcePack.editor.paste.pane.transform.rotation.none=0Â°	#
+resourcePack.editor.paste.pane.transform.rotation.180=180°	#
+resourcePack.editor.paste.pane.transform.rotation.270=270	#
+resourcePack.editor.paste.pane.transform.rotation.90=90°	#
+resourcePack.editor.paste.pane.transform.rotation.none=0°	#
 resourcePack.editor.paste.pane.transform.rotation.title=Obróć	#
 resourcePack.editor.paste.pane.transform.title=Przekształć	#
 resourcePack.editor.paste.toolRail.description=Kliknij lewym przyciskiem myszy, aby zaznaczyć blok, a następnie precyzyjnie wklej element ze schowka	#
@@ -504,6 +525,30 @@ resourcePack.editor.playtestResult.WorldExportBusy=Eksportowanie świata jest za
 resourcePack.editor.playtestResult.WorldExportFailed=Eksport świata się nie powiódł	#
 
 
+resourcePack.editor.menuBar.file.realmsPublish=Opublikuj w usłudze Realms   	####This string is intended to express that the option is for opening the pane to publish your editor world to Realms.{MaxLength=100}
+resourcePack.editor.realmsPublish.userNotLoggedIn=Publikowanie w usłudze Realms wymaga aktywnej subskrypcji usługi Realms. Zasubskrybować usługę Realms lub odnowić wygasłe subskrypcje możesz w standardowym kliencie Minecraft oraz w witrynie internetowej minecraft.net (po zalogowaniu się na swoje konto).    	####This string is intended to express that the user is not logged in currently and the process they need to follow in order to be able to upload their editor world to their Realms subscription.{MaxLength=350}
+resourcePack.editor.realmsPublish.goToMinecraftWebsite=Przejdź do Minecraft.net  	####This string is intended to express that the link will take the user to Minecraft.net.{MaxLength=100}
+resourcePack.editor.realmsPublish.Refresh=Odśwież  	####This string is intended to express that the button will refresh the pane to see if the user in now logged in.{MaxLength=100}
+resourcePack.editor.realmsPublish.Realm=Świat Realms  	####This string is intended to express that the below dropdown contains all of the users Realms subscriptions.{MaxLength=100}
+resourcePack.editor.realmsPublish.RealmSlot=Miejsce na świat Realms 	####This string is intended to express that the dropdown contains all of the world slots in for the users selected realms subscription.{MaxLength=100}
+resourcePack.editor.realmsPublish.PublishNotesTitle=Uwaga dotycząca publikowania w usłudze Realms   	####This string is intended to express that the below field will contain additional information for the user about the publish to realms feature, including any warnings or issues.{MaxLength=150}
+resourcePack.editor.realmsPublish.DownloadRealm=Pobierz    	####This string is intended to express that the button will download the currently selected World from the realm slot.{MaxLength=100}
+resourcePack.editor.realmsPublish.PublishRealm=Opublikuj  	####This string is intended to express that the button will publish the current world to the currently selected realm slot.{MaxLength=100}
+resourcePack.editor.realmsPublish.Confirm=Potwierdź   	####This string is intended to express that the button will confirm  the request to publish the world to realms.{MaxLength=100}
+resourcePack.editor.realmsPublish.Cancel=Anuluj 	####This string is intended to express that the button will cancel the request to publish the world to realms.{MaxLength=100}
+resourcePack.editor.realmsPublish.Back=Wstecz 	####This string is intended to express that the button will take the user back to the previous pane.{MaxLength=100}
+resourcePack.editor.realmsPublish.PublishFailed=Publikowanie w Realms się nie powiodło. Spróbuj ponownie później.   	####This string is intended to express that publishing the world to Realms failed and to please try again later.{MaxLength=200}
+resourcePack.editor.realmsPublish.PublishSuccess=Opublikowano w Realms    	####This string is intended to express that publishing the world to Realms succeeded.{MaxLength=200}
+resourcePack.editor.realmsPublish.PublishConfirmationOptOut=Nie pytaj ponownie dla tego świata Realms i tej sesji  	####This string is intended to express that the checkbox will opt the user out of confirming their publish to realms decisions.{MaxLength=100}
+resourcePack.editor.realmsPublish.PublishingToRealms=Publikowanie świata w Realms...  	####This string is intended to express that the world is currently in the process of being published to Realms.{MaxLength=100}
+resourcePack.editor.realmsPublish.UnableToPublishMissingRealm=Nie można opublikować w Realms. Nie wybrano świata Realms    	####This string is intended to express that the user is unable to publish their world because a realm to upload to has not been selected.{MaxLength=250}
+resourcePack.editor.realmsPublish.UnableToPublishMissingRealmSlot=Nie można opublikować w Realms. Nie wybrano gniazda świata Realms   	####This string is intended to express that the user is unable to publish their world because a realm slot to upload to has not been selected.{MaxLength=250}
+resourcePack.editor.realmsPublish.PublishConfirmationWarning=Spowoduje to usunięcie bieżącego świata z wybranego gniazda i zastąpienie go aktualnym światem otwartym w Edytorze (wybrane gniazdo stanie się również aktywnym gniazdem dla twojego świata Realms). Członkowie twojego świata Realms będą mieli dostęp do twojego nowo wstawionego świata. Jeśli chcesz zapisać swój obecny świat przed opublikowaniem, aby zapobiec utracie danych, anuluj to okno dialogowe i wybierz opcję „Pobierz”, zanim wybierzesz „Opublikuj”. Wybierz opcję „Potwierdź”, aby kontynuować i zastąpić obecny świat.    	####This string is intended to warn the user that if they publish their world to Realms, the world currently in that Realms slot will be deleted and unrecoverable. It also informs the user that members of the Realm will be able to access this world.{MaxLength=1000}
+resourcePack.editor.realmsPublish.DownloadSuccess=Pomyślnie pobrano świat z Realms    	####This string is intended to express that downloading a world from Realms succeeded.{MaxLength=200}
+resourcePack.editor.realmsPublish.DownloadFailed=Nie udało się pobrać świata z Realms 	####This string is intended to express that downloading a world from Realms failed.{MaxLength=200}
+resourcePack.editor.realmsPublish.DownloadingFromRealms=Pobieranie świata z Realms…    	####This string is intended to express that we're in the middle of downloading a world from Realms and waiting for that operation to complete.{MaxLength=200}
+
+
 resourcePack.editor.toolRail.RepeaterTool.title=Narzędzie powtarzacza	#
 resourcePack.editor.toolRail.RepeaterTool.tooltip=Narzędzie do powtarzania zaznaczonego obszaru	#
 resourcePack.editor.toolRail.RepeaterTool.pane.Spacing=Odstępy	#
@@ -512,6 +557,18 @@ resourcePack.editor.toolRail.RepeaterTool.pane.Preview=Podgląd	#
 resourcePack.editor.toolRail.RepeaterTool.pane.Clear=Wyczyść	#
 resourcePack.editor.toolRail.RepeaterTool.pane.Apply=Zastosuj	#
 resourcePack.editor.toolRail.RepeaterTool.statusMessage.noSelection=Użyj narzędzia zaznaczenia, aby wybrać obszar do powtórzenia	#
+resourcePack.editor.toolRail.RepeaterTool.pane.Mode=Tryb		####"Mode" describes a dropdown that contains the two different states the tool can be in. These are "Line" and "Grid" {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.mode.Line=Linia		####"Line" describes a straight, unbroken visual between two points {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.mode.Grid=Siatka		####"Grid" describes a visual consisting of parallel lines at regular intervals, broken up by perpendicular lines at regular intervals, like grid paper. {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.pane.RepeatType=Typ powtórzenia		####"Repeat Type" describes a dropdown that contains the two types "Uniform" and "Separate" and represents how the repetitions along the three axes (plural of "axis") will be determined {MaxLength=40}
+resourcePack.editor.toolRail.RepeaterTool.repeat.Uniform=Jednolity		####"Uniform" describes the repeat state of the Repeater Tool where it applies the same number of repetitions across all three axes (X, Y, and Z). "Uniform" was chosen as a short word that also means "consistent across multiple instances" {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.pane.RepeatAlongX=Powtórz wzdłuż X		####"Repeat Along" describes a checkbox and means to apply the number of Uniform Repetitions across a given axis. This one is the X axis. "X", "Y", and "Z" have a mathematical meaning and it may not be appropriate to translate unless the mathematical meaning is also translated. More info can be found at https://en.wikipedia.org/wiki/Coordinate_system {MaxLength=40}
+resourcePack.editor.toolRail.RepeaterTool.pane.RepeatAlongY=Powtórz wzdłuż Y		####See "Repeat Along X" but this is for the Y axis. {MaxLength=40}
+resourcePack.editor.toolRail.RepeaterTool.pane.RepeatAlongZ=Powtórz wzdłuż Z		####See "Repeat Along X" but this is for the Z axis. {MaxLength=40}
+resourcePack.editor.toolRail.RepeaterTool.repeat.Separate=Oddzielny		####"Separate" describes the repeat state of the Repeater Tool where the number of repetitions along each axis is set using separate number input elements, rather than one single number input {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.pane.XCount=Liczba X		####"X Count" describes a number input field and represents the number of repetitions along the X axis. "X", "Y", and "Z" have a mathematical meaning and it may not be appropriate to translate unless the mathematical meaning is also translated. More info can be found at https://en.wikipedia.org/wiki/Coordinate_system {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.pane.YCount=Liczba Y		####See "X Count" but this is for the Y axis. {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.pane.ZCount=Liczba Z		####See "X Count" but this is for the Z axis. {MaxLength=20}
 
 
 resourcePack.editor.selectionTool.deselect=Odznacz	#
@@ -585,7 +642,7 @@ resourcePack.editor.toolRail.Terrain.title=Teren	#
 resourcePack.editor.toolRail.Terrain.keybinding.toggleTool=Przełącz narzędzie terenu	#
 resourcePack.editor.toolRail.Terrain.keyBinding.switch=Zmień tryb terenu	#
 resourcePack.editor.toolRail.Terrain.Mode.title=Tryb terenu	#
-resourcePack.editor.toolRail.Terrain.Smooth.mode.title=Tryb gładki	#
+resourcePack.editor.toolRail.Terrain.Smooth.mode.title=Tryb wygładzania	#
 resourcePack.editor.toolRail.Terrain.Smooth.tooltip=Wygładza teren zgodnie z siłą wygładzania	#
 resourcePack.editor.toolRail.Terrain.SmoothStrength=Siła wygładzania	#
 resourcePack.editor.toolRail.Terrain.Roughen.mode.title=Tryb tworzenia nierówności	#
@@ -656,7 +713,7 @@ resourcePack.editor.toolRail.line.keyBinding.moveRight=Przesuń zaznaczone w pra
 resourcePack.editor.toolRail.line.keyBinding.moveUp=Przesuń zaznaczone w górę	#
 resourcePack.editor.toolRail.line.keyBinding.selectAll=Zaznacz wszystko	#
 resourcePack.editor.toolRail.line.pane.algorithm.Direct=Skieruj	#
-resourcePack.editor.toolRail.line.pane.algorithm.Staggered=Schodkowe (ogrodzenie)	#
+resourcePack.editor.toolRail.line.pane.algorithm.Staggered=Rozmieszczone naprzemiennie (ogrodzenie)	#
 resourcePack.editor.toolRail.line.pane.algorithm.title=Algorytm	#
 resourcePack.editor.toolRail.line.pane.fillAction=Wypełnij zaznaczenie	#
 resourcePack.editor.toolRail.line.pane.height.title=Wysokość	#
@@ -709,9 +766,11 @@ resourcePack.editor.toolRail.workbenchTool.leftClick=Kliknij lewym przyciskiem	#
 resourcePack.editor.toolRail.workbenchTool.shiftLeftClick=Shift + Lewy przycisk myszy	#
 resourcePack.editor.toolRail.workbenchTool.controlLeftClick=CTRL + Lewy przycisk myszy	#
 resourcePack.editor.toolRail.workbenchTool.shiftControlLeftClick=Shift + CTRL + Lewy przycisk myszy	#
-resourcePack.editor.toolRail.workbenchTool.stripWood=Okoruj drewno/Cofnij okorowanie	#
+resourcePack.editor.toolRail.workbenchTool.stripWood=Okoruj drewno/Cofnij okorowanie		####This string is intended to express whether the wood block has bark (unstripped) or doesn't have bark (stripped).{MaxLength=100}
 resourcePack.editor.toolRail.workbenchTool.ladderLocation=Lokalizacja drabiny	#
 resourcePack.editor.toolRail.workbenchTool.autoAlign=Automatyczne wyrównywanie	#
+resourcePack.editor.toolRail.workbenchTool.autoAlignFacingDirection=Automatyczne wyrównywanie kierunku		####This string is intended to express that the action will align the facing direction of the block with the player camera.{MaxLength=100}
+resourcePack.editor.toolRail.workbenchTool.autoAlignRotation=Automatyczne wyrównywanie obrotu		####This string is intended to express that the action will align the roatation of the block with the player camera.{MaxLength=100}
 
 resourcePack.editor.toolRail.workbenchTool.topSlotBitProp=Góra/dół	#
 resourcePack.editor.toolRail.workbenchTool.pillarAxisProp=Obróć	#
@@ -748,8 +807,8 @@ resourcePack.editor.viewport.keyBinding.moveUp=Przesuń w górę	#
 resourcePack.editor.viewport.keyBinding.incrementFlySpeed=Zwiększ szybkość lotu	#
 resourcePack.editor.viewport.keyBinding.decrementFlySpeed=Zmniejsz szybkość lotu	#
 
-resourcePack.editor.viewSettings.compass.tip=Pokazuj kompas kierunkowy	#
-resourcePack.editor.viewSettings.compass.title=Pokazuj kompas	#
+resourcePack.editor.viewSettings.compass.tip=Pokaż kompas kierunkowy	#
+resourcePack.editor.viewSettings.compass.title=Pokaż kompas	#
 resourcePack.editor.viewSettings.chunk.tip=Pokazuje zarys granic chunków na mapie	#
 resourcePack.editor.viewSettings.chunk.title=Pokaż granice chunków	#
 resourcePack.editor.viewSettings.nightVision.tip=Pokaż świat jak z efektem „Widzenie w ciemności”	#
@@ -758,11 +817,11 @@ resourcePack.editor.viewSettings.invisible.tip=Pokazuje niewidzialne bloki (np. 
 resourcePack.editor.viewSettings.invisible.title=Pokaż niewidzialne bloki	#
 resourcePack.editor.viewSettings.flySpeed.tip=Zwiększ szybkość lotu, aby szybciej manewrować po mapie	#
 resourcePack.editor.viewSettings.flySpeed.title=Mnożnik szybkości lotu	#
-resourcePack.editor.viewSettings.menu=Ustawienia widoku	#
-resourcePack.editor.viewSettings.title=Ustawienia widoku	#
+resourcePack.editor.viewSettings.menu=Ustawienia	#
+resourcePack.editor.viewSettings.title=Ustawienia	#
 
 resourcePack.editor.hotbar.defaultDisplayName=Domyślny	#
 
-resourcePack.editor.reloadScripts.response.tooMany=Zbyt wielu graczy jest połączonych z serwerem.  Przeładowanie skryptów jest obsługiwane tylko na hostach z połączonym jednym graczem.	#
+resourcePack.editor.reloadScripts.response.tooMany=Zbyt wielu graczy jest połączonych z serwerem. Przeładowanie skryptów jest obsługiwane tylko na hostach z połączonym jednym graczem.	#
 resourcePack.editor.reloadScripts.response.genericError=Wystąpił błąd podczas próby przeładowania skryptów.	#
 resourcePack.editor.reloadScripts.response.noAdminRights=Nie masz uprawnień do przeładowania skryptów.	#

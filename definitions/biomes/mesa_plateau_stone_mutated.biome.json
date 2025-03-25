@@ -28,12 +28,13 @@
 
       "minecraft:tags": {
         "tags": [
+          "animal",
           "mesa",
           "monster",
           "mutated",
           "overworld",
           "plateau",
-          "animal",
+          "spawns_mesa_mobs",
           "spawns_warm_variant_farm_animals"
         ]
       }

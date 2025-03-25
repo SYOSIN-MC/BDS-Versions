@@ -34,7 +34,9 @@
           "desert",
           "hills",
           "monster",
-          "overworld"
+          "overworld",
+          "spawns_gold_rabbits",
+	        "spawns_warm_variant_farm_animals"
         ]
       }
     }

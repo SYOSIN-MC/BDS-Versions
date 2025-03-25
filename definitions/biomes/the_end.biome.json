@@ -14,7 +14,9 @@
 
       "minecraft:tags": {
         "tags": [
-          "the_end"
+          "the_end",
+          "spawns_cold_variant_farm_animals",
+	        "spawns_cold_variant_frogs"
         ]
       }
     }

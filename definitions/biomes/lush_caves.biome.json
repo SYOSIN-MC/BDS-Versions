@@ -26,7 +26,8 @@
           "caves",
           "lush_caves",
           "overworld",
-          "monster"
+          "monster",
+          "spawns_tropical_fish_at_any_height"
         ]
       }
     }

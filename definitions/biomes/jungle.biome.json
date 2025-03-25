@@ -44,6 +44,7 @@
           "monster",
           "overworld",
           "rare",
+          "spawns_jungle_mobs",
           "spawns_warm_variant_farm_animals"
         ]
       }

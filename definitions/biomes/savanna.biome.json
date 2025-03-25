@@ -42,6 +42,7 @@
           "monster",
           "overworld",
           "savanna",
+          "spawns_savanna_mobs",
           "spawns_warm_variant_farm_animals"
         ]
       }

@@ -25,6 +25,20 @@ resourcePack.editor.agfx.pane.settings.revert_changes=변경 내용 되돌리기
 resourcePack.editor.agfx.pane.settings.export_to_clipboard=클립보드로 내보내기	#
 
 
+resourcePack.editor.toolRail.blockInspectorSettings.title=블록 검사기   	####This string is what is shown in the title bar of the Editor pane for inspecting blocks.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.specifics=블록 세부사항   	####This string is the heading that contains the block tags and block properties subpane.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.actions.refresh=블록 데이터 새로고침   	####This string shown on a button for forcing an update to the block data state.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.actions.clear=선택 해제   	####This string shown on a button for clearing what block is currently selected.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.blockTags=블록 태그   	####This string is a header for a panel that shows the block tags on the currently selected block.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.blockProperties=블록 속성   	####This string is a header for a panel that shows the block properties on the currently selected block.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.blockProperties.name=속성 이름   	####Within the block properties pane, this string goes before the property name.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorSettings.blockProperties.value=속성 값   	####Within the block properties pane, this string goes before the property value.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorTool.title=블록 검사기   	####This string is what is shown as the name of the block inspector tool.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorTool.tooltip=블록 데이터 검사   	####This string is what is shown when hovering over the block inspector icon.{MaxLength=30}
+resourcePack.editor.toolRail.blockInspectorTool.pane.helpText=블록을 왼쪽 클릭하여 특성을 조회하고 편집하세요   	####This string is shown in the block inspector tool pane before the user clicks to describe how to use it.{MaxLength=100}
+resourcePack.editor.blockInspector.toolRail.description=블록을 왼쪽 클릭하여 특성을 조회하고 편집하세요   	####This string is shown in the tool tip to explain the function of the Block Inspector tool.{MaxLength=100}
+
+
 resourcePack.editor.blockPalette.addSearchItem=발견한 블록 사용	#
 resourcePack.editor.blockPalette.blockPicker=검색	#
 resourcePack.editor.blockPalette.paletteDropdown.title=팔레트	#
@@ -125,9 +139,9 @@ resourcePack.editor.ClipboardPreviewControl.origin.title=원점	#
 resourcePack.editor.ClipboardPreviewControl.origin.tooltip=클립보드 항목 내의 원점입니다.  이것은 배치 앵커로 사용되며 클립보드가 회전하고 미러링되는 지점으로 사용됩니다	#
 resourcePack.editor.ClipboardPreviewControl.placement.title=옵션	#
 resourcePack.editor.ClipboardPreviewControl.rootPane.title=클립보드 정보	#
-resourcePack.editor.ClipboardPreviewControl.rotation.180=180Â°	#
-resourcePack.editor.ClipboardPreviewControl.rotation.270=270Â°	#
-resourcePack.editor.ClipboardPreviewControl.rotation.90=90Â°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.180=180°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.270=270°	#
+resourcePack.editor.ClipboardPreviewControl.rotation.90=90°	#
 resourcePack.editor.ClipboardPreviewControl.rotation.none=없음	#
 resourcePack.editor.ClipboardPreviewControl.rotation.title=회전	#
 resourcePack.editor.ClipboardPreviewControl.rotation.tooltip=원점에서 Y축을 중심으로 한 회전량입니다	#
@@ -192,6 +206,12 @@ resourcePack.editor.deferredLightingSettings.menu.title=디퍼드 라이팅 설�
 
 resourcePack.editor.delete.keyBinding=선택 콘텐츠 삭제	#
 
+
+resourcePack.editor.toolRail.entityInspector.pane.title=개체 검사기   	####This string is what is shown in the title bar of the Editor pane for modifying entities.{MaxLength=30}
+resourcePack.editor.toolRail.entityInspector.tool.title=개체 검사기   	####This string is what is shown at the top of the Editor pane for modifying entities.{MaxLength=30}
+resourcePack.editor.toolRail.entityInspector.tool.tip=개체 데이터 검사   	####This string is what is shown on the tool tip of Editor pane for modifying entities (gives context on what the tool does).{MaxLength=100}
+resourcePack.editor.toolRail.entityInspector.pane.helpText=엔티티를 왼쪽 클릭하여 특성을 조회하고 편집하세요   	####This string is shown in the block inspector tool pane before the user clicks to describe how to use it.{MaxLength=100}
+resourcePack.editor.entityInspector.toolRail.description=엔티티를 왼쪽 클릭하여 특성을 조회하고 편집하세요   	####This string is shown in the tool tip to explain the function of the Entity Inspector tool.{MaxLength=100}
 
 resourcePack.editor.exportProject.exportType=내보내기 유형	#
 resourcePack.editor.exportProject.exportType.playableWorld=플레이 가능 월드	#
@@ -277,6 +297,7 @@ resourcePack.editor.toolRail.ExtrudeTool.pane.SelectionMode.QuickExtrudeMode.dec
 resourcePack.editor.toolRail.ExtrudeTool.pane.SelectionMode.QuickExtrudeMode.expand.title=확장	#
 resourcePack.editor.toolRail.ExtrudeTool.pane.SelectionMode.QuickExtrudeMode.expand.tooltip=압출 확장	#
 resourcePack.editor.toolRail.ExtrudeTool.pane.SelectionMode.LayerCount.title=레이어 개수	#
+resourcePack.editor.toolRail.ExtrudeTool.pane.preview_warning=참고: 미리보기 시각화는 첫 번째 레이어만 표시합니다 	#### {MaxLength="500"}, used to inform the user that the preview visualization for this tool is limited to a single layer.  This string is on screen whenever this tool is active
 resourcePack.editor.toolRail.ExtrudeTool.pane.ExtrusionType.title=압출 유형	#
 resourcePack.editor.toolRail.ExtrudeTool.pane.ExtrusionType.Extrude=압출	#
 resourcePack.editor.toolRail.ExtrudeTool.pane.ExtrusionType.QuickExtrude=간편 압출	#
@@ -400,10 +421,10 @@ resourcePack.editor.paste.pane.title=붙여넣기	#
 resourcePack.editor.paste.pane.transform.mirrorX=X 반전	#
 resourcePack.editor.paste.pane.transform.mirrorZ=Z 반전	#
 resourcePack.editor.paste.pane.transform.origin.title=오프셋	#
-resourcePack.editor.paste.pane.transform.rotation.180=180Â°	#
-resourcePack.editor.paste.pane.transform.rotation.270=270Â°	#
-resourcePack.editor.paste.pane.transform.rotation.90=90Â°	#
-resourcePack.editor.paste.pane.transform.rotation.none=0Â°	#
+resourcePack.editor.paste.pane.transform.rotation.180=180°	#
+resourcePack.editor.paste.pane.transform.rotation.270=270도	#
+resourcePack.editor.paste.pane.transform.rotation.90=90°	#
+resourcePack.editor.paste.pane.transform.rotation.none=0°	#
 resourcePack.editor.paste.pane.transform.rotation.title=회전	#
 resourcePack.editor.paste.pane.transform.title=변신	#
 resourcePack.editor.paste.toolRail.description=마우스 왼쪽 버튼을 클릭하여 블록을 선택한 다음 클립 보드 항목을 정확하게 붙여 넣습니다	#
@@ -504,6 +525,30 @@ resourcePack.editor.playtestResult.WorldExportBusy=월드 내보내기 바쁨	#
 resourcePack.editor.playtestResult.WorldExportFailed=월드 내보내기 실패	#
 
 
+resourcePack.editor.menuBar.file.realmsPublish=Realms에 게시   	####This string is intended to express that the option is for opening the pane to publish your editor world to Realms.{MaxLength=100}
+resourcePack.editor.realmsPublish.userNotLoggedIn=Realms에 게시하려면 Realms 멤버십이 활성화 되어있어야 합니다. 표준 Minecraft 클라이언트 또는 minecraft.net 웹사이트에서 계정에 로그인한 후, Realms를 구독하거나 만료된 구독을 갱신할 수 있습니다.    	####This string is intended to express that the user is not logged in currently and the process they need to follow in order to be able to upload their editor world to their Realms subscription.{MaxLength=350}
+resourcePack.editor.realmsPublish.goToMinecraftWebsite=Minecraft.net으로 이동  	####This string is intended to express that the link will take the user to Minecraft.net.{MaxLength=100}
+resourcePack.editor.realmsPublish.Refresh=새로고침  	####This string is intended to express that the button will refresh the pane to see if the user in now logged in.{MaxLength=100}
+resourcePack.editor.realmsPublish.Realm=Realm  	####This string is intended to express that the below dropdown contains all of the users Realms subscriptions.{MaxLength=100}
+resourcePack.editor.realmsPublish.RealmSlot=Realm 슬롯 	####This string is intended to express that the dropdown contains all of the world slots in for the users selected realms subscription.{MaxLength=100}
+resourcePack.editor.realmsPublish.PublishNotesTitle=Realms 노트에 게시   	####This string is intended to express that the below field will contain additional information for the user about the publish to realms feature, including any warnings or issues.{MaxLength=150}
+resourcePack.editor.realmsPublish.DownloadRealm=다운로드    	####This string is intended to express that the button will download the currently selected World from the realm slot.{MaxLength=100}
+resourcePack.editor.realmsPublish.PublishRealm=게시  	####This string is intended to express that the button will publish the current world to the currently selected realm slot.{MaxLength=100}
+resourcePack.editor.realmsPublish.Confirm=확인   	####This string is intended to express that the button will confirm  the request to publish the world to realms.{MaxLength=100}
+resourcePack.editor.realmsPublish.Cancel=취소 	####This string is intended to express that the button will cancel the request to publish the world to realms.{MaxLength=100}
+resourcePack.editor.realmsPublish.Back=뒤로 	####This string is intended to express that the button will take the user back to the previous pane.{MaxLength=100}
+resourcePack.editor.realmsPublish.PublishFailed=Realms에 게시하지 못했습니다. 나중에 다시 시도하세요.   	####This string is intended to express that publishing the world to Realms failed and to please try again later.{MaxLength=200}
+resourcePack.editor.realmsPublish.PublishSuccess=Realms에 성공적으로 게시했습니다    	####This string is intended to express that publishing the world to Realms succeeded.{MaxLength=200}
+resourcePack.editor.realmsPublish.PublishConfirmationOptOut=이 Realm 및 세션에서 다시 묻지 않기  	####This string is intended to express that the checkbox will opt the user out of confirming their publish to realms decisions.{MaxLength=100}
+resourcePack.editor.realmsPublish.PublishingToRealms=Realms에 월드 게시하는 중...  	####This string is intended to express that the world is currently in the process of being published to Realms.{MaxLength=100}
+resourcePack.editor.realmsPublish.UnableToPublishMissingRealm=Realms에 게시할 수 없습니다. 선택한 Realm이 없습니다    	####This string is intended to express that the user is unable to publish their world because a realm to upload to has not been selected.{MaxLength=250}
+resourcePack.editor.realmsPublish.UnableToPublishMissingRealmSlot=Realms에 게시할 수 없습니다. 선택한 Realm 슬롯이 없습니다   	####This string is intended to express that the user is unable to publish their world because a realm slot to upload to has not been selected.{MaxLength=250}
+resourcePack.editor.realmsPublish.PublishConfirmationWarning=이렇게 하면 선택한 슬롯에서 현재 월드가 제거되고 현재 편집기 세계(선택한 슬롯이 Realm의 활성 슬롯이 됩니다)로 대체됩니다. 내 서버의 멤버는 새로 교체된 월드에 액세스할 수 있습니다. 게시하기 전에 현재 세계를 저장하려면 데이터 손실을 방지하기 위해 이 대화 상자를 취소하고 "게시"하기 전에 "다운로드"를 선택하세요. "확인"을 선택하여 계속하고 현재 월드를 교체하세요.    	####This string is intended to warn the user that if they publish their world to Realms, the world currently in that Realms slot will be deleted and unrecoverable. It also informs the user that members of the Realm will be able to access this world.{MaxLength=1000}
+resourcePack.editor.realmsPublish.DownloadSuccess=Realms에서 월드 다운로드 성공    	####This string is intended to express that downloading a world from Realms succeeded.{MaxLength=200}
+resourcePack.editor.realmsPublish.DownloadFailed=Realms에서 월드 다운로드 실패 	####This string is intended to express that downloading a world from Realms failed.{MaxLength=200}
+resourcePack.editor.realmsPublish.DownloadingFromRealms=Realms에서 월드 다운로드하는 중...    	####This string is intended to express that we're in the middle of downloading a world from Realms and waiting for that operation to complete.{MaxLength=200}
+
+
 resourcePack.editor.toolRail.RepeaterTool.title=반복 도구	#
 resourcePack.editor.toolRail.RepeaterTool.tooltip=선택 부분을 반복하는 도구	#
 resourcePack.editor.toolRail.RepeaterTool.pane.Spacing=간격	#
@@ -512,6 +557,18 @@ resourcePack.editor.toolRail.RepeaterTool.pane.Preview=미리 보기	#
 resourcePack.editor.toolRail.RepeaterTool.pane.Clear=지우기	#
 resourcePack.editor.toolRail.RepeaterTool.pane.Apply=적용	#
 resourcePack.editor.toolRail.RepeaterTool.statusMessage.noSelection=선택 도구를 사용하여 반복할 부분을 선택합니다.	#
+resourcePack.editor.toolRail.RepeaterTool.pane.Mode=모드		####"Mode" describes a dropdown that contains the two different states the tool can be in. These are "Line" and "Grid" {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.mode.Line=선		####"Line" describes a straight, unbroken visual between two points {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.mode.Grid=눈금선		####"Grid" describes a visual consisting of parallel lines at regular intervals, broken up by perpendicular lines at regular intervals, like grid paper. {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.pane.RepeatType=반복 유형		####"Repeat Type" describes a dropdown that contains the two types "Uniform" and "Separate" and represents how the repetitions along the three axes (plural of "axis") will be determined {MaxLength=40}
+resourcePack.editor.toolRail.RepeaterTool.repeat.Uniform=전체		####"Uniform" describes the repeat state of the Repeater Tool where it applies the same number of repetitions across all three axes (X, Y, and Z). "Uniform" was chosen as a short word that also means "consistent across multiple instances" {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.pane.RepeatAlongX=X를 따라 반복		####"Repeat Along" describes a checkbox and means to apply the number of Uniform Repetitions across a given axis. This one is the X axis. "X", "Y", and "Z" have a mathematical meaning and it may not be appropriate to translate unless the mathematical meaning is also translated. More info can be found at https://en.wikipedia.org/wiki/Coordinate_system {MaxLength=40}
+resourcePack.editor.toolRail.RepeaterTool.pane.RepeatAlongY=Y를 따라 반복		####See "Repeat Along X" but this is for the Y axis. {MaxLength=40}
+resourcePack.editor.toolRail.RepeaterTool.pane.RepeatAlongZ=Z를 따라 반복		####See "Repeat Along X" but this is for the Z axis. {MaxLength=40}
+resourcePack.editor.toolRail.RepeaterTool.repeat.Separate=분리		####"Separate" describes the repeat state of the Repeater Tool where the number of repetitions along each axis is set using separate number input elements, rather than one single number input {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.pane.XCount=X 수		####"X Count" describes a number input field and represents the number of repetitions along the X axis. "X", "Y", and "Z" have a mathematical meaning and it may not be appropriate to translate unless the mathematical meaning is also translated. More info can be found at https://en.wikipedia.org/wiki/Coordinate_system {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.pane.YCount=Y 수		####See "X Count" but this is for the Y axis. {MaxLength=20}
+resourcePack.editor.toolRail.RepeaterTool.pane.ZCount=Z 수		####See "X Count" but this is for the Z axis. {MaxLength=20}
 
 
 resourcePack.editor.selectionTool.deselect=선택 해제	#
@@ -656,7 +713,7 @@ resourcePack.editor.toolRail.line.keyBinding.moveRight=선택 항목 오른쪽�
 resourcePack.editor.toolRail.line.keyBinding.moveUp=선택 항목 위로 이동	#
 resourcePack.editor.toolRail.line.keyBinding.selectAll=모두 선택	#
 resourcePack.editor.toolRail.line.pane.algorithm.Direct=방향	#
-resourcePack.editor.toolRail.line.pane.algorithm.Staggered=계단식 배열(울타리)	#
+resourcePack.editor.toolRail.line.pane.algorithm.Staggered=계단식 배열 (울타리)	#
 resourcePack.editor.toolRail.line.pane.algorithm.title=알고리즘	#
 resourcePack.editor.toolRail.line.pane.fillAction=채우기 선택	#
 resourcePack.editor.toolRail.line.pane.height.title=높이	#
@@ -702,16 +759,18 @@ resourcePack.editor.toolRail.summonTool.tool.title=소환 도구	#
 resourcePack.editor.toolRail.workbenchSettings.title=작업대	#
 resourcePack.editor.toolRail.workbenchTool.title=작업대	#
 resourcePack.editor.toolRail.workbenchTool.description=블록 상태를 빠르게 변경합니다.	#
-resourcePack.editor.toolRail.workbenchTool.howToUse=강조 표시된 블록을 마우스 왼쪽 버튼으로 클릭하여 상태를 변경합니다(열기/닫기, 회전, 반전 등). 시프트 및 컨트롤 키 변경 특성도 사용해 보세요! 이 기능은 수정 가능한 속성(예: 문, 울타리 등)이 있는 블록에서만 작동합니다.	#
+resourcePack.editor.toolRail.workbenchTool.howToUse=강조 표시된 블록을 마우스 왼쪽 버튼으로 클릭하여 상태를 변경합니다(열기/닫기, 회전, 반전 등). Shift 및 컨트롤 키 변경 특성도 사용해 보세요! 이 기능은 수정 가능한 속성(예: 문, 울타리 등)이 있는 블록에서만 작동합니다.	#
 resourcePack.editor.toolRail.workbenchTool.tooltip=블록 상태 변경	#
 resourcePack.editor.toolRail.workbenchTool.block=블록	#
 resourcePack.editor.toolRail.workbenchTool.leftClick=왼쪽 클릭	#
 resourcePack.editor.toolRail.workbenchTool.shiftLeftClick=시프트 + 왼쪽 클릭	#
 resourcePack.editor.toolRail.workbenchTool.controlLeftClick=컨트롤 + 왼쪽 클릭	#
 resourcePack.editor.toolRail.workbenchTool.shiftControlLeftClick=시프트+ 컨트롤 + 왼쪽 클릭	#
-resourcePack.editor.toolRail.workbenchTool.stripWood=나무 벗기기/벗기기 해제	#
+resourcePack.editor.toolRail.workbenchTool.stripWood=나무 벗기기/벗기기 해제		####This string is intended to express whether the wood block has bark (unstripped) or doesn't have bark (stripped).{MaxLength=100}
 resourcePack.editor.toolRail.workbenchTool.ladderLocation=사다리 위치	#
 resourcePack.editor.toolRail.workbenchTool.autoAlign=자동 정렬	#
+resourcePack.editor.toolRail.workbenchTool.autoAlignFacingDirection=조향 방향 자동 조정		####This string is intended to express that the action will align the facing direction of the block with the player camera.{MaxLength=100}
+resourcePack.editor.toolRail.workbenchTool.autoAlignRotation=회전 자동 조정		####This string is intended to express that the action will align the roatation of the block with the player camera.{MaxLength=100}
 
 resourcePack.editor.toolRail.workbenchTool.topSlotBitProp=상단/하단	#
 resourcePack.editor.toolRail.workbenchTool.pillarAxisProp=회전	#
@@ -758,8 +817,8 @@ resourcePack.editor.viewSettings.invisible.tip=투명 블록(예: 공허, 방벽
 resourcePack.editor.viewSettings.invisible.title=투명 블록 표시	#
 resourcePack.editor.viewSettings.flySpeed.tip=지도를 더 빠르게 움직이려면 비행 속도를 높이세요.	#
 resourcePack.editor.viewSettings.flySpeed.title=비행 속도 배수	#
-resourcePack.editor.viewSettings.menu=설정 보기	#
-resourcePack.editor.viewSettings.title=설정 보기	#
+resourcePack.editor.viewSettings.menu=설정	#
+resourcePack.editor.viewSettings.title=설정	#
 
 resourcePack.editor.hotbar.defaultDisplayName=기본	#
 
