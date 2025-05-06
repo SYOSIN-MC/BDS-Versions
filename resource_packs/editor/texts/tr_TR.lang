@@ -16,6 +16,9 @@ resourcePack.editor.actionBar.redo=Yinele	#
 resourcePack.editor.actionBar.undo.tooltipDescription=Bir eylemi geri al	#
 resourcePack.editor.actionBar.undo.tooltipTitle=Geri Al	#
 resourcePack.editor.actionBar.undo=Geri Al	#
+resourcePack.editor.actionBar.fill=Doldur 	####Label for an actionbar item that fills the selection with the current hotbar block.{MaxLength=100}
+resourcePack.editor.actionBar.fill.tooltipDescription=Seçim birimini geçerli hızlı erişim çubuğu blokuyla doldur 	####Tooltip description for an actionbar item that fills the selection with the current hotbar block.{MaxLength=100}
+resourcePack.editor.actionBar.fill.tooltipTitle=Doldur 	####Tooltip title for an actionbar item that fills the selection with the current hotbar block.{MaxLength=100}
 
 resourcePack.editor.agfx.settings.error.title=Hata(lar) oluştu...	#
 resourcePack.editor.agfx.pane.title=Ayarlar Düzenleyicisi	#
@@ -54,6 +57,7 @@ resourcePack.editor.brushPaint.tooltip=Dünyadaki blokları boyamak için fırç
 
 resourcePack.editor.BrushPaintControl.brush.title=Fırça	#
 resourcePack.editor.BrushPaintControl.brushSettings.title=Fırça Ayarları	#
+resourcePack.editor.BrushPaintControl.shapeSettings.title=Şekil Ayarları 	####Represents an expander that has UI controls for brush shape settings.{MaxLength=100}
 resourcePack.editor.BrushPaintControl.fillConstraints.mask.title=Maske Listesi	#
 resourcePack.editor.BrushPaintControl.fillConstraints.maskMode.disabled.tooltip=Blok Filtrelerini devre dışı bırak	#
 resourcePack.editor.BrushPaintControl.fillConstraints.maskMode.disabled=Devre Dışı	#
@@ -104,9 +108,11 @@ resourcePack.editor.brushShape.ellipsoid.settings.height_radius=Yükseklik Yarı
 resourcePack.editor.brushShape.ellipsoid.settings.width_radius=Genişlik Yarıçapı	#
 resourcePack.editor.brushShape.pyramid.name=Piramit	#
 resourcePack.editor.brushShape.pyramid.settings.depth=Derinlik	#
-resourcePack.editor.brushShape.pyramid.settings.height=Boy	#
+resourcePack.editor.brushShape.pyramid.settings.height=Yükseklik	#
 resourcePack.editor.brushShape.pyramid.settings.width=Genişlik	#
 resourcePack.editor.brushShape.singleBlock.name=Tek Blok	#
+resourcePack.editor.brushShape.star.name=Yıldız 	####Represent a star shaped brush.{MaxLength=100}
+resourcePack.editor.brushShape.star.settings.includeVertical=Dikeyi Dahil Et 	####Represents a toggle button label that removes vertical parts of a star brush if unchecked.{MaxLength=100}
 
 
 resourcePack.editor.client.description=Düzenleyici İstemci Kaynakları	#
@@ -216,18 +222,29 @@ resourcePack.editor.entityInspector.toolRail.description=Özelliklerini görünt
 resourcePack.editor.exportProject.exportType=Dışa Aktarma Türü	#
 resourcePack.editor.exportProject.exportType.playableWorld=Oynanabilir Dünya	#
 resourcePack.editor.exportProject.exportNotes=Notları Dışa Aktar	#
+resourcePack.editor.exportProject.exportNotes.export=İlerleme Dışa Aktarılıyor   	####This string is intended to express that the title of export progress modal.{MaxLength=100}
 resourcePack.editor.exportProject.exportNotes.warning=Bir v%1 dünyasını dışa aktarıyorsunuz. Dışa aktarılan Oynanabilir dünyalar v%1 öncesi bir sürüm numarasına sahip Minecraft sürümlerinde kullanılamaz. Önceki sürüm numaralarına dönüştürmek için https://chunker.app/ adresini kullanın (önceki sürümlerde desteklenmiyorsa bazı işlevler kullanılamayabilir)	#
+resourcePack.editor.exportProject.exportNotes.progress=Dünya dışa aktarılıyor...    	####This string is intended to express that the progress message of exporting.{MaxLength=100}
+resourcePack.editor.exportProject.exportNotes.exportSuccess=Dünya başarıyla aktarıldı    	####This string is intended to express that export the world succeeded.{MaxLength=100}
+resourcePack.editor.exportProject.exportNotes.exportFailed=Dünya dışarı aktarılamadı    	####This string is intended to express that export the world failed.{MaxLength=100}
 resourcePack.editor.exportProject.generalSettings=Genel Ayarlar	#
 resourcePack.editor.exportProject.generalSettings.worldName=Dünya Adı	#
 resourcePack.editor.exportProject.generalSettings.gameMode=Oyun Modu	#
 resourcePack.editor.exportProject.generalSettings.difficulty=Zorluk	#
 resourcePack.editor.exportProject.generalSettings.hardcore=Zorlu	#
+resourcePack.editor.exportProject.initialPlaySettings=İlk Oyun Ayarları   	####This string is intended to express that the export category for inital play settings.{MaxLength=100}
+resourcePack.editor.exportProject.initialPlaySettings.spawnPosition=Dünya Doğma Noktası   	####This string is intended to express that player inistal spawn position.{MaxLength=100}
+resourcePack.editor.exportProject.initialPlaySettings.startTime=Başlama Zamanı   	####This string is intended to express that world start time.{MaxLength=100}
+resourcePack.editor.exportProject.initialPlaySettings.clockType=Saat Türü   	####This string is intended to express that start time with different clock type.{MaxLength=100}
+resourcePack.editor.exportProject.initialPlaySettings.customStartTime=Özel Başlama Zamanı   	####This string is intended to express that custom start time with Minecraft Cloke value.{MaxLength=100}
+resourcePack.editor.exportProject.initialPlaySettings.weather=Başlangıçtaki Hava Durumu   	####This string is intended to express that the custom start weather.{MaxLength=100}
 resourcePack.editor.exportProject.advancedSettings=Gelişmiş Ayarlar	#
 resourcePack.editor.exportProject.advancedSettings.startingMap=Başlangıç Haritası	#
 resourcePack.editor.exportProject.advancedSettings.bonusChest=Bonus Sandığı	#
 resourcePack.editor.exportProject.advancedSettings.showCoordinates=Koordinatları Göster	#
 resourcePack.editor.exportProject.advancedSettings.showDaysPlayed=Oynanan Günleri Göster	#
 resourcePack.editor.exportProject.advancedSettings.recipeUnlocking=Tarif Kilidini Açma	#
+resourcePack.editor.exportProject.advancedSettings.limitedCrafting=Sınırlı Eşya Yapma   	####Export pane checkbox label that enable to set crafting limit.{MaxLength=100}
 resourcePack.editor.exportProject.advancedSettings.fireSpreads=Ateş Yayılır	#
 resourcePack.editor.exportProject.advancedSettings.tntExplodes=TNT Patlar	#
 resourcePack.editor.exportProject.advancedSettings.resawnBlocksExplode=Yeniden Doğma Blokları Patlar	#
@@ -235,11 +252,13 @@ resourcePack.editor.exportProject.advancedSettings.mobLoot=Mob Ganimeti	#
 resourcePack.editor.exportProject.advancedSettings.naturalRegeneration=Doğal Yenilenme	#
 resourcePack.editor.exportProject.advancedSettings.tileDrops=Kutucuk Ganimetleri	#
 resourcePack.editor.exportProject.advancedSettings.immediateRespawn=Anında Yeniden Doğma	#
+resourcePack.editor.exportProject.advancedSettings.showDeathMessage=Ölüm Mesajını Göster   	####Export pane checkbox label that show the death message when player die.{MaxLength=100}
 resourcePack.editor.exportProject.advancedSettings.respawnRadius=Yeniden Doğma Yarıçapı	#
 resourcePack.editor.exportProject.advancedSettings.simulationDistance=Simülasyon Uzaklığı	#
 resourcePack.editor.exportProject.advancedSettings.bedsWork=Yatak Çalışması	#
 resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers=Gereken Uyuyan Oyuncu (%1$s)	#
 resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers.onePlayerMessage=Sadece 1 oyuncu	#
+resourcePack.editor.exportProject.advancedSettings.showItemTags=Eşya Etiketlerini Göster   	####Export pane checkbox label that show item tags.{MaxLength=100}
 resourcePack.editor.exportProject.multiplayerSettings=Çok Oyunculu Oyun Ayarları	#
 resourcePack.editor.exportProject.multiplayerSettings.multiplayerGame=Çok Oyunculu Oyun	#
 resourcePack.editor.exportProject.multiplayerSettings.playerAccess=Oyuncu Erişimi	#
@@ -255,6 +274,16 @@ resourcePack.editor.exportProject.cheatsSettings.mobGriefing=Mob Üzüntüsü	#
 resourcePack.editor.exportProject.cheatsSettings.entitiesDropLoot=Varlıkların Ganimet Düşürmesi	#
 resourcePack.editor.exportProject.cheatsSettings.weatherCycle=Hava Döngüsü	#
 resourcePack.editor.exportProject.cheatsSettings.commandBlocks=Komut Blokları	#
+resourcePack.editor.exportProject.cheatsSettings.commandBlockOutput=Komut Bloku Çıktısı   	####Export pane checkbox label that enable to display the command output.{MaxLength=100}
+resourcePack.editor.exportProject.cheatsSettings.sendCommandFeedback=Komut Geri Bildirimi Gönder   	####This string is the heading for the 'send command feedback' setting when exporting a world.{MaxLength=100}
+resourcePack.editor.exportProject.cheatsSettings.maxCommandChainLength=Maksimum Komut Zinciri Uzunluğu   	####Export pane number that indicate the max length of the command, it defaults to 65536. It has a minimum of 0 and a max of 2147483647.{MaxLength=100}
+resourcePack.editor.exportProject.cheatsSettings.fireDamage=Ateş Hasarı  	####Export pane checkbox label that enable damage when the player on fire.{MaxLength=100}
+resourcePack.editor.exportProject.cheatsSettings.freezeDamage=Donma Hasarı  	####Export pane checkbox label that enable damage when the player freezes.{MaxLength=100}
+resourcePack.editor.exportProject.cheatsSettings.fallDamage=Düşme Hasarı  	####Export pane checkbox label that enable damage when the player falls.{MaxLength=100}
+resourcePack.editor.exportProject.cheatsSettings.drowningDamage=Boğulma Hasarı  	####Export pane checkbox label that enable damage when the player is drowning.{MaxLength=100}
+resourcePack.editor.exportProject.cheatsSettings.insomnia=Uykusuzluk  	####Export pane checkbox label that enable player insomnia status.{MaxLength=100}
+resourcePack.editor.exportProject.cheatsSettings.showBorderEffect=Kenarlık Efektini Göster  	####Export pane checkbox label that show border effect.{MaxLength=100}
+resourcePack.editor.exportProject.cheatsSettings.functionCommandLimit=İşlev Komutu Sınırı  	####Export pane checkbox label that the number of limition for the function command.{MaxLength=100}
 resourcePack.editor.exportProject.cheatsSettings.educationFeatures=Eğitim Özellikleri	#
 resourcePack.editor.exportProject.cheatsSettings.randomTickSpeed=Rastgele İşaretleme Hızı	#
 resourcePack.editor.exportProject.export=Dışa Aktar	#
@@ -266,6 +295,11 @@ resourcePack.editor.exportProject.difficulty.peaceful=Sakin	#
 resourcePack.editor.exportProject.difficulty.easy=Kolay	#
 resourcePack.editor.exportProject.difficulty.normal=Normal	#
 resourcePack.editor.exportProject.difficulty.hard=Zor	#
+resourcePack.editor.exportProject.weather.default=Varsayılan   	####This string is intended to express that the default weather .{MaxLength=100}
+resourcePack.editor.exportProject.weather.clear=Açık   	####This string is intended to express that the weather of Clear.{MaxLength=100}
+resourcePack.editor.exportProject.weather.rain=Yağmur   	####This string is intended to express that the weather of Rain.{MaxLength=100}
+resourcePack.editor.exportProject.weather.thunder=Gök Gürültüsü   	####This string is intended to express that the weather of Thunder.{MaxLength=100}
+
 
 
 resourcePack.editor.toolRail.ExtrudeTool.title=Ekstrüzyon Aleti	#
@@ -389,6 +423,7 @@ resourcePack.editor.menuBar.file.export=Dışarı Aktar	#
 resourcePack.editor.menuBar.file.pauseScreen=Oyun menüsü	#
 resourcePack.editor.menuBar.file.settings=Kullanıcı arayüzü ayarları	#
 resourcePack.editor.menuBar.file=Dosya	#
+resourcePack.editor.menuBar.help.tutorial=Öğretici 	#### {MaxLength="500"} Represent menu bar item in help menu that activates editor tutorial when pressed
 resourcePack.editor.menuBar.help.documentation=Dokümantasyon	#
 resourcePack.editor.menuBar.help.feedback=Geri Bildirim	#
 resourcePack.editor.menuBar.help.quickStart=Hızlı başlangıç	#
@@ -468,10 +503,10 @@ resourcePack.editor.pastepreview.keyBinding.toggleMouseTracking=Fare İzlemeyi A
 resourcePack.editor.pastepreview.pane.controls.cursor.fixed=Sabit Mesafe	#
 resourcePack.editor.pastepreview.pane.controls.cursor.keyboard=Yalnızca tuşlar	#
 resourcePack.editor.pastepreview.pane.controls.cursor.mouseandkeys=Fare ve Tuşlar	#
-resourcePack.editor.pastepreview.pane.controls.cursor.target.block=Blok	#
+resourcePack.editor.pastepreview.pane.controls.cursor.target.block=Engelle	#
 resourcePack.editor.pastepreview.pane.controls.cursor.target.face=Bitişik	#
 resourcePack.editor.pastepreview.pane.controls.cursor.target.title=Hedef	#
-resourcePack.editor.pastepreview.pane.controls.cursor=Control	#
+resourcePack.editor.pastepreview.pane.controls.cursor=Kontrol	#
 resourcePack.editor.pastepreview.pane.controls.title=İmleç Kontrolleri	#
 resourcePack.editor.pastepreview.pane.placement.mirrorX=Ayna X	#
 resourcePack.editor.pastepreview.pane.placement.mirrorZ=Ayna Z	#
@@ -480,7 +515,7 @@ resourcePack.editor.pastepreview.pane.placement.origin=Menşei	#
 resourcePack.editor.pastepreview.pane.placement.pastebutton=Yapıştır	#
 resourcePack.editor.pastepreview.pane.placement.rotation=Döndürme (Y)	#
 resourcePack.editor.pastepreview.pane.placement.title=Yerleştirme Ayarları	#
-resourcePack.editor.pastepreview.pane.root.size=Boyut	#
+resourcePack.editor.pastepreview.pane.root.size=Beden	#
 resourcePack.editor.pastepreview.pane.root.title=Ön İzlemeyi Yapıştır	#
 resourcePack.editor.pastepreview.tool.tip=Pano ön izlemesinin konumunu ayarlamak için fareyi kullanın ve dünyaya yapıştırmak için tıklayın	#
 resourcePack.editor.pastepreview.tool.title=Ön İzlemeyi Yapıştır	#
@@ -503,7 +538,7 @@ resourcePack.editor.playtest.Dialog.GameMode=Oyun Modu	#
 resourcePack.editor.playtest.Dialog.OverrideSpawn=Mevcut Lokasyonda Belir	#
 resourcePack.editor.playtest.Dialog.ShowCoordinates=Koordinatları Göster	#
 resourcePack.editor.playtest.Dialog.TestButton=Test Dünyası	#
-resourcePack.editor.playtest.Dialog.TimeOfDay=Günün Dɨlɨmɨ	#
+resourcePack.editor.playtest.Dialog.TimeOfDay=Günün Dilimi	#
 resourcePack.editor.playtest.Dialog.Title=Test Ayarları	#
 resourcePack.editor.playtest.Dialog.Weather=Hava durumu	#
 resourcePack.editor.playtest.Dialog.WeatherCycle=Hava Döngüsü	#
@@ -526,17 +561,23 @@ resourcePack.editor.playtestResult.WorldExportFailed=Dünya Dışa Aktarımı Ba
 
 
 resourcePack.editor.menuBar.file.realmsPublish=Realms'ta Yayınla   	####This string is intended to express that the option is for opening the pane to publish your editor world to Realms.{MaxLength=100}
-resourcePack.editor.realmsPublish.userNotLoggedIn=Realms'e Yayınlama için aktif bir Realms aboneliği gerekir. Realms'a abone olabilir veya süresi dolan abonelikleri standart Minecraft istemcisinden ya da hesabınıza giriş yaptıktan sonra minecraft.net web adresinden yenileyebilirsiniz.    	####This string is intended to express that the user is not logged in currently and the process they need to follow in order to be able to upload their editor world to their Realms subscription.{MaxLength=350}
+resourcePack.editor.realmsPublish.noActiveRealmsSubscription=Realms'e Yayınlama için aktif bir Realms aboneliği gerekir. Realms'a abone olabilir veya süresi dolan abonelikleri standart Minecraft istemcisinden ya da hesabınıza giriş yaptıktan sonra minecraft.net web adresinden yenileyebilirsiniz.    	####This string is intended to express that the user doesn't have a active Realms subscription and the process they need to follow in order to be able to upload their editor world to their Realms subscription.{MaxLength=350}
+resourcePack.editor.realmsPublish.userNotLoggedIn=Realms'ta Yayınlama için aktif bir Realms aboneliği gereklidir. Mevcut bir Realms aboneliğine erişmek için bir Microsoft Hesabında oturum açmış olmanız gerekir.		####This string is intended to express that the user is not logged in currently and that they must be logged into their Microsoft account in order to proceed.{MaxLength=350}
+resourcePack.editor.realmsPublish.dedicatedServerWarning=Özelleştirilmiş Sunucu kullanıldığında Realms'ta Yayınla seçeneği kullanılamaz.		####This string is intended to express that the user is unable to use the Publish to Realms feature on a dedicated server.{MaxLength=350}
+resourcePack.editor.realmsPublish.notSessionHostWarning=Yalnızca Düzenleyici sunucu Realms'ta Yayınlama yapabilir.		####This string is intended to express that the user is unable to use the Publish to Realms when they are not the session host.{MaxLength=350}
+resourcePack.editor.realmsPublish.genericRealmsIssue=Realms hizmetiyle ilgili bir sorun oluştu, daha sonra yeniden deneyin.		####This string is intended to express that there is an issue with the realms service and to please try again later.{MaxLength=350}
 resourcePack.editor.realmsPublish.goToMinecraftWebsite=Minecraft.net adresine git  	####This string is intended to express that the link will take the user to Minecraft.net.{MaxLength=100}
 resourcePack.editor.realmsPublish.Refresh=Yenile  	####This string is intended to express that the button will refresh the pane to see if the user in now logged in.{MaxLength=100}
 resourcePack.editor.realmsPublish.Realm=Realm  	####This string is intended to express that the below dropdown contains all of the users Realms subscriptions.{MaxLength=100}
 resourcePack.editor.realmsPublish.RealmSlot=Realm yuvası 	####This string is intended to express that the dropdown contains all of the world slots in for the users selected realms subscription.{MaxLength=100}
+resourcePack.editor.realmsPublish.EmptySlot=Boş Yuva		####This string is intended to express that the Realm slot is empty.{MaxLength=100}
 resourcePack.editor.realmsPublish.PublishNotesTitle=Realms'ta Yayınlama Notu   	####This string is intended to express that the below field will contain additional information for the user about the publish to realms feature, including any warnings or issues.{MaxLength=150}
 resourcePack.editor.realmsPublish.DownloadRealm=İndir    	####This string is intended to express that the button will download the currently selected World from the realm slot.{MaxLength=100}
 resourcePack.editor.realmsPublish.PublishRealm=Yayınla  	####This string is intended to express that the button will publish the current world to the currently selected realm slot.{MaxLength=100}
 resourcePack.editor.realmsPublish.Confirm=Onayla   	####This string is intended to express that the button will confirm  the request to publish the world to realms.{MaxLength=100}
 resourcePack.editor.realmsPublish.Cancel=İptal 	####This string is intended to express that the button will cancel the request to publish the world to realms.{MaxLength=100}
 resourcePack.editor.realmsPublish.Back=Geri 	####This string is intended to express that the button will take the user back to the previous pane.{MaxLength=100}
+resourcePack.editor.realmsPublish.PublishFailedNonCompliantWorldName=Realms'ta Yayınlama geçersiz bir dünya adı nedeniyle başarısız oldu. Lütfen dünya adını güncelleyin ve tekrar deneyin.		####This string is intended to express that publishing the world to Realms failed due to an invalid world name that was entered by the player .{MaxLength=200}
 resourcePack.editor.realmsPublish.PublishFailed=Realms'ta yayınlama başarısız oldu. Lütfen daha sonra tekrar deneyin.   	####This string is intended to express that publishing the world to Realms failed and to please try again later.{MaxLength=200}
 resourcePack.editor.realmsPublish.PublishSuccess=Realms'ta başarıyla yayınlandı    	####This string is intended to express that publishing the world to Realms succeeded.{MaxLength=200}
 resourcePack.editor.realmsPublish.PublishConfirmationOptOut=Bu Realm ve oturum için bir daha sorma  	####This string is intended to express that the checkbox will opt the user out of confirming their publish to realms decisions.{MaxLength=100}
@@ -607,13 +648,28 @@ resourcePack.editor.selectionTool.keyBinding.shrinkLeft=Seçim Sola Küçült	#
 resourcePack.editor.selectionTool.keyBinding.shrinkRight=Seçimi Sağa Küçült	#
 resourcePack.editor.selectionTool.keyBinding.shrinkUp=Seçim Yukarı Küçült	#
 resourcePack.editor.selectionTool.keyBinding.toggleTool=Seçim Aletini Aç/Kapat	#
+resourcePack.editor.selectionTool.keyBinding.select=Blok Seç			#### The action of adding a block to the selection volume using they keyboard {MaxLength="30"}
+resourcePack.editor.selectionTool.keyBinding.selectMultiple=Ek Blok Seç			#### The action of adding an additional block to the selection volume using the keyboard {MaxLength="30"}
+resourcePack.editor.selectionTool.keyBinding.trimVolume=Kırpma Seçimi (Sınırlar)					#### Keybinding description for Trim the current selection volume to fit only the solid blocks within {MaxLength=30}
+resourcePack.editor.selectionTool.keyBinding.trimRemoveAir=Trim Selection (Remove Air)			#### Keybinding description for Remove the air from the current selection volume leaving only specified blocks {MaxLength=30}
 resourcePack.editor.selectionTool.marquee.title=Çerçeve Seçimi	#
 resourcePack.editor.selectionTool.modeSelection.freehand.title=Serbest Fırça Modu	#
 resourcePack.editor.selectionTool.modeSelection.freehand.tooltip=Serbest fırça şeklini kullanarak dünyadaki blokları seçin	#
 resourcePack.editor.selectionTool.modeSelection.marquee.title=Çerçeve Modu	#
 resourcePack.editor.selectionTool.modeSelection.marquee.tooltip=Dikdörtgen bir hacim kullanarak dünyadaki blokları seçin	#
+resourcePack.editor.selectionTool.modeSelection.magic.title=Sihirli Seçim Modu			#### Magic Select mode is a mode that searches for contiguous matching blocks in a search radius {MaxLength=30}}
+resourcePack.editor.selectionTool.modeSelection.magic.tooltip=Dünyadaki blokları seçilen bir kaynaktan gelen arama modelini kullanarak seçin		#### Longer description of the magic select mode {MaxLength=150}}
 resourcePack.editor.selectionTool.modeSelection.title=Seçim Modu	#
 resourcePack.editor.selectionTool.projectThroughLiquid=Sıvı ile proje	#
+resourcePack.editor.selectionTool.trimAction.trimVolume=Kırpma Seçimi			#### Trim the current selection volume to fit only the solid blocks within {MaxLength=30}
+resourcePack.editor.selectionTool.trimAction.trimVolume.tooltip=Geçerli seçim hacmini yalnızca içindeki katı bloklara sığacak şekilde kırpın   	#### {MaxLength=200}
+resourcePack.editor.selectionTool.trimAction.removeAir=Havayı Kaldır			#### Remove the air from the current selection volume leaving only specified blocks {MaxLength=30}
+resourcePack.editor.selectionTool.trimAction.removeAir.tooltip=Yalnızca belirli blokları bırakın ve mevcut seçim hacmindeki havayı kaldırın 	#### {MaxLength=200}
+resourcePack.editor.selectionTool.trimAction.trimVolume.SettingsPane.title=Kırpma Ayarları		#### The window pane title for the settings for trim mode {MaxLength=30}
+resourcePack.editor.selectionTool.trimAction.trimVolume.SettingsPane.ignoreLiquid=Sıvıları Yok Say		#### The toggle button title for ignoring liquids {MaxLength=30}
+resourcePack.editor.selectionTool.trimAction.trimVolume.SettingsPane.ignoreLiquid.tooltip=Hacmi kırparken sıvı blokları yok sayın 	#### {MaxLength=200}
+resourcePack.editor.selectionTool.trimAction.trimVolume.SettingsPane.onlyCollidable=Sadece Çarpışma Blokları		#### The toggle button title for collision-only blocks {MaxLength=30}
+resourcePack.editor.selectionTool.trimAction.trimVolume.SettingsPane.onlyCollidable.tooltip=Hacmi kırparken çarpışma olmayan blokları (yapraklar, çimen vb.) yok sayın 	#### {MaxLength=200}
 resourcePack.editor.selectionTool.quickAction.clearSelection.tooltip=Geçerli seçimi kaldır	#
 resourcePack.editor.selectionTool.quickAction.clearSelection=Seçimi Kaldır	#
 resourcePack.editor.selectionTool.quickAction.deleteSelection.tooltip=Geçerli seçim biriminin içindeki tüm blokları kaldırın	#
@@ -632,6 +688,16 @@ resourcePack.editor.selectionTool.transformPane.origin.tooltip=Seçimin dünya k
 resourcePack.editor.selectionTool.transformPane.origin=Menşei	#
 resourcePack.editor.selectionTool.transformPane.size=Boyut	#
 resourcePack.editor.selectionTool.transformPane.title=Dönüştür	#
+
+
+resourcePack.editor.BlockMaskControl.trim.rootPane.title=Kırpma Ayarları		#### The window pane title for the settings for trim mode {MaxLength=30}
+resourcePack.editor.BlockMaskControl.trim.toggleGroup.title=Maske Modu		#### The title of the toggle group {MaxLength=30}
+resourcePack.editor.BlockMaskControl.trim.toggleGroup.item.disabled.label=Disable Block Filters			#### The title of the icon which disables block filters {MaxLength=30}
+resourcePack.editor.BlockMaskControl.trim.toggleGroup.item.disabled.tooltip=Devre Dışı					#### The tooltip of the icon which disables block filters {MaxLength=100}
+resourcePack.editor.BlockMaskControl.trim.toggleGroup.item.mask.label=Maske								#### The title of the icon which masks block filters {MaxLength=30}
+resourcePack.editor.BlockMaskControl.trim.toggleGroup.item.mask.tooltip=Listeye uyan bloklar göz ardı edilir			#### Mask mode tooltip {MaxLength=100}
+resourcePack.editor.BlockMaskControl.trim.toggleGroup.item.replace.label=Değiştir						#### The title of the replace block filter {MaxLength=30}
+resourcePack.editor.BlockMaskControl.trim.toggleGroup.item.replace.tooltip=Listeye uyan bloklar katı olarak değerlendirilir			#### Replace mode tooltip {MaxLength=100}
 
 
 resourcePack.editor.server.description=Düzenleyici Sunucu Kaynakları	#
@@ -665,13 +731,14 @@ resourcePack.editor.timeOfDay.clockType=Saat Türü	#
 resourcePack.editor.timeOfDay.currentTime=Şimdiki Zaman	#
 resourcePack.editor.timeOfDay.customTime=Özel Zaman	#
 resourcePack.editor.timeOfDay.daylightCycle=Gün Işığı Döngüsü	#
-resourcePack.editor.timeOfDay.dropDown.day=Gündüz	#
+resourcePack.editor.timeOfDay.dropDown.day=Gün	#
 resourcePack.editor.timeOfDay.dropDown.midnight=Gece yarısı	#
 resourcePack.editor.timeOfDay.dropDown.night=Gece	#
 resourcePack.editor.timeOfDay.dropDown.none=Yok	#
 resourcePack.editor.timeOfDay.dropDown.noon=Öğlen	#
 resourcePack.editor.timeOfDay.dropDown.sunrise=Gün Doğumu	#
 resourcePack.editor.timeOfDay.dropDown.sunset=Gün Batımı	#
+resourcePack.editor.timeOfDay.dropDown.custom=Özel		####"Custom" describes a dropdown that players can define the specific start time {MaxLength=20}
 resourcePack.editor.timeOfDay.dropDown.title=Ön ayarlar	#
 resourcePack.editor.timeOfDay.menu.title=Günün Saati Ayarları	#
 resourcePack.editor.timeOfDay.minecraftClock=Minecraft Saati	#
@@ -689,6 +756,7 @@ resourcePack.editor.toolMode.keyBinding.hotbar6=Hızlı Erişim Çubuğu 6'yı s
 resourcePack.editor.toolMode.keyBinding.hotbar7=Hızlı Erişim Çubuğu 7'yi seç	#
 resourcePack.editor.toolMode.keyBinding.hotbar8=Hızlı Erişim Çubuğu 8'i seç	#
 resourcePack.editor.toolMode.keyBinding.hotbar9=Hızlı Erişim Çubuğu 9'u seç	#
+resourcePack.editor.toolMode.keyBinding.reload=Yeniden Yükle 	####Represents a label for a key shortcut that reloads scripts and UI.{MaxLength=100}
 
 
 resourcePack.editor.toolRail.blockPalette.title=Blok Paleti (CTRL+P)	#
@@ -759,13 +827,19 @@ resourcePack.editor.toolRail.summonTool.tool.title=Alet Çağır	#
 resourcePack.editor.toolRail.workbenchSettings.title=Tezgah	#
 resourcePack.editor.toolRail.workbenchTool.title=Tezgah	#
 resourcePack.editor.toolRail.workbenchTool.description=Blok durumlarını hızla değiştirin	#
-resourcePack.editor.toolRail.workbenchTool.howToUse=Vurgulanan blokların üzerine sol tıklayarak durumlarını değiştirin (açık/kapalı, döndür, ters çevir, vb.). Shift ve Control tuşu değiştiricilerini de kullanmayı deneyin! Lütfen bu özelliğin yalnızca değiştirilebilir özelliklere sahip bloklarda (örneğin kapılar, çitler, vb.) çalıştığını unutmayın.	#
+resourcePack.editor.toolRail.workbenchTool.howToUse=Durumlarını değiştirmek için kullanılabilecek eylemleri görmek üzere blokları vurgulayın (açık/kapalı, döndür, ters çevir, vb.). Shift ve Control tuşu değiştiricilerini de kullanmayı deneyin! Lütfen bu özelliğin yalnızca değiştirilebilir özelliklere sahip bloklarda (örneğin kapılar, çitler, merdivenler, vb.) çalıştığını unutmayın.		####	This text provides a description of the workbench tool and explans how the the user can highlight blocks in order to see the list of actions for changing that blocks state. {MaxLength="500"}
 resourcePack.editor.toolRail.workbenchTool.tooltip=Blok durumunu değiştirin	#
-resourcePack.editor.toolRail.workbenchTool.block=Blok	#
+resourcePack.editor.toolRail.workbenchTool.block=Engelle	#
 resourcePack.editor.toolRail.workbenchTool.leftClick=Sol Tıkla	#
 resourcePack.editor.toolRail.workbenchTool.shiftLeftClick=Shift + Sol Tık	#
 resourcePack.editor.toolRail.workbenchTool.controlLeftClick=CTRL + Sol Tık	#
 resourcePack.editor.toolRail.workbenchTool.shiftControlLeftClick=Shift + CTRL + Sol Tık	#
+
+resourcePack.editor.toolRail.workbenchTool.leftClickTooltip=Bir bloka Sol Tıklayınca birincil Tezgah eylemi gerçekleşir		####	This keybinding is a tool tip to convey that a left click will invoke the primary (1st) action of the workbench tool. {MaxLength="150"}
+resourcePack.editor.toolRail.workbenchTool.shiftLeftClickTooltip=Bir bloka Shift + Sol Tıklama yapınca ikincil Tezgah eylemi gerçekleşir		####	This keybinding is a tool tip to convey that a shift + left click will invoke the primary (1st) action of the workbench tool. {MaxLength="150"}
+resourcePack.editor.toolRail.workbenchTool.controlLeftClickTooltip=Bir bloka Control + Sol Tıklama yapınca üçüncül Tezgah eylemi gerçekleşir		####	This keybinding is a tool tip to convey that a control + left click will invoke the primary (1st) action of the workbench tool. {MaxLength="150"}
+resourcePack.editor.toolRail.workbenchTool.shiftControlLeftClickTooltip=Bir bloka Shift + Control + Sol Tıklama yapınca dördüncül Tezgah eylemi gerçekleşir		####	TThis keybinding is a tool tip to convey that a shift + control + left click will invoke the primary (1st) action of the workbench tool. {MaxLength="150"}
+
 resourcePack.editor.toolRail.workbenchTool.stripWood=Odunu soy/soyma		####This string is intended to express whether the wood block has bark (unstripped) or doesn't have bark (stripped).{MaxLength=100}
 resourcePack.editor.toolRail.workbenchTool.ladderLocation=Basamak konumu	#
 resourcePack.editor.toolRail.workbenchTool.autoAlign=Otomatik hizalama	#
@@ -791,6 +865,17 @@ resourcePack.editor.toolRail.workbenchTool.directionProp=Bakış Yönü	#
 resourcePack.editor.toolRail.workbenchTool.weirdoDirectionProp=Döndür	#
 resourcePack.editor.toolRail.workbenchTool.facingDirectionProp=Bakış Yönü	#
 resourcePack.editor.toolRail.workbenchTool.cardinalDirectionProp=Bakış Yönü	#
+
+resourcePack.editor.toolRail.workbenchTool.addCustomMapping=Özel Haritalandırma Ekle		####This string is intended to express that this subpane is for adding custom block property mappings for the tool.{MaxLength=100}
+resourcePack.editor.toolRail.workbenchTool.blockProperty=Blok Özelliği		####This string is intended to express that this field is for the Block Property.{MaxLength=50}
+resourcePack.editor.toolRail.workbenchTool.clickBinding=Bağlamalara Tıkla		####This string is intended to express that this dropdown contains the click binding options (left click, shift + left click, etc).{MaxLength=50}
+resourcePack.editor.toolRail.workbenchTool.addMapping=Haritalandırma Ekle		####This string is intended to express that this button will add the custom mapping provided by the user.{MaxLength=50}
+resourcePack.editor.toolRail.workbenchTool.resetAllMappings=Tüm Haritalandırmaları Sıfırla		####This string is intended to express that this button will reset all custom mappings provided by the user.{MaxLength=50}
+
+resourcePack.editor.workbenchTool.keyBinding.primaryAction=Birincil Tezgah Eylemi		####	This keybinding is to invoke the primary (1st) action of the workbench tool. {MaxLength="30"}
+resourcePack.editor.workbenchTool.keyBinding.secondaryAction=İkincil Tezgah Eylemi		#### This keybinding is to invoke the secondary (2nd) action of the workbench tool. {MaxLength="30"}
+resourcePack.editor.workbenchTool.keyBinding.tertiaryAction=Üçüncül Tezgah Eylemi		####	This keybinding is to invoke the tertiary (3rd) action of the workbench tool. {MaxLength="30"}
+resourcePack.editor.workbenchTool.keyBinding.quaternaryAction=Dördüncül Tezgah Eylemi		#### This keybinding is to invoke the quaternary (4th) action of the workbench tool. {MaxLength="30"}
 
 
 resourcePack.editor.transaction.keyBinding.redo=Yinele	#

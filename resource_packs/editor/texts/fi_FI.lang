@@ -16,6 +16,9 @@ resourcePack.editor.actionBar.redo=Tee uudelleen	#
 resourcePack.editor.actionBar.undo.tooltipDescription=Kumoa toiminto	#
 resourcePack.editor.actionBar.undo.tooltipTitle=Kumoa	#
 resourcePack.editor.actionBar.undo=Kumoa	#
+resourcePack.editor.actionBar.fill=Täyttö 	####Label for an actionbar item that fills the selection with the current hotbar block.{MaxLength=100}
+resourcePack.editor.actionBar.fill.tooltipDescription=Täytä valinta-alue nykyisellä pikavalintarivin kuutiolla 	####Tooltip description for an actionbar item that fills the selection with the current hotbar block.{MaxLength=100}
+resourcePack.editor.actionBar.fill.tooltipTitle=Täyttö 	####Tooltip title for an actionbar item that fills the selection with the current hotbar block.{MaxLength=100}
 
 resourcePack.editor.agfx.settings.error.title=Tapahtui virhe(itä)...	#
 resourcePack.editor.agfx.pane.title=Asetuseditori	#
@@ -54,6 +57,7 @@ resourcePack.editor.brushPaint.tooltip=Käytä siveltimiä maalataksesi kuutioit
 
 resourcePack.editor.BrushPaintControl.brush.title=Sivellin	#
 resourcePack.editor.BrushPaintControl.brushSettings.title=Siveltimen asetukset	#
+resourcePack.editor.BrushPaintControl.shapeSettings.title=Muotoasetukset 	####Represents an expander that has UI controls for brush shape settings.{MaxLength=100}
 resourcePack.editor.BrushPaintControl.fillConstraints.mask.title=Maskiluettelo	#
 resourcePack.editor.BrushPaintControl.fillConstraints.maskMode.disabled.tooltip=Poista kuutiosuodattimet käytöstä	#
 resourcePack.editor.BrushPaintControl.fillConstraints.maskMode.disabled=Poissa käytöstä	#
@@ -107,6 +111,8 @@ resourcePack.editor.brushShape.pyramid.settings.depth=Syvyys	#
 resourcePack.editor.brushShape.pyramid.settings.height=Korkeus	#
 resourcePack.editor.brushShape.pyramid.settings.width=Leveys	#
 resourcePack.editor.brushShape.singleBlock.name=Yksittäinen kuutio	#
+resourcePack.editor.brushShape.star.name=Tähti 	####Represent a star shaped brush.{MaxLength=100}
+resourcePack.editor.brushShape.star.settings.includeVertical=Sisällytä pystysuorat 	####Represents a toggle button label that removes vertical parts of a star brush if unchecked.{MaxLength=100}
 
 
 resourcePack.editor.client.description=Editoriohjelman resurssit	#
@@ -216,18 +222,29 @@ resourcePack.editor.entityInspector.toolRail.description=Napsauta entiteettiä h
 resourcePack.editor.exportProject.exportType=Vie tyyppi	#
 resourcePack.editor.exportProject.exportType.playableWorld=Pelattava maailma	#
 resourcePack.editor.exportProject.exportNotes=Vie muistiinpanot	#
+resourcePack.editor.exportProject.exportNotes.export=Viennin edistyminen   	####This string is intended to express that the title of export progress modal.{MaxLength=100}
 resourcePack.editor.exportProject.exportNotes.warning=Olet viemässä v%1-maailmaa. Vietyjä pelattavia maailmoja ei voi käyttää Minecraftin versioissa, joiden versionumero on pienempi kuin v%1. Jos haluat käyttää aiempia versionumeroita, käy sivustolla https://chunker.app/ (jotkin toiminnot eivät välttämättä ole käytettävissä, jos aiemmat versiot eivät tue niitä)	#
+resourcePack.editor.exportProject.exportNotes.progress=Viedään maailmaa...    	####This string is intended to express that the progress message of exporting.{MaxLength=100}
+resourcePack.editor.exportProject.exportNotes.exportSuccess=Maailma vietiin onnistuneesti    	####This string is intended to express that export the world succeeded.{MaxLength=100}
+resourcePack.editor.exportProject.exportNotes.exportFailed=Maailman vienti epäonnistui    	####This string is intended to express that export the world failed.{MaxLength=100}
 resourcePack.editor.exportProject.generalSettings=Yleiset asetukset	#
 resourcePack.editor.exportProject.generalSettings.worldName=Maailman nimi	#
 resourcePack.editor.exportProject.generalSettings.gameMode=Pelimuoto	#
 resourcePack.editor.exportProject.generalSettings.difficulty=Vaikeustaso	#
 resourcePack.editor.exportProject.generalSettings.hardcore=Kovanaama	#
+resourcePack.editor.exportProject.initialPlaySettings=Pelin aloitusasetukset   	####This string is intended to express that the export category for inital play settings.{MaxLength=100}
+resourcePack.editor.exportProject.initialPlaySettings.spawnPosition=Maailman luontikohta   	####This string is intended to express that player inistal spawn position.{MaxLength=100}
+resourcePack.editor.exportProject.initialPlaySettings.startTime=Aloitusaika   	####This string is intended to express that world start time.{MaxLength=100}
+resourcePack.editor.exportProject.initialPlaySettings.clockType=Kellotyyppi   	####This string is intended to express that start time with different clock type.{MaxLength=100}
+resourcePack.editor.exportProject.initialPlaySettings.customStartTime=Mukautettu aloitusaika   	####This string is intended to express that custom start time with Minecraft Cloke value.{MaxLength=100}
+resourcePack.editor.exportProject.initialPlaySettings.weather=Aloitussää   	####This string is intended to express that the custom start weather.{MaxLength=100}
 resourcePack.editor.exportProject.advancedSettings=Edistyneet asetukset	#
 resourcePack.editor.exportProject.advancedSettings.startingMap=Aloituskartta	#
 resourcePack.editor.exportProject.advancedSettings.bonusChest=Bonusarkku	#
 resourcePack.editor.exportProject.advancedSettings.showCoordinates=Näytä koordinaatit	#
 resourcePack.editor.exportProject.advancedSettings.showDaysPlayed=Näytä pelattujen päivien määrä	#
 resourcePack.editor.exportProject.advancedSettings.recipeUnlocking=Reseptien avaaminen	#
+resourcePack.editor.exportProject.advancedSettings.limitedCrafting=Rajoitettu nikkarointi   	####Export pane checkbox label that enable to set crafting limit.{MaxLength=100}
 resourcePack.editor.exportProject.advancedSettings.fireSpreads=Tuli leviää	#
 resourcePack.editor.exportProject.advancedSettings.tntExplodes=TNT räjähtää	#
 resourcePack.editor.exportProject.advancedSettings.resawnBlocksExplode=Maailmaantulokuutiot räjähtävät	#
@@ -235,11 +252,13 @@ resourcePack.editor.exportProject.advancedSettings.mobLoot=Olioiden saalis	#
 resourcePack.editor.exportProject.advancedSettings.naturalRegeneration=Luonnollinen parantuminen	#
 resourcePack.editor.exportProject.advancedSettings.tileDrops=Kuutiopudotukset	#
 resourcePack.editor.exportProject.advancedSettings.immediateRespawn=Välitön uudelleensyntyminen	#
+resourcePack.editor.exportProject.advancedSettings.showDeathMessage=Näytä kuolemaviesti   	####Export pane checkbox label that show the death message when player die.{MaxLength=100}
 resourcePack.editor.exportProject.advancedSettings.respawnRadius=Maailmaanpaluusäde	#
 resourcePack.editor.exportProject.advancedSettings.simulationDistance=Simulointietäisyys	#
 resourcePack.editor.exportProject.advancedSettings.bedsWork=Sängyt toimivat	#
 resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers=Vaaditut nukkuvat pelaajat (%1$s)	#
 resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers.onePlayerMessage=Vain 1 pelaaja	#
+resourcePack.editor.exportProject.advancedSettings.showItemTags=Näytä esinetunnisteet   	####Export pane checkbox label that show item tags.{MaxLength=100}
 resourcePack.editor.exportProject.multiplayerSettings=Moninpeliasetukset	#
 resourcePack.editor.exportProject.multiplayerSettings.multiplayerGame=Moninpeli	#
 resourcePack.editor.exportProject.multiplayerSettings.playerAccess=Pelaajien pääsy	#
@@ -255,6 +274,16 @@ resourcePack.editor.exportProject.cheatsSettings.mobGriefing=Olioiden häiriköi
 resourcePack.editor.exportProject.cheatsSettings.entitiesDropLoot=Kohteet pudottavat saaliita	#
 resourcePack.editor.exportProject.cheatsSettings.weatherCycle=Säänvaihtelut	#
 resourcePack.editor.exportProject.cheatsSettings.commandBlocks=Komentokuutiot	#
+resourcePack.editor.exportProject.cheatsSettings.commandBlockOutput=Komentokuution ulostulo   	####Export pane checkbox label that enable to display the command output.{MaxLength=100}
+resourcePack.editor.exportProject.cheatsSettings.sendCommandFeedback=Lähetä komentopalaute   	####This string is the heading for the 'send command feedback' setting when exporting a world.{MaxLength=100}
+resourcePack.editor.exportProject.cheatsSettings.maxCommandChainLength=Komentoketjun enimmäispituus   	####Export pane number that indicate the max length of the command, it defaults to 65536. It has a minimum of 0 and a max of 2147483647.{MaxLength=100}
+resourcePack.editor.exportProject.cheatsSettings.fireDamage=Tulivahinko  	####Export pane checkbox label that enable damage when the player on fire.{MaxLength=100}
+resourcePack.editor.exportProject.cheatsSettings.freezeDamage=Jäädytysvahinko  	####Export pane checkbox label that enable damage when the player freezes.{MaxLength=100}
+resourcePack.editor.exportProject.cheatsSettings.fallDamage=Putoamisvahinko  	####Export pane checkbox label that enable damage when the player falls.{MaxLength=100}
+resourcePack.editor.exportProject.cheatsSettings.drowningDamage=Hukkumisvahinko  	####Export pane checkbox label that enable damage when the player is drowning.{MaxLength=100}
+resourcePack.editor.exportProject.cheatsSettings.insomnia=Unettomuus  	####Export pane checkbox label that enable player insomnia status.{MaxLength=100}
+resourcePack.editor.exportProject.cheatsSettings.showBorderEffect=Näytä reunatehoste  	####Export pane checkbox label that show border effect.{MaxLength=100}
+resourcePack.editor.exportProject.cheatsSettings.functionCommandLimit=Funktion komentoraja  	####Export pane checkbox label that the number of limition for the function command.{MaxLength=100}
 resourcePack.editor.exportProject.cheatsSettings.educationFeatures=Oppimisominaisuudet	#
 resourcePack.editor.exportProject.cheatsSettings.randomTickSpeed=Satunnainen tikitysnopeus	#
 resourcePack.editor.exportProject.export=Vie	#
@@ -266,6 +295,11 @@ resourcePack.editor.exportProject.difficulty.peaceful=Rauhallinen	#
 resourcePack.editor.exportProject.difficulty.easy=Helppo	#
 resourcePack.editor.exportProject.difficulty.normal=Normaali	#
 resourcePack.editor.exportProject.difficulty.hard=Vaikea	#
+resourcePack.editor.exportProject.weather.default=Oletus   	####This string is intended to express that the default weather .{MaxLength=100}
+resourcePack.editor.exportProject.weather.clear=Tyhjennä   	####This string is intended to express that the weather of Clear.{MaxLength=100}
+resourcePack.editor.exportProject.weather.rain=Sade   	####This string is intended to express that the weather of Rain.{MaxLength=100}
+resourcePack.editor.exportProject.weather.thunder=Ukkonen   	####This string is intended to express that the weather of Thunder.{MaxLength=100}
+
 
 
 resourcePack.editor.toolRail.ExtrudeTool.title=Pursotustyökalu	#
@@ -314,7 +348,7 @@ resourcePack.editor.toolRail.FarmGenerator.pane.fence=Aita	#
 resourcePack.editor.toolRail.FarmGenerator.pane.irrigation=Lisää kastelu	#
 resourcePack.editor.toolRail.FarmGenerator.pane.irrigation.tooltip=Lisää maatilalle vesikuutioita viljelykasvien kasteluun.	#
 resourcePack.editor.toolRail.FarmGenerator.pane.crops.title=Viljaa	#
-resourcePack.editor.toolRail.FarmGenerator.pane.crops.wheat=Vehnä	#
+resourcePack.editor.toolRail.FarmGenerator.pane.crops.wheat=Vehnää	#
 resourcePack.editor.toolRail.FarmGenerator.pane.crops.potato=Peruna	#
 resourcePack.editor.toolRail.FarmGenerator.pane.crops.beets=Punajuuri	#
 resourcePack.editor.toolRail.FarmGenerator.pane.crops.pumpkin=Kurpitsa	#
@@ -389,6 +423,7 @@ resourcePack.editor.menuBar.file.export=Vie	#
 resourcePack.editor.menuBar.file.pauseScreen=Pelivalikko	#
 resourcePack.editor.menuBar.file.settings=Käyttöliittymän asetukset	#
 resourcePack.editor.menuBar.file=Tiedosto	#
+resourcePack.editor.menuBar.help.tutorial=Tutoriaali 	#### {MaxLength="500"} Represent menu bar item in help menu that activates editor tutorial when pressed
 resourcePack.editor.menuBar.help.documentation=Dokumentaatio	#
 resourcePack.editor.menuBar.help.feedback=Palaute	#
 resourcePack.editor.menuBar.help.quickStart=Pika-aloitus	#
@@ -468,10 +503,10 @@ resourcePack.editor.pastepreview.keyBinding.toggleMouseTracking=Vaihda hiirenseu
 resourcePack.editor.pastepreview.pane.controls.cursor.fixed=Kiinteä etäisyys	#
 resourcePack.editor.pastepreview.pane.controls.cursor.keyboard=Vain näppäimistö	#
 resourcePack.editor.pastepreview.pane.controls.cursor.mouseandkeys=Hiiri ja näppäimistö	#
-resourcePack.editor.pastepreview.pane.controls.cursor.target.block=Torju	#
+resourcePack.editor.pastepreview.pane.controls.cursor.target.block=Estä	#
 resourcePack.editor.pastepreview.pane.controls.cursor.target.face=Viereinen	#
 resourcePack.editor.pastepreview.pane.controls.cursor.target.title=Kohde	#
-resourcePack.editor.pastepreview.pane.controls.cursor=Ctrl	#
+resourcePack.editor.pastepreview.pane.controls.cursor=Hallinta	#
 resourcePack.editor.pastepreview.pane.controls.title=Kohdistimen hallinta	#
 resourcePack.editor.pastepreview.pane.placement.mirrorX=Peilaa X	#
 resourcePack.editor.pastepreview.pane.placement.mirrorZ=Peilaa Z	#
@@ -514,7 +549,7 @@ resourcePack.editor.playtest.Title.Tooltip=Pelitestaa editoriprojektiasi pelatta
 resourcePack.editor.playtestResult.EditorSystemFailure=Editorin järjestelmähäiriö	#
 resourcePack.editor.playtestResult.InvalidLevelId=Virheellinen tason ID	#
 resourcePack.editor.playtestResult.InvalidSessionHandle=Virheellinen istunnon nimi	#
-resourcePack.editor.playtestResult.OK=Onnistui	#
+resourcePack.editor.playtestResult.OK=Onnistuit	#
 resourcePack.editor.playtestResult.PlayerNotFound=Pelaajaa ei löydy	#
 resourcePack.editor.playtestResult.ResponseTimeout=Vastauksen aikakatkaisu	#
 resourcePack.editor.playtestResult.SessionInfoNotFound=Istunnon tietoja ei löydy	#
@@ -526,17 +561,23 @@ resourcePack.editor.playtestResult.WorldExportFailed=Maailman vienti epäonnistu
 
 
 resourcePack.editor.menuBar.file.realmsPublish=Julkaise Realmsiin   	####This string is intended to express that the option is for opening the pane to publish your editor world to Realms.{MaxLength=100}
-resourcePack.editor.realmsPublish.userNotLoggedIn=Realmsiin julkaiseminen edellyttää aktiivista Realms-tilausta. Voit tilata Realmsin tai uusia vanhentuneet tilaukset tavallisesta Minecraft-asiakasohjelmasta tai minecraft.net-sivustolla (kun olet kirjautunut tilillesi).    	####This string is intended to express that the user is not logged in currently and the process they need to follow in order to be able to upload their editor world to their Realms subscription.{MaxLength=350}
+resourcePack.editor.realmsPublish.noActiveRealmsSubscription=Realmsiin julkaiseminen edellyttää aktiivista Realms-tilausta. Voit tilata Realmsin tai uusia vanhentuneet tilaukset tavallisesta Minecraft-asiakasohjelmasta tai minecraft.net-sivustolla (kun olet kirjautunut tilillesi).    	####This string is intended to express that the user doesn't have a active Realms subscription and the process they need to follow in order to be able to upload their editor world to their Realms subscription.{MaxLength=350}
+resourcePack.editor.realmsPublish.userNotLoggedIn=Julkaisu Realmsissa edellyttää aktiivista Realms-tilausta. Jotta voit käyttää käytettävissä olevia Realms-tilauksia, sinun on oltava kirjautuneena Microsoft-tilille.		####This string is intended to express that the user is not logged in currently and that they must be logged into their Microsoft account in order to proceed.{MaxLength=350}
+resourcePack.editor.realmsPublish.dedicatedServerWarning=Realmsiin julkaisu ei ole käytettävissä erillisellä palvelimella.		####This string is intended to express that the user is unable to use the Publish to Realms feature on a dedicated server.{MaxLength=350}
+resourcePack.editor.realmsPublish.notSessionHostWarning=Vain Editor-istunnon isäntä saa julkaista Realmsiin.		####This string is intended to express that the user is unable to use the Publish to Realms when they are not the session host.{MaxLength=350}
+resourcePack.editor.realmsPublish.genericRealmsIssue=Realms-palvelun kanssa on ongelma. Yritä myöhemmin uudelleen.		####This string is intended to express that there is an issue with the realms service and to please try again later.{MaxLength=350}
 resourcePack.editor.realmsPublish.goToMinecraftWebsite=Siirry osoitteeseen Minecraft.net  	####This string is intended to express that the link will take the user to Minecraft.net.{MaxLength=100}
 resourcePack.editor.realmsPublish.Refresh=Päivitä  	####This string is intended to express that the button will refresh the pane to see if the user in now logged in.{MaxLength=100}
 resourcePack.editor.realmsPublish.Realm=Realm  	####This string is intended to express that the below dropdown contains all of the users Realms subscriptions.{MaxLength=100}
 resourcePack.editor.realmsPublish.RealmSlot=Realm-paikka 	####This string is intended to express that the dropdown contains all of the world slots in for the users selected realms subscription.{MaxLength=100}
+resourcePack.editor.realmsPublish.EmptySlot=Tyhjä paikka		####This string is intended to express that the Realm slot is empty.{MaxLength=100}
 resourcePack.editor.realmsPublish.PublishNotesTitle=Realmsiin Julkaisemisen ilmoitus   	####This string is intended to express that the below field will contain additional information for the user about the publish to realms feature, including any warnings or issues.{MaxLength=150}
 resourcePack.editor.realmsPublish.DownloadRealm=Lataa    	####This string is intended to express that the button will download the currently selected World from the realm slot.{MaxLength=100}
 resourcePack.editor.realmsPublish.PublishRealm=Julkaise  	####This string is intended to express that the button will publish the current world to the currently selected realm slot.{MaxLength=100}
 resourcePack.editor.realmsPublish.Confirm=Vahvista   	####This string is intended to express that the button will confirm  the request to publish the world to realms.{MaxLength=100}
 resourcePack.editor.realmsPublish.Cancel=Peruuta 	####This string is intended to express that the button will cancel the request to publish the world to realms.{MaxLength=100}
 resourcePack.editor.realmsPublish.Back=Edellinen 	####This string is intended to express that the button will take the user back to the previous pane.{MaxLength=100}
+resourcePack.editor.realmsPublish.PublishFailedNonCompliantWorldName=Julkaisu Realmsiin epäonnistui virheellisen maailman nimen vuoksi. Muuta maailman nimeä ja yritä uudelleen.		####This string is intended to express that publishing the world to Realms failed due to an invalid world name that was entered by the player .{MaxLength=200}
 resourcePack.editor.realmsPublish.PublishFailed=Realmsiin julkaiseminen epäonnistui. Yritä myöhemmin uudelleen.   	####This string is intended to express that publishing the world to Realms failed and to please try again later.{MaxLength=200}
 resourcePack.editor.realmsPublish.PublishSuccess=Realmsiin julkaiseminen onnistui    	####This string is intended to express that publishing the world to Realms succeeded.{MaxLength=200}
 resourcePack.editor.realmsPublish.PublishConfirmationOptOut=Älä kysy uudelleen tässä Realmissa ja istunnossa  	####This string is intended to express that the checkbox will opt the user out of confirming their publish to realms decisions.{MaxLength=100}
@@ -607,13 +648,28 @@ resourcePack.editor.selectionTool.keyBinding.shrinkLeft=Pienennä valintaa vasem
 resourcePack.editor.selectionTool.keyBinding.shrinkRight=Pienennä valintaa oikealle	#
 resourcePack.editor.selectionTool.keyBinding.shrinkUp=Pienennä valintaa ylöspäin	#
 resourcePack.editor.selectionTool.keyBinding.toggleTool=Vaihda valintatyökalua	#
+resourcePack.editor.selectionTool.keyBinding.select=Valitse kuutio			#### The action of adding a block to the selection volume using they keyboard {MaxLength="30"}
+resourcePack.editor.selectionTool.keyBinding.selectMultiple=Valitse lisäkuutio			#### The action of adding an additional block to the selection volume using the keyboard {MaxLength="30"}
+resourcePack.editor.selectionTool.keyBinding.trimVolume=Rajaa valintaa (rajat)					#### Keybinding description for Trim the current selection volume to fit only the solid blocks within {MaxLength=30}
+resourcePack.editor.selectionTool.keyBinding.trimRemoveAir=Rajaa valintaa (poista ilma)			#### Keybinding description for Remove the air from the current selection volume leaving only specified blocks {MaxLength=30}
 resourcePack.editor.selectionTool.marquee.title=Kehysvalinta	#
 resourcePack.editor.selectionTool.modeSelection.freehand.title=Käsivarainen sivellintila	#
 resourcePack.editor.selectionTool.modeSelection.freehand.tooltip=Valitse maailman kuutiot käsivaraisen siveltimen muodolla	#
 resourcePack.editor.selectionTool.modeSelection.marquee.title=Aluevalitsintila	#
 resourcePack.editor.selectionTool.modeSelection.marquee.tooltip=Valitse maailman kuutiot suorakulmaisella määreellä	#
+resourcePack.editor.selectionTool.modeSelection.magic.title=Taikavalintatila			#### Magic Select mode is a mode that searches for contiguous matching blocks in a search radius {MaxLength=30}}
+resourcePack.editor.selectionTool.modeSelection.magic.tooltip=Valitse maailman kuutiot valitusta aloituspisteestä lähtevää hakukuviota käyttämällä		#### Longer description of the magic select mode {MaxLength=150}}
 resourcePack.editor.selectionTool.modeSelection.title=Valintatila	#
 resourcePack.editor.selectionTool.projectThroughLiquid=Heijasta nesteen läpi	#
+resourcePack.editor.selectionTool.trimAction.trimVolume=Rajaa valintaa			#### Trim the current selection volume to fit only the solid blocks within {MaxLength=30}
+resourcePack.editor.selectionTool.trimAction.trimVolume.tooltip=Rajaa nykyistä valintatilavuutta niin, että sen sisään jää vain kiinteitä kuutioita   	#### {MaxLength=200}
+resourcePack.editor.selectionTool.trimAction.removeAir=Poista ilma			#### Remove the air from the current selection volume leaving only specified blocks {MaxLength=30}
+resourcePack.editor.selectionTool.trimAction.removeAir.tooltip=Poista ilma nykyisestä valintatilavuudesta jättäen vain määritetyt kuutiot 	#### {MaxLength=200}
+resourcePack.editor.selectionTool.trimAction.trimVolume.SettingsPane.title=Rajausasetukset		#### The window pane title for the settings for trim mode {MaxLength=30}
+resourcePack.editor.selectionTool.trimAction.trimVolume.SettingsPane.ignoreLiquid=Älä huomioi nesteitä		#### The toggle button title for ignoring liquids {MaxLength=30}
+resourcePack.editor.selectionTool.trimAction.trimVolume.SettingsPane.ignoreLiquid.tooltip=Jätä huomiotta kaikki nestekuutiot, kun rajaat tilavuutta 	#### {MaxLength=200}
+resourcePack.editor.selectionTool.trimAction.trimVolume.SettingsPane.onlyCollidable=Vain törmäyskuutiot		#### The toggle button title for collision-only blocks {MaxLength=30}
+resourcePack.editor.selectionTool.trimAction.trimVolume.SettingsPane.onlyCollidable.tooltip=Jätä huomiotta tilavuutta rajattaessa kaikki kuutiot, joissa ei ole törmäystä (lehdet, ruoho ja jne.) 	#### {MaxLength=200}
 resourcePack.editor.selectionTool.quickAction.clearSelection.tooltip=Poista nykyinen valinta	#
 resourcePack.editor.selectionTool.quickAction.clearSelection=Peru valinta	#
 resourcePack.editor.selectionTool.quickAction.deleteSelection.tooltip=Poista kaikki nykyisen valinta-alueen kuutiot	#
@@ -632,6 +688,16 @@ resourcePack.editor.selectionTool.transformPane.origin.tooltip=Valinnan alkupist
 resourcePack.editor.selectionTool.transformPane.origin=Alkuperä	#
 resourcePack.editor.selectionTool.transformPane.size=Koko	#
 resourcePack.editor.selectionTool.transformPane.title=Muuta	#
+
+
+resourcePack.editor.BlockMaskControl.trim.rootPane.title=Rajausasetukset		#### The window pane title for the settings for trim mode {MaxLength=30}
+resourcePack.editor.BlockMaskControl.trim.toggleGroup.title=Maskitila		#### The title of the toggle group {MaxLength=30}
+resourcePack.editor.BlockMaskControl.trim.toggleGroup.item.disabled.label=Ota kuutiosuodattimet pois			#### The title of the icon which disables block filters {MaxLength=30}
+resourcePack.editor.BlockMaskControl.trim.toggleGroup.item.disabled.tooltip=Poissa käytöstä					#### The tooltip of the icon which disables block filters {MaxLength=100}
+resourcePack.editor.BlockMaskControl.trim.toggleGroup.item.mask.label=Maski								#### The title of the icon which masks block filters {MaxLength=30}
+resourcePack.editor.BlockMaskControl.trim.toggleGroup.item.mask.tooltip=Luetteloa vastaavat kuutiot jätetään huomioimatta			#### Mask mode tooltip {MaxLength=100}
+resourcePack.editor.BlockMaskControl.trim.toggleGroup.item.replace.label=Korvaa						#### The title of the replace block filter {MaxLength=30}
+resourcePack.editor.BlockMaskControl.trim.toggleGroup.item.replace.tooltip=Luetteloa vastaavia kuutioita käsitellään kiinteinä			#### Replace mode tooltip {MaxLength=100}
 
 
 resourcePack.editor.server.description=Editoripalvelimen resurssit	#
@@ -656,7 +722,7 @@ resourcePack.editor.help.learnMore=Lisätietoja	#
 resourcePack.editor.statusBar.connectedPlayers=Yhdistetyt pelaajat %s	#
 
 
-resourcePack.editor.summonTool.summonSubPane.EntityPickerTitle=Olentotyyppi	#
+resourcePack.editor.summonTool.summonSubPane.EntityPickerTitle=Entiteettityyppi	#
 
 
 resourcePack.editor.timeOfDay.12hrClock=12 tunnin kello	#
@@ -668,10 +734,11 @@ resourcePack.editor.timeOfDay.daylightCycle=Vuorokausirytmi	#
 resourcePack.editor.timeOfDay.dropDown.day=Päivä	#
 resourcePack.editor.timeOfDay.dropDown.midnight=Keskiyö	#
 resourcePack.editor.timeOfDay.dropDown.night=Yö	#
-resourcePack.editor.timeOfDay.dropDown.none=Ei mitään	#
+resourcePack.editor.timeOfDay.dropDown.none=Ei ole	#
 resourcePack.editor.timeOfDay.dropDown.noon=Keskipäivä	#
 resourcePack.editor.timeOfDay.dropDown.sunrise=Auringonnousu	#
 resourcePack.editor.timeOfDay.dropDown.sunset=Auringonlasku	#
+resourcePack.editor.timeOfDay.dropDown.custom=Mukautettu		####"Custom" describes a dropdown that players can define the specific start time {MaxLength=20}
 resourcePack.editor.timeOfDay.dropDown.title=Esiasetukset	#
 resourcePack.editor.timeOfDay.menu.title=Vuorokaudenajan asetukset	#
 resourcePack.editor.timeOfDay.minecraftClock=Minecraft-kello	#
@@ -689,6 +756,7 @@ resourcePack.editor.toolMode.keyBinding.hotbar6=Valitse pikavalintarivi 6	#
 resourcePack.editor.toolMode.keyBinding.hotbar7=Valitse pikavalintarivi 7	#
 resourcePack.editor.toolMode.keyBinding.hotbar8=Valitse pikavalintarivi 8	#
 resourcePack.editor.toolMode.keyBinding.hotbar9=Valitse pikavalintarivi 9	#
+resourcePack.editor.toolMode.keyBinding.reload=Lataa uudelleen 	####Represents a label for a key shortcut that reloads scripts and UI.{MaxLength=100}
 
 
 resourcePack.editor.toolRail.blockPalette.title=Kuutiopaletti (CTRL+P)	#
@@ -759,13 +827,19 @@ resourcePack.editor.toolRail.summonTool.tool.title=Kutsutyökalu	#
 resourcePack.editor.toolRail.workbenchSettings.title=Nikkarointipöytä	#
 resourcePack.editor.toolRail.workbenchTool.title=Nikkarointipöytä	#
 resourcePack.editor.toolRail.workbenchTool.description=Vaihda kuutiotiloja nopeasti	#
-resourcePack.editor.toolRail.workbenchTool.howToUse=Napsauta hiiren vasemmalla painikkeella korostettuja kuutioita muuttaaksesi niiden tilaa (avaa/sulje, kierrä, käännä jne.). Kokeile myös vaihto- ja Ctrl-näppäinten muuntimia! Huomaa, että tämä ominaisuus toimii vain kuutioilla, joilla on muokattavissa olevia ominaisuuksia (esim. ovet, aidat jne.).	#
+resourcePack.editor.toolRail.workbenchTool.howToUse=Korosta kuutioita nähdäksesi niiden tilan muuttamiseen käyvät toiminnot (avaa/sulje, kierrä, käännä jne.). Kokeile myös Vaihto- ja Ctrl-näppäinten muuntimia! Huomaa, että tämä ominaisuus toimii vain kuutioilla, joilla on muokattavissa olevia ominaisuuksia (esim. ovet, aidat, portaat jne.).		####	This text provides a description of the workbench tool and explans how the the user can highlight blocks in order to see the list of actions for changing that blocks state. {MaxLength="500"}
 resourcePack.editor.toolRail.workbenchTool.tooltip=Vaihda kuutiotiloja	#
 resourcePack.editor.toolRail.workbenchTool.block=Estä	#
 resourcePack.editor.toolRail.workbenchTool.leftClick=Vasen napsautus	#
 resourcePack.editor.toolRail.workbenchTool.shiftLeftClick=Vaihto + vasen napsautus	#
 resourcePack.editor.toolRail.workbenchTool.controlLeftClick=Ctrl + vasen napsautus	#
 resourcePack.editor.toolRail.workbenchTool.shiftControlLeftClick=Vaihto + Ctrl + vasen napsautus	#
+
+resourcePack.editor.toolRail.workbenchTool.leftClickTooltip=Vasen napsautus kuution kohdalla suorittaa nikkarointipöydän päätoiminnon		####	This keybinding is a tool tip to convey that a left click will invoke the primary (1st) action of the workbench tool. {MaxLength="150"}
+resourcePack.editor.toolRail.workbenchTool.shiftLeftClickTooltip=Vaihto + vasen napsautus kuution kohdalla suorittaa nikkarointipöydän toisen toiminnon		####	This keybinding is a tool tip to convey that a shift + left click will invoke the primary (1st) action of the workbench tool. {MaxLength="150"}
+resourcePack.editor.toolRail.workbenchTool.controlLeftClickTooltip=Control + vasen napsautus kuution kohdalla suorittaa nikkarointipöydän kolmannen toiminnon		####	This keybinding is a tool tip to convey that a control + left click will invoke the primary (1st) action of the workbench tool. {MaxLength="150"}
+resourcePack.editor.toolRail.workbenchTool.shiftControlLeftClickTooltip=Vaihto + Control + vasen napsautus kuution kohdalla suorittaa nikkarointipöydän neljännen toiminnon		####	TThis keybinding is a tool tip to convey that a shift + control + left click will invoke the primary (1st) action of the workbench tool. {MaxLength="150"}
+
 resourcePack.editor.toolRail.workbenchTool.stripWood=Karsi puu / peru karsiminen		####This string is intended to express whether the wood block has bark (unstripped) or doesn't have bark (stripped).{MaxLength=100}
 resourcePack.editor.toolRail.workbenchTool.ladderLocation=Tikkaiden sijainti	#
 resourcePack.editor.toolRail.workbenchTool.autoAlign=Kohdista automaattisesti	#
@@ -791,6 +865,17 @@ resourcePack.editor.toolRail.workbenchTool.directionProp=Katseen suunta	#
 resourcePack.editor.toolRail.workbenchTool.weirdoDirectionProp=Käännä	#
 resourcePack.editor.toolRail.workbenchTool.facingDirectionProp=Katseen suunta	#
 resourcePack.editor.toolRail.workbenchTool.cardinalDirectionProp=Katseen suunta	#
+
+resourcePack.editor.toolRail.workbenchTool.addCustomMapping=Lisää mukautettuja näppäimiä		####This string is intended to express that this subpane is for adding custom block property mappings for the tool.{MaxLength=100}
+resourcePack.editor.toolRail.workbenchTool.blockProperty=Kuution ominaisuus		####This string is intended to express that this field is for the Block Property.{MaxLength=50}
+resourcePack.editor.toolRail.workbenchTool.clickBinding=Napsautusten määritykset		####This string is intended to express that this dropdown contains the click binding options (left click, shift + left click, etc).{MaxLength=50}
+resourcePack.editor.toolRail.workbenchTool.addMapping=Lisää mukautus		####This string is intended to express that this button will add the custom mapping provided by the user.{MaxLength=50}
+resourcePack.editor.toolRail.workbenchTool.resetAllMappings=Nollaa kaikki mukautukset		####This string is intended to express that this button will reset all custom mappings provided by the user.{MaxLength=50}
+
+resourcePack.editor.workbenchTool.keyBinding.primaryAction=Nikkarointipöydän päätoiminto		####	This keybinding is to invoke the primary (1st) action of the workbench tool. {MaxLength="30"}
+resourcePack.editor.workbenchTool.keyBinding.secondaryAction=Nikkarointipöydän 2. toiminto		#### This keybinding is to invoke the secondary (2nd) action of the workbench tool. {MaxLength="30"}
+resourcePack.editor.workbenchTool.keyBinding.tertiaryAction=Nikkarointipöydän 3. toiminto		####	This keybinding is to invoke the tertiary (3rd) action of the workbench tool. {MaxLength="30"}
+resourcePack.editor.workbenchTool.keyBinding.quaternaryAction=Nikkarointipöydän 4. toiminto		#### This keybinding is to invoke the quaternary (4th) action of the workbench tool. {MaxLength="30"}
 
 
 resourcePack.editor.transaction.keyBinding.redo=Tee uudelleen	#

@@ -16,6 +16,9 @@ resourcePack.editor.actionBar.redo=Újra	#
 resourcePack.editor.actionBar.undo.tooltipDescription=Művelet visszavonása	#
 resourcePack.editor.actionBar.undo.tooltipTitle=Visszavonás	#
 resourcePack.editor.actionBar.undo=Visszavonás	#
+resourcePack.editor.actionBar.fill=Kitöltés 	####Label for an actionbar item that fills the selection with the current hotbar block.{MaxLength=100}
+resourcePack.editor.actionBar.fill.tooltipDescription=Aktuális kiválasztás térfogatának kitöltése a jelenleg kiválasztott gyorssávi blokkal 	####Tooltip description for an actionbar item that fills the selection with the current hotbar block.{MaxLength=100}
+resourcePack.editor.actionBar.fill.tooltipTitle=Kitöltés 	####Tooltip title for an actionbar item that fills the selection with the current hotbar block.{MaxLength=100}
 
 resourcePack.editor.agfx.settings.error.title=Hiba történt…	#
 resourcePack.editor.agfx.pane.title=Beállításszerkesztő	#
@@ -54,6 +57,7 @@ resourcePack.editor.brushPaint.tooltip=Lehetővé teszi a blokkok ecsettel való
 
 resourcePack.editor.BrushPaintControl.brush.title=Ecset	#
 resourcePack.editor.BrushPaintControl.brushSettings.title=Ecset beállításai	#
+resourcePack.editor.BrushPaintControl.shapeSettings.title=Alakzatbeállítások 	####Represents an expander that has UI controls for brush shape settings.{MaxLength=100}
 resourcePack.editor.BrushPaintControl.fillConstraints.mask.title=Maszklista	#
 resourcePack.editor.BrushPaintControl.fillConstraints.maskMode.disabled.tooltip=Blokkszűrők kikapcsolása	#
 resourcePack.editor.BrushPaintControl.fillConstraints.maskMode.disabled=Kikapcsolva	#
@@ -107,6 +111,8 @@ resourcePack.editor.brushShape.pyramid.settings.depth=Mélység	#
 resourcePack.editor.brushShape.pyramid.settings.height=Magasság	#
 resourcePack.editor.brushShape.pyramid.settings.width=Szélesség	#
 resourcePack.editor.brushShape.singleBlock.name=Egyetlen blokk	#
+resourcePack.editor.brushShape.star.name=Csillag 	####Represent a star shaped brush.{MaxLength=100}
+resourcePack.editor.brushShape.star.settings.includeVertical=Függőleges részek belefoglalása 	####Represents a toggle button label that removes vertical parts of a star brush if unchecked.{MaxLength=100}
 
 
 resourcePack.editor.client.description=Szerkesztői klienserőforrások	#
@@ -216,18 +222,29 @@ resourcePack.editor.entityInspector.toolRail.description=Kattints a bal gombbal 
 resourcePack.editor.exportProject.exportType=Exportálás típusa	#
 resourcePack.editor.exportProject.exportType.playableWorld=Játszható világ	#
 resourcePack.editor.exportProject.exportNotes=Exportálási megjegyzések	#
+resourcePack.editor.exportProject.exportNotes.export=Exportálás állapota   	####This string is intended to express that the title of export progress modal.{MaxLength=100}
 resourcePack.editor.exportProject.exportNotes.warning=Egy %1 verziós világot exportálsz. Az exportált játszható világok nem használhatók a Minecraft %1 verziónál korábbi kiadásain. A korábbi verziószámok konvertálásához használd a https://chunker.app/ webhelyet (előfordulhat, hogy néhány funkció nem érhető el, ha azok nem támogatottak a korábbi verziókban)	#
+resourcePack.editor.exportProject.exportNotes.progress=Világ exportálása…    	####This string is intended to express that the progress message of exporting.{MaxLength=100}
+resourcePack.editor.exportProject.exportNotes.exportSuccess=A világ exportálása sikeres    	####This string is intended to express that export the world succeeded.{MaxLength=100}
+resourcePack.editor.exportProject.exportNotes.exportFailed=A világ exportálása sikertelen    	####This string is intended to express that export the world failed.{MaxLength=100}
 resourcePack.editor.exportProject.generalSettings=Általános beállítások	#
 resourcePack.editor.exportProject.generalSettings.worldName=Világ neve	#
 resourcePack.editor.exportProject.generalSettings.gameMode=Játékmód	#
 resourcePack.editor.exportProject.generalSettings.difficulty=Nehézség	#
 resourcePack.editor.exportProject.generalSettings.hardcore=Hardcore	#
+resourcePack.editor.exportProject.initialPlaySettings=Kezdeti játékbeállítások   	####This string is intended to express that the export category for inital play settings.{MaxLength=100}
+resourcePack.editor.exportProject.initialPlaySettings.spawnPosition=Világ teremtődési pontja   	####This string is intended to express that player inistal spawn position.{MaxLength=100}
+resourcePack.editor.exportProject.initialPlaySettings.startTime=Kezdési idő   	####This string is intended to express that world start time.{MaxLength=100}
+resourcePack.editor.exportProject.initialPlaySettings.clockType=Óra típusa   	####This string is intended to express that start time with different clock type.{MaxLength=100}
+resourcePack.editor.exportProject.initialPlaySettings.customStartTime=Egyedi kezdési idő   	####This string is intended to express that custom start time with Minecraft Cloke value.{MaxLength=100}
+resourcePack.editor.exportProject.initialPlaySettings.weather=Időjárás indítása   	####This string is intended to express that the custom start weather.{MaxLength=100}
 resourcePack.editor.exportProject.advancedSettings=Speciális beállítások	#
 resourcePack.editor.exportProject.advancedSettings.startingMap=Kezdő térkép	#
 resourcePack.editor.exportProject.advancedSettings.bonusChest=Bónuszláda	#
 resourcePack.editor.exportProject.advancedSettings.showCoordinates=Koordináták megjelenítése	#
 resourcePack.editor.exportProject.advancedSettings.showDaysPlayed=Lejátszott napok mutatása	#
 resourcePack.editor.exportProject.advancedSettings.recipeUnlocking=Recept feloldása	#
+resourcePack.editor.exportProject.advancedSettings.limitedCrafting=Korlátozott barkácsolás   	####Export pane checkbox label that enable to set crafting limit.{MaxLength=100}
 resourcePack.editor.exportProject.advancedSettings.fireSpreads=Tűz terjedése	#
 resourcePack.editor.exportProject.advancedSettings.tntExplodes=Dinamitrobbanások	#
 resourcePack.editor.exportProject.advancedSettings.resawnBlocksExplode=Az újraszületési blokkok felrobbannak	#
@@ -235,11 +252,13 @@ resourcePack.editor.exportProject.advancedSettings.mobLoot=Mobzsákmány	#
 resourcePack.editor.exportProject.advancedSettings.naturalRegeneration=Természetes regenerálódás	#
 resourcePack.editor.exportProject.advancedSettings.tileDrops=Mezőkidobások	#
 resourcePack.editor.exportProject.advancedSettings.immediateRespawn=Azonnali újraszületés	#
+resourcePack.editor.exportProject.advancedSettings.showDeathMessage=Halálüzenet megjelenítése   	####Export pane checkbox label that show the death message when player die.{MaxLength=100}
 resourcePack.editor.exportProject.advancedSettings.respawnRadius=Újraszületési hatósugár	#
 resourcePack.editor.exportProject.advancedSettings.simulationDistance=Szimulációs távolság	#
 resourcePack.editor.exportProject.advancedSettings.bedsWork=Működő ágyak	#
 resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers=Alvó játékosok szükséges száma (%1$s)	#
 resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers.onePlayerMessage=Csak 1 játékos	#
+resourcePack.editor.exportProject.advancedSettings.showItemTags=Tárgycímkék megjelenítése   	####Export pane checkbox label that show item tags.{MaxLength=100}
 resourcePack.editor.exportProject.multiplayerSettings=Többjátékos beállítások	#
 resourcePack.editor.exportProject.multiplayerSettings.multiplayerGame=Többjátékos mód	#
 resourcePack.editor.exportProject.multiplayerSettings.playerAccess=Játékos-hozzáférés	#
@@ -255,6 +274,16 @@ resourcePack.editor.exportProject.cheatsSettings.mobGriefing=Szabotáló mobok	#
 resourcePack.editor.exportProject.cheatsSettings.entitiesDropLoot=Az entitások zsákmányt dobnak ki	#
 resourcePack.editor.exportProject.cheatsSettings.weatherCycle=Időjárásciklus	#
 resourcePack.editor.exportProject.cheatsSettings.commandBlocks=Parancsblokkok	#
+resourcePack.editor.exportProject.cheatsSettings.commandBlockOutput=Parancsblokk kimenete   	####Export pane checkbox label that enable to display the command output.{MaxLength=100}
+resourcePack.editor.exportProject.cheatsSettings.sendCommandFeedback=Parancsvisszajelzés küldése   	####This string is the heading for the 'send command feedback' setting when exporting a world.{MaxLength=100}
+resourcePack.editor.exportProject.cheatsSettings.maxCommandChainLength=Parancslánc maximális hossza   	####Export pane number that indicate the max length of the command, it defaults to 65536. It has a minimum of 0 and a max of 2147483647.{MaxLength=100}
+resourcePack.editor.exportProject.cheatsSettings.fireDamage=Tűzsebzés  	####Export pane checkbox label that enable damage when the player on fire.{MaxLength=100}
+resourcePack.editor.exportProject.cheatsSettings.freezeDamage=Fagysebzés  	####Export pane checkbox label that enable damage when the player freezes.{MaxLength=100}
+resourcePack.editor.exportProject.cheatsSettings.fallDamage=Zuhanási sebzés  	####Export pane checkbox label that enable damage when the player falls.{MaxLength=100}
+resourcePack.editor.exportProject.cheatsSettings.drowningDamage=Fulladási sebzés  	####Export pane checkbox label that enable damage when the player is drowning.{MaxLength=100}
+resourcePack.editor.exportProject.cheatsSettings.insomnia=Álmatlanság  	####Export pane checkbox label that enable player insomnia status.{MaxLength=100}
+resourcePack.editor.exportProject.cheatsSettings.showBorderEffect=Határhatás megjelenítése  	####Export pane checkbox label that show border effect.{MaxLength=100}
+resourcePack.editor.exportProject.cheatsSettings.functionCommandLimit=Függvényparancskorlát  	####Export pane checkbox label that the number of limition for the function command.{MaxLength=100}
 resourcePack.editor.exportProject.cheatsSettings.educationFeatures=Oktatási funkciók	#
 resourcePack.editor.exportProject.cheatsSettings.randomTickSpeed=Véletlen óraciklus-sebesség	#
 resourcePack.editor.exportProject.export=Exportálás	#
@@ -266,6 +295,11 @@ resourcePack.editor.exportProject.difficulty.peaceful=Békés	#
 resourcePack.editor.exportProject.difficulty.easy=Könnyű	#
 resourcePack.editor.exportProject.difficulty.normal=Normál	#
 resourcePack.editor.exportProject.difficulty.hard=Nehéz	#
+resourcePack.editor.exportProject.weather.default=Alapértelmezett   	####This string is intended to express that the default weather .{MaxLength=100}
+resourcePack.editor.exportProject.weather.clear=Tiszta   	####This string is intended to express that the weather of Clear.{MaxLength=100}
+resourcePack.editor.exportProject.weather.rain=Esős   	####This string is intended to express that the weather of Rain.{MaxLength=100}
+resourcePack.editor.exportProject.weather.thunder=Viharos   	####This string is intended to express that the weather of Thunder.{MaxLength=100}
+
 
 
 resourcePack.editor.toolRail.ExtrudeTool.title=Kihúzási eszköz	#
@@ -389,6 +423,7 @@ resourcePack.editor.menuBar.file.export=Exportálás	#
 resourcePack.editor.menuBar.file.pauseScreen=Játékmenü	#
 resourcePack.editor.menuBar.file.settings=Felhasználói felület beállításai	#
 resourcePack.editor.menuBar.file=Fájl	#
+resourcePack.editor.menuBar.help.tutorial=Oktatóanyag 	#### {MaxLength="500"} Represent menu bar item in help menu that activates editor tutorial when pressed
 resourcePack.editor.menuBar.help.documentation=Dokumentáció	#
 resourcePack.editor.menuBar.help.feedback=Visszajelzés	#
 resourcePack.editor.menuBar.help.quickStart=Gyorsindítás	#
@@ -471,7 +506,7 @@ resourcePack.editor.pastepreview.pane.controls.cursor.mouseandkeys=Egér és bil
 resourcePack.editor.pastepreview.pane.controls.cursor.target.block=Letiltás	#
 resourcePack.editor.pastepreview.pane.controls.cursor.target.face=Szomszédos	#
 resourcePack.editor.pastepreview.pane.controls.cursor.target.title=Célpont	#
-resourcePack.editor.pastepreview.pane.controls.cursor=Control	#
+resourcePack.editor.pastepreview.pane.controls.cursor=Irányítás	#
 resourcePack.editor.pastepreview.pane.controls.title=Kurzorvezérlők	#
 resourcePack.editor.pastepreview.pane.placement.mirrorX=X tükrözése	#
 resourcePack.editor.pastepreview.pane.placement.mirrorZ=Z tükrözése	#
@@ -514,7 +549,7 @@ resourcePack.editor.playtest.Title.Tooltip=Tesztelheted a Szerkesztőbeli projek
 resourcePack.editor.playtestResult.EditorSystemFailure=Szerkesztő rendszerhibája	#
 resourcePack.editor.playtestResult.InvalidLevelId=Érvénytelen szintazonosító	#
 resourcePack.editor.playtestResult.InvalidSessionHandle=Érvénytelen játékmenet-azonosító	#
-resourcePack.editor.playtestResult.OK=Sikeres	#
+resourcePack.editor.playtestResult.OK=Sikerült	#
 resourcePack.editor.playtestResult.PlayerNotFound=A játékos nem található	#
 resourcePack.editor.playtestResult.ResponseTimeout=Válasz időtúllépése	#
 resourcePack.editor.playtestResult.SessionInfoNotFound=A játékmenet adatai nem találhatók	#
@@ -526,17 +561,23 @@ resourcePack.editor.playtestResult.WorldExportFailed=A világ exportálása sike
 
 
 resourcePack.editor.menuBar.file.realmsPublish=Közzététel a Realmsben   	####This string is intended to express that the option is for opening the pane to publish your editor world to Realms.{MaxLength=100}
-resourcePack.editor.realmsPublish.userNotLoggedIn=A Realmsben való közzétételhez aktív Realms-előfizetésre van szükség. Előfizethetsz a Realmsre, vagy megújíthatod a lejárt előfizetéseidet a hagyományos módon a Minecraft-kliensben vagy a minecraft.net webhelyen (miután bejelentkeztél a fiókodba).    	####This string is intended to express that the user is not logged in currently and the process they need to follow in order to be able to upload their editor world to their Realms subscription.{MaxLength=350}
+resourcePack.editor.realmsPublish.noActiveRealmsSubscription=A Realmsben való közzétételhez aktív Realms-előfizetésre van szükség. Előfizethetsz a Realmsre, vagy megújíthatod a lejárt előfizetéseidet a hagyományos módon a Minecraft-kliensben vagy a minecraft.net webhelyen (miután bejelentkeztél a fiókodba).    	####This string is intended to express that the user doesn't have a active Realms subscription and the process they need to follow in order to be able to upload their editor world to their Realms subscription.{MaxLength=350}
+resourcePack.editor.realmsPublish.userNotLoggedIn=A Realmsben való közzétételhez aktív Realms-előfizetésre van szükség. Az elérhető Realms-előfizetések megtekintéséhez be kell jelentkezned a Microsoft-fiókodba.		####This string is intended to express that the user is not logged in currently and that they must be logged into their Microsoft account in order to proceed.{MaxLength=350}
+resourcePack.editor.realmsPublish.dedicatedServerWarning=A Realmsben való közzététel nem érhető el dedikált kiszolgáló használata esetén.		####This string is intended to express that the user is unable to use the Publish to Realms feature on a dedicated server.{MaxLength=350}
+resourcePack.editor.realmsPublish.notSessionHostWarning=Csak a Szerkesztő munkamenetgazda tehet közzé a Realmsben.		####This string is intended to express that the user is unable to use the Publish to Realms when they are not the session host.{MaxLength=350}
+resourcePack.editor.realmsPublish.genericRealmsIssue=Probléma lépett fel a Realms-szolgáltatással, próbálkozz újra később.		####This string is intended to express that there is an issue with the realms service and to please try again later.{MaxLength=350}
 resourcePack.editor.realmsPublish.goToMinecraftWebsite=Tovább a Minecraft.net webhelyre  	####This string is intended to express that the link will take the user to Minecraft.net.{MaxLength=100}
 resourcePack.editor.realmsPublish.Refresh=Frissítés  	####This string is intended to express that the button will refresh the pane to see if the user in now logged in.{MaxLength=100}
 resourcePack.editor.realmsPublish.Realm=Realm  	####This string is intended to express that the below dropdown contains all of the users Realms subscriptions.{MaxLength=100}
 resourcePack.editor.realmsPublish.RealmSlot=Realm-hely 	####This string is intended to express that the dropdown contains all of the world slots in for the users selected realms subscription.{MaxLength=100}
+resourcePack.editor.realmsPublish.EmptySlot=Üres hely		####This string is intended to express that the Realm slot is empty.{MaxLength=100}
 resourcePack.editor.realmsPublish.PublishNotesTitle=Megjegyzés a Realmsben való közzétételhez   	####This string is intended to express that the below field will contain additional information for the user about the publish to realms feature, including any warnings or issues.{MaxLength=150}
 resourcePack.editor.realmsPublish.DownloadRealm=Letöltés    	####This string is intended to express that the button will download the currently selected World from the realm slot.{MaxLength=100}
 resourcePack.editor.realmsPublish.PublishRealm=Közzététel  	####This string is intended to express that the button will publish the current world to the currently selected realm slot.{MaxLength=100}
 resourcePack.editor.realmsPublish.Confirm=Megerősítés   	####This string is intended to express that the button will confirm  the request to publish the world to realms.{MaxLength=100}
 resourcePack.editor.realmsPublish.Cancel=Mégse 	####This string is intended to express that the button will cancel the request to publish the world to realms.{MaxLength=100}
 resourcePack.editor.realmsPublish.Back=Vissza 	####This string is intended to express that the button will take the user back to the previous pane.{MaxLength=100}
+resourcePack.editor.realmsPublish.PublishFailedNonCompliantWorldName=A Realmsben való közzététel érvénytelen világnév miatt nem sikerült. Módosítsd a világnevet, és próbáld újra.		####This string is intended to express that publishing the world to Realms failed due to an invalid world name that was entered by the player .{MaxLength=200}
 resourcePack.editor.realmsPublish.PublishFailed=A Realmsben való közzététel meghiúsult. Kérjük, próbálkozz újra később.   	####This string is intended to express that publishing the world to Realms failed and to please try again later.{MaxLength=200}
 resourcePack.editor.realmsPublish.PublishSuccess=A Realmsben való közzététel sikerült    	####This string is intended to express that publishing the world to Realms succeeded.{MaxLength=200}
 resourcePack.editor.realmsPublish.PublishConfirmationOptOut=Ne kérdezd újra ebben a Realmben és munkamenetben  	####This string is intended to express that the checkbox will opt the user out of confirming their publish to realms decisions.{MaxLength=100}
@@ -607,13 +648,28 @@ resourcePack.editor.selectionTool.keyBinding.shrinkLeft=Kijelölés csökkentés
 resourcePack.editor.selectionTool.keyBinding.shrinkRight=Kijelölés csökkentése jobbra	#
 resourcePack.editor.selectionTool.keyBinding.shrinkUp=Kijelölés csökkentése felfelé	#
 resourcePack.editor.selectionTool.keyBinding.toggleTool=Kijelölő eszköz ki-/bekapcsolása	#
+resourcePack.editor.selectionTool.keyBinding.select=Blokk kiválasztása			#### The action of adding a block to the selection volume using they keyboard {MaxLength="30"}
+resourcePack.editor.selectionTool.keyBinding.selectMultiple=További blokk kiválasztása			#### The action of adding an additional block to the selection volume using the keyboard {MaxLength="30"}
+resourcePack.editor.selectionTool.keyBinding.trimVolume=Trim Selection (Bounds)					#### Keybinding description for Trim the current selection volume to fit only the solid blocks within {MaxLength=30}
+resourcePack.editor.selectionTool.keyBinding.trimRemoveAir=Trim Selection (Remove Air)			#### Keybinding description for Remove the air from the current selection volume leaving only specified blocks {MaxLength=30}
 resourcePack.editor.selectionTool.marquee.title=Túlnyúló kiválasztás	#
 resourcePack.editor.selectionTool.modeSelection.freehand.title=Szabadkézi ecset mód	#
 resourcePack.editor.selectionTool.modeSelection.freehand.tooltip=Szabadkézi ecset alakban jelöl ki blokkokat a világban	#
 resourcePack.editor.selectionTool.modeSelection.marquee.title=Fényújság mód	#
 resourcePack.editor.selectionTool.modeSelection.marquee.tooltip=Téglatest alakban jelöl ki blokkokat a világban	#
+resourcePack.editor.selectionTool.modeSelection.magic.title=Kijelölési varázsló mód			#### Magic Select mode is a mode that searches for contiguous matching blocks in a search radius {MaxLength=30}}
+resourcePack.editor.selectionTool.modeSelection.magic.tooltip=Egy kiválasztott helyről származó keresési mintát használva jelölhetsz ki blokkokat a világban		#### Longer description of the magic select mode {MaxLength=150}}
 resourcePack.editor.selectionTool.modeSelection.title=Kijelölési mód	#
 resourcePack.editor.selectionTool.projectThroughLiquid=Vetítés folyadékon keresztül	#
+resourcePack.editor.selectionTool.trimAction.trimVolume=Kiválasztás körbevágása			#### Trim the current selection volume to fit only the solid blocks within {MaxLength=30}
+resourcePack.editor.selectionTool.trimAction.trimVolume.tooltip=Körbevágja az aktuális kijelölésben lévő szilárd blokkokat.   	#### {MaxLength=200}
+resourcePack.editor.selectionTool.trimAction.removeAir=Levegő eltávolítása			#### Remove the air from the current selection volume leaving only specified blocks {MaxLength=30}
+resourcePack.editor.selectionTool.trimAction.removeAir.tooltip=Eltávolítja a levegőt az aktuális kijelölésből, hogy csak a megadott blokkok maradjanak benne 	#### {MaxLength=200}
+resourcePack.editor.selectionTool.trimAction.trimVolume.SettingsPane.title=Körbevágás beállításai		#### The window pane title for the settings for trim mode {MaxLength=30}
+resourcePack.editor.selectionTool.trimAction.trimVolume.SettingsPane.ignoreLiquid=Folyadékok mellőzése		#### The toggle button title for ignoring liquids {MaxLength=30}
+resourcePack.editor.selectionTool.trimAction.trimVolume.SettingsPane.ignoreLiquid.tooltip=Minden folyadékblokkot figyelmen kívül hagy a kijelölés körbevágásakor 	#### {MaxLength=200}
+resourcePack.editor.selectionTool.trimAction.trimVolume.SettingsPane.onlyCollidable=Csak ütközőblokkok		#### The toggle button title for collision-only blocks {MaxLength=30}
+resourcePack.editor.selectionTool.trimAction.trimVolume.SettingsPane.onlyCollidable.tooltip=Minden ütközés nélküli blokkot (leveleket, füvet stb.) figyelmen kívül hagy a kijelölés körbevágásakor 	#### {MaxLength=200}
 resourcePack.editor.selectionTool.quickAction.clearSelection.tooltip=Aktuális kiválasztás kijelölésének visszavonása	#
 resourcePack.editor.selectionTool.quickAction.clearSelection=Kiválasztás törlése	#
 resourcePack.editor.selectionTool.quickAction.deleteSelection.tooltip=Eltávolítja az összes blokkot az aktuális kiválasztásos köteten belül	#
@@ -632,6 +688,16 @@ resourcePack.editor.selectionTool.transformPane.origin.tooltip=A kijelölés sz�
 resourcePack.editor.selectionTool.transformPane.origin=Kezdőpont	#
 resourcePack.editor.selectionTool.transformPane.size=Méret	#
 resourcePack.editor.selectionTool.transformPane.title=Átalakítás	#
+
+
+resourcePack.editor.BlockMaskControl.trim.rootPane.title=Körbevágás beállításai		#### The window pane title for the settings for trim mode {MaxLength=30}
+resourcePack.editor.BlockMaskControl.trim.toggleGroup.title=Maszkolási mód		#### The title of the toggle group {MaxLength=30}
+resourcePack.editor.BlockMaskControl.trim.toggleGroup.item.disabled.label=Blokkszűrők kikapcsolása			#### The title of the icon which disables block filters {MaxLength=30}
+resourcePack.editor.BlockMaskControl.trim.toggleGroup.item.disabled.tooltip=Kikapcsolva					#### The tooltip of the icon which disables block filters {MaxLength=100}
+resourcePack.editor.BlockMaskControl.trim.toggleGroup.item.mask.label=Maszk								#### The title of the icon which masks block filters {MaxLength=30}
+resourcePack.editor.BlockMaskControl.trim.toggleGroup.item.mask.tooltip=A listának megfelelő blokkokat a játék figyelmen kívül hagyja			#### Mask mode tooltip {MaxLength=100}
+resourcePack.editor.BlockMaskControl.trim.toggleGroup.item.replace.label=Csere						#### The title of the replace block filter {MaxLength=30}
+resourcePack.editor.BlockMaskControl.trim.toggleGroup.item.replace.tooltip=A listának megfelelő blokkokat a játék szilárdként kezeli			#### Replace mode tooltip {MaxLength=100}
 
 
 resourcePack.editor.server.description=Szerkesztői szervererőforrások	#
@@ -665,13 +731,14 @@ resourcePack.editor.timeOfDay.clockType=Óra típusa	#
 resourcePack.editor.timeOfDay.currentTime=Jelenlegi idő	#
 resourcePack.editor.timeOfDay.customTime=Egyéni idő	#
 resourcePack.editor.timeOfDay.daylightCycle=Nappalok/éjszakák váltakozása	#
-resourcePack.editor.timeOfDay.dropDown.day=Nappal	#
+resourcePack.editor.timeOfDay.dropDown.day=Nap	#
 resourcePack.editor.timeOfDay.dropDown.midnight=Éjfél	#
 resourcePack.editor.timeOfDay.dropDown.night=Éjszaka	#
 resourcePack.editor.timeOfDay.dropDown.none=Nincs	#
 resourcePack.editor.timeOfDay.dropDown.noon=Dél	#
 resourcePack.editor.timeOfDay.dropDown.sunrise=Napkelte	#
 resourcePack.editor.timeOfDay.dropDown.sunset=Napnyugta	#
+resourcePack.editor.timeOfDay.dropDown.custom=Egyéni		####"Custom" describes a dropdown that players can define the specific start time {MaxLength=20}
 resourcePack.editor.timeOfDay.dropDown.title=Minták	#
 resourcePack.editor.timeOfDay.menu.title=Napszak beállításai	#
 resourcePack.editor.timeOfDay.minecraftClock=Minecraft-óra	#
@@ -689,6 +756,7 @@ resourcePack.editor.toolMode.keyBinding.hotbar6=6. gyorssáv kiválasztása	#
 resourcePack.editor.toolMode.keyBinding.hotbar7=7. eszköztár kiválasztása	#
 resourcePack.editor.toolMode.keyBinding.hotbar8=8. eszköztár kiválasztása	#
 resourcePack.editor.toolMode.keyBinding.hotbar9=9. eszköztár kiválasztása	#
+resourcePack.editor.toolMode.keyBinding.reload=Újratöltés 	####Represents a label for a key shortcut that reloads scripts and UI.{MaxLength=100}
 
 
 resourcePack.editor.toolRail.blockPalette.title=Blokkpaletta (CTRL+P)	#
@@ -701,7 +769,7 @@ resourcePack.editor.toolRail.floodFillSelectionTool.description=Kiválasztja az 
 resourcePack.editor.toolRail.floodFillSelectionTool.title=Területfeltöltés-kiválasztó eszköz.	#
 resourcePack.editor.toolRail.line.keyBinding.delete=Tartalmak törlése	#
 resourcePack.editor.toolRail.line.keyBinding.deleteAndClear=Tartalmak törlése és kijelölésének megszüntetése	#
-resourcePack.editor.toolRail.line.keyBinding.deselect=Kijelölés törlése	#
+resourcePack.editor.toolRail.line.keyBinding.deselect=Kiválasztás törlése	#
 resourcePack.editor.toolRail.line.keyBinding.deselectAll=Összes kijelölés törlése	#
 resourcePack.editor.toolRail.line.keyBinding.fill=Tartalmak kiltöltése	#
 resourcePack.editor.toolRail.line.keyBinding.fillAndClear=Tartalmak kitöltése és a kijelölés megszüntetése	#
@@ -759,13 +827,19 @@ resourcePack.editor.toolRail.summonTool.tool.title=Idéző eszköz	#
 resourcePack.editor.toolRail.workbenchSettings.title=Munkapad	#
 resourcePack.editor.toolRail.workbenchTool.title=Munkapad	#
 resourcePack.editor.toolRail.workbenchTool.description=Blokkállapotok gyors módosítása	#
-resourcePack.editor.toolRail.workbenchTool.howToUse=Kattints a bal egérgombbal a kiemelt blokkokra az állapotuk megváltoztatásához (megnyitás/bezárás, forgatás, megfordítás stb.). Próbáld ki a Shift és Control billentyűmódosítókat is! Ne feledd, hogy ez a funkció csak azokon a blokkokon működik, amelyek módosítható tulajdonságokkal rendelkeznek (pl. ajtók, kerítések stb.).	#
+resourcePack.editor.toolRail.workbenchTool.howToUse=Kattints a bal egérgombbal a kiemelt blokkokra az állapotuk megváltoztatásához (megnyitás/bezárás, forgatás, megfordítás stb). Próbáld ki a Shift és Control billentyűmódosítókat is! Ne feledd, hogy ez a funkció csak azokon a blokkokon működik, amelyek módosítható tulajdonságokkal rendelkeznek (pl. ajtók, kerítések stb).		####	This text provides a description of the workbench tool and explans how the the user can highlight blocks in order to see the list of actions for changing that blocks state. {MaxLength="500"}
 resourcePack.editor.toolRail.workbenchTool.tooltip=Blokkállapotok módosítása	#
 resourcePack.editor.toolRail.workbenchTool.block=Letiltás	#
 resourcePack.editor.toolRail.workbenchTool.leftClick=Bal kattintás	#
 resourcePack.editor.toolRail.workbenchTool.shiftLeftClick=Shift + bal egérgomb	#
 resourcePack.editor.toolRail.workbenchTool.controlLeftClick=CTRL + bal egérgomb	#
 resourcePack.editor.toolRail.workbenchTool.shiftControlLeftClick=Shift + CTRL + bal egérgomb	#
+
+resourcePack.editor.toolRail.workbenchTool.leftClickTooltip=Egy blokkra való bal kattintás végrehajtja az elsődleges munkapadműveletet		####	This keybinding is a tool tip to convey that a left click will invoke the primary (1st) action of the workbench tool. {MaxLength="150"}
+resourcePack.editor.toolRail.workbenchTool.shiftLeftClickTooltip=Egy blokkra való Shift + bal kattintás végrehajtja a másodlagos munkapadműveletet		####	This keybinding is a tool tip to convey that a shift + left click will invoke the primary (1st) action of the workbench tool. {MaxLength="150"}
+resourcePack.editor.toolRail.workbenchTool.controlLeftClickTooltip=Egy blokkra való Control + bal kattintás végrehajtja a harmadlagos munkapadműveletet		####	This keybinding is a tool tip to convey that a control + left click will invoke the primary (1st) action of the workbench tool. {MaxLength="150"}
+resourcePack.editor.toolRail.workbenchTool.shiftControlLeftClickTooltip=Egy blokkra való Shift + Control + bal kattintás végrehajtja a negyedleges munkapadműveletet		####	TThis keybinding is a tool tip to convey that a shift + control + left click will invoke the primary (1st) action of the workbench tool. {MaxLength="150"}
+
 resourcePack.editor.toolRail.workbenchTool.stripWood=Fa gyalulása/kérgesítése		####This string is intended to express whether the wood block has bark (unstripped) or doesn't have bark (stripped).{MaxLength=100}
 resourcePack.editor.toolRail.workbenchTool.ladderLocation=Létra pozíciója	#
 resourcePack.editor.toolRail.workbenchTool.autoAlign=Automatikus igazítás	#
@@ -791,6 +865,17 @@ resourcePack.editor.toolRail.workbenchTool.directionProp=Szembenézés iránya	#
 resourcePack.editor.toolRail.workbenchTool.weirdoDirectionProp=Forgatás	#
 resourcePack.editor.toolRail.workbenchTool.facingDirectionProp=Szembenézés iránya	#
 resourcePack.editor.toolRail.workbenchTool.cardinalDirectionProp=Szembenézés iránya	#
+
+resourcePack.editor.toolRail.workbenchTool.addCustomMapping=Egyéni társítások hozzáadása		####This string is intended to express that this subpane is for adding custom block property mappings for the tool.{MaxLength=100}
+resourcePack.editor.toolRail.workbenchTool.blockProperty=Blokktulajdonság		####This string is intended to express that this field is for the Block Property.{MaxLength=50}
+resourcePack.editor.toolRail.workbenchTool.clickBinding=Kattintási társítások		####This string is intended to express that this dropdown contains the click binding options (left click, shift + left click, etc).{MaxLength=50}
+resourcePack.editor.toolRail.workbenchTool.addMapping=Társítás hozzáadása		####This string is intended to express that this button will add the custom mapping provided by the user.{MaxLength=50}
+resourcePack.editor.toolRail.workbenchTool.resetAllMappings=Minden társítás visszaállítása		####This string is intended to express that this button will reset all custom mappings provided by the user.{MaxLength=50}
+
+resourcePack.editor.workbenchTool.keyBinding.primaryAction=Elsődleges munkapadművelet		####	This keybinding is to invoke the primary (1st) action of the workbench tool. {MaxLength="30"}
+resourcePack.editor.workbenchTool.keyBinding.secondaryAction=Másodlagos munkapadművelet		#### This keybinding is to invoke the secondary (2nd) action of the workbench tool. {MaxLength="30"}
+resourcePack.editor.workbenchTool.keyBinding.tertiaryAction=Harmadlagos munkapadművelet		####	This keybinding is to invoke the tertiary (3rd) action of the workbench tool. {MaxLength="30"}
+resourcePack.editor.workbenchTool.keyBinding.quaternaryAction=Negyedleges munkapadművelet		#### This keybinding is to invoke the quaternary (4th) action of the workbench tool. {MaxLength="30"}
 
 
 resourcePack.editor.transaction.keyBinding.redo=Újra	#

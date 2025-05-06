@@ -16,6 +16,9 @@ resourcePack.editor.actionBar.redo=Gjør om	#
 resourcePack.editor.actionBar.undo.tooltipDescription=Angre en handling	#
 resourcePack.editor.actionBar.undo.tooltipTitle=Angre	#
 resourcePack.editor.actionBar.undo=Angre	#
+resourcePack.editor.actionBar.fill=Fyll 	####Label for an actionbar item that fills the selection with the current hotbar block.{MaxLength=100}
+resourcePack.editor.actionBar.fill.tooltipDescription=Fyll det utvalgte volumet med den gjeldende verktøylinjeblokken 	####Tooltip description for an actionbar item that fills the selection with the current hotbar block.{MaxLength=100}
+resourcePack.editor.actionBar.fill.tooltipTitle=Fyll 	####Tooltip title for an actionbar item that fills the selection with the current hotbar block.{MaxLength=100}
 
 resourcePack.editor.agfx.settings.error.title=Det har oppstått én eller flere feil …	#
 resourcePack.editor.agfx.pane.title=Innstillingsredigering	#
@@ -54,6 +57,7 @@ resourcePack.editor.brushPaint.tooltip=Bruk pensler til å male blokker i verden
 
 resourcePack.editor.BrushPaintControl.brush.title=Pensel	#
 resourcePack.editor.BrushPaintControl.brushSettings.title=Penselinnstillinger	#
+resourcePack.editor.BrushPaintControl.shapeSettings.title=Forminnstillinger 	####Represents an expander that has UI controls for brush shape settings.{MaxLength=100}
 resourcePack.editor.BrushPaintControl.fillConstraints.mask.title=Maskeliste	#
 resourcePack.editor.BrushPaintControl.fillConstraints.maskMode.disabled.tooltip=Deaktiver blokkfiltre	#
 resourcePack.editor.BrushPaintControl.fillConstraints.maskMode.disabled=Deaktivert	#
@@ -107,6 +111,8 @@ resourcePack.editor.brushShape.pyramid.settings.depth=Dybde	#
 resourcePack.editor.brushShape.pyramid.settings.height=Høyde	#
 resourcePack.editor.brushShape.pyramid.settings.width=Bredde	#
 resourcePack.editor.brushShape.singleBlock.name=Enkeltblokk	#
+resourcePack.editor.brushShape.star.name=Stjerne 	####Represent a star shaped brush.{MaxLength=100}
+resourcePack.editor.brushShape.star.settings.includeVertical=Inkluder loddrette sider 	####Represents a toggle button label that removes vertical parts of a star brush if unchecked.{MaxLength=100}
 
 
 resourcePack.editor.client.description=Ressurser for redigeringsklient	#
@@ -216,18 +222,29 @@ resourcePack.editor.entityInspector.toolRail.description=Venstreklikk på en enh
 resourcePack.editor.exportProject.exportType=Eksporter type	#
 resourcePack.editor.exportProject.exportType.playableWorld=Verden som kan spilles	#
 resourcePack.editor.exportProject.exportNotes=Eksporter notater	#
+resourcePack.editor.exportProject.exportNotes.export=Eksporterer fremdrift   	####This string is intended to express that the title of export progress modal.{MaxLength=100}
 resourcePack.editor.exportProject.exportNotes.warning=Du eksporterer en v%1-verden. Eksporterte spillbare verdener kan ikke brukes på versjoner av Minecraft med et tidligere versjonsnummer enn v%1. Bruk https://chunker.app/ for å konvertere til tidligere versjonsnummer (det kan være at noen funksjoner ikke er tilgjengelige hvis de ikke støttes i tidligere versjoner)	#
+resourcePack.editor.exportProject.exportNotes.progress=Eksporterer verdenen ...    	####This string is intended to express that the progress message of exporting.{MaxLength=100}
+resourcePack.editor.exportProject.exportNotes.exportSuccess=Vellykket eksport av verdenen    	####This string is intended to express that export the world succeeded.{MaxLength=100}
+resourcePack.editor.exportProject.exportNotes.exportFailed=Eksportering av verdenen mislyktes    	####This string is intended to express that export the world failed.{MaxLength=100}
 resourcePack.editor.exportProject.generalSettings=Generelle innstillinger	#
 resourcePack.editor.exportProject.generalSettings.worldName=Verdenens navn	#
 resourcePack.editor.exportProject.generalSettings.gameMode=Spillmodus	#
 resourcePack.editor.exportProject.generalSettings.difficulty=Vanskelighetsgrad	#
 resourcePack.editor.exportProject.generalSettings.hardcore=Ekstra vanskelig	#
+resourcePack.editor.exportProject.initialPlaySettings=Opprinnelige spillinnstillinger   	####This string is intended to express that the export category for inital play settings.{MaxLength=100}
+resourcePack.editor.exportProject.initialPlaySettings.spawnPosition=Verdenens startpunkt   	####This string is intended to express that player inistal spawn position.{MaxLength=100}
+resourcePack.editor.exportProject.initialPlaySettings.startTime=Starttid   	####This string is intended to express that world start time.{MaxLength=100}
+resourcePack.editor.exportProject.initialPlaySettings.clockType=Klokketype   	####This string is intended to express that start time with different clock type.{MaxLength=100}
+resourcePack.editor.exportProject.initialPlaySettings.customStartTime=Tilpasset starttid   	####This string is intended to express that custom start time with Minecraft Cloke value.{MaxLength=100}
+resourcePack.editor.exportProject.initialPlaySettings.weather=Start været   	####This string is intended to express that the custom start weather.{MaxLength=100}
 resourcePack.editor.exportProject.advancedSettings=Avanserte innstillinger	#
 resourcePack.editor.exportProject.advancedSettings.startingMap=Startkart	#
 resourcePack.editor.exportProject.advancedSettings.bonusChest=Bonuskiste	#
 resourcePack.editor.exportProject.advancedSettings.showCoordinates=Vis koordinater	#
 resourcePack.editor.exportProject.advancedSettings.showDaysPlayed=Vis spilte dager	#
 resourcePack.editor.exportProject.advancedSettings.recipeUnlocking=Oppskrift-opplåsing	#
+resourcePack.editor.exportProject.advancedSettings.limitedCrafting=Begrenset konstruering   	####Export pane checkbox label that enable to set crafting limit.{MaxLength=100}
 resourcePack.editor.exportProject.advancedSettings.fireSpreads=Spredning av ild	#
 resourcePack.editor.exportProject.advancedSettings.tntExplodes=TNT eksploderer	#
 resourcePack.editor.exportProject.advancedSettings.resawnBlocksExplode=Genererte blokker eksploderer	#
@@ -235,11 +252,13 @@ resourcePack.editor.exportProject.advancedSettings.mobLoot=Vesenbytte	#
 resourcePack.editor.exportProject.advancedSettings.naturalRegeneration=Naturlig regenerasjon	#
 resourcePack.editor.exportProject.advancedSettings.tileDrops=Flis slipper	#
 resourcePack.editor.exportProject.advancedSettings.immediateRespawn=Øyeblikkelig gjenoppstandelse	#
+resourcePack.editor.exportProject.advancedSettings.showDeathMessage=Vis dødsmelding   	####Export pane checkbox label that show the death message when player die.{MaxLength=100}
 resourcePack.editor.exportProject.advancedSettings.respawnRadius=Gjenoppståelsesradius	#
 resourcePack.editor.exportProject.advancedSettings.simulationDistance=Simuleringsavstand	#
 resourcePack.editor.exportProject.advancedSettings.bedsWork=Senger fungerer	#
 resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers=Nødvendige sovende spillere (%1$s)	#
 resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers.onePlayerMessage=Bare én spiller	#
+resourcePack.editor.exportProject.advancedSettings.showItemTags=Vis gjenstandstagger   	####Export pane checkbox label that show item tags.{MaxLength=100}
 resourcePack.editor.exportProject.multiplayerSettings=Flerspillerinnstillinger	#
 resourcePack.editor.exportProject.multiplayerSettings.multiplayerGame=Flerspillerspill	#
 resourcePack.editor.exportProject.multiplayerSettings.playerAccess=Spillertilgang	#
@@ -255,6 +274,16 @@ resourcePack.editor.exportProject.cheatsSettings.mobGriefing=Destruktive vesener
 resourcePack.editor.exportProject.cheatsSettings.entitiesDropLoot=Objekter slipper bytte	#
 resourcePack.editor.exportProject.cheatsSettings.weatherCycle=Værsyklus	#
 resourcePack.editor.exportProject.cheatsSettings.commandBlocks=Kommandoblokker	#
+resourcePack.editor.exportProject.cheatsSettings.commandBlockOutput=Kommandoblokk-utdata   	####Export pane checkbox label that enable to display the command output.{MaxLength=100}
+resourcePack.editor.exportProject.cheatsSettings.sendCommandFeedback=Send tilbakemelding om kommandoer   	####This string is the heading for the 'send command feedback' setting when exporting a world.{MaxLength=100}
+resourcePack.editor.exportProject.cheatsSettings.maxCommandChainLength=Maksimal lengde for kommandokjede   	####Export pane number that indicate the max length of the command, it defaults to 65536. It has a minimum of 0 and a max of 2147483647.{MaxLength=100}
+resourcePack.editor.exportProject.cheatsSettings.fireDamage=Ildskade  	####Export pane checkbox label that enable damage when the player on fire.{MaxLength=100}
+resourcePack.editor.exportProject.cheatsSettings.freezeDamage=Frostskade  	####Export pane checkbox label that enable damage when the player freezes.{MaxLength=100}
+resourcePack.editor.exportProject.cheatsSettings.fallDamage=Fallskade  	####Export pane checkbox label that enable damage when the player falls.{MaxLength=100}
+resourcePack.editor.exportProject.cheatsSettings.drowningDamage=Drukneskade  	####Export pane checkbox label that enable damage when the player is drowning.{MaxLength=100}
+resourcePack.editor.exportProject.cheatsSettings.insomnia=Søvnløshet  	####Export pane checkbox label that enable player insomnia status.{MaxLength=100}
+resourcePack.editor.exportProject.cheatsSettings.showBorderEffect=Vis kantlinjeeffekt  	####Export pane checkbox label that show border effect.{MaxLength=100}
+resourcePack.editor.exportProject.cheatsSettings.functionCommandLimit=Grense for funksjonskommando  	####Export pane checkbox label that the number of limition for the function command.{MaxLength=100}
 resourcePack.editor.exportProject.cheatsSettings.educationFeatures=Utdanningsinnhold	#
 resourcePack.editor.exportProject.cheatsSettings.randomTickSpeed=Tilfeldig intervallhastighet	#
 resourcePack.editor.exportProject.export=Eksporter	#
@@ -266,6 +295,11 @@ resourcePack.editor.exportProject.difficulty.peaceful=Fredelig	#
 resourcePack.editor.exportProject.difficulty.easy=Lett	#
 resourcePack.editor.exportProject.difficulty.normal=Normal	#
 resourcePack.editor.exportProject.difficulty.hard=Vanskelig	#
+resourcePack.editor.exportProject.weather.default=Standard   	####This string is intended to express that the default weather .{MaxLength=100}
+resourcePack.editor.exportProject.weather.clear=Klart   	####This string is intended to express that the weather of Clear.{MaxLength=100}
+resourcePack.editor.exportProject.weather.rain=Regn   	####This string is intended to express that the weather of Rain.{MaxLength=100}
+resourcePack.editor.exportProject.weather.thunder=Torden   	####This string is intended to express that the weather of Thunder.{MaxLength=100}
+
 
 
 resourcePack.editor.toolRail.ExtrudeTool.title=Ekstruderingsverktøy	#
@@ -389,12 +423,13 @@ resourcePack.editor.menuBar.file.export=Eksporter	#
 resourcePack.editor.menuBar.file.pauseScreen=Spillmeny	#
 resourcePack.editor.menuBar.file.settings=Innstillinger for brukergrensesnitt	#
 resourcePack.editor.menuBar.file=Fil	#
+resourcePack.editor.menuBar.help.tutorial=Opplæring 	#### {MaxLength="500"} Represent menu bar item in help menu that activates editor tutorial when pressed
 resourcePack.editor.menuBar.help.documentation=Dokumentasjon	#
 resourcePack.editor.menuBar.help.feedback=Tilbakemelding	#
 resourcePack.editor.menuBar.help.quickStart=Hurtigstart	#
 resourcePack.editor.menuBar.help=Hjelp	#
 resourcePack.editor.menuBar.locate=Finn	#
-resourcePack.editor.menuBar.parentMenu.weather.clear=Klart	#
+resourcePack.editor.menuBar.parentMenu.weather.clear=Tøm	#
 resourcePack.editor.menuBar.parentMenu.weather.rain=Regn	#
 resourcePack.editor.menuBar.parentMenu.weather.thunder=Torden	#
 resourcePack.editor.menuBar.parentMenu.weather=Vær	#
@@ -526,17 +561,23 @@ resourcePack.editor.playtestResult.WorldExportFailed=Eksport av verden mislyktes
 
 
 resourcePack.editor.menuBar.file.realmsPublish=Publiser på Realms   	####This string is intended to express that the option is for opening the pane to publish your editor world to Realms.{MaxLength=100}
-resourcePack.editor.realmsPublish.userNotLoggedIn=Et aktivt Realms-abonnement kreves for å publisere på Realms. Du kan abonnere på Realms eller fornye abonnementer i den vanlige Minecraft-klienten eller på nettsiden minecraft.net (etter å ha logget på kontoen din).    	####This string is intended to express that the user is not logged in currently and the process they need to follow in order to be able to upload their editor world to their Realms subscription.{MaxLength=350}
+resourcePack.editor.realmsPublish.noActiveRealmsSubscription=Et aktivt Realms-abonnement kreves for å publisere på Realms. Du kan abonnere på Realms eller fornye abonnementer i den vanlige Minecraft-klienten eller på nettsiden minecraft.net (etter å ha logget på kontoen din).    	####This string is intended to express that the user doesn't have a active Realms subscription and the process they need to follow in order to be able to upload their editor world to their Realms subscription.{MaxLength=350}
+resourcePack.editor.realmsPublish.userNotLoggedIn=Et aktivt Realms-abonnement kreves for å publisere på Realms. Du må være logget på en Microsoft-konto for å få tilgang til tilgjengelige Realms-abonnementer.		####This string is intended to express that the user is not logged in currently and that they must be logged into their Microsoft account in order to proceed.{MaxLength=350}
+resourcePack.editor.realmsPublish.dedicatedServerWarning=Publiser på Realms er ikke tilgjengelig når du bruker en dedikert server.		####This string is intended to express that the user is unable to use the Publish to Realms feature on a dedicated server.{MaxLength=350}
+resourcePack.editor.realmsPublish.notSessionHostWarning=Kun verten for redigeringsøkten kan publisere på Realms.		####This string is intended to express that the user is unable to use the Publish to Realms when they are not the session host.{MaxLength=350}
+resourcePack.editor.realmsPublish.genericRealmsIssue=Det er et problem med Realms-tjenesten, prøv på nytt senere.		####This string is intended to express that there is an issue with the realms service and to please try again later.{MaxLength=350}
 resourcePack.editor.realmsPublish.goToMinecraftWebsite=Gå til minecraft.net  	####This string is intended to express that the link will take the user to Minecraft.net.{MaxLength=100}
 resourcePack.editor.realmsPublish.Refresh=Oppdater  	####This string is intended to express that the button will refresh the pane to see if the user in now logged in.{MaxLength=100}
 resourcePack.editor.realmsPublish.Realm=Realm  	####This string is intended to express that the below dropdown contains all of the users Realms subscriptions.{MaxLength=100}
 resourcePack.editor.realmsPublish.RealmSlot=Realmplass 	####This string is intended to express that the dropdown contains all of the world slots in for the users selected realms subscription.{MaxLength=100}
+resourcePack.editor.realmsPublish.EmptySlot=Ledig plass		####This string is intended to express that the Realm slot is empty.{MaxLength=100}
 resourcePack.editor.realmsPublish.PublishNotesTitle=Publiser på Realms-merknad   	####This string is intended to express that the below field will contain additional information for the user about the publish to realms feature, including any warnings or issues.{MaxLength=150}
 resourcePack.editor.realmsPublish.DownloadRealm=Last ned    	####This string is intended to express that the button will download the currently selected World from the realm slot.{MaxLength=100}
 resourcePack.editor.realmsPublish.PublishRealm=Publiser  	####This string is intended to express that the button will publish the current world to the currently selected realm slot.{MaxLength=100}
 resourcePack.editor.realmsPublish.Confirm=Bekreft   	####This string is intended to express that the button will confirm  the request to publish the world to realms.{MaxLength=100}
 resourcePack.editor.realmsPublish.Cancel=Avbryt 	####This string is intended to express that the button will cancel the request to publish the world to realms.{MaxLength=100}
 resourcePack.editor.realmsPublish.Back=Tilbake 	####This string is intended to express that the button will take the user back to the previous pane.{MaxLength=100}
+resourcePack.editor.realmsPublish.PublishFailedNonCompliantWorldName=Publiser på Realms mislyktes på grunn av et ugyldig verdensnavn. Oppdater verdensnavnet og prøv på nytt.		####This string is intended to express that publishing the world to Realms failed due to an invalid world name that was entered by the player .{MaxLength=200}
 resourcePack.editor.realmsPublish.PublishFailed=Publiseringen i Realms mislyktes. Prøv på nytt senere.   	####This string is intended to express that publishing the world to Realms failed and to please try again later.{MaxLength=200}
 resourcePack.editor.realmsPublish.PublishSuccess=Publiseringen i Realms var vellykket    	####This string is intended to express that publishing the world to Realms succeeded.{MaxLength=200}
 resourcePack.editor.realmsPublish.PublishConfirmationOptOut=Ikke spør på nytt for denne realmen og økten  	####This string is intended to express that the checkbox will opt the user out of confirming their publish to realms decisions.{MaxLength=100}
@@ -607,13 +648,28 @@ resourcePack.editor.selectionTool.keyBinding.shrinkLeft=Reduser utvalg til venst
 resourcePack.editor.selectionTool.keyBinding.shrinkRight=Reduser utvalgtet til høyre	#
 resourcePack.editor.selectionTool.keyBinding.shrinkUp=Reduser utvalget oppover	#
 resourcePack.editor.selectionTool.keyBinding.toggleTool=Aktiver/deaktiver valgverktøy	#
+resourcePack.editor.selectionTool.keyBinding.select=Velg blokk			#### The action of adding a block to the selection volume using they keyboard {MaxLength="30"}
+resourcePack.editor.selectionTool.keyBinding.selectMultiple=Velg ekstra blokk			#### The action of adding an additional block to the selection volume using the keyboard {MaxLength="30"}
+resourcePack.editor.selectionTool.keyBinding.trimVolume=Beskjæringsvalg (grenser)					#### Keybinding description for Trim the current selection volume to fit only the solid blocks within {MaxLength=30}
+resourcePack.editor.selectionTool.keyBinding.trimRemoveAir=Beskjæringsvalg (fjern luft)			#### Keybinding description for Remove the air from the current selection volume leaving only specified blocks {MaxLength=30}
 resourcePack.editor.selectionTool.marquee.title=Markeringsutvalg	#
 resourcePack.editor.selectionTool.modeSelection.freehand.title=Frihåndspenselmodus	#
 resourcePack.editor.selectionTool.modeSelection.freehand.tooltip=Velg blokker i verdenen ved å bruke en frihåndspenselform	#
 resourcePack.editor.selectionTool.modeSelection.marquee.title=Markeringsmodus	#
 resourcePack.editor.selectionTool.modeSelection.marquee.tooltip=Velg blokker i verdenen ved å bruke et rektangulært volum	#
+resourcePack.editor.selectionTool.modeSelection.magic.title=Magisk valgmodus			#### Magic Select mode is a mode that searches for contiguous matching blocks in a search radius {MaxLength=30}}
+resourcePack.editor.selectionTool.modeSelection.magic.tooltip=Velg blokker i verdenen ved hjelp av et søkemønster fra en valgt opprinnelse		#### Longer description of the magic select mode {MaxLength=150}}
 resourcePack.editor.selectionTool.modeSelection.title=Valgmodus	#
 resourcePack.editor.selectionTool.projectThroughLiquid=Projiser gjennom væske	#
+resourcePack.editor.selectionTool.trimAction.trimVolume=Beskjæringsvalg			#### Trim the current selection volume to fit only the solid blocks within {MaxLength=30}
+resourcePack.editor.selectionTool.trimAction.trimVolume.tooltip=Beskjær gjeldende utvalgt volum for å få plass til bare faste blokker innenfor   	#### {MaxLength=200}
+resourcePack.editor.selectionTool.trimAction.removeAir=Fjern luft			#### Remove the air from the current selection volume leaving only specified blocks {MaxLength=30}
+resourcePack.editor.selectionTool.trimAction.removeAir.tooltip=Fjern luft fra gjeldende utvalg volum og la bare angitte blokker være 	#### {MaxLength=200}
+resourcePack.editor.selectionTool.trimAction.trimVolume.SettingsPane.title=Beskjæringsinnstillinger		#### The window pane title for the settings for trim mode {MaxLength=30}
+resourcePack.editor.selectionTool.trimAction.trimVolume.SettingsPane.ignoreLiquid=Ignorer væsker		#### The toggle button title for ignoring liquids {MaxLength=30}
+resourcePack.editor.selectionTool.trimAction.trimVolume.SettingsPane.ignoreLiquid.tooltip=Ignorer alle væskeblokker når du beskjærer volumet 	#### {MaxLength=200}
+resourcePack.editor.selectionTool.trimAction.trimVolume.SettingsPane.onlyCollidable=Bare kollisjonsblokker		#### The toggle button title for collision-only blocks {MaxLength=30}
+resourcePack.editor.selectionTool.trimAction.trimVolume.SettingsPane.onlyCollidable.tooltip=Ignorer alle blokker uten kollisjon (løv, gress, osv.) når du beskjærer volumet 	#### {MaxLength=200}
 resourcePack.editor.selectionTool.quickAction.clearSelection.tooltip=Velg bort gjeldende utvalg	#
 resourcePack.editor.selectionTool.quickAction.clearSelection=Opphev merking	#
 resourcePack.editor.selectionTool.quickAction.deleteSelection.tooltip=Fjern alle blokkene inne i det gjeldende utvalgte volumet	#
@@ -632,6 +688,16 @@ resourcePack.editor.selectionTool.transformPane.origin.tooltip=Opprinnelsesplass
 resourcePack.editor.selectionTool.transformPane.origin=Opprinnelse	#
 resourcePack.editor.selectionTool.transformPane.size=Størrelse	#
 resourcePack.editor.selectionTool.transformPane.title=Forvandle	#
+
+
+resourcePack.editor.BlockMaskControl.trim.rootPane.title=Beskjæringsinnstillinger		#### The window pane title for the settings for trim mode {MaxLength=30}
+resourcePack.editor.BlockMaskControl.trim.toggleGroup.title=Maskemodus		#### The title of the toggle group {MaxLength=30}
+resourcePack.editor.BlockMaskControl.trim.toggleGroup.item.disabled.label=Deaktiver blokkfiltre			#### The title of the icon which disables block filters {MaxLength=30}
+resourcePack.editor.BlockMaskControl.trim.toggleGroup.item.disabled.tooltip=Deaktivert					#### The tooltip of the icon which disables block filters {MaxLength=100}
+resourcePack.editor.BlockMaskControl.trim.toggleGroup.item.mask.label=Maske								#### The title of the icon which masks block filters {MaxLength=30}
+resourcePack.editor.BlockMaskControl.trim.toggleGroup.item.mask.tooltip=Blokker som samsvarer med listen, blir ignorert			#### Mask mode tooltip {MaxLength=100}
+resourcePack.editor.BlockMaskControl.trim.toggleGroup.item.replace.label=Erstatt						#### The title of the replace block filter {MaxLength=30}
+resourcePack.editor.BlockMaskControl.trim.toggleGroup.item.replace.tooltip=Blokker som samsvarer med listen, blir behandlet som solid			#### Replace mode tooltip {MaxLength=100}
 
 
 resourcePack.editor.server.description=Ressurser for redigeringsserver	#
@@ -672,6 +738,7 @@ resourcePack.editor.timeOfDay.dropDown.none=Ingen	#
 resourcePack.editor.timeOfDay.dropDown.noon=Midt på dagen	#
 resourcePack.editor.timeOfDay.dropDown.sunrise=Soloppgang	#
 resourcePack.editor.timeOfDay.dropDown.sunset=Solnedgang	#
+resourcePack.editor.timeOfDay.dropDown.custom=Egendefinert		####"Custom" describes a dropdown that players can define the specific start time {MaxLength=20}
 resourcePack.editor.timeOfDay.dropDown.title=Forhåndsinnstillinger	#
 resourcePack.editor.timeOfDay.menu.title=Klokkeslettinnstillinger	#
 resourcePack.editor.timeOfDay.minecraftClock=Minecraft-klokke	#
@@ -689,6 +756,7 @@ resourcePack.editor.toolMode.keyBinding.hotbar6=Velg utvalgslinje seks	#
 resourcePack.editor.toolMode.keyBinding.hotbar7=Velg utvalgslinje sju	#
 resourcePack.editor.toolMode.keyBinding.hotbar8=Velg utvalgslinje åtte	#
 resourcePack.editor.toolMode.keyBinding.hotbar9=Velg utvalgslinje ni	#
+resourcePack.editor.toolMode.keyBinding.reload=Last inn på nytt 	####Represents a label for a key shortcut that reloads scripts and UI.{MaxLength=100}
 
 
 resourcePack.editor.toolRail.blockPalette.title=Blokkpalett (CTRL + P)	#
@@ -711,7 +779,7 @@ resourcePack.editor.toolRail.line.keyBinding.moveForward=Flytt utvalgte fremover
 resourcePack.editor.toolRail.line.keyBinding.moveLeft=Flytt utvalgte til venstre	#
 resourcePack.editor.toolRail.line.keyBinding.moveRight=Flytt utvalgte til høyre	#
 resourcePack.editor.toolRail.line.keyBinding.moveUp=Flytt utvalgte opp	#
-resourcePack.editor.toolRail.line.keyBinding.selectAll=Marker alt	#
+resourcePack.editor.toolRail.line.keyBinding.selectAll=Velg alle	#
 resourcePack.editor.toolRail.line.pane.algorithm.Direct=Diriger	#
 resourcePack.editor.toolRail.line.pane.algorithm.Staggered=Forskjøvet (gjerder)	#
 resourcePack.editor.toolRail.line.pane.algorithm.title=Algoritme	#
@@ -759,13 +827,19 @@ resourcePack.editor.toolRail.summonTool.tool.title=Påkallingsverktøy	#
 resourcePack.editor.toolRail.workbenchSettings.title=Arbeidsbenk	#
 resourcePack.editor.toolRail.workbenchTool.title=Arbeidsbenk	#
 resourcePack.editor.toolRail.workbenchTool.description=Endre tilstanden til blokkene raskt	#
-resourcePack.editor.toolRail.workbenchTool.howToUse=Venstreklikk på markerte blokker for å endre tilstanden (åpne/lukke, rotere, invertere osv.). Prøv å bruke Skift- og Ctrl-tasten også! Vær oppmerksom på at denne funksjonen kun fungerer på blokker med modifiserbare egenskaper (f.eks. dører, gjerder osv.).	#
+resourcePack.editor.toolRail.workbenchTool.howToUse=Marker blokker for å se de tilgjengelige alternativene for å endre tilstandene (åpne/lukke, rotere, invertere osv.). Prøv å bruke Skift- og Ctrl-tasten også! Vær oppmerksom på at denne funksjonen kun fungerer på blokker med modifiserbare egenskaper (f.eks. dører, gjerder osv.).		####	This text provides a description of the workbench tool and explans how the the user can highlight blocks in order to see the list of actions for changing that blocks state. {MaxLength="500"}
 resourcePack.editor.toolRail.workbenchTool.tooltip=Endre blokkenes tilstand	#
-resourcePack.editor.toolRail.workbenchTool.block=Blokk	#
+resourcePack.editor.toolRail.workbenchTool.block=Blokker	#
 resourcePack.editor.toolRail.workbenchTool.leftClick=Venstreklikk	#
 resourcePack.editor.toolRail.workbenchTool.shiftLeftClick=Skift + venstreklikk	#
 resourcePack.editor.toolRail.workbenchTool.controlLeftClick=CTRL + venstreklikk	#
 resourcePack.editor.toolRail.workbenchTool.shiftControlLeftClick=Skift + CTRL + venstreklikk	#
+
+resourcePack.editor.toolRail.workbenchTool.leftClickTooltip=Arbeidsbenkens primærhandling utføres når du venstreklikker på en blokk.		####	This keybinding is a tool tip to convey that a left click will invoke the primary (1st) action of the workbench tool. {MaxLength="150"}
+resourcePack.editor.toolRail.workbenchTool.shiftLeftClickTooltip=Arbeidsbenkens sekundærhandling utføres når du Skift + venstreklikker på en blokk		####	This keybinding is a tool tip to convey that a shift + left click will invoke the primary (1st) action of the workbench tool. {MaxLength="150"}
+resourcePack.editor.toolRail.workbenchTool.controlLeftClickTooltip=Srbeidsbenkens tertiærhandling utføres når du Ctrl + venstreklikker på en blokk		####	This keybinding is a tool tip to convey that a control + left click will invoke the primary (1st) action of the workbench tool. {MaxLength="150"}
+resourcePack.editor.toolRail.workbenchTool.shiftControlLeftClickTooltip=Arbeidsbenkens kvartærhandling utføres når du Skift + Ctrl + venstreklikker på en blokk		####	TThis keybinding is a tool tip to convey that a shift + control + left click will invoke the primary (1st) action of the workbench tool. {MaxLength="150"}
+
 resourcePack.editor.toolRail.workbenchTool.stripWood=Høvle / fjern høvling på tre		####This string is intended to express whether the wood block has bark (unstripped) or doesn't have bark (stripped).{MaxLength=100}
 resourcePack.editor.toolRail.workbenchTool.ladderLocation=Stigeposisjon	#
 resourcePack.editor.toolRail.workbenchTool.autoAlign=Automatisk tilpassing	#
@@ -792,6 +866,17 @@ resourcePack.editor.toolRail.workbenchTool.weirdoDirectionProp=Roter	#
 resourcePack.editor.toolRail.workbenchTool.facingDirectionProp=Vendt retning	#
 resourcePack.editor.toolRail.workbenchTool.cardinalDirectionProp=Vendt retning	#
 
+resourcePack.editor.toolRail.workbenchTool.addCustomMapping=Legg til tilpassede tilordninger		####This string is intended to express that this subpane is for adding custom block property mappings for the tool.{MaxLength=100}
+resourcePack.editor.toolRail.workbenchTool.blockProperty=Blokkegenskap		####This string is intended to express that this field is for the Block Property.{MaxLength=50}
+resourcePack.editor.toolRail.workbenchTool.clickBinding=Klikketilordninger		####This string is intended to express that this dropdown contains the click binding options (left click, shift + left click, etc).{MaxLength=50}
+resourcePack.editor.toolRail.workbenchTool.addMapping=Legg til tilordning		####This string is intended to express that this button will add the custom mapping provided by the user.{MaxLength=50}
+resourcePack.editor.toolRail.workbenchTool.resetAllMappings=Tilbakestill alle tilordninger		####This string is intended to express that this button will reset all custom mappings provided by the user.{MaxLength=50}
+
+resourcePack.editor.workbenchTool.keyBinding.primaryAction=Primærhandling – arbeidsbenk		####	This keybinding is to invoke the primary (1st) action of the workbench tool. {MaxLength="30"}
+resourcePack.editor.workbenchTool.keyBinding.secondaryAction=Workbench Secondary Action		#### This keybinding is to invoke the secondary (2nd) action of the workbench tool. {MaxLength="30"}
+resourcePack.editor.workbenchTool.keyBinding.tertiaryAction=Tertiærhandling – arbeidsbenk		####	This keybinding is to invoke the tertiary (3rd) action of the workbench tool. {MaxLength="30"}
+resourcePack.editor.workbenchTool.keyBinding.quaternaryAction=Kvartærhandling – arbeidsbenk		#### This keybinding is to invoke the quaternary (4th) action of the workbench tool. {MaxLength="30"}
+
 
 resourcePack.editor.transaction.keyBinding.redo=Gjør om	#
 resourcePack.editor.transaction.keyBinding.undo=Angre	#
@@ -800,8 +885,8 @@ resourcePack.editor.transaction.keyBinding.undo=Angre	#
 resourcePack.editor.viewport.keyBinding.moveBack=Gå bakover	#
 resourcePack.editor.viewport.keyBinding.moveDown=Flytt ned	#
 resourcePack.editor.viewport.keyBinding.moveForward=Gå fremover	#
-resourcePack.editor.viewport.keyBinding.moveLeft=Mot venstre	#
-resourcePack.editor.viewport.keyBinding.moveRight=Mot høyre	#
+resourcePack.editor.viewport.keyBinding.moveLeft=Gå mot venstre	#
+resourcePack.editor.viewport.keyBinding.moveRight=Gå mot høyre	#
 resourcePack.editor.viewport.keyBinding.moveUp=Flytt opp	#
 
 resourcePack.editor.viewport.keyBinding.incrementFlySpeed=Øk flyhastighet	#

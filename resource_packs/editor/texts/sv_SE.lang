@@ -16,6 +16,9 @@ resourcePack.editor.actionBar.redo=Gör om	#
 resourcePack.editor.actionBar.undo.tooltipDescription=Ångra en handling	#
 resourcePack.editor.actionBar.undo.tooltipTitle=Ångra	#
 resourcePack.editor.actionBar.undo=Ångra	#
+resourcePack.editor.actionBar.fill=Fyll 	####Label for an actionbar item that fills the selection with the current hotbar block.{MaxLength=100}
+resourcePack.editor.actionBar.fill.tooltipDescription=Fyll den markerade volymen med det aktuella snabbfältsblocket 	####Tooltip description for an actionbar item that fills the selection with the current hotbar block.{MaxLength=100}
+resourcePack.editor.actionBar.fill.tooltipTitle=Fyll 	####Tooltip title for an actionbar item that fills the selection with the current hotbar block.{MaxLength=100}
 
 resourcePack.editor.agfx.settings.error.title=Fel har uppstått…	#
 resourcePack.editor.agfx.pane.title=Inställningar för redigerare	#
@@ -54,6 +57,7 @@ resourcePack.editor.brushPaint.tooltip=Använd penslar för att måla block i v�
 
 resourcePack.editor.BrushPaintControl.brush.title=Pensel	#
 resourcePack.editor.BrushPaintControl.brushSettings.title=Inställningar för pensel	#
+resourcePack.editor.BrushPaintControl.shapeSettings.title=Forminställningar 	####Represents an expander that has UI controls for brush shape settings.{MaxLength=100}
 resourcePack.editor.BrushPaintControl.fillConstraints.mask.title=Masklista	#
 resourcePack.editor.BrushPaintControl.fillConstraints.maskMode.disabled.tooltip=Stäng av blockfilter	#
 resourcePack.editor.BrushPaintControl.fillConstraints.maskMode.disabled=Avstängd	#
@@ -102,11 +106,13 @@ resourcePack.editor.brushShape.ellipsoid.name=Ellipsoid	#
 resourcePack.editor.brushShape.ellipsoid.settings.depth_radius=Djupradie	#
 resourcePack.editor.brushShape.ellipsoid.settings.height_radius=Höjdradie	#
 resourcePack.editor.brushShape.ellipsoid.settings.width_radius=Breddradie	#
-resourcePack.editor.brushShape.pyramid.name=Pyramid	#
+resourcePack.editor.brushShape.pyramid.name=Pyramiden	#
 resourcePack.editor.brushShape.pyramid.settings.depth=Djup	#
-resourcePack.editor.brushShape.pyramid.settings.height=Längd	#
+resourcePack.editor.brushShape.pyramid.settings.height=Höjd	#
 resourcePack.editor.brushShape.pyramid.settings.width=Bredd	#
 resourcePack.editor.brushShape.singleBlock.name=Enskilt block	#
+resourcePack.editor.brushShape.star.name=Stjärna 	####Represent a star shaped brush.{MaxLength=100}
+resourcePack.editor.brushShape.star.settings.includeVertical=Inkludera vertikalt 	####Represents a toggle button label that removes vertical parts of a star brush if unchecked.{MaxLength=100}
 
 
 resourcePack.editor.client.description=Resurser för redigeringsklient	#
@@ -210,24 +216,35 @@ resourcePack.editor.delete.keyBinding=Radera markeringsinnehåll	#
 resourcePack.editor.toolRail.entityInspector.pane.title=Entitetsinspektör   	####This string is what is shown in the title bar of the Editor pane for modifying entities.{MaxLength=30}
 resourcePack.editor.toolRail.entityInspector.tool.title=Entitetsinspektör   	####This string is what is shown at the top of the Editor pane for modifying entities.{MaxLength=30}
 resourcePack.editor.toolRail.entityInspector.tool.tip=Inspektera entitetsdata   	####This string is what is shown on the tool tip of Editor pane for modifying entities (gives context on what the tool does).{MaxLength=100}
-resourcePack.editor.toolRail.entityInspector.pane.helpText=Vänsterklicka på ett entitet för att visa och redigera entitetens egenskaper   	####This string is shown in the block inspector tool pane before the user clicks to describe how to use it.{MaxLength=100}
-resourcePack.editor.entityInspector.toolRail.description=Vänsterklicka på ett entitet för att visa och redigera entitetens egenskaper   	####This string is shown in the tool tip to explain the function of the Entity Inspector tool.{MaxLength=100}
+resourcePack.editor.toolRail.entityInspector.pane.helpText=Vänsterklicka på en entitet för att visa och redigera entitetens egenskaper   	####This string is shown in the block inspector tool pane before the user clicks to describe how to use it.{MaxLength=100}
+resourcePack.editor.entityInspector.toolRail.description=Vänsterklicka på en entitet för att visa och redigera entitetens egenskaper   	####This string is shown in the tool tip to explain the function of the Entity Inspector tool.{MaxLength=100}
 
 resourcePack.editor.exportProject.exportType=Exporttyp	#
 resourcePack.editor.exportProject.exportType.playableWorld=Spelbar värld	#
 resourcePack.editor.exportProject.exportNotes=Exportanteckningar	#
+resourcePack.editor.exportProject.exportNotes.export=Exporterar framsteg   	####This string is intended to express that the title of export progress modal.{MaxLength=100}
 resourcePack.editor.exportProject.exportNotes.warning=Du exporterar en v%1-värld. Exporterade spelbara världar kan inte användas i Minecraft-versioner med en siffra lägre än v%1. För att konvertera till tidigare versioner använder du https://chunker.app/ (viss funktionalitet kanske inte är tillgänglig om den inte stöds i tidigare versioner).	#
+resourcePack.editor.exportProject.exportNotes.progress=Exporterar världen…    	####This string is intended to express that the progress message of exporting.{MaxLength=100}
+resourcePack.editor.exportProject.exportNotes.exportSuccess=Världen har exporterats    	####This string is intended to express that export the world succeeded.{MaxLength=100}
+resourcePack.editor.exportProject.exportNotes.exportFailed=Det gick inte att exportera världen    	####This string is intended to express that export the world failed.{MaxLength=100}
 resourcePack.editor.exportProject.generalSettings=Allmänna inställningar	#
 resourcePack.editor.exportProject.generalSettings.worldName=Världsnamn	#
 resourcePack.editor.exportProject.generalSettings.gameMode=Spelläge	#
 resourcePack.editor.exportProject.generalSettings.difficulty=Svårighetsgrad	#
 resourcePack.editor.exportProject.generalSettings.hardcore=Hardcore	#
+resourcePack.editor.exportProject.initialPlaySettings=Grundläggande spelinställningar   	####This string is intended to express that the export category for inital play settings.{MaxLength=100}
+resourcePack.editor.exportProject.initialPlaySettings.spawnPosition=Världens spawnplats   	####This string is intended to express that player inistal spawn position.{MaxLength=100}
+resourcePack.editor.exportProject.initialPlaySettings.startTime=Starttid   	####This string is intended to express that world start time.{MaxLength=100}
+resourcePack.editor.exportProject.initialPlaySettings.clockType=Typ av klocka   	####This string is intended to express that start time with different clock type.{MaxLength=100}
+resourcePack.editor.exportProject.initialPlaySettings.customStartTime=Anpassad starttid   	####This string is intended to express that custom start time with Minecraft Cloke value.{MaxLength=100}
+resourcePack.editor.exportProject.initialPlaySettings.weather=Väder vid start   	####This string is intended to express that the custom start weather.{MaxLength=100}
 resourcePack.editor.exportProject.advancedSettings=Avancerade inställningar	#
 resourcePack.editor.exportProject.advancedSettings.startingMap=Startkarta	#
 resourcePack.editor.exportProject.advancedSettings.bonusChest=Bonuskista	#
 resourcePack.editor.exportProject.advancedSettings.showCoordinates=Visa koordinater	#
 resourcePack.editor.exportProject.advancedSettings.showDaysPlayed=Visa antal dagar spelade	#
 resourcePack.editor.exportProject.advancedSettings.recipeUnlocking=Upplåsning av recept	#
+resourcePack.editor.exportProject.advancedSettings.limitedCrafting=Begränsad tillverkning   	####Export pane checkbox label that enable to set crafting limit.{MaxLength=100}
 resourcePack.editor.exportProject.advancedSettings.fireSpreads=Eld sprider sig	#
 resourcePack.editor.exportProject.advancedSettings.tntExplodes=Dynamit exploderar	#
 resourcePack.editor.exportProject.advancedSettings.resawnBlocksExplode=Respawnarblock exploderar	#
@@ -235,11 +252,13 @@ resourcePack.editor.exportProject.advancedSettings.mobLoot=Föremål från varel
 resourcePack.editor.exportProject.advancedSettings.naturalRegeneration=Naturlig återhämtning	#
 resourcePack.editor.exportProject.advancedSettings.tileDrops=Drop från block	#
 resourcePack.editor.exportProject.advancedSettings.immediateRespawn=Omedelbar respawn	#
+resourcePack.editor.exportProject.advancedSettings.showDeathMessage=Visa dödsmeddelande   	####Export pane checkbox label that show the death message when player die.{MaxLength=100}
 resourcePack.editor.exportProject.advancedSettings.respawnRadius=Respawnradie	#
 resourcePack.editor.exportProject.advancedSettings.simulationDistance=Simuleringsavstånd	#
 resourcePack.editor.exportProject.advancedSettings.bedsWork=Sängar fungerar	#
 resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers=Sovande spelare som krävs (%1$s)	#
 resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers.onePlayerMessage=Endast 1 spelare	#
+resourcePack.editor.exportProject.advancedSettings.showItemTags=Visa föremålstaggar   	####Export pane checkbox label that show item tags.{MaxLength=100}
 resourcePack.editor.exportProject.multiplayerSettings=Flerspelarinställningar	#
 resourcePack.editor.exportProject.multiplayerSettings.multiplayerGame=Flerspelarsession	#
 resourcePack.editor.exportProject.multiplayerSettings.playerAccess=Spelaråtkomst	#
@@ -255,6 +274,16 @@ resourcePack.editor.exportProject.cheatsSettings.mobGriefing=Destruktiva varelse
 resourcePack.editor.exportProject.cheatsSettings.entitiesDropLoot=Föremål från entiteter	#
 resourcePack.editor.exportProject.cheatsSettings.weatherCycle=Vädercykel	#
 resourcePack.editor.exportProject.cheatsSettings.commandBlocks=Kommandoblock	#
+resourcePack.editor.exportProject.cheatsSettings.commandBlockOutput=Resultat av kommandoblock   	####Export pane checkbox label that enable to display the command output.{MaxLength=100}
+resourcePack.editor.exportProject.cheatsSettings.sendCommandFeedback=Skicka kommandofeedback   	####This string is the heading for the 'send command feedback' setting when exporting a world.{MaxLength=100}
+resourcePack.editor.exportProject.cheatsSettings.maxCommandChainLength=Maximal längd på kommandokedja   	####Export pane number that indicate the max length of the command, it defaults to 65536. It has a minimum of 0 and a max of 2147483647.{MaxLength=100}
+resourcePack.editor.exportProject.cheatsSettings.fireDamage=Eldskada  	####Export pane checkbox label that enable damage when the player on fire.{MaxLength=100}
+resourcePack.editor.exportProject.cheatsSettings.freezeDamage=Frysskada  	####Export pane checkbox label that enable damage when the player freezes.{MaxLength=100}
+resourcePack.editor.exportProject.cheatsSettings.fallDamage=Fallskada  	####Export pane checkbox label that enable damage when the player falls.{MaxLength=100}
+resourcePack.editor.exportProject.cheatsSettings.drowningDamage=Drunkningsskada  	####Export pane checkbox label that enable damage when the player is drowning.{MaxLength=100}
+resourcePack.editor.exportProject.cheatsSettings.insomnia=Sömnlöshet  	####Export pane checkbox label that enable player insomnia status.{MaxLength=100}
+resourcePack.editor.exportProject.cheatsSettings.showBorderEffect=Visa kantlinjeeffekt  	####Export pane checkbox label that show border effect.{MaxLength=100}
+resourcePack.editor.exportProject.cheatsSettings.functionCommandLimit=Funktionskommandogräns  	####Export pane checkbox label that the number of limition for the function command.{MaxLength=100}
 resourcePack.editor.exportProject.cheatsSettings.educationFeatures=Utbildningsfunktioner	#
 resourcePack.editor.exportProject.cheatsSettings.randomTickSpeed=Slumpad ticktakt	#
 resourcePack.editor.exportProject.export=Exportera	#
@@ -266,6 +295,11 @@ resourcePack.editor.exportProject.difficulty.peaceful=Fridfull	#
 resourcePack.editor.exportProject.difficulty.easy=Lätt	#
 resourcePack.editor.exportProject.difficulty.normal=Normalt	#
 resourcePack.editor.exportProject.difficulty.hard=Svårt	#
+resourcePack.editor.exportProject.weather.default=Standard   	####This string is intended to express that the default weather .{MaxLength=100}
+resourcePack.editor.exportProject.weather.clear=Klart   	####This string is intended to express that the weather of Clear.{MaxLength=100}
+resourcePack.editor.exportProject.weather.rain=Regn   	####This string is intended to express that the weather of Rain.{MaxLength=100}
+resourcePack.editor.exportProject.weather.thunder=Åska   	####This string is intended to express that the weather of Thunder.{MaxLength=100}
+
 
 
 resourcePack.editor.toolRail.ExtrudeTool.title=Extruderingsverktyg	#
@@ -389,6 +423,7 @@ resourcePack.editor.menuBar.file.export=Exportera	#
 resourcePack.editor.menuBar.file.pauseScreen=Spelmeny	#
 resourcePack.editor.menuBar.file.settings=Gränssnittsinställningar	#
 resourcePack.editor.menuBar.file=Fil	#
+resourcePack.editor.menuBar.help.tutorial=Handledning 	#### {MaxLength="500"} Represent menu bar item in help menu that activates editor tutorial when pressed
 resourcePack.editor.menuBar.help.documentation=Dokumentation	#
 resourcePack.editor.menuBar.help.feedback=Feedback	#
 resourcePack.editor.menuBar.help.quickStart=Snabbstart	#
@@ -420,9 +455,9 @@ resourcePack.editor.paste.pane.submitButton=Bekräfta klistra in	#
 resourcePack.editor.paste.pane.title=Klistra in	#
 resourcePack.editor.paste.pane.transform.mirrorX=Spegla X	#
 resourcePack.editor.paste.pane.transform.mirrorZ=Spegla Z	#
-resourcePack.editor.paste.pane.transform.origin.title=Förskjutning	#
+resourcePack.editor.paste.pane.transform.origin.title=Justering	#
 resourcePack.editor.paste.pane.transform.rotation.180=180°	#
-resourcePack.editor.paste.pane.transform.rotation.270=270	#
+resourcePack.editor.paste.pane.transform.rotation.270=270°	#
 resourcePack.editor.paste.pane.transform.rotation.90=90°	#
 resourcePack.editor.paste.pane.transform.rotation.none=0°	#
 resourcePack.editor.paste.pane.transform.rotation.title=Rotera	#
@@ -471,11 +506,11 @@ resourcePack.editor.pastepreview.pane.controls.cursor.mouseandkeys=Mus och tange
 resourcePack.editor.pastepreview.pane.controls.cursor.target.block=Blockera	#
 resourcePack.editor.pastepreview.pane.controls.cursor.target.face=Angränsande	#
 resourcePack.editor.pastepreview.pane.controls.cursor.target.title=Mål	#
-resourcePack.editor.pastepreview.pane.controls.cursor=Ctrl	#
+resourcePack.editor.pastepreview.pane.controls.cursor=Kontroll	#
 resourcePack.editor.pastepreview.pane.controls.title=Markörskontroller	#
 resourcePack.editor.pastepreview.pane.placement.mirrorX=Spegla X	#
 resourcePack.editor.pastepreview.pane.placement.mirrorZ=Spegla Z	#
-resourcePack.editor.pastepreview.pane.placement.offset=Förskjutning	#
+resourcePack.editor.pastepreview.pane.placement.offset=Justering	#
 resourcePack.editor.pastepreview.pane.placement.origin=Ursprung	#
 resourcePack.editor.pastepreview.pane.placement.pastebutton=Klistra in	#
 resourcePack.editor.pastepreview.pane.placement.rotation=Rotation (runt Y-axeln)	#
@@ -514,7 +549,7 @@ resourcePack.editor.playtest.Title.Tooltip=Provspela ditt redigeringsprojekt som
 resourcePack.editor.playtestResult.EditorSystemFailure=Fel i redigeringssystemet	#
 resourcePack.editor.playtestResult.InvalidLevelId=Ogiltigt nivå-id	#
 resourcePack.editor.playtestResult.InvalidSessionHandle=Ogiltigt sessionsnamn	#
-resourcePack.editor.playtestResult.OK=Genomfört	#
+resourcePack.editor.playtestResult.OK=Lyckat	#
 resourcePack.editor.playtestResult.PlayerNotFound=Spelaren hittades inte	#
 resourcePack.editor.playtestResult.ResponseTimeout=Svaret tog för lång tid	#
 resourcePack.editor.playtestResult.SessionInfoNotFound=Sessionsinformationen hittades inte	#
@@ -525,18 +560,24 @@ resourcePack.editor.playtestResult.WorldExportBusy=Världsexporteringen är uppt
 resourcePack.editor.playtestResult.WorldExportFailed=Kunde inte exportera världen	#
 
 
-resourcePack.editor.menuBar.file.realmsPublish=Lägg upp på Realms   	####This string is intended to express that the option is for opening the pane to publish your editor world to Realms.{MaxLength=100}
-resourcePack.editor.realmsPublish.userNotLoggedIn=Ett aktivt Realms-abonnemang krävs för att lägga upp något på Realms. Du kan prenumerera på Realms eller förnya din prenumeration från den vanliga Minecraft-klienten eller på minecraft.net-webbplatsen (efter att ha loggat in på ditt konto).    	####This string is intended to express that the user is not logged in currently and the process they need to follow in order to be able to upload their editor world to their Realms subscription.{MaxLength=350}
+resourcePack.editor.menuBar.file.realmsPublish=Publicera till Realms   	####This string is intended to express that the option is for opening the pane to publish your editor world to Realms.{MaxLength=100}
+resourcePack.editor.realmsPublish.noActiveRealmsSubscription=Ett aktivt Realms-abonnemang krävs för att publicera något på Realms. Du kan prenumerera på Realms eller förnya din prenumeration från den vanliga Minecraft-klienten eller på minecraft.net-webbplatsen (efter att ha loggat in på ditt konto).    	####This string is intended to express that the user doesn't have a active Realms subscription and the process they need to follow in order to be able to upload their editor world to their Realms subscription.{MaxLength=350}
+resourcePack.editor.realmsPublish.userNotLoggedIn=Det krävs ett aktivt Realms-abonnemang för att publicera i Realms. För att få tillgång till tillgängliga Realms-abonnemang måste du vara inloggad på ett Microsoft-konto.		####This string is intended to express that the user is not logged in currently and that they must be logged into their Microsoft account in order to proceed.{MaxLength=350}
+resourcePack.editor.realmsPublish.dedicatedServerWarning=Publicera till Realms är inte tillgängligt när man använder en dedikerad server.		####This string is intended to express that the user is unable to use the Publish to Realms feature on a dedicated server.{MaxLength=350}
+resourcePack.editor.realmsPublish.notSessionHostWarning=Bara värden för redigeringssessionen kan publicera till Realms.		####This string is intended to express that the user is unable to use the Publish to Realms when they are not the session host.{MaxLength=350}
+resourcePack.editor.realmsPublish.genericRealmsIssue=Det har uppstått problem med Realms-tjänsten. Försök igen senare.		####This string is intended to express that there is an issue with the realms service and to please try again later.{MaxLength=350}
 resourcePack.editor.realmsPublish.goToMinecraftWebsite=Gå till Minecraft.net  	####This string is intended to express that the link will take the user to Minecraft.net.{MaxLength=100}
 resourcePack.editor.realmsPublish.Refresh=Uppdatera  	####This string is intended to express that the button will refresh the pane to see if the user in now logged in.{MaxLength=100}
 resourcePack.editor.realmsPublish.Realm=Realm  	####This string is intended to express that the below dropdown contains all of the users Realms subscriptions.{MaxLength=100}
 resourcePack.editor.realmsPublish.RealmSlot=Realm-plats 	####This string is intended to express that the dropdown contains all of the world slots in for the users selected realms subscription.{MaxLength=100}
+resourcePack.editor.realmsPublish.EmptySlot=Tom plats		####This string is intended to express that the Realm slot is empty.{MaxLength=100}
 resourcePack.editor.realmsPublish.PublishNotesTitle=Publicera som Realms-anteckning   	####This string is intended to express that the below field will contain additional information for the user about the publish to realms feature, including any warnings or issues.{MaxLength=150}
 resourcePack.editor.realmsPublish.DownloadRealm=Ladda ner    	####This string is intended to express that the button will download the currently selected World from the realm slot.{MaxLength=100}
 resourcePack.editor.realmsPublish.PublishRealm=Publicera  	####This string is intended to express that the button will publish the current world to the currently selected realm slot.{MaxLength=100}
 resourcePack.editor.realmsPublish.Confirm=Bekräfta   	####This string is intended to express that the button will confirm  the request to publish the world to realms.{MaxLength=100}
 resourcePack.editor.realmsPublish.Cancel=Avbryt 	####This string is intended to express that the button will cancel the request to publish the world to realms.{MaxLength=100}
 resourcePack.editor.realmsPublish.Back=Tillbaka 	####This string is intended to express that the button will take the user back to the previous pane.{MaxLength=100}
+resourcePack.editor.realmsPublish.PublishFailedNonCompliantWorldName=Publicera till Realms misslyckades på grund av ett ogiltigt världsnamn. Uppdatera världsnamnet och försök igen.		####This string is intended to express that publishing the world to Realms failed due to an invalid world name that was entered by the player .{MaxLength=200}
 resourcePack.editor.realmsPublish.PublishFailed=Kunde inte publicera till Realms. Försök igen senare.   	####This string is intended to express that publishing the world to Realms failed and to please try again later.{MaxLength=200}
 resourcePack.editor.realmsPublish.PublishSuccess=Publicerade till Realms    	####This string is intended to express that publishing the world to Realms succeeded.{MaxLength=200}
 resourcePack.editor.realmsPublish.PublishConfirmationOptOut=Fråga inte igen på detta Realm eller i denna session  	####This string is intended to express that the checkbox will opt the user out of confirming their publish to realms decisions.{MaxLength=100}
@@ -607,13 +648,28 @@ resourcePack.editor.selectionTool.keyBinding.shrinkLeft=Förminska markering åt
 resourcePack.editor.selectionTool.keyBinding.shrinkRight=Förminska markering åt höger	#
 resourcePack.editor.selectionTool.keyBinding.shrinkUp=Förminska markering uppåt	#
 resourcePack.editor.selectionTool.keyBinding.toggleTool=Växla till markeringsverktyg	#
+resourcePack.editor.selectionTool.keyBinding.select=Välj block			#### The action of adding a block to the selection volume using they keyboard {MaxLength="30"}
+resourcePack.editor.selectionTool.keyBinding.selectMultiple=Välj ytterligare block			#### The action of adding an additional block to the selection volume using the keyboard {MaxLength="30"}
+resourcePack.editor.selectionTool.keyBinding.trimVolume=Trimma markering (gränser)					#### Keybinding description for Trim the current selection volume to fit only the solid blocks within {MaxLength=30}
+resourcePack.editor.selectionTool.keyBinding.trimRemoveAir=Trimma markering (radera luft)	#### Keybinding description for Remove the air from the current selection volume leaving only specified blocks {MaxLength=30}
 resourcePack.editor.selectionTool.marquee.title=Rammarkering	#
 resourcePack.editor.selectionTool.modeSelection.freehand.title=Läge för frihandspensel	#
 resourcePack.editor.selectionTool.modeSelection.freehand.tooltip=Välj block i världen med frihandspensel	#
 resourcePack.editor.selectionTool.modeSelection.marquee.title=Tältläge	#
 resourcePack.editor.selectionTool.modeSelection.marquee.tooltip=Välj block i världen med en rektangulär volym	#
+resourcePack.editor.selectionTool.modeSelection.magic.title=Magiskt markeringsläge			#### Magic Select mode is a mode that searches for contiguous matching blocks in a search radius {MaxLength=30}}
+resourcePack.editor.selectionTool.modeSelection.magic.tooltip=Välj block i världen med ett sökmönster från ett valt ursprung		#### Longer description of the magic select mode {MaxLength=150}}
 resourcePack.editor.selectionTool.modeSelection.title=Urvalsläge	#
 resourcePack.editor.selectionTool.projectThroughLiquid=Projicera genom vätska	#
+resourcePack.editor.selectionTool.trimAction.trimVolume=Trimma markering			#### Trim the current selection volume to fit only the solid blocks within {MaxLength=30}
+resourcePack.editor.selectionTool.trimAction.trimVolume.tooltip=Trimma den aktuella markeringsvolymen så att den endast passar de solida blocken inuti   	#### {MaxLength=200}
+resourcePack.editor.selectionTool.trimAction.removeAir=Ta bort luft			#### Remove the air from the current selection volume leaving only specified blocks {MaxLength=30}
+resourcePack.editor.selectionTool.trimAction.removeAir.tooltip=Ta bort luften från den aktuella markeringsvolymen och lämna endast angivna block 	#### {MaxLength=200}
+resourcePack.editor.selectionTool.trimAction.trimVolume.SettingsPane.title=Trimningsinställningar		#### The window pane title for the settings for trim mode {MaxLength=30}
+resourcePack.editor.selectionTool.trimAction.trimVolume.SettingsPane.ignoreLiquid=Ignorera vätskor		#### The toggle button title for ignoring liquids {MaxLength=30}
+resourcePack.editor.selectionTool.trimAction.trimVolume.SettingsPane.ignoreLiquid.tooltip=Ignorera eventuella vätskeblock när du trimmar volymen 	#### {MaxLength=200}
+resourcePack.editor.selectionTool.trimAction.trimVolume.SettingsPane.onlyCollidable=Endast kollisionsblock		#### The toggle button title for collision-only blocks {MaxLength=30}
+resourcePack.editor.selectionTool.trimAction.trimVolume.SettingsPane.onlyCollidable.tooltip=Ignorera block utan kollision (löv, gräs, osv.) vid trimning av volymen 	#### {MaxLength=200}
 resourcePack.editor.selectionTool.quickAction.clearSelection.tooltip=Avmarkera den aktuella markeringen	#
 resourcePack.editor.selectionTool.quickAction.clearSelection=Avmarkera	#
 resourcePack.editor.selectionTool.quickAction.deleteSelection.tooltip=Ta bort alla block i den aktuella markeringsvolymen	#
@@ -632,6 +688,16 @@ resourcePack.editor.selectionTool.transformPane.origin.tooltip=Ursprungsplatsen 
 resourcePack.editor.selectionTool.transformPane.origin=Ursprung	#
 resourcePack.editor.selectionTool.transformPane.size=Storlek	#
 resourcePack.editor.selectionTool.transformPane.title=Förvandla	#
+
+
+resourcePack.editor.BlockMaskControl.trim.rootPane.title=Trimningsinställningar		#### The window pane title for the settings for trim mode {MaxLength=30}
+resourcePack.editor.BlockMaskControl.trim.toggleGroup.title=Maskeringsläge		#### The title of the toggle group {MaxLength=30}
+resourcePack.editor.BlockMaskControl.trim.toggleGroup.item.disabled.label=Stäng av blockfilter			#### The title of the icon which disables block filters {MaxLength=30}
+resourcePack.editor.BlockMaskControl.trim.toggleGroup.item.disabled.tooltip=Avstängt					#### The tooltip of the icon which disables block filters {MaxLength=100}
+resourcePack.editor.BlockMaskControl.trim.toggleGroup.item.mask.label=Mask								#### The title of the icon which masks block filters {MaxLength=30}
+resourcePack.editor.BlockMaskControl.trim.toggleGroup.item.mask.tooltip=Block som matchar listan kommer att ignoreras			#### Mask mode tooltip {MaxLength=100}
+resourcePack.editor.BlockMaskControl.trim.toggleGroup.item.replace.label=Byt ut						#### The title of the replace block filter {MaxLength=30}
+resourcePack.editor.BlockMaskControl.trim.toggleGroup.item.replace.tooltip=Block som matchar listan kommer att behandlas som solida			#### Replace mode tooltip {MaxLength=100}
 
 
 resourcePack.editor.server.description=Resurser för redigeringsserver	#
@@ -672,6 +738,7 @@ resourcePack.editor.timeOfDay.dropDown.none=Ingen	#
 resourcePack.editor.timeOfDay.dropDown.noon=Middag	#
 resourcePack.editor.timeOfDay.dropDown.sunrise=Soluppgång	#
 resourcePack.editor.timeOfDay.dropDown.sunset=Solnedgång	#
+resourcePack.editor.timeOfDay.dropDown.custom=Anpassad		####"Custom" describes a dropdown that players can define the specific start time {MaxLength=20}
 resourcePack.editor.timeOfDay.dropDown.title=Mallar	#
 resourcePack.editor.timeOfDay.menu.title=Inställningar för tid på dagen	#
 resourcePack.editor.timeOfDay.minecraftClock=Minecraft-klocka	#
@@ -689,6 +756,7 @@ resourcePack.editor.toolMode.keyBinding.hotbar6=Välj snabbfält 6	#
 resourcePack.editor.toolMode.keyBinding.hotbar7=Välj snabbfält 7	#
 resourcePack.editor.toolMode.keyBinding.hotbar8=Välj snabbfält 8	#
 resourcePack.editor.toolMode.keyBinding.hotbar9=Välj snabbfält 9	#
+resourcePack.editor.toolMode.keyBinding.reload=Ladda om 	####Represents a label for a key shortcut that reloads scripts and UI.{MaxLength=100}
 
 
 resourcePack.editor.toolRail.blockPalette.title=Blockpalett (CTRL+P)	#
@@ -759,13 +827,19 @@ resourcePack.editor.toolRail.summonTool.tool.title=Åkallningsverktyg	#
 resourcePack.editor.toolRail.workbenchSettings.title=Arbetsbänk	#
 resourcePack.editor.toolRail.workbenchTool.title=Arbetsbänk	#
 resourcePack.editor.toolRail.workbenchTool.description=Byt blocktillstånd snabbt	#
-resourcePack.editor.toolRail.workbenchTool.howToUse=Vänsterklicka på markerade block för att ändra deras tillstånd (öppna/stänga, rotera, invertera med mera). Prova också att använda skift- och kontrolltangentmodifierare! Obs! Funktionen fungerar bara på block med egenskaper som kan modifieras (som dörrar, staket och så vidare).	#
+resourcePack.editor.toolRail.workbenchTool.howToUse=Markera block för att se tillgängliga handlingar eller ändra tillstånd (öppna/stänga, rotera, invertera med mera). Prova även att använda skift- och ctrl-tangentsmodifierare! Obs! Funktionen fungerar bara på block med egenskaper som kan modifieras (som dörrar, staket och så vidare).		####	This text provides a description of the workbench tool and explans how the the user can highlight blocks in order to see the list of actions for changing that blocks state. {MaxLength="500"}
 resourcePack.editor.toolRail.workbenchTool.tooltip=Ändra blocktillstånd	#
-resourcePack.editor.toolRail.workbenchTool.block=Block	#
+resourcePack.editor.toolRail.workbenchTool.block=Blockera	#
 resourcePack.editor.toolRail.workbenchTool.leftClick=Vänsterklicka	#
 resourcePack.editor.toolRail.workbenchTool.shiftLeftClick=Skift + vänsterklick	#
 resourcePack.editor.toolRail.workbenchTool.controlLeftClick=CTRL + vänsterklick	#
 resourcePack.editor.toolRail.workbenchTool.shiftControlLeftClick=Skift + CTRL + vänsterklick	#
+
+resourcePack.editor.toolRail.workbenchTool.leftClickTooltip=Vänsterklicka på ett block för att utföra den primära arbetsbänkshandlingen		####	This keybinding is a tool tip to convey that a left click will invoke the primary (1st) action of the workbench tool. {MaxLength="150"}
+resourcePack.editor.toolRail.workbenchTool.shiftLeftClickTooltip=Skift+vänsterklicka på ett block för att utföra den sekundära arbetsbänkshandlingen		####	This keybinding is a tool tip to convey that a shift + left click will invoke the primary (1st) action of the workbench tool. {MaxLength="150"}
+resourcePack.editor.toolRail.workbenchTool.controlLeftClickTooltip=Ctrl+vänsterklicka på ett block för att utföra den tredje arbetsbänkshandlingen		####	This keybinding is a tool tip to convey that a control + left click will invoke the primary (1st) action of the workbench tool. {MaxLength="150"}
+resourcePack.editor.toolRail.workbenchTool.shiftControlLeftClickTooltip=Skift+ctrl+vänsterklicka på ett block för att utföra den fjärde arbetsbänkshandlingen		####	TThis keybinding is a tool tip to convey that a shift + control + left click will invoke the primary (1st) action of the workbench tool. {MaxLength="150"}
+
 resourcePack.editor.toolRail.workbenchTool.stripWood=Skala/återställ trä		####This string is intended to express whether the wood block has bark (unstripped) or doesn't have bark (stripped).{MaxLength=100}
 resourcePack.editor.toolRail.workbenchTool.ladderLocation=Plats för stege	#
 resourcePack.editor.toolRail.workbenchTool.autoAlign=Justera automatiskt	#
@@ -791,6 +865,17 @@ resourcePack.editor.toolRail.workbenchTool.directionProp=Vänd åt riktning	#
 resourcePack.editor.toolRail.workbenchTool.weirdoDirectionProp=Rotera	#
 resourcePack.editor.toolRail.workbenchTool.facingDirectionProp=Vänd åt riktning	#
 resourcePack.editor.toolRail.workbenchTool.cardinalDirectionProp=Vänd åt riktning	#
+
+resourcePack.editor.toolRail.workbenchTool.addCustomMapping=Lägg till anpassade bindningar		####This string is intended to express that this subpane is for adding custom block property mappings for the tool.{MaxLength=100}
+resourcePack.editor.toolRail.workbenchTool.blockProperty=Blockegenskap		####This string is intended to express that this field is for the Block Property.{MaxLength=50}
+resourcePack.editor.toolRail.workbenchTool.clickBinding=Klickbindningar		####This string is intended to express that this dropdown contains the click binding options (left click, shift + left click, etc).{MaxLength=50}
+resourcePack.editor.toolRail.workbenchTool.addMapping=Lägg till bindning		####This string is intended to express that this button will add the custom mapping provided by the user.{MaxLength=50}
+resourcePack.editor.toolRail.workbenchTool.resetAllMappings=Återställ alla bindningar		####This string is intended to express that this button will reset all custom mappings provided by the user.{MaxLength=50}
+
+resourcePack.editor.workbenchTool.keyBinding.primaryAction=Primär arbetsbänkshandling		####	This keybinding is to invoke the primary (1st) action of the workbench tool. {MaxLength="30"}
+resourcePack.editor.workbenchTool.keyBinding.secondaryAction=Sekundär arbetsbänkshandling		#### This keybinding is to invoke the secondary (2nd) action of the workbench tool. {MaxLength="30"}
+resourcePack.editor.workbenchTool.keyBinding.tertiaryAction=Tredje arbetsbänkshandling		####	This keybinding is to invoke the tertiary (3rd) action of the workbench tool. {MaxLength="30"}
+resourcePack.editor.workbenchTool.keyBinding.quaternaryAction=Fjärde arbetsbänkshandling		#### This keybinding is to invoke the quaternary (4th) action of the workbench tool. {MaxLength="30"}
 
 
 resourcePack.editor.transaction.keyBinding.redo=Gör om	#
